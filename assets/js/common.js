@@ -2,7 +2,7 @@
 (function () {
   const CONFIG = {
     // Google Apps Script Web App manzili (natijalar Google Sheets'ga yoziladi)
-    scriptUrl: 'https://script.google.com/macros/s/AKfycbwdtZWtIhr8QmKJbSoqHFSMzYLVO-e6Ao9aIDjgw0oJHPRnDzhjdh3XIvnB9ZczD7sxJw/exec',
+    scriptUrl: 'https://script.google.com/macros/s/AKfycbygi8NG6Nh1PjungfD2y8fHj6K31xYOxiefnw6JmuisU_0OEmECyDZliNFi3Yumu3k5qA/exec',
     total: 20, theory: 15, minutes: 27,
     langs: [['uz', 'UZ', 'Oʻzbekcha'], ['ru', 'RU', 'Русский'], ['en', 'EN', 'English'], ['ja', 'JA', '日本語']]
   };
