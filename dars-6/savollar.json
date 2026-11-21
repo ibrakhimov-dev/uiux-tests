@@ -1,0 +1,812 @@
+{
+ "lesson": 6,
+ "title": {
+  "uz": "Vizual dizayn",
+  "ru": "Визуальный дизайн",
+  "en": "Visual design",
+  "ja": "ビジュアルデザイン"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Vizual dizayn nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Ekranlarni bir-biriga ulab, interfeysni bosiladigan qilish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Rang, shrift, boʻshliq va shakl bilan interfeysni tushunarli va yoqimli qilish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Sahifadagi bloklarni kulrang toʻrtburchaklar bilan joylashtirish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Saytdagi barcha sahifalarni guruhlab, ularga nom berish"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Vizual dizayn interfeysni tushunarli, ishonchli va yoqimli qiladi."
+   },
+   "others": {
+    "uz": "A — bu prototip. C — bu wireframe. D — bu axborot arxitekturasi."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "Vizual dizayn qaysi ikki savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Qayerda turadi?» va «Qancha katta?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Bosilsa nima boʻladi?» va «Qayerga qaytadi?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Foydalanuvchi kim?» va «U nima qiladi?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Birinchi nima koʻrinadi?» va «Qanday his uygʻotadi?»"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Foydalanuvchi birinchi nimani koʻradi va mahsulot qanday his uygʻotadi."
+   },
+   "others": {
+    "uz": "A — wireframe savollari. B — prototip savollari. C — persona va ssenariy savollari."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "Qaysi juftlik toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Wireframe — qanday ishlaydi; prototip — qayerda va qancha katta"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Wireframe — qayerda va qancha katta; prototip — qanday ishlaydi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Wireframe — qanday koʻrinadi; prototip — qanday his uygʻotadi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Wireframe — qanday his uygʻotadi; prototip — qayerda turadi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Vizual dizayn esa — qanday koʻrinadi va qanday his uygʻotadi."
+   },
+   "others": {
+    "uz": "A — teskari aytilgan. C va D — «koʻrinish» va «his» vizual dizaynga tegishli."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "Elementlar va tamoyillar qanday bogʻlangan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Elementlar — gʻishtlar, tamoyillar — ularni terish qoidasi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Tamoyillar — gʻishtlar, elementlar — ularni terish qoidasi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Elementlar va tamoyillar — bitta narsaning ikki nomi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Elementlar — qatʼiy qoida, tamoyillar — ixtiyoriy maslahat"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Har bir element style guideʼda bitta joyda yoziladi; tamoyillar ularni qanday terishni aytadi."
+   },
+   "others": {
+    "uz": "B — teskari aytilgan. C — biri material, biri qoida. D — darsda bunday boʻlinish yoʻq."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "Quyidagilardan qaysi biri UIʼning 6 elementidan biri emas, balki tamoyil?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Tipografiya"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Boʻshliq"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Kontrast"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Chiziq"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "6 element: rang, tipografiya, boʻshliq, shakl, ikonka va rasm, chiziq. Kontrast — tamoyil."
+   },
+   "others": {
+    "uz": "A, B va D — uchalasi ham elementlar roʻyxatida bor."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "Tekstura haqida darsdagi qoida qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Har bir tugmaga tekstura qoʻshish kerak"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Tekstura UIʼdagi eng muhim element"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Tekstura faqat matn ostida ishlatiladi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Matn ostida tekstura boʻlmasin: oʻqish qiyinlashadi"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Tekstura bosmada muhim, UIʼda kam: faqat fon va bezak uchun, juda yengil."
+   },
+   "others": {
+    "uz": "A va B — UIʼda tekstura kam ishlatiladi. C — aksincha, matn ostida boʻlmasligi kerak."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "Boʻshliq (white space) haqida darsdagi qoida qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Boʻshliq — nafas olish joyi, faqat shkaladan olinadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Boʻshliq — isrof qilingan joy, uni kamaytirish kerak"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Boʻshliq har safar koʻzga qarab tanlanadi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Boʻshliq faqat sahifa chetlarida boʻladi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "One step shkalasi: 4 / 8 / 16 / 24 / 32 px."
+   },
+   "others": {
+    "uz": "B — boʻsh joy isrof emas. C — tasodifiy raqamlar izchillikni buzadi. D — boʻshliq bloklar orasida ham bor."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "Ierarxiya tamoyili nimani anglatadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Elementlar bitta chiziqqa tekislanadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Sahifa bir tomonga ogʻib qolmaydi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Muhimi kattaroq, qalinroq, tepada turadi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bir xil narsa hamma joyda bir xil koʻrinadi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Koʻz birinchi muhim narsaga tushadi. One step: bugungi qadam sarlavhasi — eng katta matn."
+   },
+   "others": {
+    "uz": "A — tekislash. B — balans. D — izchillik."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "Kontrast tamoyiliga koʻra matn va fon orasidagi kontrast kamida qancha boʻlishi kerak?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "1.5:1"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "4.5:1"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "2:1"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "3.5:1"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Kontrast — farq orqali ajratish: rang, oʻlcham, qalinlik. Matn uchun kamida 4.5:1."
+   },
+   "others": {
+    "uz": "A, C va D — bu chegaradan past, matn qiyin oʻqiladi."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Yaqinlik (proximity) tamoyili nimani anglatadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Barcha elementlar bir xil masofada turadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Elementlar iloji boricha uzoq joylashadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Masofa ahamiyatsiz, rang muhimroq"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bir-biriga tegishlisi yaqin, boshqasi uzoqroq"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Koʻz guruhni oʻzi koʻradi. One step: qadam nomi va vaqti yonma-yon, keyingi blok 32 px uzoqda."
+   },
+   "others": {
+    "uz": "A — guruhlar koʻrinmay qoladi. B — tegishli narsalar ham ajralib ketadi. C — masofa guruhlashning asosiy vositasi."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "Izchillik (consistency) tamoyili nimani talab qiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Har sahifa oʻziga xos koʻrinishda boʻlsin"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Butun sahifada faqat bitta rang boʻlsin"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bir xil narsa hamma joyda bir xil koʻrinsin"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Hamma matn bir xil oʻlchamda boʻlsin"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Komponentlar shu uchun kerak. One step: barcha asosiy tugmalar — bitta «Button / Primary»."
+   },
+   "others": {
+    "uz": "A — bu izchillikning teskarisi. B va D — izchillik ranglar yoki oʻlchamlar sonini emas, bir xillikni talab qiladi."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "«Sahifada bitta bosh qahramon boʻladi, qolgani unga xizmat qiladi» — qaysi tamoyil?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dominantlik"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Balans"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Tekislash"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Yaqinlik"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "One step: «Bugun» sahifasida bosh qahramon — bugungi qadam."
+   },
+   "others": {
+    "uz": "B — sahifa bir tomonga ogʻmasligi. C — bitta chiziqqa tekislash. D — tegishlisini yaqin qoʻyish."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "Google bosh sahifasida kam ishlatiladigan havolalar kichik va chetda turadi. Darsdagi tahlilga koʻra bu qaysi tamoyil?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Balans"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ierarxiya"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Izchillik"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Yaqinlik"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Muhimi katta va markazda, kam ishlatiladigani kichik va chetda: tepa oʻng burchak, pastki qator."
+   },
+   "others": {
+    "uz": "A — Googleʼda balans: hammasi markazda, simmetrik. C va D — tahlilda bu holatga tegishli emas."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "Moodboard tuzishning birinchi qadami qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Tadqiqot dalillaridan 3 ta kalit soʻz tanlash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Pinterestʼdan 15–20 ta rasm yigʻish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Rasmlardan 3–5 ta rang ajratib olish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "2 ta shrift juftligini tanlab olish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "5 qadam: kalit soʻzlar → rasm yigʻing → saralang → ranglarni ajrating → shrift va UI."
+   },
+   "others": {
+    "uz": "B — 2-qadam. C — 4-qadam. D — 5-qadam."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "Moodboard va style guide farqi nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Moodboard — «qoida», style guide — «his»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ikkalasi ham «his», faqat nomi boshqa"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ikkalasi ham «qoida», faqat formati boshqa"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Moodboard — «his», style guide — «qoida»"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Style guide — moodboardʼdan chiqqan aniq qarorlar: qaysi rang, qaysi shrift, qanday oʻlcham."
+   },
+   "others": {
+    "uz": "A — teskari aytilgan. B va C — biri yoʻnalish, biri aniq qoida."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "Ikkita «Bugun» ekranida bir xil maʼlumot bor. A ekranda hamma blok har xil rangda va bir xil darajada ajralib turadi. Nega A ekranda bugungi qadamni topish qiyin?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "A ekranda maʼlumot kamroq berilgan"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "A ekranda menyu umuman yoʻq"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ierarxiya va kontrast yoʻq: hech narsa ajralib turmaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "A ekranda shrift juda katta tanlangan"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Hamma narsa bir xil «baland ovozda» boʻlsa, koʻz qayerga qarashni bilmaydi."
+   },
+   "others": {
+    "uz": "A — maʼlumot ikkalasida bir xil. B — menyu bor. D — muammo oʻlchamda emas, ajratishda."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "2-darsdagi tadqiqot dalillariga koʻra One step uchun qanday vizual qaror toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Oq fon va serif shrift: foydalanuvchilar shuni aytgan"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qora fon va neon ranglar: hozir trendda"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Koʻp rangli fon: ilova quvnoq koʻrinsin"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Dizaynerga yoqqan rang: u mutaxassis"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Vizual dizayn — tadqiqot dalillarini koʻzga koʻrinadigan qilish: oq fon, serif shrift, tartibli va sokin koʻrinish."
+   },
+   "others": {
+    "uz": "B va C — dalilga emas, trend yoki taxminga tayanadi. D — dizayner foydalanuvchi emas."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "Mobbinʼda One stepʼga oʻxshash ilova ekranini topdingiz. Uni qanday ishlatasiz?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Ekranni toʻliq nusxalab, logoni almashtirasiz"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ilhom uchun koʻrib, oʻz yechimingizni qilasiz"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ekranni moodboard oʻrniga style guide qilasiz"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Ekranni One stepʼning yakuniy dizayni qilasiz"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Mobbin — haqiqiy ilovalar ekranlari: ilhom uchun, nusxa olish uchun emas."
+   },
+   "others": {
+    "uz": "A va D — bu nusxa olish. C — style guide oʻz moodboardʼingizdan chiqadi."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "Jamoada «qaysi yashil?» degan savol qayta-qayta chiqyapti. Darsga koʻra toʻgʻri yechim qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Har kim oʻziga yoqqan yashilni tanlaydi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Moodboardʼga yana bir nechta rasm qoʻshiladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Wireframeʼga rang kodi yozib qoʻyiladi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Style guideʼda bitta javob yoziladi: #0F3D34"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Javob bitta joyda yozilgan: dizayner ham, dasturchi ham soʻramaydi. Bu 6-tamoyil — izchillikning amaldagi koʻrinishi."
+   },
+   "others": {
+    "uz": "A — izchillik buziladi. B — moodboard — his, aniq rang emas. C — wireframeʼda rang yoʻq."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "«Bugun» sahifasida chapda katta qadam kartasi bor, oʻng tomon boʻsh va sahifa bir tomonga «ogʻib» ketgan. One stepʼda bu qanday yechilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Balans: oʻngga 3 ta kichik blok (4 ustun) qoʻyilgan"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Yaqinlik: karta va bloklar orasi 0 px qilingan"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Kontrast: karta yorqin qizil rangga boʻyalgan"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Tekislash: karta sahifa markaziga surilgan"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Chapda qadam kartasi (8 ustun), oʻngda 3 blok (4 ustun) — katta va kichik bloklar ogʻirligi teng."
+   },
+   "others": {
+    "uz": "B — guruhlar yopishib qoladi. C — ogʻirlik yanada bir tomonga oʻtadi. D — oʻng tomon baribir boʻsh qoladi."
+   }
+  }
+ ]
+}

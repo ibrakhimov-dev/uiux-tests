@@ -1,0 +1,11 @@
+{
+ "lessons": [
+  {"n": 1, "title": {"uz": "Kirish va UI/UX dizayniga kirish", "ru": "Введение в UI/UX-дизайн", "en": "Introduction to UI/UX design", "ja": "UI/UXデザイン入門"}},
+  {"n": 2, "title": {"uz": "Foydalanuvchiga qaratilgan dizayn (UCD)", "ru": "Дизайн, ориентированный на пользователя (UCD)", "en": "User-centered design (UCD)", "ja": "ユーザー中心設計（UCD）"}},
+  {"n": 3, "title": {"uz": "Axborot arxitekturasi va navigatsiya", "ru": "Информационная архитектура и навигация", "en": "Information architecture and navigation", "ja": "情報アーキテクチャとナビゲーション"}},
+  {"n": 4, "title": {"uz": "Wireframing asoslari", "ru": "Основы вайрфрейминга", "en": "Wireframing basics", "ja": "ワイヤーフレームの基本"}},
+  {"n": 5, "title": {"uz": "Prototiplash", "ru": "Прототипирование", "en": "Prototyping", "ja": "プロトタイピング"}},
+  {"n": 6, "title": {"uz": "Vizual dizayn", "ru": "Визуальный дизайн", "en": "Visual design", "ja": "ビジュアルデザイン"}},
+  {"n": 7, "title": {"uz": "Oʻzaro taʼsir dizayni (IxD)", "ru": "Дизайн взаимодействия (IxD)", "en": "Interaction design (IxD)", "ja": "インタラクションデザイン（IxD）"}, "new": true}
+ ]
+}

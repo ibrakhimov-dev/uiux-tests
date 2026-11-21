@@ -1,0 +1,812 @@
+{
+ "lesson": 7,
+ "title": {
+  "uz": "Oʻzaro taʼsir dizayni (IxD)",
+  "ru": "Дизайн взаимодействия (IxD)",
+  "en": "Interaction design (IxD)",
+  "ja": "インタラクションデザイン（IxD）"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Darsdagi taʼrifga koʻra oʻzaro taʼsir nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bir tomonning ikkinchisiga buyruq berib turishi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ikki tomonning bir-biriga harakat qilib, javob olishi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ekrandagi elementlarning chiroyli harakatlanishi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Foydalanuvchining ilovani bir marta ochib koʻrishi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Bu suhbatga oʻxshaydi: savol, javob, keyingi savol."
+   },
+   "others": {
+    "uz": "A — javob yoʻq, suhbat emas. C — bu faqat animatsiya. D — bitta harakat suhbat emas."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "«Bir marta koʻrgan narsa eslab qolinadi va hamma joyda bir xil» — IxDʼning qaysi tamoyili?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Feedback"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Signifier"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Oʻrganish osonligi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Nazorat va Undo"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Oʻrganish osonligi (learnability). One step: qadam turlari M, OD, Y, ₪ hamma sahifada bir xil."
+   },
+   "others": {
+    "uz": "A — harakatga darhol javob. B — «bosish mumkin» belgisi. D — ortga qaytarish imkoni."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "Interaktiv dizayn (IxD) nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Mahsulotning rang va shriftlarini tanlash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Mahsulot sahifalarini guruhlash va nomlash"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Foydalanuvchi va mahsulot oʻrtasidagi suhbatni loyihalash"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Mahsulotning kodini yozish va uni sinash"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Foydalanuvchi nima qiladi, mahsulot qanday javob beradi va foydalanuvchi bu javobdan nimani tushunadi."
+   },
+   "others": {
+    "uz": "A — bu vizual dizayn. B — bu axborot arxitekturasi. D — bu dasturchining ishi."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "Vizual dizayn va interaktiv dizayn qaysi savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Vizual: «tugma qanday koʻrinadi?»; IxD: «bossam nima boʻladi?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Vizual: «bossam nima boʻladi?»; IxD: «tugma qanday koʻrinadi?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Vizual: «tugma qayerda turadi?»; IxD: «tugma qancha katta?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Vizual: «foydalanuvchi kim?»; IxD: «u nima qiladi?»"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "IxD: tugmani bossam nima boʻladi, buni qanday bilaman, xato qilsam nima boʻladi."
+   },
+   "others": {
+    "uz": "B — teskari aytilgan. C — wireframe savollari. D — persona va ssenariy savollari."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "Lift tugmasi bosilganda «5» raqami yonadi. Bu oʻzaro taʼsirning qaysi turi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bilvosita"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Bevosita"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Tegmasdan"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Aldab boshqarish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Bilvosita — vositachi orqali: harakat bir joyda, natija boshqa joyda."
+   },
+   "others": {
+    "uz": "B — tegib, ushlab, natija aynan tekkan joyda. C — tizim oʻzi sezadi yoki gapiradi. D — bu oʻzaro taʼsir turi emas, xato amaliyot."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "Obunani bekor qilish tugmasini topib boʻlmaydigan joyga yashirish — bu nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Xatoning oldini olish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Izchillik"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Aldab boshqarish (dark pattern)"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Signifier"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "One step qoidasi: qoʻrqitmaymiz, aldamaymiz, urishmaymiz — faqat yordam beramiz."
+   },
+   "others": {
+    "uz": "A — foydalanuvchini xatodan himoya qiladi, aldamaydi. B — bir xillik haqida. D — aksincha, tugma koʻrinishini taʼminlaydi."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "«Bajarilgan lahzadagi kichik bayram odamni ertaga qaytaradi». Interaktiv dizayn qaysi sababga koʻra kerak?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Ishonch"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Xatodan himoya"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Professional koʻrinish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Motivatsiya"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "«5 kun ketma-ket!» kabi kichik bayram — One stepʼning butun gʻoyasi."
+   },
+   "others": {
+    "uz": "A — javob bor-yoʻqligi haqida. B — Undo haqida. C — tirik yoki qotgan koʻrinish haqida."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "Interaktiv dizaynning 5-oʻlchovi (Kevin Silver qoʻshgan) qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "1D — Soʻzlar (Words)"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "2D — Vizual koʻrinish (Visual)"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "4D — Vaqt (Time)"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "5D — Xulq-atvor (Behavior)"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "1–4-oʻlchovlar — Gillian Crampton Smith, 5-oʻlchov — Kevin Silver."
+   },
+   "others": {
+    "uz": "A, B va C — Crampton Smithʼning dastlabki toʻrt oʻlchoviga kiradi."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "Animatsiya, kutish va taymer qaysi oʻlchovga kiradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "1D — Soʻzlar"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "4D — Vaqt"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "3D — Obyekt va makon"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "2D — Vizual koʻrinish"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Vaqt oʻlchovi nima boʻlayotganini koʻrsatadi."
+   },
+   "others": {
+    "uz": "A — tugma va xabarlardagi matn. C — qurilma, qoʻl va makon. D — rang, ikonka, tipografiya."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Har qanday interfeys javob beradigan 4 savol qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Kimman? Nima kerak? Qancha turadi? Kim yasagan?"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qaysi rang? Qaysi shrift? Qancha joy? Qaysi ikonka?"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Qayerdaman? Nima boʻldi? Nima boʻlyapti? Keyin nima?"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Nima bor? Qaysi tartib? Qayerga olib boradi? Kim uchun?"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Foydalanuvchi har lahzada bu toʻrt savolga javobni ekrandan topishi kerak."
+   },
+   "others": {
+    "uz": "A — bu interfeys savollari emas. B — vizual dizayn qarorlari. D — mikro IA savollariga oʻxshaydi."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "«Koʻrinishi nima qilishini aytadi: tugma tugmaga, havola havolaga oʻxshaydi» — qaysi tamoyil?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Signifier"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Feedback"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Izchillik"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Nazorat va Undo"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Signifier — «bosish mumkin» belgisi. One step: «Boshlash» — katta sariq tugma, «Boshqa qadam» — havola."
+   },
+   "others": {
+    "uz": "B — harakatga darhol javob. C — bir xil harakat hamma joyda bir xil natija beradi. D — ortga qaytarish imkoni."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "«Xatoning oldini olish» tamoyili nimani talab qiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Xato boʻlgandan keyin foydalanuvchi ogohlantirilsin"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Xato qilishning iloji boʻlmasin yoki tasdiq soʻralsin"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Xato boʻlsa, ilova darhol yopilib qolsin"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Xato haqidagi xabar umuman koʻrsatilmasin"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "One step: email toʻgʻri boʻlmaguncha tugma faol emas; «Boshqa rejaga oʻtish» tasdiq soʻraydi."
+   },
+   "others": {
+    "uz": "A — bu xatodan keyin, oldini olish emas. C va D — foydalanuvchini yoʻlsiz qoldiradi."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "Mikro-interaksiya (Dan Saffer) qismlari qaysi tartibda?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Feedback → Trigger → Qoida → Takror va rejim"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qoida → Feedback → Trigger → Takror va rejim"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Trigger → Feedback → Takror va rejim → Qoida"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Trigger → Qoida → Feedback → Takror va rejim"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Nima boshlaydi → nima boʻladi → foydalanuvchi qanday koʻradi → keyingi safar nima oʻzgaradi. Feedback boʻlmasa, qolgan uchtasi koʻrinmaydi."
+   },
+   "others": {
+    "uz": "A, B va C — boshlovchisiz yoki qoidasiz javob boʻlmaydi."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "Element klaviaturada Tab bilan tanlanganda qaysi holatda boʻladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Focus"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Hover"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Pressed"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Disabled"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Focus — Tab bilan tanlangan holat, u majburiy."
+   },
+   "others": {
+    "uz": "B — sichqoncha ustida. C — bosilgan lahza. D — hozir ishlamaydi."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "Ekran almashishi yoki tasdiq xabari chiqishi uchun qancha vaqt mos?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "100–200 ms"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "200–400 ms"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "500–1000 ms"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "1500–2000 ms"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "100–200 ms — kichik oʻzgarish (hover, ✓), 200–400 ms — ekran almashishi va xabar, 500 ms dan uzoq — foydalanuvchi kutib qoladi."
+   },
+   "others": {
+    "uz": "A — kichik oʻzgarishlar uchun. C va D — foydalanuvchi kutib qoladi."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "«Bugun» sahifasida «Bajarildi» bosildi, lekin ekranda hech narsa oʻzgarmadi va foydalanuvchi yana bosdi. Qaysi tamoyil buzilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Signifier"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Izchillik"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Oʻrganish osonligi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Feedback"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Har bir harakatga darhol javob kerak: ✓ chiqadi va hisoblagich «4 → 5 kun» boʻladi."
+   },
+   "others": {
+    "uz": "A — foydalanuvchi tugmani topdi va bosdi. B — gap bir xillik haqida emas. C — gap eslab qolish haqida emas."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "Foydalanuvchi adashib «Bajarildi»ni bosib yubordi. One stepʼda qaysi yechim toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Xabarda «Bekor qilish» havolasini berish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Tugmani kichikroq va xiraroq qilish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Har bosishdan oldin parol soʻrash"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bosilgan qadamni oʻzgartirib boʻlmas qilish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Nazorat va Undo: foydalanuvchi har doim ortga qaytara oladi. Undo — erkinlik."
+   },
+   "others": {
+    "uz": "B — bosish qiyinlashadi. C — oddiy harakat uchun ortiqcha toʻsiq. D — foydalanuvchi qoʻrqib ishlatadi."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "«AI tuzmoqda… 10–20 soniya» yozuvi foydalanuvchining qaysi savoliga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Qayerdaman?"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Hozirgina nima boʻldi?"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Nima boʻlyapti?"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Keyin nima boʻladi?"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Yuklanish va progress — tizim hozir ishlayotganini koʻrsatadi."
+   },
+   "others": {
+    "uz": "A — menyuda faol boʻlim. B — «✓ Bugungi qadam bajarildi». D — «Ertaga 10:00 da eslatamiz»."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "«Bajarildi» ikki marta bosilsa ham ketma-ket kunlar ikki marta qoʻshilmaydi. Bu mikro-interaksiyaning qaysi qismi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Trigger"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qoida"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Feedback"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Takror va rejim"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Qoida — foydalanuvchi koʻrmaydigan «miya»: nima boʻlishini belgilaydi."
+   },
+   "others": {
+    "uz": "A — bosishning oʻzi. C — foydalanuvchi koʻradigan javob. D — 7-kundagi «Bir hafta! 🎉» kabi oʻzgarish."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "Bir sahifada tasdiq xabari tepada chiqyapti, boshqasida pastda va boshqa rangda. Qaysi tamoyil buzilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Feedback"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Signifier"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Xatoning oldini olish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Izchillik"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Bir xil harakat hamma joyda bir xil natija berishi kerak: One stepʼda tasdiq xabarlari doim pastdan chiqadi va 4 soniyada yoʻqoladi."
+   },
+   "others": {
+    "uz": "A — javob bor, faqat har xil. B — gap bosish belgisida emas. C — xato yoʻq."
+   }
+  }
+ ]
+}

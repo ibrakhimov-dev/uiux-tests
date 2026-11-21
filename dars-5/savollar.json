@@ -1,0 +1,812 @@
+{
+ "lesson": 5,
+ "title": {
+  "uz": "Prototiplash",
+  "ru": "Прототипирование",
+  "en": "Prototyping",
+  "ja": "プロトタイピング"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Prototip nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bosib koʻrsa boʻladigan, lekin hali dasturlanmagan namuna"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Dasturlangan va internetga joylangan tayyor sayt"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bosib boʻlmaydigan, rangli va tayyor ekran rasmi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Sahifalar va boʻlimlar orasidagi bogʻlanish chizmasi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Orqasida kod yoʻq — faqat ekranlar orasidagi ulanishlar."
+   },
+   "others": {
+    "uz": "B — bu tayyor mahsulot. C — bu mockup, uni bosib boʻlmaydi. D — bu sayt xaritasi."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "Prototip qaysi savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Qayerda va qancha katta?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Qanday ishlaydi?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Qanday koʻrinadi?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Nima bor?»"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Foydalanuvchi haqiqiy saytdek ishlatadi: bosadi → ekran almashadi → orqaga qaytadi."
+   },
+   "others": {
+    "uz": "A — wireframe savoli. C — mockup savoli. D — mikro IA savoli."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "«Arzon xato uchun» nimani anglatadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Strelkani koʻchirish prototipda soatlar, kodda 10 soniya"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Strelkani koʻchirish ikkalasida ham bir xil vaqt oladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Strelkani prototipda umuman koʻchirib boʻlmaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Strelkani koʻchirish prototipda 10 soniya, kodda soatlar"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Xatoni prototipda tuzatish tez va arzon, kodda uzoq va qimmat."
+   },
+   "others": {
+    "uz": "A — teskari aytilgan. B — farq juda katta. C — prototipda oʻzgartirish eng oson."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "«Tushuntirish uchun» jamoa va buyurtmachiga nima yuboriladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Oʻnta alohida ekran rasmi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Uzun matnli tushuntirish xati"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bitta ishlaydigan prototip havolasi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Tayyor saytning manba kodi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "10 ta rasm emas, bitta ishlaydigan havola."
+   },
+   "others": {
+    "uz": "A — rasmdan qanday ishlashi tushunilmaydi. B — matn bosib koʻrishning oʻrnini bosmaydi. D — hali kod yoʻq."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "Prototipning «sinash uchun» foydasi nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Foydalanuvchi adashishini kod yozilishidan oldin bilish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Dasturchi kodni tezroq yozib tugatishi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ekranlarni chiroyliroq qilib koʻrsatish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Sayt tezligini serverda tekshirib koʻrish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Foydalanuvchi adashadimi yoki yoʻqmi — dasturchi kod yozishidan oldin bilib olasiz."
+   },
+   "others": {
+    "uz": "B — prototip kod yozmaydi. C — chiroy vizual dizaynning ishi. D — prototipda server yoʻq."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "Figmaʼdagi har bir ulanish qaysi 3 qismdan iborat?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Page, Frame, Layer"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Trigger, Action, Animation"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Rang, Shrift, Boʻshliq"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Header, Kontent, Footer"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Har bir ulanish bitta jumla: foydalanuvchi bosganda (trigger) → keyingi ekran ochiladi (action) → eriydi (animation)."
+   },
+   "others": {
+    "uz": "A — Figma fayl tuzilmasi. C — vizual dizayn elementlari. D — sahifa qismlari."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "«Saqlandi» xabari 3 soniyadan keyin oʻzi yoʻqolishi uchun qaysi trigger kerak?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "On click"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "While hovering"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "After delay"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Navigate to"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "After delay — vaqt oʻtgach oʻzi ishlaydi."
+   },
+   "others": {
+    "uz": "A — bosganda. B — sichqoncha ustiga kelganda. D — bu trigger emas, action."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "Qaysi action «ekran ustida kichik oyna: tasdiqlash, menyu» ochadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Open overlay"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Navigate to"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Scroll to"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Open link"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Open overlay joriy ekranni yopmaydi, ustida oyna ochadi."
+   },
+   "others": {
+    "uz": "B — boshqa ekranga oʻtish. C — shu sahifadagi blokka tushish. D — tashqi saytni ochish."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "«Back» action nima qiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bosh sahifaga qaytaradi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ekran ustida oyna ochadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Tashqi saytni ochadi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Oldingi ekranga qaytaradi"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Back — foydalanuvchi qayerdan kelgan boʻlsa, oʻsha ekranga qaytish."
+   },
+   "others": {
+    "uz": "A — bosh sahifa emas, oldingi ekran. B — bu Open overlay. C — bu Open link."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Qaysi animatsiyada ikki ekrandagi bir xil nomli qatlamlar silliq harakatlanadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dissolve"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Smart animate"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Instant"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Slide in"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Smart animate — masalan, «2/4 → 3/4» chizigʻi silliq toʻladi."
+   },
+   "others": {
+    "uz": "A — ekran eriydi. C — birdan almashadi. D — yondan suriladi."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "Flow (oqim) haqida qaysi gap toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bitta faylda bir nechta oqim boʻlishi mumkin"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Bitta faylda faqat bitta oqim boʻladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Oqim faqat animatsiya turini belgilaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Oqim faqat telefon prototipida ishlaydi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Masalan, «Yangi foydalanuvchi» va «Kunlik qadam». Present ▶ oqimning boshlanish nuqtasidan boshlanadi."
+   },
+   "others": {
+    "uz": "B — oqimlar bir nechta boʻlishi mumkin. C — animatsiya alohida tushuncha. D — oqim har qanday prototipda bor."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "Prototip tamoyillariga koʻra prototip nimadan boshlanadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Hamma tugmani birdaniga ulashdan"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ekranlarni rangga boʻyashdan"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Savoldan: «Bu prototip bilan nimani bilmoqchimiz?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Animatsiya turini tanlashdan"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "«Maqsaddan boshlang»: avval savol, keyin ulanish. Savolsiz prototip — shunchaki chiroyli bosish."
+   },
+   "others": {
+    "uz": "A — «Bitta ssenariy — bitta oqim» tamoyiliga zid. B va D — bular maqsad emas."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "«Haqiqiy matn va holatlar» tamoyili nimani talab qiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Faqat asosiy ekranlar, holatlar keyin kodda"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Matn oʻrniga lorem ipsum, holatlar shart emas"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Faqat xato holati ekrani, qolganlari shart emas"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Boʻsh, xato va muvaffaqiyat holatlari ham alohida ekran"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Lorem ipsum emas; boʻsh holat, xato holati va «Bajarildi» ham alohida ekran."
+   },
+   "others": {
+    "uz": "A, B va C — holatlar sinalmasa, foydalanuvchi ularni birinchi marta tayyor ilovada koʻradi."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "Sensor, ovoz va kamera bilan ishlaydigan murakkab interaksiya uchun qaysi vosita?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Figma Make"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "ProtoPie"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Framer"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Excalidraw"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "ProtoPie — murakkab interaksiyalar uchun, haqiqiy telefonda sinash mumkin."
+   },
+   "others": {
+    "uz": "A — matndan prototip yasaydi. C — prototipdan sayt chiqaradi. D — lo-fi chizish vositasi."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "Figma Make (AI) haqida darsda nima deyilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Matndan prototip yasaydi, dizayner endi kerak emas"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Faqat rasm chizadi, prototip yasay olmaydi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Matndan prototip yasaydi, tuzilmani dizayner tekshiradi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Faqat kod yozadi, dizayn bilan ishlamaydi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Figma Make gʻoyani tez sinash uchun, lekin tuzilmani baribir dizayner tekshiradi."
+   },
+   "others": {
+    "uz": "A — darsda aksincha aytilgan. B va D — u matndan prototip va kod yasaydi."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "One stepʼning 11 ta sahifasi chizilgan, lekin «Boshlash» bosilsa hech narsa boʻlmaydi. Nega?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Ular kulrang: avval rang berish kerak"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ular hali rasm: ekranlar orasida ulanish yoʻq"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ular kichik: avval kattalashtirish kerak"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Ular eskirgan: qaytadan chizish kerak"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Wireframe — rasm. Ekranlar ulanganda u prototipga aylanadi."
+   },
+   "others": {
+    "uz": "A — rang bosishga taʼsir qilmaydi. C va D — oʻlcham va yangilik muammo emas."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "«Boshlash» tugmasi → On click → Navigate to: Roʻyxatdan oʻtish → Dissolve, 300 ms. Bu ulanishda «Dissolve, 300 ms» qaysi qism?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Trigger"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Action"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Connection"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Animation"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Animation — ekran qanday almashishi."
+   },
+   "others": {
+    "uz": "A — On click. B — Navigate to. C — tugmadan ekranga tortilgan koʻk strelkaning oʻzi."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "One step prototipida «Reja tafsiloti» sahifasidan chiqish yoʻli yoʻq: na «Orqaga», na menyu. Qaysi tamoyil buzilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Yoʻl ochiq boʻlsin"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Maqsaddan boshlang"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Takrorlang"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bitta ssenariy — bitta oqim"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Har ekrandan chiqish bor: «Orqaga» yoki menyu. Foydalanuvchi «qamalib» qolmasin."
+   },
+   "others": {
+    "uz": "B — gap savol haqida emas. C — gap qayta sinash haqida emas. D — gap ulanishlar soni haqida emas."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "Sinovda prototip egasi foydalanuvchiga «oʻng tomondagi tugmani bosing!» deb yubordi. Qaysi tamoyil buzildi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Yoʻl ochiq boʻlsin"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Haqiqiy matn va holatlar"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Haqiqiy odamda sinang"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Maqsaddan boshlang"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Bitta vazifa bering va yordam bermang: qayerda toʻxtadi, nimani bosdi — yozib oling."
+   },
+   "others": {
+    "uz": "A, B va D — bu tamoyillar prototipning oʻzi haqida, sinov oʻtkazish haqida emas."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "Jamoa 11 sahifadagi hamma tugmani ulashga kirishdi, 2 soatdan keyin ham asosiy yoʻl oxirigacha ishlamaydi. Qaysi tamoyil buzilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Takrorlang"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Bitta ssenariy — bitta oqim"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Haqiqiy matn va holatlar"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Yoʻl ochiq boʻlsin"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Hamma tugmani ulash shart emas. Faqat sinaladigan yoʻl ulanadi: Bosh sahifa → Roʻyxat → Tayyor rejalar → Bugun."
+   },
+   "others": {
+    "uz": "A — takrorlash sinovdan keyin keladi. C va D — muammo ulanishlar tartibida."
+   }
+  }
+ ]
+}

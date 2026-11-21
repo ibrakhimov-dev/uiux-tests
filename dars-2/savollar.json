@@ -1,0 +1,812 @@
+{
+ "lesson": 2,
+ "title": {
+  "uz": "Foydalanuvchiga qaratilgan dizayn (UCD)",
+  "ru": "Дизайн, ориентированный на пользователя (UCD)",
+  "en": "User-centered design (UCD)",
+  "ja": "ユーザー中心設計（UCD）"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Foydalanuvchiga qaratilgan dizayn (UCD) nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizaynerning oʻz didi va tajribasiga tayanib qilinadigan dizayn"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Buyurtmachi aytgan talablar asosida tez qilinadigan dizayn"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Har qadamda foydalanuvchidan soʻrab, unga koʻrsatib tekshiriladigan dizayn"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Mashhur ilovalardagi yechimlarni olib qilinadigan dizayn"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "UCDʼda har bir qaror taxmindan emas, foydalanuvchini kuzatish va undan soʻrashdan chiqadi."
+   },
+   "others": {
+    "uz": "A — bu «menga qulay, demak hammaga qulay» yondashuvi. B — buyurtmachi foydalanuvchi oʻrnini bosmaydi. D — boshqa ilova boshqa odamlar uchun qilingan."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "Dizayner ilovani «menga qulay, demak hammaga qulay» deb chizsa, natija qanday boʻladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Chiroyli, lekin hech kimga toʻgʻri kelmaydigan mahsulot"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Oddiy, lekin hammaga birdek qulay mahsulot"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Murakkab, lekin mutaxassislar uchun qulay mahsulot"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Sodda, lekin juda tez yasaladigan mahsulot"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Oʻziga qarab chizilgan ilova chiroyli boʻlsa ham, foydalanuvchiga toʻgʻri kelmaydi."
+   },
+   "others": {
+    "uz": "B — bitta odamning didi hammaga toʻgʻri kelmaydi. C va D — darsda bunday natija aytilmagan."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "UCDʼning 4 bosqichi qaysi tartibda boradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Specify requirements → Understand context → Design solutions → Evaluate"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Understand context → Design solutions → Specify requirements → Evaluate"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Design solutions → Understand context → Specify requirements → Evaluate"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Understand context → Specify requirements → Design solutions → Evaluate"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Kontekstni tushunish → talablarni aniqlash → yechim yaratish → baholash."
+   },
+   "others": {
+    "uz": "A — talablar kontekstni tushunmasdan yozilmaydi. B — yechim talablardan keyin yaratiladi. C — jarayon foydalanuvchini tushunishdan boshlanadi."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "UCDʼda iteratsiya nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizaynni bir marta chizib, keyin oʻzgartirmaslik"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Baholashda notoʻgʻri chiqqan joylarning yangi tadqiqot savoliga aylanishi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Har bir bosqichni boshqa dizaynerga topshirib borish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bitta ekranning bir nechta rangli variantini chizish"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Xato qaror — ishning oxiri emas, keyingi aylanishning boshi."
+   },
+   "others": {
+    "uz": "A — bu iteratsiyaning teskarisi. C — gap ishni boʻlish haqida emas. D — variant chizish doirani aylanish emas."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "Tikuvchi «soʻraydi, oʻlcham oladi, tikadi, kiydirib koʻradi va tuzatadi». «Kiydirib koʻrish va tuzatish» UCDʼning qaysi bosqichi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Evaluate (baholash)"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Understand context (kontekstni tushunish)"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Specify requirements (talablarni aniqlash)"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Design solutions (yechim yaratish)"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Tayyor narsani foydalanuvchida sinab, kamchilikni topish — baholash."
+   },
+   "others": {
+    "uz": "B — bu soʻrash bosqichi. C — bu oʻlcham olish bosqichi. D — bu tikish bosqichi."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "Loyiha doskasining «Bildik» ustuniga nima yoziladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Hali javobi topilmagan tadqiqot savollari"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Dalildan chiqqan aniq dizayn qarorlari"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Koʻrgan yoki eshitgan narsamiz, yaʼni dalil"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Jamoa aʼzolarining shaxsiy fikrlari"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Doska: 1) Bilishimiz kerak — savollar, 2) Bildik — dalil, 3) Dizayn qarori — dalildan chiqqan qaror."
+   },
+   "others": {
+    "uz": "A — «Bilishimiz kerak» ustuni. B — «Dizayn qarori» ustuni. D — shaxsiy fikr dalil emas."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "Odam aytgani bilan qilgani farq qilsa, dizayn qarori uchun qaysi biri ishonchliroq?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Odam aytgani — munosabat"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ikkalasining oʻrtachasi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Dizaynerning oʻz fikri"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Odam qilgani — xulq-atvor"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Aytilgan gap — munosabat, qilingan ish — xulq-atvor. Ikkinchisi ishonchliroq."
+   },
+   "others": {
+    "uz": "A — odamlar koʻpincha qilmaydigan narsani aytadi. B — notoʻgʻri maʼlumot bilan oʻrtacha ham notoʻgʻri. C — bu taxmin."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "Kuzatuvda foydalanuvchi bir narsani eslay olmay, qayta qidirdi. Bu qaysi jihat?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Idrok"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Tafakkur"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Hissiyot"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Munosabat"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Darsdagi misol: nimani eslay olmay qayta qidirdim — tafakkur."
+   },
+   "others": {
+    "uz": "A — idrok: nimaning yonidan koʻrmay oʻtdim. C — hissiyot: qayerda asabiylashdim. D — munosabat: odam nima deyishi."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "Qaysi intervyu savoli qoidalarga mos?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Oxirgi marta boshlab, tashlab qoʻygan ishingiz nima edi?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Kelajakda bunday ilovadan foydalanarmidingiz?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Ilovamiz juda qulay, shunday emasmi?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Sizningcha, odamlar nega dangasa boʻladi?»"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Qoida: kelajak haqida emas, oʻtgan aniq voqea haqida soʻrang."
+   },
+   "others": {
+    "uz": "B — kelajak haqida taxminiy savol. C — javob savolning ichiga solingan. D — aniq voqea emas, umumiy fikr soʻralmoqda."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Persona va ssenariy qaysi savollarga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Persona — «nima qiladi?», ssenariy — «kim?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Persona — «qachon?», ssenariy — «qayerda?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Persona — «nega?», ssenariy — «qancha?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Persona — «kim?», ssenariy — «nima qiladi?»"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Persona — foydalanuvchining qisqa portreti, ssenariy — persona qahramon boʻlgan 4–5 gapli hikoya."
+   },
+   "others": {
+    "uz": "A — teskari aytilgan. B va C — darsda bunday boʻlinish yoʻq."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "Qaysi tadqiqot usuli «Aslida nima qiladi?» degan savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Intervyu"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Kuzatish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Soʻrovnoma"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Qulaylik testi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Kuzatish — odam ishni qanday bajarishini jim kuzatish."
+   },
+   "others": {
+    "uz": "A — «Nega?» savoliga javob beradi. C — «Nechta odamda?» savoliga. D — «Ishlata oladimi?» savoliga."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "Baholovchi (evaluative) tadqiqot qachon va nima uchun oʻtkaziladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizayndan keyin: tayyor yechimni tekshirish uchun"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Dizayndan oldin: muammo va gʻoya topish uchun"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Dizayn paytida: rang va shrift tanlash uchun"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Dizayn oʻrniga: dasturchiga topshiriq berish uchun"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Baholovchi tadqiqot tayyor yechimni tekshiradi, masalan qulaylik testi."
+   },
+   "others": {
+    "uz": "B — bu generativ tadqiqot. C va D — tadqiqot guruhlari bunday maqsadga xizmat qilmaydi."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "Personaning «Toʻsiq» (pain points) qismiga nima yoziladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Sevimli mashgʻuloti yoki orzusidagi ish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Boʻsh vaqti qachon va qancha ekani"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Eslatma, rejim va shrift boʻyicha odatlari"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Unga nima xalaqit berayotgani"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Toʻsiq — foydalanuvchiga nima xalaqit berishi."
+   },
+   "others": {
+    "uz": "A — bu «Qiziqishi» (goals). B — bu «Boʻsh vaqti» (context). C — bu «Telefon odatlari» (behaviors)."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "Dizayn qarorini yozish qolipi qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizayner \\[fikr\\] qilgani uchun, ilova \\[qaror\\]"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Foydalanuvchi \\[dalil\\] boʻlgani uchun, ilova \\[qaror\\]"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Buyurtmachi \\[talab\\] qilgani uchun, ilova \\[qaror\\]"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Raqobatchida \\[funksiya\\] boʻlgani uchun, ilova \\[qaror\\]"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Har bir qaror koʻrilgan yoki eshitilgan dalilga tayanadi. Dalili yoʻq qaror taxmin hisoblanadi va oʻchiriladi."
+   },
+   "others": {
+    "uz": "A, C va D — qaror foydalanuvchi dalilidan emas, boshqa manbadan chiqyapti."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "Baholashda foydalanuvchi qarorga «Mos emas» dedi. Keyin nima qilinadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Qaror oʻzgarishsiz qoladi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qaror biroz tuzatiladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Yangi tadqiqot savoli yoziladi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Foydalanuvchi almashtiriladi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "«Mos emas» — yangi savol «Bilishimiz kerak» ustuniga yoziladi va aylanish qayta boshlanadi."
+   },
+   "others": {
+    "uz": "A — bu «Mos» boʻlganda. B — bu «Yarim mos» boʻlganda. D — natija yoqmagani uchun foydalanuvchini almashtirib boʻlmaydi."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "One step oddiy to-do ilovasidan nimasi bilan farq qiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Har kuni «non ol» kabi kundalik ishlarni eslatadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Har kuni orzuga yaqinlashtiruvchi bitta kichik qadam beradi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Har kuni doʻstlar bilan raqobatlashish imkonini beradi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Har kuni yangi ilova va oʻyinlarni tavsiya qiladi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "One step — «har kuni orzuingizga bir qadam»: sevimli mashgʻulot yoki orzudagi ishga yaqinlashtiradi."
+   },
+   "others": {
+    "uz": "A — bu oddiy to-do ilovalari. C — loyihada raqobat yoʻq. D — bu loyihaning maqsadi emas."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "Jamoa aʼzosi: «Menimcha, foydalanuvchilarga qorongʻu rejim yoqadi, shuni qilamiz». Toʻgʻri javob qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dalil: jamoa aʼzosi tajribali, unga ishonsa boʻladi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qaror: koʻpchilik ovozi bilan darhol qabul qilinadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Taxmin: avval foydalanuvchidan soʻrab, dalil topish kerak"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Taxmin: lekin vaqt kam, shuning uchun qilaveramiz"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Qoida: taxmin qilmaymiz, tekshiramiz. «Buni qayerdan bildingiz: koʻrdingizmi, eshitdingizmi yoki taxmin qildingizmi?»"
+   },
+   "others": {
+    "uz": "A — tajriba dalil oʻrnini bosmaydi. B — jamoa ovozi foydalanuvchi ovozi emas. D — dalili yoʻq qaror oʻchiriladi."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "One step uchun intervyuda qaysi savol qoidani buzadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Eslatmalar foydali-ku, siz ham yoqtirasiz-a?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Oxirgi marta eslatmani nega oʻchirib qoʻygansiz?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Kuningizning qaysi vaqtida boʻsh boʻlasiz?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Shunga oʻxshash ilovani nega tashlab qoʻygansiz?»"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Javob savolning ichiga solingan: odam «ha» deyishga majburdek boʻladi."
+   },
+   "others": {
+    "uz": "B va D — oʻtgan voqea va «nega?» haqida, qoidaga mos. C — darsdagi tadqiqot savollaridan biri."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "Dalil: foydalanuvchining boʻsh vaqti kuniga 10 daqiqa. Qolipga koʻra One step uchun qaysi qaror toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Har bir qadam kamida 1 soat davom etadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Eslatma har 10 daqiqada qayta keladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ilova faqat dam olish kunlari ishlaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Har bir qadam 10 daqiqadan oshmaydi"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Foydalanuvchining boʻsh vaqti 10 daqiqa boʻlgani uchun, ilova qadamni 10 daqiqadan oshirmaydi."
+   },
+   "others": {
+    "uz": "A — dalilga zid. B — dalil eslatma soni haqida emas. C — dalilda dam olish kunlari haqida gap yoʻq."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "Ustoz (foydalanuvchi) One step qarorini «Mos» deb baholadi. Jamoa: «Demak, hammaga mos». Darsdagi qoidaga koʻra nima toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Toʻgʻri: bitta baho yetarli, qaror tasdiqlandi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Notoʻgʻri: bitta foydalanuvchi hamma degani emas"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Toʻgʻri: ustoz tajribali, uning bahosi hammaga teng"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Notoʻgʻri: baholashni umuman oʻtkazmaslik kerak edi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Boshqa odamda javoblar boshqacha chiqadi. Shuning uchun uyga vazifa — ikkinchi foydalanuvchini oʻrganish."
+   },
+   "others": {
+    "uz": "A va C — bitta odamning bahosi hamma uchun dalil boʻlmaydi. D — baholash UCDʼning 4-bosqichi."
+   }
+  }
+ ]
+}

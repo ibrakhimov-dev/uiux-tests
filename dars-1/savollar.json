@@ -1,0 +1,812 @@
+{
+ "lesson": 1,
+ "title": {
+  "uz": "Kirish va UI/UX dizayniga kirish",
+  "ru": "Введение в UI/UX-дизайн",
+  "en": "Introduction to UI/UX design",
+  "ja": "UI/UXデザイン入門"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Kirish darsidagi taʼrifga koʻra dizayn nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Maqsad bilan qilingan qaror"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Chiroyli rasm chizish sanʼati"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Rang va shakllar toʻplami"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Oʻzini ifodalash usuli"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Dizayn — maqsad bilan qilingan qaror: tanlaysiz, oʻylaysiz, kimgadir yoqishini xohlaysiz."
+   },
+   "others": {
+    "uz": "B va C — bu dizaynning vositalari, taʼrifi emas. D — bu rassomga xos."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "Rassom va dizayner farqi nimada?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Rassom boshqa odam uchun ishlaydi, dizayner oʻzi uchun"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Rassom qoʻlda chizadi, dizayner kompyuterda chizadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Rassom oʻzini ifodalaydi, dizayner boshqaning muammosini yechadi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Rassom rang ishlatadi, dizayner faqat shrift ishlatadi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Postni oʻzingiz uchun qoʻysangiz — rassomsiz, mijoz sotib olsin deb qoʻysangiz — dizaynersiz."
+   },
+   "others": {
+    "uz": "A — teskari aytilgan. B va D — farq vositada emas, maqsadda."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "Kirish darsida ijodkorlik qanday taʼriflangan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bitta narsaga oʻn xil koʻz bilan qarash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Har kuni yangi rasm chizib borish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Boshqalardan farqli kiyinib yurish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Faqat bitta toʻgʻri javobni topish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Gʻisht misoli: hech kim rasm chizmadi, lekin hamma ijod qildi."
+   },
+   "others": {
+    "uz": "B va C — ijodkorlik chizish yoki tashqi koʻrinish emas. D — bu ijodkorlikning teskarisi."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "UX (User Experience) nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Foydalanuvchi ekranda nimani koʻrishi va nimani bosishi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Foydalanuvchi nimani his qilishi va maqsadiga qanchalik oson yetishi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Mahsulot qanday ranglar va qanday shriftlarda koʻrinishi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Mahsulot qaysi dasturlash tilida va qanday yozilishi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "UX — foydalanuvchi tajribasi: his va maqsadga yetish osonligi."
+   },
+   "others": {
+    "uz": "A — bu UI taʼrifi. C — koʻrinish UIʼga kiradi. D — bu dasturchining ishi."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "UI (User Interface) nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Foydalanuvchi nimani his qilishi va qanday fikrlashi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Foydalanuvchi kim ekani va unga nima kerakligi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Mahsulot qancha turishi va kimga sotilishi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Foydalanuvchi nimani koʻrishi va nimani bosishi"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "UI — ekranda koʻrinadigan va bosiladigan qism."
+   },
+   "others": {
+    "uz": "A — his qilish UXʼga tegishli. B — bu foydalanuvchini oʻrganish. C — bu biznes savoli."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "UX jarayonining 5 bosqichi qaysi tartibda boradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Empathize → Define → Ideate → Prototype → Test"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Define → Empathize → Ideate → Test → Prototype"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Empathize → Ideate → Define → Prototype → Test"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Ideate → Define → Empathize → Prototype → Test"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Tushunish → aniqlash → gʻoya → prototip → sinov."
+   },
+   "others": {
+    "uz": "B — muammo foydalanuvchini tushunmasdan aniqlanmaydi, sinov prototipdan keyin. C — gʻoya muammo aniqlangandan keyin izlanadi. D — jarayon foydalanuvchini tushunishdan boshlanadi."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "Ikonka, rasm, illyustratsiya va logotip UIʼning qaysi qismiga kiradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Tipografiya (Typography)"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Joylashuv (Layout)"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Grafik elementlar (Graphic Design)"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Interaktiv elementlar (Interaction)"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Grafik elementlar — ikonka, rasm, illyustratsiya, logotip."
+   },
+   "others": {
+    "uz": "A — shrift, oʻlcham, qalinlik, qatorlar orasi. B — elementlar qayerda va qanday tartibda turishi. D — tugma, forma, holatlar, animatsiya."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "«UI yoki UX?» oʻyinidagi qaysi shikoyat UX muammosi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Tugma rangi xira, koʻrinmaydi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Kerakli boʻlimni 5 daqiqa qidirdim"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Shrift juda mayda, oʻqish qiyin"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Ikonkalar har xil uslubda chizilgan"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Muammo koʻrinishda emas, maqsadga yetish yoʻlida — bu UX."
+   },
+   "others": {
+    "uz": "A, C va D — rang, shrift va ikonka koʻrinishga tegishli, yaʼni UI muammolari."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "Koʻp bankomatlarda nega avval karta, keyin pul chiqadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bankomat pulni sanab chiqarishga ulgurishi uchun"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Karta pul bilan birga qisilib qolmasligi uchun"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bank toʻlovni tasdiqlab olishga ulgurishi uchun"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Odam pulni olgach, kartani unutib ketmasligi uchun"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Pul — asosiy maqsad. Uni olgan odam ketadi, shuning uchun karta oldinroq qaytariladi."
+   },
+   "others": {
+    "uz": "A, B va C — texnik sabablar; darsdagi sabab foydalanuvchi xatosining oldini olish."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Eshikni itardingiz, u esa tortib ochilar ekan. Darsdagi xulosaga koʻra kim aybdor?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Eshikni itargan odam"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Eshikni oʻrnatgan usta"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Eshikning dizayni"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Hech kim aybdor emas"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Darsdagi xulosa: foydalanuvchi adashsa, koʻpincha dizayn aybdor."
+   },
+   "others": {
+    "uz": "A — odam eshik koʻrsatgan belgiga qarab harakat qildi. B — usta chizilgan eshikni oʻrnatgan, xolos. D — xato bor, demak uni tuzatish kerak."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "UI/UXʼning «pul va vaqt tejash» sababi nimani anglatadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizaynerga dasturchidan kamroq pul toʻlanadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Xatoni prototipda tuzatish arzon, tayyor dasturda qimmat"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Chiroyli dizayn reklama xarajatini kamaytiradi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Yaxshi dizayn boʻlsa, dasturni sinash shart emas"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Xato qancha erta topilsa, shuncha arzon tuzatiladi."
+   },
+   "others": {
+    "uz": "A — gap maosh haqida emas. C — darsda reklama haqida gap yoʻq. D — sinov UX jarayonining oʻzi."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "«300 million dollarlik tugma» voqeasida nima oʻzgartirildi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Register» oʻrniga «Continue», roʻyxatdan oʻtish ixtiyoriy boʻldi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Register» tugmasi kattalashtirilib, qizil rangga boʻyaldi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Xarid sahifasiga chegirma va bepul yetkazish qoʻshildi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Roʻyxatdan oʻtish formasiga yangi maydonlar qoʻshildi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Majburiy qadam olib tashlandi: birinchi oyda +15 mln, bir yilda +300 mln dollar savdo."
+   },
+   "others": {
+    "uz": "B — rang va oʻlcham oʻzgarmagan. C — narx va chegirma oʻzgarmagan. D — bu yoʻlni yanada uzaytiradi."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "«User Experience» atamasi qaysi yil va qaysi nom bilan bogʻliq?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "1984-yil, Apple Macintosh"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "1973-yil, Xerox Alto"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "2007-yil, iPhone"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "1993-yil, Don Norman (Apple)"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "1993-yilda Don Norman (Apple) bilan «User Experience» atamasi paydo boʻlgan."
+   },
+   "others": {
+    "uz": "A — grafik interfeys oddiy odamlarga yetib bordi. B — birinchi grafik interfeys: oyna, ikonka, sichqoncha. C — tugmalar oʻrniga sensorli ekran."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "UI/UX evolyutsiyasining umumiy xulosasi qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Har bosqichda kompyuter odamga bir qadam yaqinlashdi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Har bosqichda kompyuterlar arzonroq va kichikroq boʻldi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Har bosqichda interfeyslar murakkabroq boʻlib bordi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Har bosqichda dizaynerning ishi kamayib bordi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Buyruq qatoridan sichqonchaga, barmoqqa, ovozga, suhbatga va koʻz harakatigacha — kompyuter odamga moslashib bordi."
+   },
+   "others": {
+    "uz": "B — darsda gap narx haqida emas. C — aksincha, boshqarish osonlashdi. D — darsda bunday xulosa yoʻq."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "Dasturchi «ishlayapti-ku» deydi, foydalanuvchi «tushunmayapman» deydi. Darsdagi gʻoyaga koʻra kim haq?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dasturchi: mahsulot ishlasa, vazifa bajarilgan boʻladi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Dasturchi: foydalanuvchi qoʻllanmani oʻqishi kerak"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Foydalanuvchi: tushunarsiz mahsulot ishlasa ham qulay emas"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Hech kim: muammo telefon yoki internetda boʻladi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Qulay boʻlmasa, odam ilovani oʻchirib tashlaydi."
+   },
+   "others": {
+    "uz": "A va B — ishlash yetarli emas, mahsulot tushunarli boʻlishi kerak. D — muammo texnikada emas, tushunishda."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "Ilovada roʻyxatdan oʻtish uchun 12 ta maydon bor va koʻp odam formani yarmida tashlab ketadi. Bu qanday muammo va nima qilinadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "UI muammosi: maydonlarni chiroyliroq rangga boʻyash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "UI muammosi: shriftni kattalashtirib, oʻqishni osonlashtirish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "UX muammosi: maydonlarni kamaytirib, yoʻlni qisqartirish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "UX muammosi: nega 12 maydon kerakligini tushuntirish"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Muammo — yoʻl uzun. Maydonlar kamaysa, maqsadga yetish osonlashadi."
+   },
+   "others": {
+    "uz": "A va B — koʻrinish oʻzgaradi, 12 ta maydon qoladi. D — tushuntirish yoʻlni qisqartirmaydi."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "Ilovaning bosh ekranida 40 ta tugma bor, lekin odamlar asosan 5 tasini ishlatadi. Televizor pulti misoliga koʻra nima qilinadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Barcha 40 ta tugmani bir xil oʻlchamda qoldirish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Yana bir nechta foydali tugma qoʻshib qoʻyish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Tugmalarni olib tashlab, faqat matn qoldirish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Kerakli 5 tasini oldinga chiqarib, qolganini yashirish"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Pultda tugma 40 ta, kerakligi 5 ta. Kerakli harakat koʻzga birinchi tashlanishi kerak."
+   },
+   "others": {
+    "uz": "A — kerakli 5 tasi boshqalar orasida yoʻqoladi. B — tanlov koʻpayib, topish qiyinlashadi. C — kerakli tugmalar ham yoʻqoladi."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "Internet-doʻkonda xariddan oldin roʻyxatdan oʻtish majburiy, xaridorlar shu yerda chiqib ketyapti. $300 mln tugma saboqiga koʻra nima qilinadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Roʻyxatdan oʻtish formasini chiroyliroq qilish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Roʻyxatdan oʻtishni ixtiyoriy qilib, xaridni davom ettirish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Roʻyxatdan oʻtganlarga chegirma vaʼda qilish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Roʻyxatdan oʻtish tugmasini kattaroq qilish"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Xaridor maqsadi — xarid. Majburiy qadamni olib tashlash «Register → Continue» bilan bir xil yechim."
+   },
+   "others": {
+    "uz": "A, C va D — majburiy qadam joyida qoladi, odamlar baribir chiqib ketadi."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "Doʻkoningiz uchun mayda va inglizcha yozuvli post tayyorladingiz. Mijozlaringiz orasida keksa odamlar koʻp. Kirish darsidagi qaysi fikr shu holatga mos?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizayner foydalanuvchining koʻzi bilan qaraydi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Dizayner oʻz didiga qarab qaror qiladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Dizayner faqat zamonaviy uslubni tanlaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Dizayner avvalo oʻzini ifodalashi kerak"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "«Postingizni 70 yoshli buvingiz koʻrsa, yozuvni oʻqiy oladimi?» — dizayner oʻz koʻzi bilan emas, foydalanuvchining koʻzi bilan qaraydi."
+   },
+   "others": {
+    "uz": "B va C — bu foydalanuvchini emas, dizaynerni markazga qoʻyadi. D — bu rassomga xos."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "Ilovada matn juda mayda va och kulrang, koʻrishi zaif odamlar uni oʻqiy olmaydi. Dizayner boʻlish maslahatlaridan qaysi biri buzilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Oʻzgarishlarni qabul qiling"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Yangilanib turing"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Hamma uchun ochiq qiling (accessibility)"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Koʻp qirrali boʻling"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Accessibility — mahsulotdan hamma, jumladan koʻrishi zaif odamlar ham foydalana olishi."
+   },
+   "others": {
+    "uz": "A, B va D — dizaynerning oʻz rivojlanishi haqidagi maslahatlar, bu holatga tegishli emas."
+   }
+  }
+ ]
+}

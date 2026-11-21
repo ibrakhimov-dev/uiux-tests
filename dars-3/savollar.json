@@ -1,0 +1,812 @@
+{
+ "lesson": 3,
+ "title": {
+  "uz": "Axborot arxitekturasi va navigatsiya",
+  "ru": "Информационная архитектура и навигация",
+  "en": "Information architecture and navigation",
+  "ja": "情報アーキテクチャとナビゲーション"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Axborot arxitekturasi (IA) nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Sahifalarga rang, shrift va rasm tanlab bezash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Maʼlumot va funksiyalarni guruhlash, joylashtirish va nomlash"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ekranlarni bir-biriga ulab, bosiladigan qilish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Saytni dasturlab, internetga joylab sozlash"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "IA ekranda koʻrinmaydi, lekin har bir ekran unga tayanadi."
+   },
+   "others": {
+    "uz": "A — bu vizual dizayn. C — bu prototip. D — bu dasturchining ishi."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "Aysberg misolida suv ustidagi, foydalanuvchi koʻradigan qism nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Navigatsiya: menyu, tugma, havola"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "IA: nima bor va qanday guruhlangan"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Sayt xaritasi: barcha sahifalar chizmasi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Card sorting: kartalar va toʻplar"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Foydalanuvchi faqat navigatsiyani koʻradi; IA suv ostidagi katta qism."
+   },
+   "others": {
+    "uz": "B — IA koʻrinmaydigan qism. C va D — bular dizayn jamoasining ish vositalari, foydalanuvchi ularni koʻrmaydi."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "IA qaysi uchta savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Nima bor? Qaysi tartibda? Qayerga olib boradi?"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Men qayerdaman? Bu yerda nima bor? Keyin qayerga?"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Nima bor? Qanday guruhlangan? Qanday nomlangan?"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Qaysi rang? Qaysi shrift? Qancha boʻshliq?"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "IA — mazmun (content), tuzilma (structure) va nomlar (labels)."
+   },
+   "others": {
+    "uz": "A — mikro IA savollari. B — navigatsiya savollari. D — vizual dizayn savollari."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "Supermarket misolida «bitta tokcha: qaysi mahsulot koʻz darajasida, qaysi biri pastda» nimaga mos?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Axborot arxitekturasi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Sayt xaritasi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Navigatsiya"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Mikro IA"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Doʻkonda IA — qaror, sayt xaritasi — doʻkon rejasi, mikro IA — bitta tokcha, navigatsiya — yoʻl koʻrsatkich."
+   },
+   "others": {
+    "uz": "A — qaysi mahsulot qaysi boʻlimda turishi. B — boʻlimlar qayerda joylashgani. C — tepada osilgan yoʻl koʻrsatkichlar."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "Sayt xaritasi (sitemap) nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bitta sahifa ichidagi bloklar va tugmalar tartibi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Sahifalarning rangli, tayyor dizaynlari toʻplami"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Barcha sahifalar va ularning bogʻlanishini koʻrsatuvchi chizma"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Foydalanuvchi intervyusidan olingan dalillar roʻyxati"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Xarita daraxtga oʻxshaydi: tepada bosh sahifa, ostida boʻlimlar, ichida sahifalar."
+   },
+   "others": {
+    "uz": "A — bu mikro IA. B — bu tayyor dizayn. D — bu loyiha doskasi."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "Texnik (XML) sayt xaritasi kim uchun va uni kim yozadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Dizayn jamoasi uchun, uni dizayner chizadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Qidiruv tizimlari uchun, uni dasturchi yozadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Foydalanuvchilar uchun, uni menejer yozadi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Buyurtmachi uchun, uni dizayner chizadi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "XML xarita Google kabi qidiruv tizimlari uchun sahifalar roʻyxati, SEO uchun kerak."
+   },
+   "others": {
+    "uz": "A — bu vizual (UX) sayt xaritasi. C va D — XML xarita odam uchun emas, qidiruv tizimi uchun."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "Kartalarni saralash (card sorting) va sayt xaritasi qanday bogʻlangan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Saralash «nima qayerda turadi»ni topadi, xarita uni chizadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Xarita «nima qayerda turadi»ni topadi, saralash uni chizadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Ikkalasi bir narsaning ikki xil nomi, farqi yoʻq"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Saralash ranglarni tanlaydi, xarita shriftlarni tanlaydi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Saralash savolga javob beradi, sayt xaritasi shu javobning chizmasi."
+   },
+   "others": {
+    "uz": "B — teskari aytilgan. C — biri usul, biri natija. D — ikkalasi ham rang va shrift bilan ishlamaydi."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "Card sorting qoidasiga koʻra toʻp ichidagi kartalar nimaga aylanadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Menyudagi yozuvga"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Alohida sahifalarga"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Sahifalar tartibiga"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Sahifadagi bloklarga"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Qoidalar: bitta toʻp = bitta sahifa yoki boʻlim, toʻp nomi = menyudagi yozuv, toʻp ichidagi kartalar = sahifadagi bloklar, foydalanuvchi yoʻli = sahifalar tartibi."
+   },
+   "others": {
+    "uz": "A — bu toʻpning nomi. B — bu toʻpning oʻzi. C — bu foydalanuvchi yoʻli."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "Mikro IA qaysi uchta savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Qaysi rang? Qaysi shrift? Qancha boʻshliq?"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Kim uchun? Qachon? Qancha vaqtda?"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Nima bor? Qaysi tartibda? Qayerga olib boradi?"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Nima bor? Qanday guruhlangan? Qanday nomlangan?"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Mikro IA — bitta sahifaning ichki tuzilmasi: bloklar, ularning tartibi va har bir tugma qayerga olib borishi."
+   },
+   "others": {
+    "uz": "A — vizual dizayn savollari. B — tadqiqot savollari. D — butun mahsulot IAʼsining savollari."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Mikro IAʼda bloklar qaysi tartibda joylashadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Eng chiroylisi tepada, oddiyrogʻi pastda"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Eng muhimi tepada, kam ishlatiladigani pastda"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Eng yangisi tepada, eskirogʻi pastda"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Eng kattasi tepada, kichigi pastda"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Tokchadagi kabi: eng koʻp olinadigan mahsulot koʻz darajasida."
+   },
+   "others": {
+    "uz": "A, C va D — tartib chiroy, sana yoki oʻlchamga qarab emas, muhimlikka qarab tuziladi."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "Mikro IA haqida qaysi gap toʻgʻri?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bu oddiy kulrang chizma: faqat tuzilma va yoʻllar"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Bu rangli dizayn: shrift, rasm va chiroyli tugmalar"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bu prototip: tugmalarni bosib koʻrish mumkin"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bu sayt xaritasi: barcha sahifalar orasidagi bogʻlanish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Mikro IA — lo-fi kulrang chizma."
+   },
+   "others": {
+    "uz": "B — mikro IA dizayn emas. C — uni bosib boʻlmaydi. D — sahifalar orasidagi bogʻlanish — makro IA."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "draw.ioʼdagi mikro IA chizmasida koʻk rang nimani bildiradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Holatlarni"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Xatolarni"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Navigatsiyani"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Muhim bloklarni"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Kelishuv: koʻk — navigatsiya, sariq — holatlar."
+   },
+   "others": {
+    "uz": "A — holatlar sariq rangda. B va D — mikro IAʼda bunday rang kelishuvi yoʻq."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "Navigatsiya qoidasiga koʻra sayt xaritasidagi boʻlimlar nimaga aylanadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Kontekstual havolalarga"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Sahifa ichidagi bloklarga"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Holat xabarlariga"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Global menyuga"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Qoida: sayt xaritasidagi boʻlimlar → global menyu, mikro IA bloklari → ichki va kontekstual havolalar."
+   },
+   "others": {
+    "uz": "A va B — ular mikro IAʼdan chiqadi. C — holatlar navigatsiya emas."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "«Matn yoki karta ichida, aynan kerak boʻlgan joyda chiqadigan havola» — navigatsiyaning qaysi turi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Global"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Contextual"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Utility"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Footer"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Contextual — kontent ichidagi havola va CTA."
+   },
+   "others": {
+    "uz": "A — har sahifada bir xil joyda turadigan asosiy menyu. C — hisob, kirish, sozlama. D — sahifa oxiridagi kam ishlatiladigan havolalar."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "«Asosiy maqsad emas, lekin doim kerak: hisob, kirish, sozlama» — navigatsiyaning qaysi turi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Utility"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Local"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Stepper"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Breadcrumb"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Utility — xizmat havolalari."
+   },
+   "others": {
+    "uz": "B — bitta boʻlim ichidagi menyu. C — koʻp qadamli ishda nechanchi qadamda ekanini koʻrsatadi. D — qayerdan kelganini koʻrsatib, qaytaradi."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "One step sayt xaritasida kirgandan keyin qaysi toʻrt boʻlim ochiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bosh sahifa, Reja tanlash, Kirish, Chiqish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Sozlamalar, Til, Parol, Yordam"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bugun, Ertaga, Hafta, Oy"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bugun, Rejam, Progress, Profil"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Tepada Bosh sahifa, undan Reja tanlash, kirgandan keyin toʻrt boʻlim: Bugun, Rejam, Progress, Profil."
+   },
+   "others": {
+    "uz": "A — bular kirishdan oldingi sahifalar. B — bular sozlamalar, boʻlim emas. C — xaritada bunday boʻlimlar yoʻq."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "One stepʼdagi boʻlim uchun qaysi nom IA qoidasiga mos?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Rejam»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Shaxsiy reja boshqaruvi»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Boʻlim 2»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Reja moduli»"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "IAʼning 3-savoli — «qanday nomlangan?». Nom foydalanuvchi tilida, qisqa va tushunarli boʻlishi kerak."
+   },
+   "others": {
+    "uz": "B va D — jamoa atamasi, foydalanuvchi bunday demaydi. C — hech narsani anglatmaydi."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "Card sortingʼda «Reyting» kartasi qaysi toʻpga tushdi va nega?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Kirmaydi»ga: dalilga zid, raqobat kerak emas"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Progress»ga: reyting natijani koʻrsatadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Bugun»ga: reyting har kuni koʻriladi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Profil»ga: reyting shaxsiy maʼlumot"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Tadqiqotda foydalanuvchilar yolgʻiz rivojlanishini, raqobat kerak emasligini aytgan. «Kirmaydi» toʻpi xaritaga tushmaydi."
+   },
+   "others": {
+    "uz": "B, C va D — kartani dalilga zid boʻlsa ham ilovaga qoʻshadi."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "One stepʼdagi AI formada «1/4 → 4/4», «← Orqaga» va «Davom etish» bor. Bu navigatsiyaning qaysi turi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Breadcrumb"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Global"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Stepper"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Footer"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Stepper — koʻp qadamli ishda nechanchi qadamda ekanini koʻrsatadi."
+   },
+   "others": {
+    "uz": "A — qayerdan kelganini koʻrsatadi, masalan «← Tayyor rejalar». B — asosiy menyu. D — sahifa oxiridagi havolalar."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "Sinovda foydalanuvchi «Progress»ni topish uchun uchta boʻlimni ochib chiqdi. Bu qanday muammo va nima qilinadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "UI muammosi: menyu tugmalarini yorqinroq rangga boʻyash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "SEO muammosi: XML sayt xaritasini qaytadan yozish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Prototip muammosi: ekranlarni boshqacha ulab chiqish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "IA muammosi: guruhlash va nomlarni card sorting bilan tekshirish"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Kerakli narsani topolmaslik — yomon IA belgisi: «sutni 10 daqiqa qidirasiz»."
+   },
+   "others": {
+    "uz": "A — rang topishni osonlashtirmaydi. B — XML xarita foydalanuvchi uchun emas. C — muammo ulanishda emas, tuzilmada."
+   }
+  }
+ ]
+}

@@ -1,0 +1,812 @@
+{
+ "lesson": 4,
+ "title": {
+  "uz": "Wireframing asoslari",
+  "ru": "Основы вайрфрейминга",
+  "en": "Wireframing basics",
+  "ja": "ワイヤーフレームの基本"
+ },
+ "minutes": 27,
+ "questions": [
+  {
+   "id": 1,
+   "type": "theory",
+   "q": {
+    "uz": "Wireframe nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Sahifaning skeleti: nima qayerda, qancha joy, qanday ishlaydi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Sahifaning tayyor koʻrinishi: rang, shrift va rasmlar"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Sahifaning kodi: HTML, CSS va JavaScript fayllari"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Sahifalar roʻyxati: sayt xaritasidagi barcha boʻlimlar"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Wireframeʼda rang, shrift, rasm va bezak boʻlmaydi — faqat tuzilma."
+   },
+   "others": {
+    "uz": "B — bu mockup. C — bu dasturchining ishi. D — bu sayt xaritasi."
+   }
+  },
+  {
+   "id": 2,
+   "type": "theory",
+   "q": {
+    "uz": "Wireframeʼning maqsadi nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Jamoa ranglar haqida kelishib olishi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Buyurtmachi chiroyli rasmni tasdiqlashi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Jamoa tuzilma haqida kelishib olishi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Dasturchi darhol kod yozishni boshlashi"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Dizayner, dasturchi va buyurtmachi tuzilma haqida kelishadi, chiroy haqida emas."
+   },
+   "others": {
+    "uz": "A va B — rang va chiroy keyingi bosqichda. D — kod tuzilma kelishilgandan keyin yoziladi."
+   }
+  },
+  {
+   "id": 3,
+   "type": "theory",
+   "q": {
+    "uz": "Wireframe nega kulrang chiziladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Kulrang zamonaviy va chiroyli koʻringani uchun"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Eʼtibor rangga emas, tuzilmaga qaratilishi uchun"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Figmaʼda boshqa rang tanlab boʻlmagani uchun"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Printerda chop etish arzonroq boʻlgani uchun"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Rang boʻlsa, odamlar «tugma koʻk boʻlsin» deb bahslasha boshlaydi."
+   },
+   "others": {
+    "uz": "A — maqsad chiroy emas. C — Figmaʼda istalgan rang bor. D — wireframe ekranda ishlanadi."
+   }
+  },
+  {
+   "id": 4,
+   "type": "theory",
+   "q": {
+    "uz": "Uy chizmasi misoli wireframe haqida nimani koʻrsatadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Gul qogʻozi va mebel rangi birinchi tanlanadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Chizmasiz qurish tezroq va arzonroq boʻladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Chizmani faqat arxitektor tushunishi kerak"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Xatoni chizmada tuzatish oson, qurilgach qimmat"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Devor notoʻgʻri joyda boʻlsa, chizmada oʻchirish oson, qurilgandan keyin buzish qimmat."
+   },
+   "others": {
+    "uz": "A — gul qogʻozi va mebel keyin tanlanadi. B — aksincha, xato qimmatga tushadi. C — chizma butun jamoa kelishishi uchun."
+   }
+  },
+  {
+   "id": 5,
+   "type": "theory",
+   "q": {
+    "uz": "Mockup qaysi savolga javob beradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "«Nima bor?»"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "«Qayerda va qancha katta?»"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "«Qanday koʻrinadi?»"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "«Qanday ishlaydi?»"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Mockup — rangli maket: wireframe + rang, shrift, rasm."
+   },
+   "others": {
+    "uz": "A — mikro IA savoli. B — wireframe savoli. D — prototip savoli."
+   }
+  },
+  {
+   "id": 6,
+   "type": "theory",
+   "q": {
+    "uz": "Qaysi bosqichda «oʻlcham va joy bor, rang va rasm yoʻq, bosib boʻlmaydi»?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Wireframe"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Mikro IA"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Mockup"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Prototip"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Wireframe — shu bloklar haqiqiy oʻlchamda, kulrang."
+   },
+   "others": {
+    "uz": "B — oʻlcham va joy ham yoʻq. C — rang va rasm bor. D — bosib koʻrish mumkin."
+   }
+  },
+  {
+   "id": 7,
+   "type": "theory",
+   "q": {
+    "uz": "Mid-fi wireframe qanday koʻrinadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Qutilar, chiziqlar va X belgili rasm joyi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Kulrang, haqiqiy oʻlcham va haqiqiy matn"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Rang, shrift, ikonka va haqiqiy rasm"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Faqat sahifalar nomlari roʻyxati"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Mid-fi Figmaʼda grid, auto layout va komponent bilan chiziladi."
+   },
+   "others": {
+    "uz": "A — bu lo-fi. C — bu hi-fi. D — bu sayt xaritasiga yaqin."
+   }
+  },
+  {
+   "id": 8,
+   "type": "theory",
+   "q": {
+    "uz": "Lo-fi qachon ishlatiladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Gʻoyalarni koʻp va tez sinash uchun"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Tuzilmani jamoa bilan kelishish uchun"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Tuzilma kelishilgandan keyin bezash uchun"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Kod yozishdan oldingi oxirgi tekshiruv uchun"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Lo-fi — tez va arzon: qogʻoz, doska yoki Excalidrawʼda 5–10 daqiqa."
+   },
+   "others": {
+    "uz": "B — bu mid-fi. C — bu hi-fi. D — darsda bunday bosqich yoʻq."
+   }
+  },
+  {
+   "id": 9,
+   "type": "theory",
+   "q": {
+    "uz": "Darsda desktop va telefon uchun qanday grid ishlatilgan?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Desktop 4 ustun, telefon 12 ustun"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Desktop 8 ustun, telefon 2 ustun"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Desktop 12 ustun, telefon 4 ustun"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Desktop 16 ustun, telefon 6 ustun"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Desktop 1440 px — 12 ustun, telefon 390 px — 4 ustun, planshet — 8 ustun."
+   },
+   "others": {
+    "uz": "A — teskari aytilgan. B va D — darsda bunday grid yoʻq."
+   }
+  },
+  {
+   "id": 10,
+   "type": "theory",
+   "q": {
+    "uz": "Wireframeʼda nega «Lorem ipsum» emas, haqiqiy matn yoziladi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Lorem ipsum Figmaʼda ishlamaydi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Haqiqiy matn chiroyliroq koʻrinadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Buyurtmachi lotin tilini bilmaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Matn sigʻmaganini faqat haqiqiy matn koʻrsatadi"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Haqiqiy matn bilan blok oʻlchami toʻgʻri tanlanadi."
+   },
+   "others": {
+    "uz": "A — ishlaydi, sabab texnik emas. B — maqsad chiroy emas. C — muammo tushunishda emas, sigʻishda."
+   }
+  },
+  {
+   "id": 11,
+   "type": "theory",
+   "q": {
+    "uz": "Wireflow nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Wireframeʼning rangli versiyasi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Wireframe + flowchart: ekranlar orasidagi strelkalar"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Saytdagi barcha sahifalar roʻyxati"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Ekran almashishidagi animatsiya turi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Wireflow qaysi tugma qaysi ekranga olib borishini koʻrsatadi; Figmaʼda u prototip ulanishiga aylanadi."
+   },
+   "others": {
+    "uz": "A — bu mockup. C — bu sayt xaritasi. D — animatsiya prototipda tanlanadi."
+   }
+  },
+  {
+   "id": 12,
+   "type": "theory",
+   "q": {
+    "uz": "Darsdagi jadvalga koʻra qaysi vositani oʻrganish shart emas va nega?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Adobe XD: endi yangilanmaydi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Figma: faqat Mac uchun ishlaydi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Penpot: pullik va yopiq kodli"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Balsamiq: faqat hi-fi dizayn qiladi"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Adobe XD yangilanmaydi, faqat xato tuzatiladi. Sketch esa faqat Mac uchun."
+   },
+   "others": {
+    "uz": "B — Figma brauzer, Windows va Macʼda ishlaydi. C — Penpot bepul va ochiq kodli. D — Balsamiq faqat lo-fi uchun."
+   }
+  },
+  {
+   "id": 13,
+   "type": "theory",
+   "q": {
+    "uz": "Figmaʼda «fayl ichidagi varaqlar: Desktop, Mobile» qaysi tushuncha?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Frame"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Page"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Layer"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "File"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Page — fayl ichidagi varaqlar."
+   },
+   "others": {
+    "uz": "A — ekran: 1440 px desktop, 390 px telefon. C — har bir element, chap panelda roʻyxat. D — loyiha fayli."
+   }
+  },
+  {
+   "id": 14,
+   "type": "theory",
+   "q": {
+    "uz": "Figmaʼda binafsha ◆ belgisi bilan koʻrsatiladigan, qayta ishlatiladigan element nima?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Frame"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Auto layout"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Layout guide"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Component"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Component — bir marta yasaladi, keyin hamma joyda qayta ishlatiladi."
+   },
+   "others": {
+    "uz": "A — ekran ramkasi. B — ichki boʻshliqlarni avtomatik qiladi. C — ustunlar (grid)."
+   }
+  },
+  {
+   "id": 15,
+   "type": "theory",
+   "q": {
+    "uz": "Wireframeʼning 8 qadamida birinchi ikki qadam qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "User flow va asosiy ekranlar"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Ramka va grid, tartib va ierarxiya"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Wireflow va taqdim etib fikr olish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Tanish naqshlar va haqiqiy matn"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "1–2 — nima va nega (IA), 3–6 — qayerda va qanday (wireframe), 7–8 — qanday ishlaydi va toʻgʻrimi."
+   },
+   "others": {
+    "uz": "B — 3–4-qadamlar. C — 7–8-qadamlar. D — 5–6-qadamlar."
+   }
+  },
+  {
+   "id": 16,
+   "type": "practice",
+   "q": {
+    "uz": "«Bugun» sahifasining desktop wireframeʼida bugungi qadam bloki qanday joylashadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Eng kichik (2 ustun) va sahifa pastida"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Eng katta (8 ustun) va koʻzga tashlanadigan joyda"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Boshqa bloklar bilan bir xil oʻlchamda"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Alohida sahifada, menyu orqali ochiladi"
+     }
+    }
+   ],
+   "answer": "B",
+   "why": {
+    "uz": "Tartib qoidasi: muhimlik → joy va kattalik. Bugungi qadam — eng muhim blok."
+   },
+   "others": {
+    "uz": "A — muhim blok pastda yoʻqoladi. C — ierarxiya yoʻqoladi. D — asosiy maqsad yashirinib qoladi."
+   }
+  },
+  {
+   "id": 17,
+   "type": "practice",
+   "q": {
+    "uz": "«Bugun» sahifasi telefon wireframeʼida qanday oʻzgaradi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Bloklar yonma-yon qoladi, menyu tepada turadi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Bloklarning yarmi olib tashlanadi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Bloklarning mazmuni qisqartiriladi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bloklar ustma-ust turadi, menyu pastga tushadi"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Desktopʼda yonma-yon, telefonda ustma-ust. Tartib oʻzgaradi, mazmun oʻzgarmaydi."
+   },
+   "others": {
+    "uz": "A — 390 px ekranga sigʻmaydi. B va C — mazmun ekran oʻlchamiga qarab oʻzgarmaydi."
+   }
+  },
+  {
+   "id": 18,
+   "type": "practice",
+   "q": {
+    "uz": "One step wireframeʼini koʻrib chiqishda jamoa «tugma koʻk boʻlsinmi, yashilmi?» deb bahslashib qoldi. Nima qilish kerak?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Ovozga qoʻyib, tugma rangini hozir tanlash"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Har bir rang uchun alohida wireframe chizish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Kulrangga qaytib, muhokamani tuzilmaga qaratish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Bahsni tugatish uchun wireframeʼni oʻchirish"
+     }
+    }
+   ],
+   "answer": "C",
+   "why": {
+    "uz": "Wireframe kulrang boʻladi, shunda eʼtibor tuzilmaga qaratiladi."
+   },
+   "others": {
+    "uz": "A va B — rang bahsini chuqurlashtiradi, tuzilma tekshirilmay qoladi. D — ish yoʻqoladi."
+   }
+  },
+  {
+   "id": 19,
+   "type": "practice",
+   "q": {
+    "uz": "One stepʼning koʻp sahifasida bir xil «Boshlash» tugmasi bor, uning shaklini oʻzgartirish kerak. Eng toʻgʻri yoʻl qaysi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Tugmani komponent qilib, bir joyda oʻzgartirish"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Har bir sahifada tugmani qoʻlda oʻzgartirish"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Har bir sahifa uchun yangi tugma chizish"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Tugmani faqat bosh sahifada oʻzgartirish"
+     }
+    }
+   ],
+   "answer": "A",
+   "why": {
+    "uz": "Komponent bir joyda oʻzgarsa, hamma nusxasi oʻzgaradi (Button / Primary)."
+   },
+   "others": {
+    "uz": "B va C — sekin va biror sahifa esdan chiqishi mumkin. D — boshqa sahifalarda eski tugma qoladi."
+   }
+  },
+  {
+   "id": 20,
+   "type": "practice",
+   "q": {
+    "uz": "Mikro IAʼdagi «Butun rejani koʻrish → 09 Rejam» koʻk strelkasi Figmaʼda nimaga aylanadi?"
+   },
+   "options": [
+    {
+     "key": "A",
+     "text": {
+      "uz": "Rangli chiziqqa: bezak sifatida qoladi"
+     }
+    },
+    {
+     "key": "B",
+     "text": {
+      "uz": "Izohga: dasturchi uchun yozib qoʻyiladi"
+     }
+    },
+    {
+     "key": "C",
+     "text": {
+      "uz": "Hech nimaga: wireframeʼda strelka boʻlmaydi"
+     }
+    },
+    {
+     "key": "D",
+     "text": {
+      "uz": "Prototip ulanishiga: On click → Navigate to «09 Rejam»"
+     }
+    }
+   ],
+   "answer": "D",
+   "why": {
+    "uz": "Mikro IAʼdagi koʻk strelka Figmaʼda bosiladigan ulanish boʻladi."
+   },
+   "others": {
+    "uz": "A va B — strelka bezak yoki izoh emas, navigatsiya. C — wireflowʼda strelkalar aynan bor."
+   }
+  }
+ ]
+}

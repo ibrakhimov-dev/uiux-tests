@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="uz" data-base="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Documentation · UI/UX testlar · Ibrakhimov Dev</title>
+<meta name="description" content="Saytdagi har bir dizayn qarori kursning qaysi darsidagi tamoyildan chiqqani.">
+<meta name="theme-color" content="#0E0B17">
+<link rel="icon" href="assets/img/mark.svg" type="image/svg+xml">
+<link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var th=JSON.parse(localStorage.getItem('uiux:theme'));if(th)document.documentElement.setAttribute('data-theme',th)}catch(e){}</script>
+</head>
+<body data-page="docs">
+<header id="site-header"></header>
+<main id="main" class="container section">
+  <h1 class="display" data-t="docs.title"></h1>
+  <p class="lead" style="margin-top:12px;max-width:720px" data-t="docs.lead"></p>
+  <div class="notice" id="tr-note" hidden><svg viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M9 8v4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="5.6" r="1" fill="currentColor"/></svg><span data-t="docs.trNote"></span></div>
+
+  <div class="docs" style="margin-top:32px">
+    <nav class="toc card" style="padding:12px" aria-label="Mundarija">
+      <div class="caption" style="padding:6px 12px" data-t="docs.toc"></div>
+      <a href="#dars-1">1 · UI/UX va dizayn</a>
+      <a href="#dars-2">2 · UCD va tadqiqot</a>
+      <a href="#dars-3">3 · IA va navigatsiya</a>
+      <a href="#dars-4">4 · Wireframe</a>
+      <a href="#dars-5">5 · Prototip</a>
+      <a href="#dars-6">6 · Vizual dizayn</a>
+      <a href="#dars-7">7 · Oʻzaro taʼsir</a>
+    </nav>
+
+    <div style="display:grid;gap:16px" lang="uz">
+      <section class="card doc-sec" id="dars-1">
+        <span class="chip chip-brand">1-dars</span>
+        <h2 class="h2" style="margin-top:12px">Dizayn — maqsad bilan qilingan qaror</h2>
+        <p class="intro">Saytning maqsadi bitta: talaba testni tez, xatosiz va xotirjam topshirsin, oʻqituvchi esa natijani oʻzi yigʻmasin.</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">UX — maqsadga oson yetish</span><span class="de">Bosh sahifadan testgacha 3 qadam: dars kartasi → ism, familiya, ID → «Boshlash». Roʻyxatdan oʻtish, parol yoʻq — $300 mln tugma saboqi.</span></div>
+          <div class="decision"><span class="th">UI — 6 qism</span><span class="de">Vizual dizayn, ranglar, tipografiya, joylashuv, grafik elementlar (ikonkalar), interaktiv elementlar (tugma, variant, holatlar) — hammasi bitta tizimda, Figma komponentlaridan.</span></div>
+          <div class="decision"><span class="th">Foydalanuvchi adashsa — dizayn aybdor</span><span class="de">Har ekranda keyingi harakat bitta va aniq: asosiy tugma binafsha, ikkinchi darajali tugma chegarali.</span></div>
+          <div class="decision"><span class="th">Hamma uchun ochiq (accessibility)</span><span class="de">Matn kontrasti kamida 4.5:1, klaviatura bilan toʻliq ishlaydi, fokus halqasi koʻrinadi, «harakatni kamaytirish» sozlamasi hurmat qilinadi.</span></div>
+        </div>
+      </section>
+
+      <section class="card doc-sec" id="dars-2">
+        <span class="chip chip-brand">2-dars</span>
+        <h2 class="h2" style="margin-top:12px">Dalil → qaror</h2>
+        <p class="intro">Persona: talaba, dars oxirida, telefonda, cheklangan vaqtda va hayajonda; internet baʼzan sust. Har bir qaror shu dalillardan chiqdi.</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">Dalil: telefondan topshiriladi</span><span class="de">Qaror: avval mobil (390 px) dizayn, katta bosiladigan maydonlar (kamida 44 px), pastki panelda «Oldingi · Xarita · Keyingi».</span></div>
+          <div class="decision"><span class="th">Dalil: internet baʼzan uziladi</span><span class="de">Qaror: javoblar har tanlovda qurilmada saqlanadi; natija yuborilmasa, navbatda turadi va internet qaytganda oʻzi qayta yuboriladi.</span></div>
+          <div class="decision"><span class="th">Dalil: vaqt cheklangan va hayajon bor</span><span class="de">Qaror: taymer doim koʻrinadi; 5 daqiqa qolganda rang oʻzgaradi, 1 daqiqada yumshoq puls.</span></div>
+          <div class="decision"><span class="th">Iteratsiya</span><span class="de">Har dars uchun savollar Notion sahifasidan tuziladi, oʻqituvchi tasdiqlaydi, keyin saytga qoʻshiladi — doira har darsda qayta aylanadi.</span></div>
+        </div>
+      </section>
+
+      <section class="card doc-sec" id="dars-3">
+        <span class="chip chip-brand">3-dars</span>
+        <h2 class="h2" style="margin-top:12px">Sayt xaritasi va navigatsiya</h2>
+        <p class="intro">Makro IA: Testlar (bosh sahifa) → Dars testi (kirish → savollar → natija → tahlil) va Documentation.</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">Global navigatsiya</span><span class="de">Header: Testlar · Documentation — har sahifada bir xil joyda.</span></div>
+          <div class="decision"><span class="th">Utility</span><span class="de">Til tanlash (UZ, RU, EN, JA) va rejim tugmasi — asosiy maqsad emas, lekin doim kerak.</span></div>
+          <div class="decision"><span class="th">Breadcrumb va stepper</span><span class="de">«Testlar › 7-dars › Natija» — qayerdaligingiz; «Savol 4 / 20» va 20 boʻlakli chiziq — jarayondagi joyingiz.</span></div>
+          <div class="decision"><span class="th">Kontekstual havola</span><span class="de">Tahlildagi «Saytda qanday qoʻllangan → Documentation» — aynan kerakli joyda chiqadi.</span></div>
+          <div class="decision"><span class="th">Mikro IA tartibi</span><span class="de">Savol ekranida eng muhimi tepada: savol raqami va turi → savol → variantlar → navigatsiya.</span></div>
+        </div>
+      </section>
+
+      <section class="card doc-sec" id="dars-4">
+        <span class="chip chip-brand">4-dars</span>
+        <h2 class="h2" style="margin-top:12px">Wireframe: qayerda va qancha katta</h2>
+        <p class="intro">Avval kulrang wireframe chizildi (mobil, planshet, desktop), tuzilma kelishilgach rang qoʻshildi.</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">Grid</span><span class="de">Telefon — 4 ustun, desktop — 12 ustun: savol kartasi 8 ustun, yon panel (taymer va xarita) 4 ustun.</span></div>
+          <div class="decision"><span class="th">Responsive</span><span class="de">Desktopda yonma-yon, telefonda ustma-ust; savollar xaritasi telefonda pastdan chiqadigan oynaga oʻtadi. Mazmun oʻzgarmaydi.</span></div>
+          <div class="decision"><span class="th">Komponentlar</span><span class="de">Tugma, javob varianti, maydon, taymer, xarita katagi, chip, dars kartasi — bir marta yasalib, hamma ekranda qayta ishlatiladi.</span></div>
+        </div>
+      </section>
+
+      <section class="card doc-sec" id="dars-5">
+        <span class="chip chip-brand">5-dars</span>
+        <h2 class="h2" style="margin-top:12px">Prototip tamoyillari</h2>
+        <p class="intro">Figma prototipida 5 ta oqim sinaldi: asosiy oqim, chiqib ketish, yorugʻ rejim, desktop va desktop (yorugʻ).</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">Haqiqiy matn va holatlar</span><span class="de">Javobsiz savollar oynasi, «Vaqt tugadi», internet yoʻqligi, «Siz testdan chiqdingiz» — har biri alohida ekran sifatida loyihalangan.</span></div>
+          <div class="decision"><span class="th">Yoʻl ochiq boʻlsin</span><span class="de">Har savoldan «Oldingi», xarita va «Testni yakunlash» bor; yakunlashgacha istalgan javobni oʻzgartirish mumkin.</span></div>
+          <div class="decision"><span class="th">Overlay</span><span class="de">Boshlash tasdigʻi, yakunlash tasdigʻi va savollar xaritasi — joriy ekranni yopmaydigan oynalar.</span></div>
+        </div>
+      </section>
+
+      <section class="card doc-sec" id="dars-6">
+        <span class="chip chip-brand">6-dars</span>
+        <h2 class="h2" style="margin-top:12px">Elementlar va tamoyillar</h2>
+        <p class="intro">Rang — Ibrakhimov Dev brendi: binafsha #8C52FF, koʻk #5271FF, uchqun #FF7A59. Tugma foni #7745DC: oq matn bilan kontrast 5.7:1.</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">Ierarxiya va dominantlik</span><span class="de">Savol matni — ekrandagi eng katta matn (26 px), u sahifaning «bosh qahramoni»; yordamchi matn 13 px kulrang.</span></div>
+          <div class="decision"><span class="th">Kontrast</span><span class="de">Tanlangan variant — binafsha chegara va fon; toʻgʻri — yashil, xato — qizil, har doim ✓ yoki ✕ belgisi bilan (maʼno faqat rangda emas).</span></div>
+          <div class="decision"><span class="th">Yaqinlik va tekislash</span><span class="de">Savol va variantlar bitta kartada; boʻshliqlar faqat shkaladan: 4 / 8 / 12 / 16 / 20 / 24 / 32 px; hammasi gridga tekislangan.</span></div>
+          <div class="decision"><span class="th">Izchillik</span><span class="de">Bitta shrift oilasi (Inter), bir xil burchaklar (tugma 12, karta 20 px), barcha tugmalar bitta komponentdan.</span></div>
+          <div class="decision"><span class="th">Qorongʻu va yorugʻ rejim</span><span class="de">Standart — qorongʻu; ranglar tokenlar orqali ikkala rejimga moslangan, tanlov eslab qolinadi.</span></div>
+        </div>
+      </section>
+
+      <section class="card doc-sec" id="dars-7">
+        <span class="chip chip-brand">7-dars</span>
+        <h2 class="h2" style="margin-top:12px">Oʻzaro taʼsir dizayni</h2>
+        <p class="intro">Har bir bosishga javob, har bir harakat uchun aniq holat, xato boʻlsa — qaytarish imkoni.</p>
+        <div class="decisions">
+          <div class="decision"><span class="th">4 savol</span><span class="de">Qayerdaman? — «Savol 4 / 20» va chiziq. Nima boʻldi? — «✓ Saqlandi». Nima boʻlyapti? — «Natija yuborilmoqda…». Keyin nima? — tugmada aniq soʻz: «Keyingi», «Testni yakunlash».</span></div>
+          <div class="decision"><span class="th">Feedback va mikro-interaksiya</span><span class="de">Variant tanlash: trigger — bosish yoki 1–4 tugmasi; qoida — javob saqlanadi; feedback — chegara, ✓ va «Saqlandi»; takror — oxirgi savolda tugma «Testni yakunlash»ga aylanadi.</span></div>
+          <div class="decision"><span class="th">Xatoning oldini olish</span><span class="de">«Davom etish» maydonlar toʻgʻri boʻlmaguncha oʻchiq; javobsiz savollar boʻlsa, yakunlashdan oldin roʻyxati koʻrsatiladi.</span></div>
+          <div class="decision"><span class="th">Nazorat va izchillik</span><span class="de">Yakunlashgacha har qanday javob oʻzgartiriladi; har savolda tugmalar bir xil joyda; barcha xabarlar pastdan chiqadi va 4 soniyada yoʻqoladi.</span></div>
+          <div class="decision"><span class="th">Holatlar va vaqt</span><span class="de">Tugmalarda default, hover, pressed, focus, disabled, loading holatlari; kichik oʻzgarishlar 150 ms, oynalar 250 ms.</span></div>
+          <div class="decision"><span class="th">Aldab boshqarish yoʻq</span><span class="de">Boshqa oynaga oʻtish yashirincha emas, ochiq aytiladi: test boshida ogohlantiriladi, qaytganda xabar chiqadi, natijada «Chiqishlar: N» koʻrinadi.</span></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/common.js"></script>
+<script>
+  function trNote(){ document.getElementById('tr-note').hidden = App.lang === 'uz'; }
+  trNote(); document.addEventListener('langchange', trNote);
+</script>
+</body>
+</html>
