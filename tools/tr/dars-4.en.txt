@@ -1,0 +1,160 @@
+@1
+Q: What is a wireframe?
+A: The page's skeleton: what goes where, how much space, how it works
+B: The page's finished look: colors, fonts and images
+C: The page's code: HTML, CSS and JavaScript files
+D: A list of pages: all the sections in the sitemap
+W: A wireframe has no color, fonts, images or decoration — only structure.
+O: B is a mockup. C is the developer's job. D is the sitemap.
+@2
+Q: What is the purpose of a wireframe?
+A: For the team to agree on colors
+B: For the client to approve a nice picture
+C: For the team to agree on the structure
+D: For the developer to start coding right away
+W: The designer, developer and client agree on the structure, not on the looks.
+O: A and B: color and looks come at a later stage. D: code is written after the structure is agreed.
+@3
+Q: Why is a wireframe drawn in gray?
+A: Because gray looks modern and beautiful
+B: So attention goes to structure, not color
+C: Because Figma doesn't allow other colors
+D: Because it's cheaper to print
+W: With color, people start arguing "make the button blue".
+O: A: the goal isn't beauty. C: Figma has every color. D: wireframes are made on screen.
+@4
+Q: What does the house blueprint example show about wireframes?
+A: Wallpaper and furniture color are chosen first
+B: Building without a blueprint is faster and cheaper
+C: Only the architect needs to understand the blueprint
+D: A mistake is easy to fix on the blueprint, costly once built
+W: If a wall is in the wrong place, it's easy to erase on the blueprint and costly to tear down once built.
+O: A: wallpaper and furniture are chosen later. B: the opposite — mistakes become expensive. C: the blueprint is for the whole team to agree on.
+@5
+Q: Which question does a mockup answer?
+A: "What's there?"
+B: "Where, and how big?"
+C: "How does it look?"
+D: "How does it work?"
+W: A mockup is a colored layout: wireframe + color, fonts, images.
+O: A is a micro IA question. B is a wireframe question. D is a prototype question.
+@6
+Q: At which stage are there "size and placement, but no color or images, and nothing is clickable"?
+A: Wireframe
+B: Micro IA
+C: Mockup
+D: Prototype
+W: A wireframe is those same blocks at real size, in gray.
+O: B: there's no size or placement either. C: it has color and images. D: you can click it.
+@7
+Q: What does a mid-fi wireframe look like?
+A: Boxes, lines and image placeholders marked with an X
+B: Gray, at real size, with real text
+C: Color, fonts, icons and real images
+D: Just a list of page names
+W: Mid-fi is drawn in Figma with a grid, auto layout and components.
+O: A is lo-fi. C is hi-fi. D is close to a sitemap.
+@8
+Q: When is lo-fi used?
+A: To test many ideas quickly
+B: To agree on structure with the team
+C: To decorate after the structure is agreed
+D: As the last check before writing code
+W: Lo-fi is fast and cheap: 5–10 minutes on paper, a whiteboard or Excalidraw.
+O: B is mid-fi. C is hi-fi. D: the lesson has no such stage.
+@9
+Q: Which grids were used in the lesson for desktop and phone?
+A: Desktop 4 columns, phone 12 columns
+B: Desktop 8 columns, phone 2 columns
+C: Desktop 12 columns, phone 4 columns
+D: Desktop 16 columns, phone 6 columns
+W: Desktop 1440 px — 12 columns, phone 390 px — 4 columns, tablet — 8 columns.
+O: A is stated backwards. B and D: the lesson has no such grids.
+@10
+Q: Why do wireframes use real text instead of "Lorem ipsum"?
+A: Lorem ipsum doesn't work in Figma
+B: Real text looks more beautiful
+C: The client doesn't know Latin
+D: Only real text shows when it doesn't fit
+W: With real text, block sizes are chosen correctly.
+O: A: it works; the reason isn't technical. B: the goal isn't beauty. C: the issue is fitting, not understanding.
+@11
+Q: What is a wireflow?
+A: A colored version of a wireframe
+B: Wireframe + flowchart: arrows between screens
+C: A list of all the pages on a site
+D: A type of animation for screen transitions
+W: A wireflow shows which button leads to which screen; in Figma it becomes a prototype connection.
+O: A is a mockup. C is the sitemap. D: animation is chosen in the prototype.
+@12
+Q: According to the table in the lesson, which tool isn't worth learning, and why?
+A: Adobe XD: it's no longer updated
+B: Figma: it only works on Mac
+C: Penpot: it's paid and closed-source
+D: Balsamiq: it only does hi-fi design
+W: Adobe XD gets no updates, only bug fixes. Sketch, in turn, is Mac-only.
+O: B: Figma works in the browser, on Windows and Mac. C: Penpot is free and open-source. D: Balsamiq is for lo-fi only.
+@13
+Q: In Figma, which concept is "the sheets inside a file: Desktop, Mobile"?
+A: Frame
+B: Page
+C: Layer
+D: File
+W: Pages are the sheets inside a file.
+O: A is a screen: 1440 px desktop, 390 px phone. C is each element, listed in the left panel. D is the project file.
+@14
+Q: In Figma, what is the reusable element marked with a purple ◆ icon?
+A: Frame
+B: Auto layout
+C: Layout guide
+D: Component
+W: A component is built once and then reused everywhere.
+O: A is a screen frame. B makes inner spacing automatic. C is columns (grid).
+@15
+Q: What are the first two of the 8 wireframe steps?
+A: User flow and key screens
+B: Frame and grid, order and hierarchy
+C: Wireflow, and presenting for feedback
+D: Familiar patterns and real text
+W: 1–2 — what and why (IA), 3–6 — where and how (wireframe), 7–8 — how it works and whether it's right.
+O: B are steps 3–4. C are steps 7–8. D are steps 5–6.
+@16
+Q: In the desktop wireframe of the "Today" page, how is today's step block placed?
+A: Smallest (2 columns) and at the bottom of the page
+B: Largest (8 columns) and in an eye-catching spot
+C: The same size as the other blocks
+D: On a separate page, opened from the menu
+W: The order rule: importance → place and size. Today's step is the most important block.
+O: A: the important block gets lost at the bottom. C: the hierarchy is lost. D: the main goal gets hidden.
+@17
+Q: How does the "Today" page change in the phone wireframe?
+A: Blocks stay side by side, the menu stays on top
+B: Half of the blocks are removed
+C: The blocks' content is shortened
+D: Blocks stack vertically, the menu moves to the bottom
+W: Side by side on desktop, stacked on the phone. The order changes; the content doesn't.
+O: A doesn't fit on a 390 px screen. B and C: content doesn't change with screen size.
+@18
+Q: While reviewing the One step wireframe, the team started arguing "should the button be blue or green?". What should be done?
+A: Vote and choose the button color now
+B: Draw a separate wireframe for each color
+C: Go back to gray and focus the discussion on structure
+D: Delete the wireframe to end the argument
+W: A wireframe is gray so attention goes to structure.
+O: A and B deepen the color debate, and the structure goes unchecked. D: the work is lost.
+@19
+Q: Many One step pages have the same "Start" button, and its shape needs changing. What's the best way?
+A: Make it a component and change it in one place
+B: Change the button by hand on every page
+C: Draw a new button for every page
+D: Change the button only on the home page
+W: When a component changes in one place, all its copies change (Button / Primary).
+O: B and C are slow, and a page may be forgotten. D: other pages keep the old button.
+@20
+Q: In Figma, what does the blue arrow "See the whole plan → 09 My plan" from the micro IA become?
+A: A colored line: it stays as decoration
+B: A note: written down for the developer
+C: Nothing: wireframes have no arrows
+D: A prototype connection: On click → Navigate to "09 My plan"
+W: A blue arrow in micro IA becomes a clickable connection in Figma.
+O: A and B: the arrow isn't decoration or a note, it's navigation. C: a wireflow has exactly these arrows.

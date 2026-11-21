@@ -1,0 +1,160 @@
+@1
+Q: According to the lesson's definition, what is interaction?
+A: One side constantly giving commands to the other
+B: Two sides acting on each other and getting responses
+C: Elements on the screen moving beautifully
+D: The user opening the app and looking once
+W: It's like a conversation: a question, an answer, the next question.
+O: A: there's no response, so it isn't a conversation. C is only animation. D: a single action isn't a conversation.
+@2
+Q: "Something you've seen once is remembered and works the same everywhere" — which IxD principle is this?
+A: Feedback
+B: Signifier
+C: Learnability
+D: Control and Undo
+W: Learnability. One step: the step types M, OD, Y, ₪ are the same on every page.
+O: A is an immediate response to an action. B is a "you can tap this" sign. D is the ability to go back.
+@3
+Q: What is interaction design (IxD)?
+A: Choosing the product's colors and fonts
+B: Grouping and naming the product's pages
+C: Designing the conversation between user and product
+D: Writing and testing the product's code
+W: What the user does, how the product responds, and what the user understands from that response.
+O: A is visual design. B is information architecture. D is the developer's job.
+@4
+Q: Which question do visual design and interaction design answer?
+A: Visual: "how does the button look?"; IxD: "what happens if I tap?"
+B: Visual: "what happens if I tap?"; IxD: "how does the button look?"
+C: Visual: "where is the button?"; IxD: "how big is the button?"
+D: Visual: "who is the user?"; IxD: "what do they do?"
+W: IxD: what happens if I tap the button, how do I know it, what happens if I make a mistake.
+O: B is stated backwards. C are wireframe questions. D are persona and scenario questions.
+@5
+Q: When an elevator button is pressed, the number "5" lights up. Which type of interaction is this?
+A: Indirect
+B: Direct
+C: Touchless
+D: Deceptive control
+W: Indirect means through an intermediary: the action happens in one place, the result in another.
+O: B: you touch and hold, and the result is exactly where you touched. C: the system senses or speaks by itself. D isn't a type of interaction but a bad practice.
+@6
+Q: Hiding the cancel-subscription button where it can't be found — what is this?
+A: Error prevention
+B: Consistency
+C: Deceptive control (dark pattern)
+D: Signifier
+W: The One step rule: we don't scare, deceive or scold — we only help.
+O: A protects the user from mistakes and doesn't deceive. B is about sameness. D does the opposite — it makes the button visible.
+@7
+Q: "A small celebration at the moment of completion brings people back tomorrow." For which reason is interaction design needed?
+A: Trust
+B: Protection from mistakes
+C: Professional look
+D: Motivation
+W: A small celebration like "5 days in a row!" is the whole idea of One step.
+O: A is about whether there's a response. B is about Undo. C is about looking alive or frozen.
+@8
+Q: Which is the 5th dimension of interaction design (added by Kevin Silver)?
+A: 1D — Words
+B: 2D — Visual representations
+C: 4D — Time
+D: 5D — Behavior
+W: Dimensions 1–4 are Gillian Crampton Smith's; the 5th is Kevin Silver's.
+O: A, B and C are among Crampton Smith's original four dimensions.
+@9
+Q: Which dimension do animation, waiting and timers belong to?
+A: 1D — Words
+B: 4D — Time
+C: 3D — Physical objects and space
+D: 2D — Visual representations
+W: The time dimension shows what is happening.
+O: A is the text on buttons and messages. C is the device, the hand and the space. D is color, icons, typography.
+@10
+Q: What are the 4 questions every interface answers?
+A: Who am I? What's needed? How much? Who made it?
+B: Which color? Which font? How much space? Which icon?
+C: Where am I? What happened? What's happening? What's next?
+D: What's there? What order? Where does it lead? For whom?
+W: At every moment, the user should find the answers to these four questions on the screen.
+O: A aren't interface questions. B are visual design decisions. D are similar to micro IA questions.
+@11
+Q: "Its look tells you what it does: a button looks like a button, a link like a link" — which principle is this?
+A: Signifier
+B: Feedback
+C: Consistency
+D: Control and Undo
+W: A signifier is a "you can tap this" sign. One step: "Start" is a big yellow button, "Another step" is a link.
+O: B is an immediate response to an action. C: the same action gives the same result everywhere. D is the ability to go back.
+@12
+Q: What does the "error prevention" principle require?
+A: Warn the user after the mistake happens
+B: Make the mistake impossible or ask for confirmation
+C: Close the app immediately if there's an error
+D: Never show any error messages at all
+W: One step: the button stays inactive until the email is valid; "Switch to another plan" asks for confirmation.
+O: A comes after the mistake, so it isn't prevention. C and D leave the user without a way forward.
+@13
+Q: In what order do the parts of a micro-interaction (Dan Saffer) go?
+A: Feedback → Trigger → Rules → Loops and modes
+B: Rules → Feedback → Trigger → Loops and modes
+C: Trigger → Feedback → Loops and modes → Rules
+D: Trigger → Rules → Feedback → Loops and modes
+W: What starts it → what happens → how the user sees it → what changes next time. Without feedback, the other three stay invisible.
+O: A, B and C: without a starter or rules, there can be no response.
+@14
+Q: Which state is an element in when it's selected with Tab on the keyboard?
+A: Focus
+B: Hover
+C: Pressed
+D: Disabled
+W: Focus is the state when selected with Tab, and it's mandatory.
+O: B: the mouse is over it. C: the moment it's pressed. D: it doesn't work right now.
+@15
+Q: How long is right for a screen transition or a confirmation message to appear?
+A: 100–200 ms
+B: 200–400 ms
+C: 500–1000 ms
+D: 1500–2000 ms
+W: 100–200 ms for small changes (hover, ✓), 200–400 ms for screen transitions and messages; over 500 ms, the user is left waiting.
+O: A is for small changes. C and D leave the user waiting.
+@16
+Q: On the "Today" page, "Done" was tapped, but nothing changed on screen and the user tapped again. Which principle is broken?
+A: Signifier
+B: Consistency
+C: Learnability
+D: Feedback
+W: Every action needs an immediate response: a ✓ appears and the counter becomes "4 → 5 days".
+O: A: the user found the button and tapped it. B isn't about sameness. C isn't about remembering.
+@17
+Q: The user tapped "Done" by mistake. Which solution is right in One step?
+A: Give an "Undo" link in the message
+B: Make the button smaller and paler
+C: Ask for a password before every tap
+D: Make a completed step impossible to change
+W: Control and Undo: the user can always go back. Undo means freedom.
+O: B makes tapping harder. C is an unnecessary barrier for a simple action. D makes the user afraid to use it.
+@18
+Q: Which of the user's questions does the text "AI is building… 10–20 seconds" answer?
+A: Where am I?
+B: What just happened?
+C: What's happening?
+D: What's next?
+W: Loading and progress show that the system is working right now.
+O: A is the active section in the menu. B is "✓ Today's step is done". D is "We'll remind you tomorrow at 10:00".
+@19
+Q: Even if "Done" is tapped twice, the streak isn't added twice. Which part of the micro-interaction is this?
+A: Trigger
+B: Rules
+C: Feedback
+D: Loops and modes
+W: Rules are the "brain" the user doesn't see: they decide what happens.
+O: A is the tap itself. C is the response the user sees. D is a change like "One week! 🎉" on day 7.
+@20
+Q: On one page the confirmation message appears at the top, on another at the bottom and in a different color. Which principle is broken?
+A: Feedback
+B: Signifier
+C: Error prevention
+D: Consistency
+W: The same action should give the same result everywhere: in One step, confirmation messages always appear from the bottom and disappear after 4 seconds.
+O: A: there is a response, it's just different. B isn't about the tap sign. C: there's no error.

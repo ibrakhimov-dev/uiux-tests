@@ -1,812 +1,1232 @@
 {
- "lesson": 6,
- "title": {
-  "uz": "Vizual dizayn",
-  "ru": "Визуальный дизайн",
-  "en": "Visual design",
-  "ja": "ビジュアルデザイン"
- },
- "minutes": 27,
- "questions": [
-  {
-   "id": 1,
-   "type": "theory",
-   "q": {
-    "uz": "Vizual dizayn nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Ekranlarni bir-biriga ulab, interfeysni bosiladigan qilish"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Rang, shrift, boʻshliq va shakl bilan interfeysni tushunarli va yoqimli qilish"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Sahifadagi bloklarni kulrang toʻrtburchaklar bilan joylashtirish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Saytdagi barcha sahifalarni guruhlab, ularga nom berish"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Vizual dizayn interfeysni tushunarli, ishonchli va yoqimli qiladi."
-   },
-   "others": {
-    "uz": "A — bu prototip. C — bu wireframe. D — bu axborot arxitekturasi."
-   }
+  "lesson": 6,
+  "title": {
+    "uz": "Vizual dizayn",
+    "ru": "Визуальный дизайн",
+    "en": "Visual design",
+    "ja": "ビジュアルデザイン"
   },
-  {
-   "id": 2,
-   "type": "theory",
-   "q": {
-    "uz": "Vizual dizayn qaysi ikki savolga javob beradi?"
-   },
-   "options": [
+  "minutes": 27,
+  "questions": [
     {
-     "key": "A",
-     "text": {
-      "uz": "«Qayerda turadi?» va «Qancha katta?»"
-     }
+      "id": 1,
+      "type": "theory",
+      "q": {
+        "uz": "Vizual dizayn nima?",
+        "ru": "Что такое визуальный дизайн?",
+        "en": "What is visual design?",
+        "ja": "ビジュアルデザインとは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Ekranlarni bir-biriga ulab, interfeysni bosiladigan qilish",
+            "ru": "Связывание экранов, чтобы интерфейс можно было нажимать",
+            "en": "Linking screens together and making the interface clickable",
+            "ja": "画面同士をつなぎ、インターフェースを押せるようにすること"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Rang, shrift, boʻshliq va shakl bilan interfeysni tushunarli va yoqimli qilish",
+            "ru": "Делать интерфейс понятным и приятным с помощью цвета, шрифта, отступов и формы",
+            "en": "Making the interface clear and pleasant with color, type, spacing and shape",
+            "ja": "色、フォント、余白、形でインターフェースを分かりやすく心地よくすること"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Sahifadagi bloklarni kulrang toʻrtburchaklar bilan joylashtirish",
+            "ru": "Размещение блоков страницы серыми прямоугольниками",
+            "en": "Placing the page's blocks as gray rectangles",
+            "ja": "ページのブロックをグレーの四角形で配置すること"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Saytdagi barcha sahifalarni guruhlab, ularga nom berish",
+            "ru": "Группировка всех страниц сайта и выбор их названий",
+            "en": "Grouping all the site's pages and naming them",
+            "ja": "サイトの全ページをグループ化し、名前をつけること"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Vizual dizayn interfeysni tushunarli, ishonchli va yoqimli qiladi.",
+        "ru": "Визуальный дизайн делает интерфейс понятным, надёжным и приятным.",
+        "en": "Visual design makes the interface clear, trustworthy and pleasant.",
+        "ja": "ビジュアルデザインは、インターフェースを分かりやすく、信頼でき、心地よいものにします。"
+      },
+      "others": {
+        "uz": "A — bu prototip. C — bu wireframe. D — bu axborot arxitekturasi.",
+        "ru": "A — это прототип. C — это wireframe. D — это информационная архитектура.",
+        "en": "A is a prototype. C is a wireframe. D is information architecture.",
+        "ja": "Aはプロトタイプです。Cはワイヤーフレームです。Dは情報アーキテクチャです。"
+      }
     },
     {
-     "key": "B",
-     "text": {
-      "uz": "«Bosilsa nima boʻladi?» va «Qayerga qaytadi?»"
-     }
+      "id": 2,
+      "type": "theory",
+      "q": {
+        "uz": "Vizual dizayn qaysi ikki savolga javob beradi?",
+        "ru": "На какие два вопроса отвечает визуальный дизайн?",
+        "en": "Which two questions does visual design answer?",
+        "ja": "ビジュアルデザインはどの2つの問いに答えますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Qayerda turadi?» va «Qancha katta?»",
+            "ru": "«Где стоит?» и «Какого размера?»",
+            "en": "\"Where does it go?\" and \"How big is it?\"",
+            "ja": "「どこに置く？」と「どれくらいの大きさ？」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Bosilsa nima boʻladi?» va «Qayerga qaytadi?»",
+            "ru": "«Что будет при нажатии?» и «Куда вернётся?»",
+            "en": "\"What happens on tap?\" and \"Where does it return?\"",
+            "ja": "「押すと何が起きる？」と「どこに戻る？」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Foydalanuvchi kim?» va «U nima qiladi?»",
+            "ru": "«Кто пользователь?» и «Что он делает?»",
+            "en": "\"Who is the user?\" and \"What do they do?\"",
+            "ja": "「ユーザーは誰？」と「その人は何をする？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Birinchi nima koʻrinadi?» va «Qanday his uygʻotadi?»",
+            "ru": "«Что видно первым?» и «Какое чувство вызывает?»",
+            "en": "\"What is seen first?\" and \"What feeling does it create?\"",
+            "ja": "「最初に何が目に入る？」と「どんな気持ちにさせる？」"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Foydalanuvchi birinchi nimani koʻradi va mahsulot qanday his uygʻotadi.",
+        "ru": "Что пользователь видит первым и какое чувство вызывает продукт.",
+        "en": "What the user sees first and what feeling the product creates.",
+        "ja": "ユーザーが最初に何を見るか、そして製品がどんな気持ちを生むかです。"
+      },
+      "others": {
+        "uz": "A — wireframe savollari. B — prototip savollari. C — persona va ssenariy savollari.",
+        "ru": "A — вопросы wireframe. B — вопросы прототипа. C — вопросы персоны и сценария.",
+        "en": "A are wireframe questions. B are prototype questions. C are persona and scenario questions.",
+        "ja": "Aはワイヤーフレームの問いです。Bはプロトタイプの問いです。Cはペルソナとシナリオの問いです。"
+      }
     },
     {
-     "key": "C",
-     "text": {
-      "uz": "«Foydalanuvchi kim?» va «U nima qiladi?»"
-     }
+      "id": 3,
+      "type": "theory",
+      "q": {
+        "uz": "Qaysi juftlik toʻgʻri?",
+        "ru": "Какая пара верна?",
+        "en": "Which pair is correct?",
+        "ja": "正しい組み合わせはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Wireframe — qanday ishlaydi; prototip — qayerda va qancha katta",
+            "ru": "Wireframe — как работает; прототип — где и какого размера",
+            "en": "Wireframe — how it works; prototype — where and how big",
+            "ja": "ワイヤーフレーム＝どう動くか、プロトタイプ＝どこに・どれくらいの大きさで"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Wireframe — qayerda va qancha katta; prototip — qanday ishlaydi",
+            "ru": "Wireframe — где и какого размера; прототип — как работает",
+            "en": "Wireframe — where and how big; prototype — how it works",
+            "ja": "ワイヤーフレーム＝どこに・どれくらいの大きさで、プロトタイプ＝どう動くか"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Wireframe — qanday koʻrinadi; prototip — qanday his uygʻotadi",
+            "ru": "Wireframe — как выглядит; прототип — какое чувство вызывает",
+            "en": "Wireframe — how it looks; prototype — what it feels like",
+            "ja": "ワイヤーフレーム＝どう見えるか、プロトタイプ＝どんな気持ちにさせるか"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Wireframe — qanday his uygʻotadi; prototip — qayerda turadi",
+            "ru": "Wireframe — какое чувство вызывает; прототип — где стоит",
+            "en": "Wireframe — what it feels like; prototype — where it goes",
+            "ja": "ワイヤーフレーム＝どんな気持ちにさせるか、プロトタイプ＝どこに置くか"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Vizual dizayn esa — qanday koʻrinadi va qanday his uygʻotadi.",
+        "ru": "А визуальный дизайн — как выглядит и какое чувство вызывает.",
+        "en": "And visual design is how it looks and what it feels like.",
+        "ja": "そしてビジュアルデザインは、どう見えるか・どんな気持ちにさせるかです。"
+      },
+      "others": {
+        "uz": "A — teskari aytilgan. C va D — «koʻrinish» va «his» vizual dizaynga tegishli.",
+        "ru": "A — сказано наоборот. C и D — «вид» и «чувство» относятся к визуальному дизайну.",
+        "en": "A is stated backwards. C and D: \"look\" and \"feel\" belong to visual design.",
+        "ja": "Aは逆に述べています。CとD：「見た目」と「気持ち」はビジュアルデザインに属します。"
+      }
     },
     {
-     "key": "D",
-     "text": {
-      "uz": "«Birinchi nima koʻrinadi?» va «Qanday his uygʻotadi?»"
-     }
+      "id": 4,
+      "type": "theory",
+      "q": {
+        "uz": "Elementlar va tamoyillar qanday bogʻlangan?",
+        "ru": "Как связаны элементы и принципы?",
+        "en": "How are elements and principles connected?",
+        "ja": "要素と原則はどのような関係ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Elementlar — gʻishtlar, tamoyillar — ularni terish qoidasi",
+            "ru": "Элементы — кирпичи, принципы — правила их укладки",
+            "en": "Elements are the bricks, principles are the rules for laying them",
+            "ja": "要素はレンガ、原則はそれを積むルール"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Tamoyillar — gʻishtlar, elementlar — ularni terish qoidasi",
+            "ru": "Принципы — кирпичи, элементы — правила их укладки",
+            "en": "Principles are the bricks, elements are the rules for laying them",
+            "ja": "原則はレンガ、要素はそれを積むルール"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Elementlar va tamoyillar — bitta narsaning ikki nomi",
+            "ru": "Элементы и принципы — два названия одного и того же",
+            "en": "Elements and principles are two names for the same thing",
+            "ja": "要素と原則は同じものの2つの呼び方"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Elementlar — qatʼiy qoida, tamoyillar — ixtiyoriy maslahat",
+            "ru": "Элементы — строгие правила, принципы — необязательные советы",
+            "en": "Elements are strict rules, principles are optional advice",
+            "ja": "要素は厳しいルール、原則は任意のアドバイス"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Har bir element style guideʼda bitta joyda yoziladi; tamoyillar ularni qanday terishni aytadi.",
+        "ru": "Каждый элемент записывается в одном месте style guide; принципы говорят, как их укладывать.",
+        "en": "Each element is written down in one place in the style guide; principles say how to lay them out.",
+        "ja": "各要素はスタイルガイドの1か所に書かれ、原則はそれらをどう組み合わせるかを示します。"
+      },
+      "others": {
+        "uz": "B — teskari aytilgan. C — biri material, biri qoida. D — darsda bunday boʻlinish yoʻq.",
+        "ru": "B — сказано наоборот. C — одно материал, другое правило. D — такого деления на уроке нет.",
+        "en": "B is stated backwards. C: one is the material, the other the rule. D: the lesson has no such split.",
+        "ja": "Bは逆に述べています。C：一方は素材、もう一方はルールです。D：レッスンにそのような区分はありません。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "theory",
+      "q": {
+        "uz": "Quyidagilardan qaysi biri UIʼning 6 elementidan biri emas, balki tamoyil?",
+        "ru": "Что из этого не один из 6 элементов UI, а принцип?",
+        "en": "Which of these is not one of the 6 UI elements, but a principle?",
+        "ja": "次のうち、UIの6つの要素ではなく原則にあたるのはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Tipografiya",
+            "ru": "Типографика",
+            "en": "Typography",
+            "ja": "タイポグラフィ"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Boʻshliq",
+            "ru": "Отступы",
+            "en": "Spacing",
+            "ja": "余白"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Kontrast",
+            "ru": "Контраст",
+            "en": "Contrast",
+            "ja": "コントラスト"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Chiziq",
+            "ru": "Линия",
+            "en": "Line",
+            "ja": "線"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "6 element: rang, tipografiya, boʻshliq, shakl, ikonka va rasm, chiziq. Kontrast — tamoyil.",
+        "ru": "6 элементов: цвет, типографика, отступы, форма, иконки и изображения, линия. Контраст — принцип.",
+        "en": "The 6 elements: color, typography, spacing, shape, icons and images, line. Contrast is a principle.",
+        "ja": "6つの要素：色、タイポグラフィ、余白、形、アイコンと画像、線。コントラストは原則です。"
+      },
+      "others": {
+        "uz": "A, B va D — uchalasi ham elementlar roʻyxatida bor.",
+        "ru": "A, B и D — все три есть в списке элементов.",
+        "en": "A, B and D are all on the list of elements.",
+        "ja": "A、B、Dはいずれも要素の一覧に含まれています。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "theory",
+      "q": {
+        "uz": "Tekstura haqida darsdagi qoida qaysi?",
+        "ru": "Какое правило урока о текстуре?",
+        "en": "What is the lesson's rule about texture?",
+        "ja": "テクスチャについてのレッスンのルールはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Har bir tugmaga tekstura qoʻshish kerak",
+            "ru": "К каждой кнопке нужно добавить текстуру",
+            "en": "Every button should get a texture",
+            "ja": "すべてのボタンにテクスチャを加えるべき"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Tekstura UIʼdagi eng muhim element",
+            "ru": "Текстура — самый важный элемент UI",
+            "en": "Texture is the most important element in UI",
+            "ja": "テクスチャはUIで最も重要な要素"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Tekstura faqat matn ostida ishlatiladi",
+            "ru": "Текстура используется только под текстом",
+            "en": "Texture is used only under text",
+            "ja": "テクスチャは文字の下だけに使う"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Matn ostida tekstura boʻlmasin: oʻqish qiyinlashadi",
+            "ru": "Под текстом не должно быть текстуры: читать труднее",
+            "en": "No texture under text: it makes reading harder",
+            "ja": "文字の下にテクスチャは置かない：読みにくくなる"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Tekstura bosmada muhim, UIʼda kam: faqat fon va bezak uchun, juda yengil.",
+        "ru": "Текстура важна в печати, в UI её мало: только для фона и украшения, очень лёгкая.",
+        "en": "Texture matters in print, but rarely in UI: only for backgrounds and decoration, and very light.",
+        "ja": "テクスチャは印刷では重要ですが、UIではあまり使いません。背景や装飾だけに、ごく薄く使います。"
+      },
+      "others": {
+        "uz": "A va B — UIʼda tekstura kam ishlatiladi. C — aksincha, matn ostida boʻlmasligi kerak.",
+        "ru": "A и B — в UI текстуру используют редко. C — наоборот, под текстом её быть не должно.",
+        "en": "A and B: texture is rarely used in UI. C: the opposite — it shouldn't be under text.",
+        "ja": "AとB：UIでテクスチャはあまり使いません。C：逆で、文字の下には置くべきではありません。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "theory",
+      "q": {
+        "uz": "Boʻshliq (white space) haqida darsdagi qoida qaysi?",
+        "ru": "Какое правило урока об отступах (white space)?",
+        "en": "What is the lesson's rule about white space?",
+        "ja": "余白（white space）についてのレッスンのルールはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Boʻshliq — nafas olish joyi, faqat shkaladan olinadi",
+            "ru": "Отступ — место для дыхания, берётся только из шкалы",
+            "en": "White space is breathing room, taken only from the scale",
+            "ja": "余白は呼吸のスペースで、スケールからのみ選ぶ"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Boʻshliq — isrof qilingan joy, uni kamaytirish kerak",
+            "ru": "Отступ — потерянное место, его нужно сокращать",
+            "en": "White space is wasted room and should be reduced",
+            "ja": "余白はむだなスペースなので、減らすべき"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Boʻshliq har safar koʻzga qarab tanlanadi",
+            "ru": "Отступ каждый раз подбирается на глаз",
+            "en": "White space is chosen by eye each time",
+            "ja": "余白は毎回目分量で決める"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Boʻshliq faqat sahifa chetlarida boʻladi",
+            "ru": "Отступы бывают только по краям страницы",
+            "en": "White space exists only at the page edges",
+            "ja": "余白はページの端にだけある"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "One step shkalasi: 4 / 8 / 16 / 24 / 32 px.",
+        "ru": "Шкала One step: 4 / 8 / 16 / 24 / 32 px.",
+        "en": "The One step scale: 4 / 8 / 16 / 24 / 32 px.",
+        "ja": "One stepのスケール：4 / 8 / 16 / 24 / 32 px。"
+      },
+      "others": {
+        "uz": "B — boʻsh joy isrof emas. C — tasodifiy raqamlar izchillikni buzadi. D — boʻshliq bloklar orasida ham bor.",
+        "ru": "B — пустое место не потеря. C — случайные числа нарушают единообразие. D — отступы есть и между блоками.",
+        "en": "B: empty space isn't waste. C: random numbers break consistency. D: there's also space between blocks.",
+        "ja": "B：空いたスペースはむだではありません。C：でたらめな数値は一貫性を壊します。D：ブロックの間にも余白があります。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "theory",
+      "q": {
+        "uz": "Ierarxiya tamoyili nimani anglatadi?",
+        "ru": "Что означает принцип иерархии?",
+        "en": "What does the principle of hierarchy mean?",
+        "ja": "階層の原則とはどういう意味ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Elementlar bitta chiziqqa tekislanadi",
+            "ru": "Элементы выравниваются по одной линии",
+            "en": "Elements are aligned to one line",
+            "ja": "要素を一本の線にそろえる"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Sahifa bir tomonga ogʻib qolmaydi",
+            "ru": "Страница не перекашивается в одну сторону",
+            "en": "The page doesn't lean to one side",
+            "ja": "ページが片側に傾かない"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Muhimi kattaroq, qalinroq, tepada turadi",
+            "ru": "Важное — крупнее, жирнее и выше",
+            "en": "The important thing is bigger, bolder, on top",
+            "ja": "重要なものほど大きく、太く、上に置く"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Bir xil narsa hamma joyda bir xil koʻrinadi",
+            "ru": "Одинаковое везде выглядит одинаково",
+            "en": "The same thing looks the same everywhere",
+            "ja": "同じものはどこでも同じに見える"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Koʻz birinchi muhim narsaga tushadi. One step: bugungi qadam sarlavhasi — eng katta matn.",
+        "ru": "Взгляд сначала падает на важное. One step: заголовок сегодняшнего шага — самый крупный текст.",
+        "en": "The eye lands on the important thing first. One step: today's step title is the biggest text.",
+        "ja": "目はまず重要なものに向かいます。One step：今日のステップの見出しが一番大きな文字です。"
+      },
+      "others": {
+        "uz": "A — tekislash. B — balans. D — izchillik.",
+        "ru": "A — выравнивание. B — баланс. D — единообразие.",
+        "en": "A is alignment. B is balance. D is consistency.",
+        "ja": "Aは整列です。Bはバランスです。Dは一貫性です。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "theory",
+      "q": {
+        "uz": "Kontrast tamoyiliga koʻra matn va fon orasidagi kontrast kamida qancha boʻlishi kerak?",
+        "ru": "Каким должен быть минимальный контраст между текстом и фоном по принципу контраста?",
+        "en": "According to the contrast principle, what is the minimum contrast between text and background?",
+        "ja": "コントラストの原則によると、文字と背景のコントラストは最低どれくらい必要ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "1.5:1",
+            "ru": "1.5:1",
+            "en": "1.5:1",
+            "ja": "1.5:1"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "4.5:1",
+            "ru": "4.5:1",
+            "en": "4.5:1",
+            "ja": "4.5:1"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "2:1",
+            "ru": "2:1",
+            "en": "2:1",
+            "ja": "2:1"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "3.5:1",
+            "ru": "3.5:1",
+            "en": "3.5:1",
+            "ja": "3.5:1"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Kontrast — farq orqali ajratish: rang, oʻlcham, qalinlik. Matn uchun kamida 4.5:1.",
+        "ru": "Контраст — выделение через различие: цвет, размер, насыщенность. Для текста минимум 4.5:1.",
+        "en": "Contrast means separating through difference: color, size, weight. For text, at least 4.5:1.",
+        "ja": "コントラストとは、違いによって区別すること：色、サイズ、太さ。文字には最低4.5:1。"
+      },
+      "others": {
+        "uz": "A, C va D — bu chegaradan past, matn qiyin oʻqiladi.",
+        "ru": "A, C и D — ниже этого порога, текст читается с трудом.",
+        "en": "A, C and D are below that limit, so the text is hard to read.",
+        "ja": "A、C、Dはこの基準より低く、文字が読みにくくなります。"
+      }
+    },
+    {
+      "id": 10,
+      "type": "theory",
+      "q": {
+        "uz": "Yaqinlik (proximity) tamoyili nimani anglatadi?",
+        "ru": "Что означает принцип близости (proximity)?",
+        "en": "What does the principle of proximity mean?",
+        "ja": "近接（proximity）の原則とはどういう意味ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Barcha elementlar bir xil masofada turadi",
+            "ru": "Все элементы стоят на одинаковом расстоянии",
+            "en": "All elements are the same distance apart",
+            "ja": "すべての要素を同じ間隔で並べる"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Elementlar iloji boricha uzoq joylashadi",
+            "ru": "Элементы стоят как можно дальше друг от друга",
+            "en": "Elements are placed as far apart as possible",
+            "ja": "要素をできるだけ離して置く"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Masofa ahamiyatsiz, rang muhimroq",
+            "ru": "Расстояние не важно, важнее цвет",
+            "en": "Distance doesn't matter, color matters more",
+            "ja": "距離は重要ではなく、色のほうが大事"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Bir-biriga tegishlisi yaqin, boshqasi uzoqroq",
+            "ru": "Связанное — рядом, остальное — дальше",
+            "en": "Related things are close, others are farther away",
+            "ja": "関係するものは近くに、そうでないものは離す"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Koʻz guruhni oʻzi koʻradi. One step: qadam nomi va vaqti yonma-yon, keyingi blok 32 px uzoqda.",
+        "ru": "Глаз сам видит группу. One step: название и время шага рядом, следующий блок на 32 px дальше.",
+        "en": "The eye sees the group by itself. One step: the step's name and time are side by side, the next block is 32 px away.",
+        "ja": "目は自然にグループを見分けます。One step：ステップ名と時間は隣り合い、次のブロックは32 px離れています。"
+      },
+      "others": {
+        "uz": "A — guruhlar koʻrinmay qoladi. B — tegishli narsalar ham ajralib ketadi. C — masofa guruhlashning asosiy vositasi.",
+        "ru": "A — группы перестают быть видны. B — разделяется и связанное. C — расстояние — главный инструмент группировки.",
+        "en": "A: groups become invisible. B: related things get separated too. C: distance is the main tool for grouping.",
+        "ja": "A：グループが見えなくなります。B：関係するものまで離れてしまいます。C：距離はグループ化の主な手段です。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "theory",
+      "q": {
+        "uz": "Izchillik (consistency) tamoyili nimani talab qiladi?",
+        "ru": "Чего требует принцип единообразия (consistency)?",
+        "en": "What does the principle of consistency require?",
+        "ja": "一貫性（consistency）の原則は何を求めますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Har sahifa oʻziga xos koʻrinishda boʻlsin",
+            "ru": "Каждая страница должна выглядеть по-своему",
+            "en": "Every page should have its own unique look",
+            "ja": "各ページがそれぞれ独自の見た目であること"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Butun sahifada faqat bitta rang boʻlsin",
+            "ru": "На всей странице должен быть только один цвет",
+            "en": "The whole page should use only one color",
+            "ja": "ページ全体で一色だけを使うこと"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Bir xil narsa hamma joyda bir xil koʻrinsin",
+            "ru": "Одинаковое должно везде выглядеть одинаково",
+            "en": "The same thing should look the same everywhere",
+            "ja": "同じものはどこでも同じに見えること"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Hamma matn bir xil oʻlchamda boʻlsin",
+            "ru": "Весь текст должен быть одного размера",
+            "en": "All text should be the same size",
+            "ja": "すべての文字を同じサイズにすること"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Komponentlar shu uchun kerak. One step: barcha asosiy tugmalar — bitta «Button / Primary».",
+        "ru": "Для этого и нужны компоненты. One step: все основные кнопки — один «Button / Primary».",
+        "en": "That's why components are needed. One step: all main buttons are one \"Button / Primary\".",
+        "ja": "そのためにコンポーネントが必要です。One step：主なボタンはすべて一つの「Button / Primary」です。"
+      },
+      "others": {
+        "uz": "A — bu izchillikning teskarisi. B va D — izchillik ranglar yoki oʻlchamlar sonini emas, bir xillikni talab qiladi.",
+        "ru": "A — противоположность единообразия. B и D — единообразие требует не числа цветов или размеров, а одинаковости.",
+        "en": "A is the opposite of consistency. B and D: consistency requires sameness, not a number of colors or sizes.",
+        "ja": "Aは一貫性の反対です。BとD：一貫性が求めるのは色やサイズの数ではなく、同じであることです。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "theory",
+      "q": {
+        "uz": "«Sahifada bitta bosh qahramon boʻladi, qolgani unga xizmat qiladi» — qaysi tamoyil?",
+        "ru": "«На странице один главный герой, остальное ему служит» — какой это принцип?",
+        "en": "\"A page has one main hero; everything else serves it\" — which principle is this?",
+        "ja": "「ページには主役が一つあり、他はそれを支える」――これはどの原則ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dominantlik",
+            "ru": "Доминирование",
+            "en": "Dominance",
+            "ja": "ドミナンス（支配）"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Balans",
+            "ru": "Баланс",
+            "en": "Balance",
+            "ja": "バランス"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Tekislash",
+            "ru": "Выравнивание",
+            "en": "Alignment",
+            "ja": "整列"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Yaqinlik",
+            "ru": "Близость",
+            "en": "Proximity",
+            "ja": "近接"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "One step: «Bugun» sahifasida bosh qahramon — bugungi qadam.",
+        "ru": "One step: на странице «Сегодня» главный герой — сегодняшний шаг.",
+        "en": "One step: on the \"Today\" page, the main hero is today's step.",
+        "ja": "One step：「今日」ページの主役は、今日のステップです。"
+      },
+      "others": {
+        "uz": "B — sahifa bir tomonga ogʻmasligi. C — bitta chiziqqa tekislash. D — tegishlisini yaqin qoʻyish.",
+        "ru": "B — страница не перекашивается. C — выравнивание по одной линии. D — связанное ставят рядом.",
+        "en": "B: the page doesn't lean to one side. C: aligning to one line. D: putting related things close.",
+        "ja": "B：ページが片側に傾かないこと。C：一本の線にそろえること。D：関係するものを近くに置くこと。"
+      }
+    },
+    {
+      "id": 13,
+      "type": "theory",
+      "q": {
+        "uz": "Google bosh sahifasida kam ishlatiladigan havolalar kichik va chetda turadi. Darsdagi tahlilga koʻra bu qaysi tamoyil?",
+        "ru": "На главной странице Google редко используемые ссылки маленькие и стоят по краям. Какой это принцип по разбору урока?",
+        "en": "On Google's home page, rarely used links are small and at the edges. According to the lesson's analysis, which principle is this?",
+        "ja": "Googleのトップページでは、あまり使わないリンクが小さく端に置かれています。レッスンの分析では、これはどの原則ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Balans",
+            "ru": "Баланс",
+            "en": "Balance",
+            "ja": "バランス"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Ierarxiya",
+            "ru": "Иерархия",
+            "en": "Hierarchy",
+            "ja": "階層"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Izchillik",
+            "ru": "Единообразие",
+            "en": "Consistency",
+            "ja": "一貫性"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Yaqinlik",
+            "ru": "Близость",
+            "en": "Proximity",
+            "ja": "近接"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Muhimi katta va markazda, kam ishlatiladigani kichik va chetda: tepa oʻng burchak, pastki qator.",
+        "ru": "Важное — крупное и в центре, редко используемое — маленькое и по краям: верхний правый угол, нижняя строка.",
+        "en": "The important thing is big and in the center; rarely used things are small and at the edges: the top-right corner and the bottom row.",
+        "ja": "重要なものは大きく中央に、あまり使わないものは小さく端に：右上の角と下の行。"
+      },
+      "others": {
+        "uz": "A — Googleʼda balans: hammasi markazda, simmetrik. C va D — tahlilda bu holatga tegishli emas.",
+        "ru": "A — баланс у Google: всё в центре, симметрично. C и D — в разборе к этой ситуации не относятся.",
+        "en": "A: Google's balance is that everything is centered and symmetric. C and D don't apply to this case in the analysis.",
+        "ja": "A：Googleのバランスは、すべてが中央で左右対称なことです。CとD：分析ではこの状況に当てはまりません。"
+      }
+    },
+    {
+      "id": 14,
+      "type": "theory",
+      "q": {
+        "uz": "Moodboard tuzishning birinchi qadami qaysi?",
+        "ru": "Какой первый шаг составления мудборда?",
+        "en": "What is the first step in making a moodboard?",
+        "ja": "ムードボード作りの最初のステップはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Tadqiqot dalillaridan 3 ta kalit soʻz tanlash",
+            "ru": "Выбрать 3 ключевых слова из фактов исследования",
+            "en": "Choosing 3 keywords from research evidence",
+            "ja": "調査の根拠からキーワードを3つ選ぶ"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Pinterestʼdan 15–20 ta rasm yigʻish",
+            "ru": "Собрать 15–20 картинок из Pinterest",
+            "en": "Collecting 15–20 images from Pinterest",
+            "ja": "Pinterestから画像を15〜20枚集める"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Rasmlardan 3–5 ta rang ajratib olish",
+            "ru": "Выделить из картинок 3–5 цветов",
+            "en": "Picking out 3–5 colors from the images",
+            "ja": "画像から色を3〜5色取り出す"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "2 ta shrift juftligini tanlab olish",
+            "ru": "Выбрать 2 пары шрифтов",
+            "en": "Choosing 2 font pairings",
+            "ja": "フォントの組み合わせを2つ選ぶ"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "5 qadam: kalit soʻzlar → rasm yigʻing → saralang → ranglarni ajrating → shrift va UI.",
+        "ru": "5 шагов: ключевые слова → собрать картинки → отобрать → выделить цвета → шрифты и UI.",
+        "en": "5 steps: keywords → collect images → sort them → pick out colors → fonts and UI.",
+        "ja": "5つのステップ：キーワード → 画像を集める → 選別する → 色を取り出す → フォントとUI。"
+      },
+      "others": {
+        "uz": "B — 2-qadam. C — 4-qadam. D — 5-qadam.",
+        "ru": "B — 2-й шаг. C — 4-й шаг. D — 5-й шаг.",
+        "en": "B is step 2. C is step 4. D is step 5.",
+        "ja": "Bはステップ2です。Cはステップ4です。Dはステップ5です。"
+      }
+    },
+    {
+      "id": 15,
+      "type": "theory",
+      "q": {
+        "uz": "Moodboard va style guide farqi nima?",
+        "ru": "Чем мудборд отличается от style guide?",
+        "en": "What is the difference between a moodboard and a style guide?",
+        "ja": "ムードボードとスタイルガイドの違いは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Moodboard — «qoida», style guide — «his»",
+            "ru": "Мудборд — «правило», style guide — «чувство»",
+            "en": "Moodboard — \"rules\", style guide — \"feeling\"",
+            "ja": "ムードボード＝「ルール」、スタイルガイド＝「雰囲気」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Ikkalasi ham «his», faqat nomi boshqa",
+            "ru": "Оба — «чувство», только название другое",
+            "en": "Both are \"feeling\", only the name differs",
+            "ja": "どちらも「雰囲気」で、名前が違うだけ"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ikkalasi ham «qoida», faqat formati boshqa",
+            "ru": "Оба — «правило», только формат другой",
+            "en": "Both are \"rules\", only the format differs",
+            "ja": "どちらも「ルール」で、形式が違うだけ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Moodboard — «his», style guide — «qoida»",
+            "ru": "Мудборд — «чувство», style guide — «правило»",
+            "en": "Moodboard — \"feeling\", style guide — \"rules\"",
+            "ja": "ムードボード＝「雰囲気」、スタイルガイド＝「ルール」"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Style guide — moodboardʼdan chiqqan aniq qarorlar: qaysi rang, qaysi shrift, qanday oʻlcham.",
+        "ru": "Style guide — точные решения, вытекающие из мудборда: какой цвет, какой шрифт, какой размер.",
+        "en": "A style guide is the exact decisions drawn from the moodboard: which color, which font, what size.",
+        "ja": "スタイルガイドは、ムードボードから導いた具体的な決定です：どの色、どのフォント、どのサイズ。"
+      },
+      "others": {
+        "uz": "A — teskari aytilgan. B va C — biri yoʻnalish, biri aniq qoida.",
+        "ru": "A — сказано наоборот. B и C — одно направление, другое точное правило.",
+        "en": "A is stated backwards. B and C: one is a direction, the other exact rules.",
+        "ja": "Aは逆に述べています。BとC：一方は方向性、もう一方は具体的なルールです。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "practice",
+      "q": {
+        "uz": "Ikkita «Bugun» ekranida bir xil maʼlumot bor. A ekranda hamma blok har xil rangda va bir xil darajada ajralib turadi. Nega A ekranda bugungi qadamni topish qiyin?",
+        "ru": "На двух экранах «Сегодня» одна и та же информация. На экране A все блоки разных цветов и выделяются одинаково. Почему на экране A трудно найти сегодняшний шаг?",
+        "en": "Two \"Today\" screens have the same information. On screen A, every block has a different color and stands out equally. Why is today's step hard to find on screen A?",
+        "ja": "2つの「今日」画面に同じ情報があります。画面Aでは、すべてのブロックが違う色で、同じくらい目立っています。画面Aで今日のステップが見つけにくいのはなぜですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "A ekranda maʼlumot kamroq berilgan",
+            "ru": "На экране A меньше информации",
+            "en": "Screen A has less information",
+            "ja": "画面Aのほうが情報が少ないから"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "A ekranda menyu umuman yoʻq",
+            "ru": "На экране A вообще нет меню",
+            "en": "Screen A has no menu at all",
+            "ja": "画面Aにはメニューがまったくないから"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ierarxiya va kontrast yoʻq: hech narsa ajralib turmaydi",
+            "ru": "Нет иерархии и контраста: ничего не выделяется",
+            "en": "No hierarchy or contrast: nothing stands out",
+            "ja": "階層とコントラストがなく、何も目立たないから"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "A ekranda shrift juda katta tanlangan",
+            "ru": "На экране A выбран слишком крупный шрифт",
+            "en": "Screen A uses a font that is too large",
+            "ja": "画面Aのフォントが大きすぎるから"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Hamma narsa bir xil «baland ovozda» boʻlsa, koʻz qayerga qarashni bilmaydi.",
+        "ru": "Если всё одинаково «громкое», глаз не знает, куда смотреть.",
+        "en": "When everything is equally \"loud\", the eye doesn't know where to look.",
+        "ja": "すべてが同じくらい「大声」だと、目はどこを見ればよいか分かりません。"
+      },
+      "others": {
+        "uz": "A — maʼlumot ikkalasida bir xil. B — menyu bor. D — muammo oʻlchamda emas, ajratishda.",
+        "ru": "A — информация на обоих одинаковая. B — меню есть. D — проблема не в размере, а в выделении.",
+        "en": "A: the information is the same on both. B: there is a menu. D: the problem isn't size but separation.",
+        "ja": "A：情報はどちらも同じです。B：メニューはあります。D：問題はサイズではなく、区別にあります。"
+      }
+    },
+    {
+      "id": 17,
+      "type": "practice",
+      "q": {
+        "uz": "2-darsdagi tadqiqot dalillariga koʻra One step uchun qanday vizual qaror toʻgʻri?",
+        "ru": "Какое визуальное решение для One step верно по фактам исследования из 2-го урока?",
+        "en": "Based on the research evidence from Lesson 2, which visual decision is right for One step?",
+        "ja": "第2回レッスンの調査の根拠によると、One stepに正しいビジュアルの判断はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Oq fon va serif shrift: foydalanuvchilar shuni aytgan",
+            "ru": "Белый фон и шрифт с засечками: так сказали пользователи",
+            "en": "White background and a serif font: that's what users said",
+            "ja": "白い背景とセリフ体：ユーザーがそう言ったから"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qora fon va neon ranglar: hozir trendda",
+            "ru": "Чёрный фон и неоновые цвета: сейчас в тренде",
+            "en": "Black background and neon colors: it's trendy now",
+            "ja": "黒い背景とネオンカラー：今のトレンドだから"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Koʻp rangli fon: ilova quvnoq koʻrinsin",
+            "ru": "Разноцветный фон: чтобы приложение выглядело весело",
+            "en": "A multicolored background: so the app looks cheerful",
+            "ja": "カラフルな背景：アプリを楽しく見せるため"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Dizaynerga yoqqan rang: u mutaxassis",
+            "ru": "Цвет, который нравится дизайнеру: он специалист",
+            "en": "A color the designer likes: they're the expert",
+            "ja": "デザイナーが好きな色：専門家だから"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Vizual dizayn — tadqiqot dalillarini koʻzga koʻrinadigan qilish: oq fon, serif shrift, tartibli va sokin koʻrinish.",
+        "ru": "Визуальный дизайн делает факты исследования видимыми: белый фон, шрифт с засечками, аккуратный и спокойный вид.",
+        "en": "Visual design makes research evidence visible: white background, serif font, a tidy and calm look.",
+        "ja": "ビジュアルデザインは、調査の根拠を目に見える形にすることです：白い背景、セリフ体、整って落ち着いた見た目。"
+      },
+      "others": {
+        "uz": "B va C — dalilga emas, trend yoki taxminga tayanadi. D — dizayner foydalanuvchi emas.",
+        "ru": "B и C — опираются не на факты, а на тренд или догадку. D — дизайнер не пользователь.",
+        "en": "B and C rely on trends or guesses, not evidence. D: the designer isn't the user.",
+        "ja": "BとCは根拠ではなく、トレンドや推測に頼っています。D：デザイナーはユーザーではありません。"
+      }
+    },
+    {
+      "id": 18,
+      "type": "practice",
+      "q": {
+        "uz": "Mobbinʼda One stepʼga oʻxshash ilova ekranini topdingiz. Uni qanday ishlatasiz?",
+        "ru": "Вы нашли на Mobbin экран приложения, похожего на One step. Как вы его используете?",
+        "en": "You found an app screen on Mobbin similar to One step. How do you use it?",
+        "ja": "MobbinでOne stepに似たアプリの画面を見つけました。どう使いますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Ekranni toʻliq nusxalab, logoni almashtirasiz",
+            "ru": "Полностью скопируете экран и замените логотип",
+            "en": "Copy the screen fully and swap the logo",
+            "ja": "画面を丸ごとコピーして、ロゴだけ替える"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Ilhom uchun koʻrib, oʻz yechimingizni qilasiz",
+            "ru": "Посмотрите для вдохновения и сделаете своё решение",
+            "en": "Look at it for inspiration and make your own solution",
+            "ja": "インスピレーションとして見て、自分の解決策を作る"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ekranni moodboard oʻrniga style guide qilasiz",
+            "ru": "Сделаете экран style guide вместо мудборда",
+            "en": "Use the screen as a style guide instead of a moodboard",
+            "ja": "ムードボードの代わりにスタイルガイドとして使う"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Ekranni One stepʼning yakuniy dizayni qilasiz",
+            "ru": "Сделаете экран финальным дизайном One step",
+            "en": "Make the screen One step's final design",
+            "ja": "その画面をOne stepの最終デザインにする"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Mobbin — haqiqiy ilovalar ekranlari: ilhom uchun, nusxa olish uchun emas.",
+        "ru": "Mobbin — экраны реальных приложений: для вдохновения, а не для копирования.",
+        "en": "Mobbin has real app screens: for inspiration, not for copying.",
+        "ja": "Mobbinは実際のアプリの画面集です。インスピレーションのためで、コピーのためではありません。"
+      },
+      "others": {
+        "uz": "A va D — bu nusxa olish. C — style guide oʻz moodboardʼingizdan chiqadi.",
+        "ru": "A и D — это копирование. C — style guide выходит из вашего собственного мудборда.",
+        "en": "A and D are copying. C: the style guide comes from your own moodboard.",
+        "ja": "AとDはコピーです。C：スタイルガイドは自分のムードボードから生まれます。"
+      }
+    },
+    {
+      "id": 19,
+      "type": "practice",
+      "q": {
+        "uz": "Jamoada «qaysi yashil?» degan savol qayta-qayta chiqyapti. Darsga koʻra toʻgʻri yechim qaysi?",
+        "ru": "В команде снова и снова возникает вопрос «какой зелёный?». Какое решение верно по уроку?",
+        "en": "The question \"which green?\" keeps coming up in the team. According to the lesson, what's the right solution?",
+        "ja": "チームで「どの緑？」という質問が何度も出ています。レッスンによると正しい解決策はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Har kim oʻziga yoqqan yashilni tanlaydi",
+            "ru": "Каждый выбирает зелёный, который ему нравится",
+            "en": "Everyone picks the green they like",
+            "ja": "各自が好きな緑を選ぶ"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Moodboardʼga yana bir nechta rasm qoʻshiladi",
+            "ru": "В мудборд добавляют ещё несколько картинок",
+            "en": "A few more images are added to the moodboard",
+            "ja": "ムードボードに画像をさらに数枚加える"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Wireframeʼga rang kodi yozib qoʻyiladi",
+            "ru": "Код цвета записывают на wireframe",
+            "en": "The color code is written on the wireframe",
+            "ja": "ワイヤーフレームに色コードを書いておく"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Style guideʼda bitta javob yoziladi: #0F3D34",
+            "ru": "В style guide записывают один ответ: #0F3D34",
+            "en": "One answer is written in the style guide: #0F3D34",
+            "ja": "スタイルガイドに答えを一つ書く：#0F3D34"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Javob bitta joyda yozilgan: dizayner ham, dasturchi ham soʻramaydi. Bu 6-tamoyil — izchillikning amaldagi koʻrinishi.",
+        "ru": "Ответ записан в одном месте: ни дизайнер, ни программист не спрашивают. Это 6-й принцип — единообразие на практике.",
+        "en": "The answer is written in one place: neither the designer nor the developer has to ask. This is principle 6 — consistency in practice.",
+        "ja": "答えが1か所に書かれているので、デザイナーもエンジニアも聞く必要がありません。これが原則6――一貫性の実践です。"
+      },
+      "others": {
+        "uz": "A — izchillik buziladi. B — moodboard — his, aniq rang emas. C — wireframeʼda rang yoʻq.",
+        "ru": "A — нарушается единообразие. B — мудборд — чувство, а не точный цвет. C — в wireframe нет цвета.",
+        "en": "A breaks consistency. B: a moodboard is a feeling, not an exact color. C: wireframes have no color.",
+        "ja": "A：一貫性が崩れます。B：ムードボードは雰囲気で、正確な色ではありません。C：ワイヤーフレームに色はありません。"
+      }
+    },
+    {
+      "id": 20,
+      "type": "practice",
+      "q": {
+        "uz": "«Bugun» sahifasida chapda katta qadam kartasi bor, oʻng tomon boʻsh va sahifa bir tomonga «ogʻib» ketgan. One stepʼda bu qanday yechilgan?",
+        "ru": "На странице «Сегодня» слева большая карточка шага, справа пусто, и страница «перекосилась» в одну сторону. Как это решено в One step?",
+        "en": "On the \"Today\" page, there's a big step card on the left, the right side is empty, and the page \"leans\" to one side. How was this solved in One step?",
+        "ja": "「今日」ページの左に大きなステップのカードがあり、右側は空いていて、ページが片側に「傾いて」います。One stepではどう解決しましたか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Balans: oʻngga 3 ta kichik blok (4 ustun) qoʻyilgan",
+            "ru": "Баланс: справа поставили 3 маленьких блока (4 колонки)",
+            "en": "Balance: 3 small blocks (4 columns) placed on the right",
+            "ja": "バランス：右に小さなブロックを3つ（4列）置いた"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Yaqinlik: karta va bloklar orasi 0 px qilingan",
+            "ru": "Близость: расстояние между карточкой и блоками сделали 0 px",
+            "en": "Proximity: the gap between the card and blocks set to 0 px",
+            "ja": "近接：カードとブロックの間を0 pxにした"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Kontrast: karta yorqin qizil rangga boʻyalgan",
+            "ru": "Контраст: карточку покрасили в ярко-красный",
+            "en": "Contrast: the card painted bright red",
+            "ja": "コントラスト：カードを鮮やかな赤に塗った"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Tekislash: karta sahifa markaziga surilgan",
+            "ru": "Выравнивание: карточку сдвинули в центр страницы",
+            "en": "Alignment: the card moved to the center of the page",
+            "ja": "整列：カードをページの中央に移した"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Chapda qadam kartasi (8 ustun), oʻngda 3 blok (4 ustun) — katta va kichik bloklar ogʻirligi teng.",
+        "ru": "Слева карточка шага (8 колонок), справа 3 блока (4 колонки) — вес больших и малых блоков равен.",
+        "en": "Step card on the left (8 columns), 3 blocks on the right (4 columns) — the weight of big and small blocks is equal.",
+        "ja": "左にステップのカード（8列）、右に3つのブロック（4列）――大小のブロックの重さがつり合っています。"
+      },
+      "others": {
+        "uz": "B — guruhlar yopishib qoladi. C — ogʻirlik yanada bir tomonga oʻtadi. D — oʻng tomon baribir boʻsh qoladi.",
+        "ru": "B — группы слипаются. C — вес ещё сильнее смещается в одну сторону. D — правая сторона всё равно остаётся пустой.",
+        "en": "B: the groups stick together. C: the weight shifts even more to one side. D: the right side stays empty anyway.",
+        "ja": "B：グループがくっついてしまいます。C：重さがさらに片側に寄ります。D：結局、右側は空いたままです。"
+      }
     }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Foydalanuvchi birinchi nimani koʻradi va mahsulot qanday his uygʻotadi."
-   },
-   "others": {
-    "uz": "A — wireframe savollari. B — prototip savollari. C — persona va ssenariy savollari."
-   }
-  },
-  {
-   "id": 3,
-   "type": "theory",
-   "q": {
-    "uz": "Qaysi juftlik toʻgʻri?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Wireframe — qanday ishlaydi; prototip — qayerda va qancha katta"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Wireframe — qayerda va qancha katta; prototip — qanday ishlaydi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Wireframe — qanday koʻrinadi; prototip — qanday his uygʻotadi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Wireframe — qanday his uygʻotadi; prototip — qayerda turadi"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Vizual dizayn esa — qanday koʻrinadi va qanday his uygʻotadi."
-   },
-   "others": {
-    "uz": "A — teskari aytilgan. C va D — «koʻrinish» va «his» vizual dizaynga tegishli."
-   }
-  },
-  {
-   "id": 4,
-   "type": "theory",
-   "q": {
-    "uz": "Elementlar va tamoyillar qanday bogʻlangan?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Elementlar — gʻishtlar, tamoyillar — ularni terish qoidasi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Tamoyillar — gʻishtlar, elementlar — ularni terish qoidasi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Elementlar va tamoyillar — bitta narsaning ikki nomi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Elementlar — qatʼiy qoida, tamoyillar — ixtiyoriy maslahat"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Har bir element style guideʼda bitta joyda yoziladi; tamoyillar ularni qanday terishni aytadi."
-   },
-   "others": {
-    "uz": "B — teskari aytilgan. C — biri material, biri qoida. D — darsda bunday boʻlinish yoʻq."
-   }
-  },
-  {
-   "id": 5,
-   "type": "theory",
-   "q": {
-    "uz": "Quyidagilardan qaysi biri UIʼning 6 elementidan biri emas, balki tamoyil?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Tipografiya"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Boʻshliq"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Kontrast"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Chiziq"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "6 element: rang, tipografiya, boʻshliq, shakl, ikonka va rasm, chiziq. Kontrast — tamoyil."
-   },
-   "others": {
-    "uz": "A, B va D — uchalasi ham elementlar roʻyxatida bor."
-   }
-  },
-  {
-   "id": 6,
-   "type": "theory",
-   "q": {
-    "uz": "Tekstura haqida darsdagi qoida qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Har bir tugmaga tekstura qoʻshish kerak"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Tekstura UIʼdagi eng muhim element"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Tekstura faqat matn ostida ishlatiladi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Matn ostida tekstura boʻlmasin: oʻqish qiyinlashadi"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Tekstura bosmada muhim, UIʼda kam: faqat fon va bezak uchun, juda yengil."
-   },
-   "others": {
-    "uz": "A va B — UIʼda tekstura kam ishlatiladi. C — aksincha, matn ostida boʻlmasligi kerak."
-   }
-  },
-  {
-   "id": 7,
-   "type": "theory",
-   "q": {
-    "uz": "Boʻshliq (white space) haqida darsdagi qoida qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Boʻshliq — nafas olish joyi, faqat shkaladan olinadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Boʻshliq — isrof qilingan joy, uni kamaytirish kerak"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Boʻshliq har safar koʻzga qarab tanlanadi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Boʻshliq faqat sahifa chetlarida boʻladi"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "One step shkalasi: 4 / 8 / 16 / 24 / 32 px."
-   },
-   "others": {
-    "uz": "B — boʻsh joy isrof emas. C — tasodifiy raqamlar izchillikni buzadi. D — boʻshliq bloklar orasida ham bor."
-   }
-  },
-  {
-   "id": 8,
-   "type": "theory",
-   "q": {
-    "uz": "Ierarxiya tamoyili nimani anglatadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Elementlar bitta chiziqqa tekislanadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Sahifa bir tomonga ogʻib qolmaydi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Muhimi kattaroq, qalinroq, tepada turadi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Bir xil narsa hamma joyda bir xil koʻrinadi"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Koʻz birinchi muhim narsaga tushadi. One step: bugungi qadam sarlavhasi — eng katta matn."
-   },
-   "others": {
-    "uz": "A — tekislash. B — balans. D — izchillik."
-   }
-  },
-  {
-   "id": 9,
-   "type": "theory",
-   "q": {
-    "uz": "Kontrast tamoyiliga koʻra matn va fon orasidagi kontrast kamida qancha boʻlishi kerak?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "1.5:1"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "4.5:1"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "2:1"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "3.5:1"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Kontrast — farq orqali ajratish: rang, oʻlcham, qalinlik. Matn uchun kamida 4.5:1."
-   },
-   "others": {
-    "uz": "A, C va D — bu chegaradan past, matn qiyin oʻqiladi."
-   }
-  },
-  {
-   "id": 10,
-   "type": "theory",
-   "q": {
-    "uz": "Yaqinlik (proximity) tamoyili nimani anglatadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Barcha elementlar bir xil masofada turadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Elementlar iloji boricha uzoq joylashadi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Masofa ahamiyatsiz, rang muhimroq"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Bir-biriga tegishlisi yaqin, boshqasi uzoqroq"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Koʻz guruhni oʻzi koʻradi. One step: qadam nomi va vaqti yonma-yon, keyingi blok 32 px uzoqda."
-   },
-   "others": {
-    "uz": "A — guruhlar koʻrinmay qoladi. B — tegishli narsalar ham ajralib ketadi. C — masofa guruhlashning asosiy vositasi."
-   }
-  },
-  {
-   "id": 11,
-   "type": "theory",
-   "q": {
-    "uz": "Izchillik (consistency) tamoyili nimani talab qiladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Har sahifa oʻziga xos koʻrinishda boʻlsin"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Butun sahifada faqat bitta rang boʻlsin"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Bir xil narsa hamma joyda bir xil koʻrinsin"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Hamma matn bir xil oʻlchamda boʻlsin"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Komponentlar shu uchun kerak. One step: barcha asosiy tugmalar — bitta «Button / Primary»."
-   },
-   "others": {
-    "uz": "A — bu izchillikning teskarisi. B va D — izchillik ranglar yoki oʻlchamlar sonini emas, bir xillikni talab qiladi."
-   }
-  },
-  {
-   "id": 12,
-   "type": "theory",
-   "q": {
-    "uz": "«Sahifada bitta bosh qahramon boʻladi, qolgani unga xizmat qiladi» — qaysi tamoyil?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dominantlik"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Balans"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Tekislash"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Yaqinlik"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "One step: «Bugun» sahifasida bosh qahramon — bugungi qadam."
-   },
-   "others": {
-    "uz": "B — sahifa bir tomonga ogʻmasligi. C — bitta chiziqqa tekislash. D — tegishlisini yaqin qoʻyish."
-   }
-  },
-  {
-   "id": 13,
-   "type": "theory",
-   "q": {
-    "uz": "Google bosh sahifasida kam ishlatiladigan havolalar kichik va chetda turadi. Darsdagi tahlilga koʻra bu qaysi tamoyil?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Balans"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Ierarxiya"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Izchillik"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Yaqinlik"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Muhimi katta va markazda, kam ishlatiladigani kichik va chetda: tepa oʻng burchak, pastki qator."
-   },
-   "others": {
-    "uz": "A — Googleʼda balans: hammasi markazda, simmetrik. C va D — tahlilda bu holatga tegishli emas."
-   }
-  },
-  {
-   "id": 14,
-   "type": "theory",
-   "q": {
-    "uz": "Moodboard tuzishning birinchi qadami qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Tadqiqot dalillaridan 3 ta kalit soʻz tanlash"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Pinterestʼdan 15–20 ta rasm yigʻish"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Rasmlardan 3–5 ta rang ajratib olish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "2 ta shrift juftligini tanlab olish"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "5 qadam: kalit soʻzlar → rasm yigʻing → saralang → ranglarni ajrating → shrift va UI."
-   },
-   "others": {
-    "uz": "B — 2-qadam. C — 4-qadam. D — 5-qadam."
-   }
-  },
-  {
-   "id": 15,
-   "type": "theory",
-   "q": {
-    "uz": "Moodboard va style guide farqi nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Moodboard — «qoida», style guide — «his»"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Ikkalasi ham «his», faqat nomi boshqa"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ikkalasi ham «qoida», faqat formati boshqa"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Moodboard — «his», style guide — «qoida»"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Style guide — moodboardʼdan chiqqan aniq qarorlar: qaysi rang, qaysi shrift, qanday oʻlcham."
-   },
-   "others": {
-    "uz": "A — teskari aytilgan. B va C — biri yoʻnalish, biri aniq qoida."
-   }
-  },
-  {
-   "id": 16,
-   "type": "practice",
-   "q": {
-    "uz": "Ikkita «Bugun» ekranida bir xil maʼlumot bor. A ekranda hamma blok har xil rangda va bir xil darajada ajralib turadi. Nega A ekranda bugungi qadamni topish qiyin?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "A ekranda maʼlumot kamroq berilgan"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "A ekranda menyu umuman yoʻq"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ierarxiya va kontrast yoʻq: hech narsa ajralib turmaydi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "A ekranda shrift juda katta tanlangan"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Hamma narsa bir xil «baland ovozda» boʻlsa, koʻz qayerga qarashni bilmaydi."
-   },
-   "others": {
-    "uz": "A — maʼlumot ikkalasida bir xil. B — menyu bor. D — muammo oʻlchamda emas, ajratishda."
-   }
-  },
-  {
-   "id": 17,
-   "type": "practice",
-   "q": {
-    "uz": "2-darsdagi tadqiqot dalillariga koʻra One step uchun qanday vizual qaror toʻgʻri?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Oq fon va serif shrift: foydalanuvchilar shuni aytgan"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qora fon va neon ranglar: hozir trendda"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Koʻp rangli fon: ilova quvnoq koʻrinsin"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Dizaynerga yoqqan rang: u mutaxassis"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Vizual dizayn — tadqiqot dalillarini koʻzga koʻrinadigan qilish: oq fon, serif shrift, tartibli va sokin koʻrinish."
-   },
-   "others": {
-    "uz": "B va C — dalilga emas, trend yoki taxminga tayanadi. D — dizayner foydalanuvchi emas."
-   }
-  },
-  {
-   "id": 18,
-   "type": "practice",
-   "q": {
-    "uz": "Mobbinʼda One stepʼga oʻxshash ilova ekranini topdingiz. Uni qanday ishlatasiz?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Ekranni toʻliq nusxalab, logoni almashtirasiz"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Ilhom uchun koʻrib, oʻz yechimingizni qilasiz"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ekranni moodboard oʻrniga style guide qilasiz"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Ekranni One stepʼning yakuniy dizayni qilasiz"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Mobbin — haqiqiy ilovalar ekranlari: ilhom uchun, nusxa olish uchun emas."
-   },
-   "others": {
-    "uz": "A va D — bu nusxa olish. C — style guide oʻz moodboardʼingizdan chiqadi."
-   }
-  },
-  {
-   "id": 19,
-   "type": "practice",
-   "q": {
-    "uz": "Jamoada «qaysi yashil?» degan savol qayta-qayta chiqyapti. Darsga koʻra toʻgʻri yechim qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Har kim oʻziga yoqqan yashilni tanlaydi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Moodboardʼga yana bir nechta rasm qoʻshiladi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Wireframeʼga rang kodi yozib qoʻyiladi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Style guideʼda bitta javob yoziladi: #0F3D34"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Javob bitta joyda yozilgan: dizayner ham, dasturchi ham soʻramaydi. Bu 6-tamoyil — izchillikning amaldagi koʻrinishi."
-   },
-   "others": {
-    "uz": "A — izchillik buziladi. B — moodboard — his, aniq rang emas. C — wireframeʼda rang yoʻq."
-   }
-  },
-  {
-   "id": 20,
-   "type": "practice",
-   "q": {
-    "uz": "«Bugun» sahifasida chapda katta qadam kartasi bor, oʻng tomon boʻsh va sahifa bir tomonga «ogʻib» ketgan. One stepʼda bu qanday yechilgan?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Balans: oʻngga 3 ta kichik blok (4 ustun) qoʻyilgan"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Yaqinlik: karta va bloklar orasi 0 px qilingan"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Kontrast: karta yorqin qizil rangga boʻyalgan"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Tekislash: karta sahifa markaziga surilgan"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Chapda qadam kartasi (8 ustun), oʻngda 3 blok (4 ustun) — katta va kichik bloklar ogʻirligi teng."
-   },
-   "others": {
-    "uz": "B — guruhlar yopishib qoladi. C — ogʻirlik yanada bir tomonga oʻtadi. D — oʻng tomon baribir boʻsh qoladi."
-   }
-  }
- ]
+  ]
 }

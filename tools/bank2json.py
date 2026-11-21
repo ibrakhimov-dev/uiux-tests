@@ -1,7 +1,7 @@
 """Savollar banki (markdown) -> dars-N/savollar.json. Foydalanish: python3 bank2json.py bank.md <repo_dir>"""
 import re, json, sys, os
 src, out = sys.argv[1], sys.argv[2]
-md = open(src, encoding='utf-8').read()
+md = open(src, encoding='utf-8').read().replace('\\[', '[').replace('\\]', ']')
 lessons = re.split(r'^## (\d+)-dars: (.+)$', md, flags=re.M)
 meta = []
 LT = {l['n']: l['title'] for l in json.load(open(os.path.join(out, 'lessons.json'), encoding='utf-8'))['lessons']} if os.path.exists(os.path.join(out, 'lessons.json')) else {}
@@ -22,3 +22,6 @@ for i in range(1, len(lessons), 3):
               open(os.path.join(d, 'savollar.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     meta.append((num, title, len(qs)))
 print(meta)
+# ru/en/ja tarjimalarini qayta qo'shish (tools/tr/*.txt)
+import subprocess
+subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'merge_tr.py')] + [str(m[0]) for m in meta], check=True)

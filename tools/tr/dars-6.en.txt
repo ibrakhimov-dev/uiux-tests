@@ -1,0 +1,160 @@
+@1
+Q: What is visual design?
+A: Linking screens together and making the interface clickable
+B: Making the interface clear and pleasant with color, type, spacing and shape
+C: Placing the page's blocks as gray rectangles
+D: Grouping all the site's pages and naming them
+W: Visual design makes the interface clear, trustworthy and pleasant.
+O: A is a prototype. C is a wireframe. D is information architecture.
+@2
+Q: Which two questions does visual design answer?
+A: "Where does it go?" and "How big is it?"
+B: "What happens on tap?" and "Where does it return?"
+C: "Who is the user?" and "What do they do?"
+D: "What is seen first?" and "What feeling does it create?"
+W: What the user sees first and what feeling the product creates.
+O: A are wireframe questions. B are prototype questions. C are persona and scenario questions.
+@3
+Q: Which pair is correct?
+A: Wireframe — how it works; prototype — where and how big
+B: Wireframe — where and how big; prototype — how it works
+C: Wireframe — how it looks; prototype — what it feels like
+D: Wireframe — what it feels like; prototype — where it goes
+W: And visual design is how it looks and what it feels like.
+O: A is stated backwards. C and D: "look" and "feel" belong to visual design.
+@4
+Q: How are elements and principles connected?
+A: Elements are the bricks, principles are the rules for laying them
+B: Principles are the bricks, elements are the rules for laying them
+C: Elements and principles are two names for the same thing
+D: Elements are strict rules, principles are optional advice
+W: Each element is written down in one place in the style guide; principles say how to lay them out.
+O: B is stated backwards. C: one is the material, the other the rule. D: the lesson has no such split.
+@5
+Q: Which of these is not one of the 6 UI elements, but a principle?
+A: Typography
+B: Spacing
+C: Contrast
+D: Line
+W: The 6 elements: color, typography, spacing, shape, icons and images, line. Contrast is a principle.
+O: A, B and D are all on the list of elements.
+@6
+Q: What is the lesson's rule about texture?
+A: Every button should get a texture
+B: Texture is the most important element in UI
+C: Texture is used only under text
+D: No texture under text: it makes reading harder
+W: Texture matters in print, but rarely in UI: only for backgrounds and decoration, and very light.
+O: A and B: texture is rarely used in UI. C: the opposite — it shouldn't be under text.
+@7
+Q: What is the lesson's rule about white space?
+A: White space is breathing room, taken only from the scale
+B: White space is wasted room and should be reduced
+C: White space is chosen by eye each time
+D: White space exists only at the page edges
+W: The One step scale: 4 / 8 / 16 / 24 / 32 px.
+O: B: empty space isn't waste. C: random numbers break consistency. D: there's also space between blocks.
+@8
+Q: What does the principle of hierarchy mean?
+A: Elements are aligned to one line
+B: The page doesn't lean to one side
+C: The important thing is bigger, bolder, on top
+D: The same thing looks the same everywhere
+W: The eye lands on the important thing first. One step: today's step title is the biggest text.
+O: A is alignment. B is balance. D is consistency.
+@9
+Q: According to the contrast principle, what is the minimum contrast between text and background?
+A: 1.5:1
+B: 4.5:1
+C: 2:1
+D: 3.5:1
+W: Contrast means separating through difference: color, size, weight. For text, at least 4.5:1.
+O: A, C and D are below that limit, so the text is hard to read.
+@10
+Q: What does the principle of proximity mean?
+A: All elements are the same distance apart
+B: Elements are placed as far apart as possible
+C: Distance doesn't matter, color matters more
+D: Related things are close, others are farther away
+W: The eye sees the group by itself. One step: the step's name and time are side by side, the next block is 32 px away.
+O: A: groups become invisible. B: related things get separated too. C: distance is the main tool for grouping.
+@11
+Q: What does the principle of consistency require?
+A: Every page should have its own unique look
+B: The whole page should use only one color
+C: The same thing should look the same everywhere
+D: All text should be the same size
+W: That's why components are needed. One step: all main buttons are one "Button / Primary".
+O: A is the opposite of consistency. B and D: consistency requires sameness, not a number of colors or sizes.
+@12
+Q: "A page has one main hero; everything else serves it" — which principle is this?
+A: Dominance
+B: Balance
+C: Alignment
+D: Proximity
+W: One step: on the "Today" page, the main hero is today's step.
+O: B: the page doesn't lean to one side. C: aligning to one line. D: putting related things close.
+@13
+Q: On Google's home page, rarely used links are small and at the edges. According to the lesson's analysis, which principle is this?
+A: Balance
+B: Hierarchy
+C: Consistency
+D: Proximity
+W: The important thing is big and in the center; rarely used things are small and at the edges: the top-right corner and the bottom row.
+O: A: Google's balance is that everything is centered and symmetric. C and D don't apply to this case in the analysis.
+@14
+Q: What is the first step in making a moodboard?
+A: Choosing 3 keywords from research evidence
+B: Collecting 15–20 images from Pinterest
+C: Picking out 3–5 colors from the images
+D: Choosing 2 font pairings
+W: 5 steps: keywords → collect images → sort them → pick out colors → fonts and UI.
+O: B is step 2. C is step 4. D is step 5.
+@15
+Q: What is the difference between a moodboard and a style guide?
+A: Moodboard — "rules", style guide — "feeling"
+B: Both are "feeling", only the name differs
+C: Both are "rules", only the format differs
+D: Moodboard — "feeling", style guide — "rules"
+W: A style guide is the exact decisions drawn from the moodboard: which color, which font, what size.
+O: A is stated backwards. B and C: one is a direction, the other exact rules.
+@16
+Q: Two "Today" screens have the same information. On screen A, every block has a different color and stands out equally. Why is today's step hard to find on screen A?
+A: Screen A has less information
+B: Screen A has no menu at all
+C: No hierarchy or contrast: nothing stands out
+D: Screen A uses a font that is too large
+W: When everything is equally "loud", the eye doesn't know where to look.
+O: A: the information is the same on both. B: there is a menu. D: the problem isn't size but separation.
+@17
+Q: Based on the research evidence from Lesson 2, which visual decision is right for One step?
+A: White background and a serif font: that's what users said
+B: Black background and neon colors: it's trendy now
+C: A multicolored background: so the app looks cheerful
+D: A color the designer likes: they're the expert
+W: Visual design makes research evidence visible: white background, serif font, a tidy and calm look.
+O: B and C rely on trends or guesses, not evidence. D: the designer isn't the user.
+@18
+Q: You found an app screen on Mobbin similar to One step. How do you use it?
+A: Copy the screen fully and swap the logo
+B: Look at it for inspiration and make your own solution
+C: Use the screen as a style guide instead of a moodboard
+D: Make the screen One step's final design
+W: Mobbin has real app screens: for inspiration, not for copying.
+O: A and D are copying. C: the style guide comes from your own moodboard.
+@19
+Q: The question "which green?" keeps coming up in the team. According to the lesson, what's the right solution?
+A: Everyone picks the green they like
+B: A few more images are added to the moodboard
+C: The color code is written on the wireframe
+D: One answer is written in the style guide: #0F3D34
+W: The answer is written in one place: neither the designer nor the developer has to ask. This is principle 6 — consistency in practice.
+O: A breaks consistency. B: a moodboard is a feeling, not an exact color. C: wireframes have no color.
+@20
+Q: On the "Today" page, there's a big step card on the left, the right side is empty, and the page "leans" to one side. How was this solved in One step?
+A: Balance: 3 small blocks (4 columns) placed on the right
+B: Proximity: the gap between the card and blocks set to 0 px
+C: Contrast: the card painted bright red
+D: Alignment: the card moved to the center of the page
+W: Step card on the left (8 columns), 3 blocks on the right (4 columns) — the weight of big and small blocks is equal.
+O: B: the groups stick together. C: the weight shifts even more to one side. D: the right side stays empty anyway.

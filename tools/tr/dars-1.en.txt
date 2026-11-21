@@ -1,0 +1,160 @@
+@1
+Q: According to the intro lesson, what is design?
+A: A decision made with a purpose
+B: The art of drawing beautiful pictures
+C: A collection of colors and shapes
+D: A way of expressing yourself
+W: Design is a decision made with a purpose: you choose, you think, you want it to work for someone.
+O: B and C are tools of design, not its definition. D describes an artist.
+@2
+Q: What is the difference between an artist and a designer?
+A: The artist works for others, the designer works for themselves
+B: The artist draws by hand, the designer draws on a computer
+C: The artist expresses themselves, the designer solves someone else's problem
+D: The artist uses color, the designer uses only fonts
+W: If you post something for yourself, you are an artist; if you post it so a customer buys, you are a designer.
+O: A is stated backwards. B and D: the difference is in the purpose, not the tool.
+@3
+Q: How is creativity defined in the intro lesson?
+A: Looking at one thing with ten different eyes
+B: Drawing a new picture every single day
+C: Dressing differently from everyone else
+D: Finding only the one correct answer
+W: The brick example: nobody drew anything, yet everyone was creative.
+O: B and C: creativity is not drawing or appearance. D is the opposite of creativity.
+@4
+Q: What is UX (User Experience)?
+A: What the user sees on the screen and what they tap
+B: What the user feels and how easily they reach their goal
+C: Which colors and fonts the product is shown in
+D: Which programming language the product is written in
+W: UX is the user's experience: how they feel and how easily they reach their goal.
+O: A is the definition of UI. C: appearance belongs to UI. D is the developer's job.
+@5
+Q: What is UI (User Interface)?
+A: What the user feels and how they think
+B: Who the user is and what they need
+C: How much the product costs and who it is sold to
+D: What the user sees and what they tap
+W: UI is the part you see and tap on the screen.
+O: A: feelings belong to UX. B is user research. C is a business question.
+@6
+Q: In what order do the 5 stages of the UX process go?
+A: Empathize → Define → Ideate → Prototype → Test
+B: Define → Empathize → Ideate → Test → Prototype
+C: Empathize → Ideate → Define → Prototype → Test
+D: Ideate → Define → Empathize → Prototype → Test
+W: Understand → define → ideas → prototype → test.
+O: B: a problem can't be defined without understanding the user, and testing comes after the prototype. C: ideas come after the problem is defined. D: the process starts with understanding the user.
+@7
+Q: Which part of UI do icons, images, illustrations and logos belong to?
+A: Typography
+B: Layout
+C: Graphic elements (Graphic Design)
+D: Interactive elements (Interaction)
+W: Graphic elements are icons, images, illustrations and logos.
+O: A: font, size, weight, line spacing. B: where and in what order elements are placed. D: buttons, forms, states, animation.
+@8
+Q: In the "UI or UX?" game, which complaint is a UX problem?
+A: The button color is faded and hard to see
+B: I spent 5 minutes looking for the section I needed
+C: The font is too small and hard to read
+D: The icons are drawn in different styles
+W: The problem is not in the look but in the path to the goal, so it is UX.
+O: A, C and D are about color, font and icons, i.e. appearance — UI problems.
+@9
+Q: Why do many ATMs return the card first and then the cash?
+A: So the ATM has time to count out the cash
+B: So the card doesn't get stuck together with the cash
+C: So the bank has time to confirm the payment
+D: So people don't forget the card after taking the cash
+W: Cash is the main goal. Once people get it, they leave, so the card is returned earlier.
+O: A, B and C are technical reasons; the reason in the lesson is preventing user error.
+@10
+Q: You pushed a door, but it opens by pulling. According to the lesson, who is to blame?
+A: The person who pushed the door
+B: The worker who installed the door
+C: The design of the door
+D: Nobody is to blame
+W: The lesson's conclusion: when a user makes a mistake, the design is usually to blame.
+O: A: the person acted on the signal the door gave. B: the worker only installed the door as designed. D: there is a mistake, so it needs fixing.
+@11
+Q: What does the "saves money and time" reason for UI/UX mean?
+A: Designers are paid less than developers
+B: Fixing a mistake is cheap in a prototype, costly in the app
+C: A beautiful design reduces advertising costs
+D: With good design, the app doesn't need testing
+W: The earlier a mistake is found, the cheaper it is to fix.
+O: A: it's not about salaries. C: the lesson says nothing about ads. D: testing is part of the UX process itself.
+@12
+Q: What was changed in the "$300 million button" story?
+A: "Register" became "Continue", and registration became optional
+B: The "Register" button was made bigger and painted red
+C: Discounts and free delivery were added to checkout
+D: New fields were added to the registration form
+W: A mandatory step was removed: +$15M in the first month, +$300M in sales in a year.
+O: B: color and size were not changed. C: prices and discounts did not change. D: that would make the path even longer.
+@13
+Q: Which year and which name is the term "User Experience" linked to?
+A: 1984, Apple Macintosh
+B: 1973, Xerox Alto
+C: 2007, iPhone
+D: 1993, Don Norman (Apple)
+W: The term "User Experience" appeared in 1993 with Don Norman (Apple).
+O: A: the graphical interface reached ordinary people. B: the first graphical interface: windows, icons, mouse. C: a touchscreen instead of buttons.
+@14
+Q: What is the overall conclusion of the UI/UX evolution?
+A: At every stage the computer moved one step closer to people
+B: At every stage computers became cheaper and smaller
+C: At every stage interfaces became more complex
+D: At every stage the designer's work became smaller
+W: From the command line to the mouse, finger, voice, conversation and eye movement — the computer kept adapting to people.
+O: B: the lesson is not about price. C: the opposite — control became easier. D: the lesson has no such conclusion.
+@15
+Q: The developer says "but it works", the user says "I don't get it". According to the lesson, who is right?
+A: The developer: if the product works, the job is done
+B: The developer: the user should read the manual
+C: The user: a confusing product isn't convenient even if it works
+D: Nobody: the problem is in the phone or the internet
+W: If it isn't convenient, people delete the app.
+O: A and B: working is not enough, the product must be understandable. D: the problem is not technical but in understanding.
+@16
+Q: An app has 12 fields for sign-up, and many people abandon the form halfway. What kind of problem is this, and what should be done?
+A: A UI problem: paint the fields in nicer colors
+B: A UI problem: make the font bigger and easier to read
+C: A UX problem: reduce the fields and shorten the path
+D: A UX problem: explain why 12 fields are needed
+W: The problem is a long path. With fewer fields, reaching the goal gets easier.
+O: A and B change the look, but the 12 fields stay. D: explaining doesn't shorten the path.
+@17
+Q: An app's home screen has 40 buttons, but people mostly use 5. Based on the TV remote example, what should be done?
+A: Keep all 40 buttons the same size
+B: Add a few more useful buttons
+C: Remove the buttons and leave only text
+D: Bring the 5 needed ones forward and hide the rest
+W: A remote has 40 buttons but only 5 are needed. The needed action should catch the eye first.
+O: A: the 5 needed ones get lost among the others. B: more choices make finding harder. C: the needed buttons disappear too.
+@18
+Q: An online store requires registration before purchase, and shoppers leave at that point. Based on the $300M button lesson, what should be done?
+A: Make the registration form look nicer
+B: Make registration optional and continue the purchase
+C: Promise a discount to those who register
+D: Make the registration button bigger
+W: The shopper's goal is to buy. Removing the mandatory step is the same solution as "Register → Continue".
+O: A, C and D keep the mandatory step, so people still leave.
+@19
+Q: You made a post for your shop with small text in English. Many of your customers are elderly. Which idea from the intro lesson fits this case?
+A: A designer looks through the user's eyes
+B: A designer decides based on their own taste
+C: A designer chooses only a modern style
+D: A designer should first express themselves
+W: "If your 70-year-old grandmother sees your post, can she read it?" — a designer looks not through their own eyes but through the user's.
+O: B and C put the designer, not the user, at the center. D describes an artist.
+@20
+Q: In an app the text is very small and light gray, so people with weak eyesight can't read it. Which piece of designer advice is broken?
+A: Accept change
+B: Stay up to date
+C: Make it open to everyone (accessibility)
+D: Be versatile
+W: Accessibility means everyone, including people with weak eyesight, can use the product.
+O: A, B and D are about the designer's own growth and don't apply to this case.

@@ -17,7 +17,9 @@ assets/js/i18n.js     interfeys matnlari: uz, ru, en, ja
 assets/js/common.js   sozlamalar (Apps Script manzili), til, rejim, header, modal
 assets/js/test.js     test dvigateli: taymer, chiqishlar, yakunlash, natija, tahlil
 apps-script/Code.gs   Google Sheets qabul qiluvchi skript
-tools/bank2json.py    savollar banki (markdown) -> dars-N/savollar.json
+tools/bank2json.py    savollar banki (markdown) -> dars-N/savollar.json (oxirida tarjimalarni ham qo'shadi)
+tools/tr/             savollarning ru/en/ja tarjimalari: dars-N.<til>.txt
+tools/merge_tr.py     tools/tr tarjimalarini dars-N/savollar.json ga qo'shadi
 tools/build.py        lessons.json -> dars-N/index.html
 ```
 
@@ -34,3 +36,22 @@ tools/build.py        lessons.json -> dars-N/index.html
 - Boshqa oyna/ilovaga o'tish sanaladi, ogohlantiriladi va jadvalga yoziladi; test davom etadi.
 - Urinishlar cheklanmagan. Javoblar qurilmada saqlanadi, internet uzilsa natija navbatda turib, qayta yuboriladi (server bir urinishni ikki marta yozmaydi).
 - Jadvalda S1–S20 — savolning asl raqami bo'yicha, qiymati — asl harf (A–D) + ✓/✗.
+
+## Tarjimalar
+
+Savollar 4 tilda: uz, ru, en, ja. Sayt tilini almashtirganda savollar, variantlar va izohlar ham almashadi (test davomida ham).
+Tarjima fayli formati (`tools/tr/dars-N.en.txt`):
+
+```
+@1
+Q: savol
+A: variant A
+B: variant B
+C: variant C
+D: variant D
+W: nega to'g'ri
+O: qolganlari nega noto'g'ri
+```
+
+Savol o'zgarsa, tarjima faylini ham tuzating va `python3 tools/merge_tr.py N` ni ishga tushiring.
+Biror tilda tarjima bo'lmasa, sayt o'zbekchasini ko'rsatadi.

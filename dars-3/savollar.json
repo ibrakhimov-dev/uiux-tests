@@ -1,812 +1,1232 @@
 {
- "lesson": 3,
- "title": {
-  "uz": "Axborot arxitekturasi va navigatsiya",
-  "ru": "Информационная архитектура и навигация",
-  "en": "Information architecture and navigation",
-  "ja": "情報アーキテクチャとナビゲーション"
- },
- "minutes": 27,
- "questions": [
-  {
-   "id": 1,
-   "type": "theory",
-   "q": {
-    "uz": "Axborot arxitekturasi (IA) nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Sahifalarga rang, shrift va rasm tanlab bezash"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Maʼlumot va funksiyalarni guruhlash, joylashtirish va nomlash"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ekranlarni bir-biriga ulab, bosiladigan qilish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Saytni dasturlab, internetga joylab sozlash"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "IA ekranda koʻrinmaydi, lekin har bir ekran unga tayanadi."
-   },
-   "others": {
-    "uz": "A — bu vizual dizayn. C — bu prototip. D — bu dasturchining ishi."
-   }
+  "lesson": 3,
+  "title": {
+    "uz": "Axborot arxitekturasi va navigatsiya",
+    "ru": "Информационная архитектура и навигация",
+    "en": "Information architecture and navigation",
+    "ja": "情報アーキテクチャとナビゲーション"
   },
-  {
-   "id": 2,
-   "type": "theory",
-   "q": {
-    "uz": "Aysberg misolida suv ustidagi, foydalanuvchi koʻradigan qism nima?"
-   },
-   "options": [
+  "minutes": 27,
+  "questions": [
     {
-     "key": "A",
-     "text": {
-      "uz": "Navigatsiya: menyu, tugma, havola"
-     }
+      "id": 1,
+      "type": "theory",
+      "q": {
+        "uz": "Axborot arxitekturasi (IA) nima?",
+        "ru": "Что такое информационная архитектура (IA)?",
+        "en": "What is information architecture (IA)?",
+        "ja": "情報アーキテクチャ（IA）とは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Sahifalarga rang, shrift va rasm tanlab bezash",
+            "ru": "Оформление страниц: выбор цвета, шрифта и изображений",
+            "en": "Decorating pages by choosing colors, fonts and images",
+            "ja": "ページの色、フォント、画像を選んで飾ること"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Maʼlumot va funksiyalarni guruhlash, joylashtirish va nomlash",
+            "ru": "Группировка, размещение и названия контента и функций",
+            "en": "Grouping, placing and naming content and functions",
+            "ja": "情報と機能をグループ化し、配置し、名前をつけること"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ekranlarni bir-biriga ulab, bosiladigan qilish",
+            "ru": "Связывание экранов между собой, чтобы их можно было нажимать",
+            "en": "Linking screens together and making them clickable",
+            "ja": "画面同士をつなぎ、クリックできるようにすること"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Saytni dasturlab, internetga joylab sozlash",
+            "ru": "Программирование сайта и его публикация в интернете",
+            "en": "Coding the site and putting it online",
+            "ja": "サイトをプログラミングして公開・設定すること"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "IA ekranda koʻrinmaydi, lekin har bir ekran unga tayanadi.",
+        "ru": "IA не видна на экране, но на неё опирается каждый экран.",
+        "en": "IA isn't visible on the screen, but every screen relies on it.",
+        "ja": "IAは画面には見えませんが、すべての画面がIAに支えられています。"
+      },
+      "others": {
+        "uz": "A — bu vizual dizayn. C — bu prototip. D — bu dasturchining ishi.",
+        "ru": "A — это визуальный дизайн. C — это прототип. D — работа программиста.",
+        "en": "A is visual design. C is a prototype. D is the developer's job.",
+        "ja": "Aはビジュアルデザインです。Cはプロトタイプです。Dはエンジニアの仕事です。"
+      }
     },
     {
-     "key": "B",
-     "text": {
-      "uz": "IA: nima bor va qanday guruhlangan"
-     }
+      "id": 2,
+      "type": "theory",
+      "q": {
+        "uz": "Aysberg misolida suv ustidagi, foydalanuvchi koʻradigan qism nima?",
+        "ru": "В примере с айсбергом что находится над водой и видно пользователю?",
+        "en": "In the iceberg example, what is the part above water that the user sees?",
+        "ja": "氷山の例で、水面の上にありユーザーに見える部分は何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Navigatsiya: menyu, tugma, havola",
+            "ru": "Навигация: меню, кнопки, ссылки",
+            "en": "Navigation: menus, buttons, links",
+            "ja": "ナビゲーション：メニュー、ボタン、リンク"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "IA: nima bor va qanday guruhlangan",
+            "ru": "IA: что есть и как сгруппировано",
+            "en": "IA: what there is and how it's grouped",
+            "ja": "IA：何があり、どうグループ化されているか"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Sayt xaritasi: barcha sahifalar chizmasi",
+            "ru": "Карта сайта: схема всех страниц",
+            "en": "Sitemap: a chart of all pages",
+            "ja": "サイトマップ：全ページの図"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Card sorting: kartalar va toʻplar",
+            "ru": "Card sorting: карточки и стопки",
+            "en": "Card sorting: cards and piles",
+            "ja": "カードソーティング：カードと山"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Foydalanuvchi faqat navigatsiyani koʻradi; IA suv ostidagi katta qism.",
+        "ru": "Пользователь видит только навигацию; IA — большая часть под водой.",
+        "en": "The user only sees the navigation; IA is the big part under the water.",
+        "ja": "ユーザーに見えるのはナビゲーションだけです。IAは水面下の大きな部分です。"
+      },
+      "others": {
+        "uz": "B — IA koʻrinmaydigan qism. C va D — bular dizayn jamoasining ish vositalari, foydalanuvchi ularni koʻrmaydi.",
+        "ru": "B — IA — невидимая часть. C и D — рабочие инструменты команды дизайна, пользователь их не видит.",
+        "en": "B: IA is the invisible part. C and D are the design team's working tools; the user doesn't see them.",
+        "ja": "B：IAは見えない部分です。CとDはデザインチームの作業ツールで、ユーザーには見えません。"
+      }
     },
     {
-     "key": "C",
-     "text": {
-      "uz": "Sayt xaritasi: barcha sahifalar chizmasi"
-     }
+      "id": 3,
+      "type": "theory",
+      "q": {
+        "uz": "IA qaysi uchta savolga javob beradi?",
+        "ru": "На какие три вопроса отвечает IA?",
+        "en": "Which three questions does IA answer?",
+        "ja": "IAはどの3つの問いに答えますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Nima bor? Qaysi tartibda? Qayerga olib boradi?",
+            "ru": "Что есть? В каком порядке? Куда ведёт?",
+            "en": "What's there? In what order? Where does it lead?",
+            "ja": "何がある？どの順番？どこへつながる？"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Men qayerdaman? Bu yerda nima bor? Keyin qayerga?",
+            "ru": "Где я? Что здесь есть? Куда дальше?",
+            "en": "Where am I? What's here? Where next?",
+            "ja": "今どこ？ここに何がある？次はどこへ？"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Nima bor? Qanday guruhlangan? Qanday nomlangan?",
+            "ru": "Что есть? Как сгруппировано? Как названо?",
+            "en": "What's there? How is it grouped? How is it named?",
+            "ja": "何がある？どうグループ化？どう名づける？"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Qaysi rang? Qaysi shrift? Qancha boʻshliq?",
+            "ru": "Какой цвет? Какой шрифт? Сколько отступов?",
+            "en": "Which color? Which font? How much spacing?",
+            "ja": "どの色？どのフォント？余白はどれくらい？"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "IA — mazmun (content), tuzilma (structure) va nomlar (labels).",
+        "ru": "IA — это контент (content), структура (structure) и названия (labels).",
+        "en": "IA is content, structure and labels.",
+        "ja": "IAとは、コンテンツ（content）、構造（structure）、名前（labels）です。"
+      },
+      "others": {
+        "uz": "A — mikro IA savollari. B — navigatsiya savollari. D — vizual dizayn savollari.",
+        "ru": "A — вопросы микро-IA. B — вопросы навигации. D — вопросы визуального дизайна.",
+        "en": "A are micro IA questions. B are navigation questions. D are visual design questions.",
+        "ja": "AはマイクロIAの問いです。Bはナビゲーションの問いです。Dはビジュアルデザインの問いです。"
+      }
     },
     {
-     "key": "D",
-     "text": {
-      "uz": "Card sorting: kartalar va toʻplar"
-     }
+      "id": 4,
+      "type": "theory",
+      "q": {
+        "uz": "Supermarket misolida «bitta tokcha: qaysi mahsulot koʻz darajasida, qaysi biri pastda» nimaga mos?",
+        "ru": "В примере с супермаркетом чему соответствует «одна полка: какой товар на уровне глаз, какой ниже»?",
+        "en": "In the supermarket example, what does \"one shelf: which product is at eye level and which is lower\" match?",
+        "ja": "スーパーの例で、「一つの棚：どの商品を目の高さに、どれを下に置くか」は何にあたりますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Axborot arxitekturasi",
+            "ru": "Информационной архитектуре",
+            "en": "Information architecture",
+            "ja": "情報アーキテクチャ"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Sayt xaritasi",
+            "ru": "Карте сайта",
+            "en": "Sitemap",
+            "ja": "サイトマップ"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Navigatsiya",
+            "ru": "Навигации",
+            "en": "Navigation",
+            "ja": "ナビゲーション"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Mikro IA",
+            "ru": "Микро-IA",
+            "en": "Micro IA",
+            "ja": "マイクロIA"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Doʻkonda IA — qaror, sayt xaritasi — doʻkon rejasi, mikro IA — bitta tokcha, navigatsiya — yoʻl koʻrsatkich.",
+        "ru": "В магазине IA — решение, карта сайта — план магазина, микро-IA — одна полка, навигация — указатели.",
+        "en": "In a store, IA is the decision, the sitemap is the store plan, micro IA is one shelf, navigation is the signs.",
+        "ja": "店で言えば、IAは決定、サイトマップは店の配置図、マイクロIAは一つの棚、ナビゲーションは案内表示です。"
+      },
+      "others": {
+        "uz": "A — qaysi mahsulot qaysi boʻlimda turishi. B — boʻlimlar qayerda joylashgani. C — tepada osilgan yoʻl koʻrsatkichlar.",
+        "ru": "A — какой товар в каком отделе. B — где расположены отделы. C — указатели, висящие сверху.",
+        "en": "A: which product sits in which section. B: where the sections are located. C: the signs hanging overhead.",
+        "ja": "A：どの商品をどの売り場に置くか。B：売り場がどこにあるか。C：天井から下がる案内表示。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "theory",
+      "q": {
+        "uz": "Sayt xaritasi (sitemap) nima?",
+        "ru": "Что такое карта сайта (sitemap)?",
+        "en": "What is a sitemap?",
+        "ja": "サイトマップ（sitemap）とは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Bitta sahifa ichidagi bloklar va tugmalar tartibi",
+            "ru": "Порядок блоков и кнопок внутри одной страницы",
+            "en": "The order of blocks and buttons inside one page",
+            "ja": "1ページ内のブロックとボタンの並び順"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Sahifalarning rangli, tayyor dizaynlari toʻplami",
+            "ru": "Набор цветных готовых дизайнов страниц",
+            "en": "A collection of finished, colored page designs",
+            "ja": "色のついた完成ページデザインの集まり"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Barcha sahifalar va ularning bogʻlanishini koʻrsatuvchi chizma",
+            "ru": "Схема всех страниц и связей между ними",
+            "en": "A chart showing all pages and how they connect",
+            "ja": "すべてのページとそのつながりを示す図"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Foydalanuvchi intervyusidan olingan dalillar roʻyxati",
+            "ru": "Список фактов из интервью с пользователями",
+            "en": "A list of evidence from user interviews",
+            "ja": "ユーザーインタビューから得た根拠の一覧"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Xarita daraxtga oʻxshaydi: tepada bosh sahifa, ostida boʻlimlar, ichida sahifalar.",
+        "ru": "Карта похожа на дерево: наверху главная, под ней разделы, внутри страницы.",
+        "en": "A sitemap looks like a tree: the home page on top, sections below it, pages inside them.",
+        "ja": "サイトマップは木に似ています。上にトップページ、その下にセクション、中にページがあります。"
+      },
+      "others": {
+        "uz": "A — bu mikro IA. B — bu tayyor dizayn. D — bu loyiha doskasi.",
+        "ru": "A — это микро-IA. B — готовый дизайн. D — доска проекта.",
+        "en": "A is micro IA. B is a finished design. D is the project board.",
+        "ja": "AはマイクロIAです。Bは完成したデザインです。Dはプロジェクトボードです。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "theory",
+      "q": {
+        "uz": "Texnik (XML) sayt xaritasi kim uchun va uni kim yozadi?",
+        "ru": "Для кого техническая (XML) карта сайта и кто её пишет?",
+        "en": "Who is a technical (XML) sitemap for, and who writes it?",
+        "ja": "技術的な（XML）サイトマップは誰のためのもので、誰が書きますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizayn jamoasi uchun, uni dizayner chizadi",
+            "ru": "Для команды дизайна, её рисует дизайнер",
+            "en": "For the design team; the designer draws it",
+            "ja": "デザインチームのため、デザイナーが描く"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qidiruv tizimlari uchun, uni dasturchi yozadi",
+            "ru": "Для поисковых систем, её пишет программист",
+            "en": "For search engines; the developer writes it",
+            "ja": "検索エンジンのため、エンジニアが書く"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Foydalanuvchilar uchun, uni menejer yozadi",
+            "ru": "Для пользователей, её пишет менеджер",
+            "en": "For users; the manager writes it",
+            "ja": "ユーザーのため、マネージャーが書く"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Buyurtmachi uchun, uni dizayner chizadi",
+            "ru": "Для заказчика, её рисует дизайнер",
+            "en": "For the client; the designer draws it",
+            "ja": "依頼主のため、デザイナーが描く"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "XML xarita Google kabi qidiruv tizimlari uchun sahifalar roʻyxati, SEO uchun kerak.",
+        "ru": "XML-карта — список страниц для поисковиков вроде Google, нужна для SEO.",
+        "en": "An XML sitemap is a list of pages for search engines like Google; it's needed for SEO.",
+        "ja": "XMLサイトマップはGoogleなどの検索エンジン向けのページ一覧で、SEOに必要です。"
+      },
+      "others": {
+        "uz": "A — bu vizual (UX) sayt xaritasi. C va D — XML xarita odam uchun emas, qidiruv tizimi uchun.",
+        "ru": "A — это визуальная (UX) карта сайта. C и D — XML-карта не для людей, а для поисковиков.",
+        "en": "A is the visual (UX) sitemap. C and D: an XML sitemap is for search engines, not people.",
+        "ja": "Aはビジュアル（UX）サイトマップです。CとD：XMLサイトマップは人ではなく検索エンジンのためのものです。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "theory",
+      "q": {
+        "uz": "Kartalarni saralash (card sorting) va sayt xaritasi qanday bogʻlangan?",
+        "ru": "Как связаны сортировка карточек (card sorting) и карта сайта?",
+        "en": "How are card sorting and the sitemap connected?",
+        "ja": "カードソーティングとサイトマップはどうつながっていますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Saralash «nima qayerda turadi»ni topadi, xarita uni chizadi",
+            "ru": "Сортировка находит «что где стоит», карта это рисует",
+            "en": "Sorting finds \"what goes where\", the sitemap draws it",
+            "ja": "ソーティングが「何をどこに置くか」を見つけ、サイトマップがそれを図にする"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Xarita «nima qayerda turadi»ni topadi, saralash uni chizadi",
+            "ru": "Карта находит «что где стоит», сортировка это рисует",
+            "en": "The sitemap finds \"what goes where\", sorting draws it",
+            "ja": "サイトマップが「何をどこに置くか」を見つけ、ソーティングがそれを図にする"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ikkalasi bir narsaning ikki xil nomi, farqi yoʻq",
+            "ru": "Это два названия одного и того же, разницы нет",
+            "en": "They're two names for the same thing, no difference",
+            "ja": "同じものの2つの呼び方で、違いはない"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Saralash ranglarni tanlaydi, xarita shriftlarni tanlaydi",
+            "ru": "Сортировка выбирает цвета, карта выбирает шрифты",
+            "en": "Sorting chooses colors, the sitemap chooses fonts",
+            "ja": "ソーティングが色を選び、サイトマップがフォントを選ぶ"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Saralash savolga javob beradi, sayt xaritasi shu javobning chizmasi.",
+        "ru": "Сортировка отвечает на вопрос, карта сайта — схема этого ответа.",
+        "en": "Sorting answers the question; the sitemap is a drawing of that answer.",
+        "ja": "ソーティングが問いに答え、サイトマップはその答えを図にしたものです。"
+      },
+      "others": {
+        "uz": "B — teskari aytilgan. C — biri usul, biri natija. D — ikkalasi ham rang va shrift bilan ishlamaydi.",
+        "ru": "B — сказано наоборот. C — одно метод, другое результат. D — ни то, ни другое не работает с цветом и шрифтом.",
+        "en": "B is stated backwards. C: one is a method, the other a result. D: neither works with colors or fonts.",
+        "ja": "Bは逆に述べています。C：一方は手法、もう一方は結果です。D：どちらも色やフォントは扱いません。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "theory",
+      "q": {
+        "uz": "Card sorting qoidasiga koʻra toʻp ichidagi kartalar nimaga aylanadi?",
+        "ru": "По правилу card sorting во что превращаются карточки внутри стопки?",
+        "en": "According to the card sorting rules, what do the cards inside a pile become?",
+        "ja": "カードソーティングのルールでは、山の中のカードは何になりますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Menyudagi yozuvga",
+            "ru": "В пункт меню",
+            "en": "A label in the menu",
+            "ja": "メニューの項目名"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Alohida sahifalarga",
+            "ru": "В отдельные страницы",
+            "en": "Separate pages",
+            "ja": "個別のページ"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Sahifalar tartibiga",
+            "ru": "В порядок страниц",
+            "en": "The order of pages",
+            "ja": "ページの順番"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Sahifadagi bloklarga",
+            "ru": "В блоки на странице",
+            "en": "Blocks on the page",
+            "ja": "ページ内のブロック"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Qoidalar: bitta toʻp = bitta sahifa yoki boʻlim, toʻp nomi = menyudagi yozuv, toʻp ichidagi kartalar = sahifadagi bloklar, foydalanuvchi yoʻli = sahifalar tartibi.",
+        "ru": "Правила: одна стопка = одна страница или раздел, название стопки = пункт меню, карточки в стопке = блоки на странице, путь пользователя = порядок страниц.",
+        "en": "Rules: one pile = one page or section, pile name = menu label, cards in a pile = blocks on the page, user path = order of pages.",
+        "ja": "ルール：1つの山＝1つのページまたはセクション、山の名前＝メニューの項目名、山の中のカード＝ページ内のブロック、ユーザーの道のり＝ページの順番。"
+      },
+      "others": {
+        "uz": "A — bu toʻpning nomi. B — bu toʻpning oʻzi. C — bu foydalanuvchi yoʻli.",
+        "ru": "A — это название стопки. B — сама стопка. C — путь пользователя.",
+        "en": "A is the pile's name. B is the pile itself. C is the user path.",
+        "ja": "Aは山の名前です。Bは山そのものです。Cはユーザーの道のりです。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "theory",
+      "q": {
+        "uz": "Mikro IA qaysi uchta savolga javob beradi?",
+        "ru": "На какие три вопроса отвечает микро-IA?",
+        "en": "Which three questions does micro IA answer?",
+        "ja": "マイクロIAはどの3つの問いに答えますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Qaysi rang? Qaysi shrift? Qancha boʻshliq?",
+            "ru": "Какой цвет? Какой шрифт? Сколько отступов?",
+            "en": "Which color? Which font? How much spacing?",
+            "ja": "どの色？どのフォント？余白はどれくらい？"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Kim uchun? Qachon? Qancha vaqtda?",
+            "ru": "Для кого? Когда? За сколько времени?",
+            "en": "For whom? When? How long?",
+            "ja": "誰のため？いつ？どれくらいの時間で？"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Nima bor? Qaysi tartibda? Qayerga olib boradi?",
+            "ru": "Что есть? В каком порядке? Куда ведёт?",
+            "en": "What's there? In what order? Where does it lead?",
+            "ja": "何がある？どの順番？どこへつながる？"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Nima bor? Qanday guruhlangan? Qanday nomlangan?",
+            "ru": "Что есть? Как сгруппировано? Как названо?",
+            "en": "What's there? How is it grouped? How is it named?",
+            "ja": "何がある？どうグループ化？どう名づける？"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Mikro IA — bitta sahifaning ichki tuzilmasi: bloklar, ularning tartibi va har bir tugma qayerga olib borishi.",
+        "ru": "Микро-IA — внутренняя структура одной страницы: блоки, их порядок и куда ведёт каждая кнопка.",
+        "en": "Micro IA is the inner structure of one page: the blocks, their order, and where each button leads.",
+        "ja": "マイクロIAとは1ページの内部構造です。ブロック、その順番、各ボタンの行き先。"
+      },
+      "others": {
+        "uz": "A — vizual dizayn savollari. B — tadqiqot savollari. D — butun mahsulot IAʼsining savollari.",
+        "ru": "A — вопросы визуального дизайна. B — вопросы исследования. D — вопросы IA всего продукта.",
+        "en": "A are visual design questions. B are research questions. D are the questions of the whole product's IA.",
+        "ja": "Aはビジュアルデザインの問いです。Bは調査の問いです。Dは製品全体のIAの問いです。"
+      }
+    },
+    {
+      "id": 10,
+      "type": "theory",
+      "q": {
+        "uz": "Mikro IAʼda bloklar qaysi tartibda joylashadi?",
+        "ru": "В каком порядке располагаются блоки в микро-IA?",
+        "en": "In what order are blocks placed in micro IA?",
+        "ja": "マイクロIAでは、ブロックはどの順番で配置しますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Eng chiroylisi tepada, oddiyrogʻi pastda",
+            "ru": "Самый красивый наверху, попроще внизу",
+            "en": "The prettiest on top, the plainer ones below",
+            "ja": "一番きれいなものを上、地味なものを下"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Eng muhimi tepada, kam ishlatiladigani pastda",
+            "ru": "Самый важный наверху, редко используемый внизу",
+            "en": "The most important on top, the rarely used below",
+            "ja": "一番重要なものを上、あまり使わないものを下"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Eng yangisi tepada, eskirogʻi pastda",
+            "ru": "Самый новый наверху, более старый внизу",
+            "en": "The newest on top, the older ones below",
+            "ja": "一番新しいものを上、古いものを下"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Eng kattasi tepada, kichigi pastda",
+            "ru": "Самый большой наверху, поменьше внизу",
+            "en": "The biggest on top, the smaller ones below",
+            "ja": "一番大きいものを上、小さいものを下"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Tokchadagi kabi: eng koʻp olinadigan mahsulot koʻz darajasida.",
+        "ru": "Как на полке: самый ходовой товар на уровне глаз.",
+        "en": "Like on a shelf: the most frequently taken product is at eye level.",
+        "ja": "棚と同じで、一番よく取られる商品が目の高さにあります。"
+      },
+      "others": {
+        "uz": "A, C va D — tartib chiroy, sana yoki oʻlchamga qarab emas, muhimlikka qarab tuziladi.",
+        "ru": "A, C и D — порядок строится не по красоте, дате или размеру, а по важности.",
+        "en": "A, C and D: the order is set by importance, not by looks, date or size.",
+        "ja": "A、C、D：順番は見た目、日付、大きさではなく、重要度で決めます。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "theory",
+      "q": {
+        "uz": "Mikro IA haqida qaysi gap toʻgʻri?",
+        "ru": "Какое утверждение о микро-IA верно?",
+        "en": "Which statement about micro IA is true?",
+        "ja": "マイクロIAについて正しいのはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Bu oddiy kulrang chizma: faqat tuzilma va yoʻllar",
+            "ru": "Это простая серая схема: только структура и пути",
+            "en": "It's a simple gray sketch: only structure and paths",
+            "ja": "シンプルなグレーの図で、構造と道筋だけを示す"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Bu rangli dizayn: shrift, rasm va chiroyli tugmalar",
+            "ru": "Это цветной дизайн: шрифты, картинки и красивые кнопки",
+            "en": "It's a colored design: fonts, images and nice buttons",
+            "ja": "色つきのデザインで、フォントや画像、きれいなボタンがある"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Bu prototip: tugmalarni bosib koʻrish mumkin",
+            "ru": "Это прототип: кнопки можно нажимать",
+            "en": "It's a prototype: you can click the buttons",
+            "ja": "プロトタイプで、ボタンを押して試せる"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Bu sayt xaritasi: barcha sahifalar orasidagi bogʻlanish",
+            "ru": "Это карта сайта: связи между всеми страницами",
+            "en": "It's a sitemap: the links between all pages",
+            "ja": "サイトマップで、全ページ間のつながりを示す"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Mikro IA — lo-fi kulrang chizma.",
+        "ru": "Микро-IA — серая lo-fi схема.",
+        "en": "Micro IA is a lo-fi gray sketch.",
+        "ja": "マイクロIAはlo-fiのグレーの図です。"
+      },
+      "others": {
+        "uz": "B — mikro IA dizayn emas. C — uni bosib boʻlmaydi. D — sahifalar orasidagi bogʻlanish — makro IA.",
+        "ru": "B — микро-IA не дизайн. C — на неё нельзя нажать. D — связи между страницами — это макро-IA.",
+        "en": "B: micro IA isn't a design. C: you can't click it. D: links between pages are macro IA.",
+        "ja": "B：マイクロIAはデザインではありません。C：押すことはできません。D：ページ間のつながりはマクロIAです。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "theory",
+      "q": {
+        "uz": "draw.ioʼdagi mikro IA chizmasida koʻk rang nimani bildiradi?",
+        "ru": "Что означает синий цвет на схеме микро-IA в draw.io?",
+        "en": "In a micro IA sketch in draw.io, what does blue mean?",
+        "ja": "draw.ioのマイクロIAの図で、青色は何を表しますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Holatlarni",
+            "ru": "Состояния",
+            "en": "States",
+            "ja": "状態"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Xatolarni",
+            "ru": "Ошибки",
+            "en": "Errors",
+            "ja": "エラー"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Navigatsiyani",
+            "ru": "Навигацию",
+            "en": "Navigation",
+            "ja": "ナビゲーション"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Muhim bloklarni",
+            "ru": "Важные блоки",
+            "en": "Important blocks",
+            "ja": "重要なブロック"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Kelishuv: koʻk — navigatsiya, sariq — holatlar.",
+        "ru": "Договорённость: синий — навигация, жёлтый — состояния.",
+        "en": "The convention: blue for navigation, yellow for states.",
+        "ja": "決まりごと：青＝ナビゲーション、黄＝状態。"
+      },
+      "others": {
+        "uz": "A — holatlar sariq rangda. B va D — mikro IAʼda bunday rang kelishuvi yoʻq.",
+        "ru": "A — состояния жёлтые. B и D — такой цветовой договорённости в микро-IA нет.",
+        "en": "A: states are yellow. B and D: micro IA has no such color convention.",
+        "ja": "A：状態は黄色です。BとD：マイクロIAにそのような色の決まりはありません。"
+      }
+    },
+    {
+      "id": 13,
+      "type": "theory",
+      "q": {
+        "uz": "Navigatsiya qoidasiga koʻra sayt xaritasidagi boʻlimlar nimaga aylanadi?",
+        "ru": "По правилу навигации во что превращаются разделы карты сайта?",
+        "en": "According to the navigation rule, what do the sitemap's sections become?",
+        "ja": "ナビゲーションのルールでは、サイトマップのセクションは何になりますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Kontekstual havolalarga",
+            "ru": "В контекстные ссылки",
+            "en": "Contextual links",
+            "ja": "コンテキストリンク"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Sahifa ichidagi bloklarga",
+            "ru": "В блоки внутри страницы",
+            "en": "Blocks inside a page",
+            "ja": "ページ内のブロック"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Holat xabarlariga",
+            "ru": "В сообщения о состоянии",
+            "en": "Status messages",
+            "ja": "状態メッセージ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Global menyuga",
+            "ru": "В глобальное меню",
+            "en": "The global menu",
+            "ja": "グローバルメニュー"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Qoida: sayt xaritasidagi boʻlimlar → global menyu, mikro IA bloklari → ichki va kontekstual havolalar.",
+        "ru": "Правило: разделы карты сайта → глобальное меню, блоки микро-IA → локальные и контекстные ссылки.",
+        "en": "The rule: sitemap sections → global menu, micro IA blocks → local and contextual links.",
+        "ja": "ルール：サイトマップのセクション → グローバルメニュー、マイクロIAのブロック → ローカルリンクとコンテキストリンク。"
+      },
+      "others": {
+        "uz": "A va B — ular mikro IAʼdan chiqadi. C — holatlar navigatsiya emas.",
+        "ru": "A и B — они выходят из микро-IA. C — состояния не являются навигацией.",
+        "en": "A and B come from micro IA. C: states aren't navigation.",
+        "ja": "AとBはマイクロIAから生まれます。C：状態はナビゲーションではありません。"
+      }
+    },
+    {
+      "id": 14,
+      "type": "theory",
+      "q": {
+        "uz": "«Matn yoki karta ichida, aynan kerak boʻlgan joyda chiqadigan havola» — navigatsiyaning qaysi turi?",
+        "ru": "«Ссылка внутри текста или карточки, появляющаяся именно там, где нужна» — какой это вид навигации?",
+        "en": "\"A link inside text or a card, appearing exactly where it's needed\" — which type of navigation is this?",
+        "ja": "「テキストやカードの中で、まさに必要な場所に出てくるリンク」はどの種類のナビゲーションですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Global",
+            "ru": "Global",
+            "en": "Global",
+            "ja": "Global"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Contextual",
+            "ru": "Contextual",
+            "en": "Contextual",
+            "ja": "Contextual"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Utility",
+            "ru": "Utility",
+            "en": "Utility",
+            "ja": "Utility"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Footer",
+            "ru": "Footer",
+            "en": "Footer",
+            "ja": "Footer"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Contextual — kontent ichidagi havola va CTA.",
+        "ru": "Contextual — ссылки и CTA внутри контента.",
+        "en": "Contextual means links and CTAs inside the content.",
+        "ja": "Contextualとは、コンテンツ内のリンクやCTAのことです。"
+      },
+      "others": {
+        "uz": "A — har sahifada bir xil joyda turadigan asosiy menyu. C — hisob, kirish, sozlama. D — sahifa oxiridagi kam ishlatiladigan havolalar.",
+        "ru": "A — основное меню, стоящее в одном месте на каждой странице. C — аккаунт, вход, настройки. D — редко используемые ссылки внизу страницы.",
+        "en": "A is the main menu that sits in the same place on every page. C: account, login, settings. D: rarely used links at the bottom of the page.",
+        "ja": "Aはどのページでも同じ場所にあるメインメニューです。C：アカウント、ログイン、設定。D：ページ下部の、あまり使わないリンク。"
+      }
+    },
+    {
+      "id": 15,
+      "type": "theory",
+      "q": {
+        "uz": "«Asosiy maqsad emas, lekin doim kerak: hisob, kirish, sozlama» — navigatsiyaning qaysi turi?",
+        "ru": "«Не основная цель, но нужно всегда: аккаунт, вход, настройки» — какой это вид навигации?",
+        "en": "\"Not the main goal, but always needed: account, login, settings\" — which type of navigation is this?",
+        "ja": "「主な目的ではないが、常に必要：アカウント、ログイン、設定」はどの種類のナビゲーションですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Utility",
+            "ru": "Utility",
+            "en": "Utility",
+            "ja": "Utility"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Local",
+            "ru": "Local",
+            "en": "Local",
+            "ja": "Local"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Stepper",
+            "ru": "Stepper",
+            "en": "Stepper",
+            "ja": "Stepper"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Breadcrumb",
+            "ru": "Breadcrumb",
+            "en": "Breadcrumb",
+            "ja": "Breadcrumb"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Utility — xizmat havolalari.",
+        "ru": "Utility — служебные ссылки.",
+        "en": "Utility means service links.",
+        "ja": "Utilityとはサービス用のリンクです。"
+      },
+      "others": {
+        "uz": "B — bitta boʻlim ichidagi menyu. C — koʻp qadamli ishda nechanchi qadamda ekanini koʻrsatadi. D — qayerdan kelganini koʻrsatib, qaytaradi.",
+        "ru": "B — меню внутри одного раздела. C — показывает, на каком шаге многошаговой задачи вы находитесь. D — показывает, откуда вы пришли, и возвращает назад.",
+        "en": "B is a menu inside one section. C shows which step you're on in a multi-step task. D shows where you came from and takes you back.",
+        "ja": "Bは一つのセクション内のメニューです。Cは複数ステップの作業で今何番目かを示します。Dはどこから来たかを示し、戻れるようにします。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "practice",
+      "q": {
+        "uz": "One step sayt xaritasida kirgandan keyin qaysi toʻrt boʻlim ochiladi?",
+        "ru": "Какие четыре раздела открываются в карте сайта One step после входа?",
+        "en": "In the One step sitemap, which four sections open after logging in?",
+        "ja": "One stepのサイトマップで、ログイン後に開く4つのセクションはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Bosh sahifa, Reja tanlash, Kirish, Chiqish",
+            "ru": "Главная, Выбор плана, Вход, Выход",
+            "en": "Home, Choose a plan, Log in, Log out",
+            "ja": "ホーム、プラン選択、ログイン、ログアウト"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Sozlamalar, Til, Parol, Yordam",
+            "ru": "Настройки, Язык, Пароль, Помощь",
+            "en": "Settings, Language, Password, Help",
+            "ja": "設定、言語、パスワード、ヘルプ"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Bugun, Ertaga, Hafta, Oy",
+            "ru": "Сегодня, Завтра, Неделя, Месяц",
+            "en": "Today, Tomorrow, Week, Month",
+            "ja": "今日、明日、週、月"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Bugun, Rejam, Progress, Profil",
+            "ru": "Сегодня, Мой план, Прогресс, Профиль",
+            "en": "Today, My plan, Progress, Profile",
+            "ja": "今日、マイプラン、進捗、プロフィール"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Tepada Bosh sahifa, undan Reja tanlash, kirgandan keyin toʻrt boʻlim: Bugun, Rejam, Progress, Profil.",
+        "ru": "Наверху Главная, от неё Выбор плана, после входа четыре раздела: Сегодня, Мой план, Прогресс, Профиль.",
+        "en": "Home on top, then Choose a plan, and after logging in four sections: Today, My plan, Progress, Profile.",
+        "ja": "一番上にホーム、そこからプラン選択、ログイン後は4つのセクション：今日、マイプラン、進捗、プロフィール。"
+      },
+      "others": {
+        "uz": "A — bular kirishdan oldingi sahifalar. B — bular sozlamalar, boʻlim emas. C — xaritada bunday boʻlimlar yoʻq.",
+        "ru": "A — страницы до входа. B — это настройки, а не разделы. C — таких разделов в карте нет.",
+        "en": "A are the pages before logging in. B are settings, not sections. C: the sitemap has no such sections.",
+        "ja": "Aはログイン前のページです。Bは設定で、セクションではありません。C：サイトマップにそのようなセクションはありません。"
+      }
+    },
+    {
+      "id": 17,
+      "type": "practice",
+      "q": {
+        "uz": "One stepʼdagi boʻlim uchun qaysi nom IA qoidasiga mos?",
+        "ru": "Какое название раздела в One step соответствует правилу IA?",
+        "en": "Which name for a One step section follows the IA rule?",
+        "ja": "One stepのセクション名として、IAのルールに合うのはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Rejam»",
+            "ru": "«Мой план»",
+            "en": "\"My plan\"",
+            "ja": "「マイプラン」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Shaxsiy reja boshqaruvi»",
+            "ru": "«Управление персональным планом»",
+            "en": "\"Personal plan management\"",
+            "ja": "「個人プラン管理」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Boʻlim 2»",
+            "ru": "«Раздел 2»",
+            "en": "\"Section 2\"",
+            "ja": "「セクション2」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Reja moduli»",
+            "ru": "«Модуль плана»",
+            "en": "\"Plan module\"",
+            "ja": "「プランモジュール」"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "IAʼning 3-savoli — «qanday nomlangan?». Nom foydalanuvchi tilida, qisqa va tushunarli boʻlishi kerak.",
+        "ru": "3-й вопрос IA — «как названо?». Название должно быть на языке пользователя, коротким и понятным.",
+        "en": "IA's 3rd question is \"how is it named?\". The name should be in the user's language, short and clear.",
+        "ja": "IAの3つ目の問いは「どう名づける？」です。名前はユーザーの言葉で、短く分かりやすくします。"
+      },
+      "others": {
+        "uz": "B va D — jamoa atamasi, foydalanuvchi bunday demaydi. C — hech narsani anglatmaydi.",
+        "ru": "B и D — термины команды, пользователь так не говорит. C — ничего не означает.",
+        "en": "B and D are team jargon; users don't talk like that. C means nothing.",
+        "ja": "BとDはチームの用語で、ユーザーはそう言いません。Cは何も意味しません。"
+      }
+    },
+    {
+      "id": 18,
+      "type": "practice",
+      "q": {
+        "uz": "Card sortingʼda «Reyting» kartasi qaysi toʻpga tushdi va nega?",
+        "ru": "В какую стопку при card sorting попала карточка «Рейтинг» и почему?",
+        "en": "In card sorting, which pile did the \"Leaderboard\" card fall into, and why?",
+        "ja": "カードソーティングで「ランキング」のカードはどの山に入りましたか？その理由は？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Kirmaydi»ga: dalilga zid, raqobat kerak emas",
+            "ru": "В «Не входит»: противоречит фактам, соревнование не нужно",
+            "en": "\"Doesn't fit\": contradicts evidence, no competition needed",
+            "ja": "「入れない」：根拠に反し、競争は不要だから"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Progress»ga: reyting natijani koʻrsatadi",
+            "ru": "В «Прогресс»: рейтинг показывает результат человека",
+            "en": "\"Progress\": a leaderboard shows the user's results",
+            "ja": "「進捗」：ランキングは結果を示すから"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Bugun»ga: reyting har kuni koʻriladi",
+            "ru": "В «Сегодня»: рейтинг проверяют каждый день",
+            "en": "\"Today\": a leaderboard is checked every day",
+            "ja": "「今日」：ランキングは毎日見るから"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Profil»ga: reyting shaxsiy maʼlumot",
+            "ru": "В «Профиль»: рейтинг — это личные данные",
+            "en": "\"Profile\": a leaderboard is personal user data",
+            "ja": "「プロフィール」：ランキングは個人情報だから"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Tadqiqotda foydalanuvchilar yolgʻiz rivojlanishini, raqobat kerak emasligini aytgan. «Kirmaydi» toʻpi xaritaga tushmaydi.",
+        "ru": "В исследовании пользователи сказали, что развиваются в одиночку и соревнование им не нужно. Стопка «Не входит» не попадает в карту.",
+        "en": "In research, users said they grow on their own and don't need competition. The \"Doesn't fit\" pile doesn't go on the sitemap.",
+        "ja": "調査でユーザーは、一人で成長したい、競争は要らないと言いました。「入れない」の山はサイトマップに載りません。"
+      },
+      "others": {
+        "uz": "B, C va D — kartani dalilga zid boʻlsa ham ilovaga qoʻshadi.",
+        "ru": "B, C и D добавляют карточку в приложение, хотя она противоречит фактам.",
+        "en": "B, C and D add the card to the app even though it contradicts the evidence.",
+        "ja": "B、C、D：根拠に反するのに、カードをアプリに加えてしまいます。"
+      }
+    },
+    {
+      "id": 19,
+      "type": "practice",
+      "q": {
+        "uz": "One stepʼdagi AI formada «1/4 → 4/4», «← Orqaga» va «Davom etish» bor. Bu navigatsiyaning qaysi turi?",
+        "ru": "В AI-форме One step есть «1/4 → 4/4», «← Назад» и «Продолжить». Какой это вид навигации?",
+        "en": "The AI form in One step has \"1/4 → 4/4\", \"← Back\" and \"Continue\". Which type of navigation is this?",
+        "ja": "One stepのAIフォームには「1/4 → 4/4」「← 戻る」「続ける」があります。これはどの種類のナビゲーションですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Breadcrumb",
+            "ru": "Breadcrumb",
+            "en": "Breadcrumb",
+            "ja": "Breadcrumb"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Global",
+            "ru": "Global",
+            "en": "Global",
+            "ja": "Global"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Stepper",
+            "ru": "Stepper",
+            "en": "Stepper",
+            "ja": "Stepper"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Footer",
+            "ru": "Footer",
+            "en": "Footer",
+            "ja": "Footer"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Stepper — koʻp qadamli ishda nechanchi qadamda ekanini koʻrsatadi.",
+        "ru": "Stepper показывает, на каком шаге многошаговой задачи вы находитесь.",
+        "en": "A stepper shows which step you're on in a multi-step task.",
+        "ja": "Stepperは、複数ステップの作業で今何番目かを示します。"
+      },
+      "others": {
+        "uz": "A — qayerdan kelganini koʻrsatadi, masalan «← Tayyor rejalar». B — asosiy menyu. D — sahifa oxiridagi havolalar.",
+        "ru": "A — показывает, откуда вы пришли, например «← Готовые планы». B — основное меню. D — ссылки внизу страницы.",
+        "en": "A shows where you came from, e.g. \"← Ready plans\". B is the main menu. D are the links at the bottom of the page.",
+        "ja": "Aはどこから来たかを示します（例：「← 用意されたプラン」）。Bはメインメニューです。Dはページ下部のリンクです。"
+      }
+    },
+    {
+      "id": 20,
+      "type": "practice",
+      "q": {
+        "uz": "Sinovda foydalanuvchi «Progress»ni topish uchun uchta boʻlimni ochib chiqdi. Bu qanday muammo va nima qilinadi?",
+        "ru": "На тесте пользователь открыл три раздела, чтобы найти «Прогресс». Что это за проблема и что делать?",
+        "en": "In testing, a user opened three sections to find \"Progress\". What kind of problem is this, and what should be done?",
+        "ja": "テストで、ユーザーは「進捗」を見つけるために3つのセクションを開きました。これはどんな問題で、どうすべきですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "UI muammosi: menyu tugmalarini yorqinroq rangga boʻyash",
+            "ru": "Проблема UI: покрасить кнопки меню в более яркий цвет",
+            "en": "A UI problem: paint the menu buttons a brighter color",
+            "ja": "UIの問題：メニューボタンをもっと明るい色に塗る"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "SEO muammosi: XML sayt xaritasini qaytadan yozish",
+            "ru": "Проблема SEO: заново написать XML-карту сайта",
+            "en": "An SEO problem: rewrite the XML sitemap",
+            "ja": "SEOの問題：XMLサイトマップを書き直す"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Prototip muammosi: ekranlarni boshqacha ulab chiqish",
+            "ru": "Проблема прототипа: по-другому связать экраны",
+            "en": "A prototype problem: link the screens differently",
+            "ja": "プロトタイプの問題：画面のつなぎ方を変える"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "IA muammosi: guruhlash va nomlarni card sorting bilan tekshirish",
+            "ru": "Проблема IA: проверить группировку и названия через card sorting",
+            "en": "An IA problem: check grouping and names with card sorting",
+            "ja": "IAの問題：グループ化と名前をカードソーティングで確かめる"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Kerakli narsani topolmaslik — yomon IA belgisi: «sutni 10 daqiqa qidirasiz».",
+        "ru": "Не найти нужное — признак плохой IA: «ищете молоко 10 минут».",
+        "en": "Not finding what you need is a sign of poor IA: \"you search for milk for 10 minutes\".",
+        "ja": "必要なものが見つからないのは、悪いIAのサインです。「牛乳を10分探す」。"
+      },
+      "others": {
+        "uz": "A — rang topishni osonlashtirmaydi. B — XML xarita foydalanuvchi uchun emas. C — muammo ulanishda emas, tuzilmada.",
+        "ru": "A — цвет не облегчает поиск. B — XML-карта не для пользователя. C — проблема не в связях, а в структуре.",
+        "en": "A: color doesn't make finding easier. B: the XML sitemap isn't for users. C: the problem is the structure, not the links.",
+        "ja": "A：色で見つけやすくはなりません。B：XMLサイトマップはユーザー向けではありません。C：問題はつなぎ方ではなく構造です。"
+      }
     }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Foydalanuvchi faqat navigatsiyani koʻradi; IA suv ostidagi katta qism."
-   },
-   "others": {
-    "uz": "B — IA koʻrinmaydigan qism. C va D — bular dizayn jamoasining ish vositalari, foydalanuvchi ularni koʻrmaydi."
-   }
-  },
-  {
-   "id": 3,
-   "type": "theory",
-   "q": {
-    "uz": "IA qaysi uchta savolga javob beradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Nima bor? Qaysi tartibda? Qayerga olib boradi?"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Men qayerdaman? Bu yerda nima bor? Keyin qayerga?"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Nima bor? Qanday guruhlangan? Qanday nomlangan?"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Qaysi rang? Qaysi shrift? Qancha boʻshliq?"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "IA — mazmun (content), tuzilma (structure) va nomlar (labels)."
-   },
-   "others": {
-    "uz": "A — mikro IA savollari. B — navigatsiya savollari. D — vizual dizayn savollari."
-   }
-  },
-  {
-   "id": 4,
-   "type": "theory",
-   "q": {
-    "uz": "Supermarket misolida «bitta tokcha: qaysi mahsulot koʻz darajasida, qaysi biri pastda» nimaga mos?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Axborot arxitekturasi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Sayt xaritasi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Navigatsiya"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Mikro IA"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Doʻkonda IA — qaror, sayt xaritasi — doʻkon rejasi, mikro IA — bitta tokcha, navigatsiya — yoʻl koʻrsatkich."
-   },
-   "others": {
-    "uz": "A — qaysi mahsulot qaysi boʻlimda turishi. B — boʻlimlar qayerda joylashgani. C — tepada osilgan yoʻl koʻrsatkichlar."
-   }
-  },
-  {
-   "id": 5,
-   "type": "theory",
-   "q": {
-    "uz": "Sayt xaritasi (sitemap) nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Bitta sahifa ichidagi bloklar va tugmalar tartibi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Sahifalarning rangli, tayyor dizaynlari toʻplami"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Barcha sahifalar va ularning bogʻlanishini koʻrsatuvchi chizma"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Foydalanuvchi intervyusidan olingan dalillar roʻyxati"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Xarita daraxtga oʻxshaydi: tepada bosh sahifa, ostida boʻlimlar, ichida sahifalar."
-   },
-   "others": {
-    "uz": "A — bu mikro IA. B — bu tayyor dizayn. D — bu loyiha doskasi."
-   }
-  },
-  {
-   "id": 6,
-   "type": "theory",
-   "q": {
-    "uz": "Texnik (XML) sayt xaritasi kim uchun va uni kim yozadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dizayn jamoasi uchun, uni dizayner chizadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qidiruv tizimlari uchun, uni dasturchi yozadi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Foydalanuvchilar uchun, uni menejer yozadi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Buyurtmachi uchun, uni dizayner chizadi"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "XML xarita Google kabi qidiruv tizimlari uchun sahifalar roʻyxati, SEO uchun kerak."
-   },
-   "others": {
-    "uz": "A — bu vizual (UX) sayt xaritasi. C va D — XML xarita odam uchun emas, qidiruv tizimi uchun."
-   }
-  },
-  {
-   "id": 7,
-   "type": "theory",
-   "q": {
-    "uz": "Kartalarni saralash (card sorting) va sayt xaritasi qanday bogʻlangan?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Saralash «nima qayerda turadi»ni topadi, xarita uni chizadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Xarita «nima qayerda turadi»ni topadi, saralash uni chizadi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ikkalasi bir narsaning ikki xil nomi, farqi yoʻq"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Saralash ranglarni tanlaydi, xarita shriftlarni tanlaydi"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Saralash savolga javob beradi, sayt xaritasi shu javobning chizmasi."
-   },
-   "others": {
-    "uz": "B — teskari aytilgan. C — biri usul, biri natija. D — ikkalasi ham rang va shrift bilan ishlamaydi."
-   }
-  },
-  {
-   "id": 8,
-   "type": "theory",
-   "q": {
-    "uz": "Card sorting qoidasiga koʻra toʻp ichidagi kartalar nimaga aylanadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Menyudagi yozuvga"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Alohida sahifalarga"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Sahifalar tartibiga"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Sahifadagi bloklarga"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Qoidalar: bitta toʻp = bitta sahifa yoki boʻlim, toʻp nomi = menyudagi yozuv, toʻp ichidagi kartalar = sahifadagi bloklar, foydalanuvchi yoʻli = sahifalar tartibi."
-   },
-   "others": {
-    "uz": "A — bu toʻpning nomi. B — bu toʻpning oʻzi. C — bu foydalanuvchi yoʻli."
-   }
-  },
-  {
-   "id": 9,
-   "type": "theory",
-   "q": {
-    "uz": "Mikro IA qaysi uchta savolga javob beradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Qaysi rang? Qaysi shrift? Qancha boʻshliq?"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Kim uchun? Qachon? Qancha vaqtda?"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Nima bor? Qaysi tartibda? Qayerga olib boradi?"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Nima bor? Qanday guruhlangan? Qanday nomlangan?"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Mikro IA — bitta sahifaning ichki tuzilmasi: bloklar, ularning tartibi va har bir tugma qayerga olib borishi."
-   },
-   "others": {
-    "uz": "A — vizual dizayn savollari. B — tadqiqot savollari. D — butun mahsulot IAʼsining savollari."
-   }
-  },
-  {
-   "id": 10,
-   "type": "theory",
-   "q": {
-    "uz": "Mikro IAʼda bloklar qaysi tartibda joylashadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Eng chiroylisi tepada, oddiyrogʻi pastda"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Eng muhimi tepada, kam ishlatiladigani pastda"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Eng yangisi tepada, eskirogʻi pastda"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Eng kattasi tepada, kichigi pastda"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Tokchadagi kabi: eng koʻp olinadigan mahsulot koʻz darajasida."
-   },
-   "others": {
-    "uz": "A, C va D — tartib chiroy, sana yoki oʻlchamga qarab emas, muhimlikka qarab tuziladi."
-   }
-  },
-  {
-   "id": 11,
-   "type": "theory",
-   "q": {
-    "uz": "Mikro IA haqida qaysi gap toʻgʻri?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Bu oddiy kulrang chizma: faqat tuzilma va yoʻllar"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Bu rangli dizayn: shrift, rasm va chiroyli tugmalar"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Bu prototip: tugmalarni bosib koʻrish mumkin"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Bu sayt xaritasi: barcha sahifalar orasidagi bogʻlanish"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Mikro IA — lo-fi kulrang chizma."
-   },
-   "others": {
-    "uz": "B — mikro IA dizayn emas. C — uni bosib boʻlmaydi. D — sahifalar orasidagi bogʻlanish — makro IA."
-   }
-  },
-  {
-   "id": 12,
-   "type": "theory",
-   "q": {
-    "uz": "draw.ioʼdagi mikro IA chizmasida koʻk rang nimani bildiradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Holatlarni"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Xatolarni"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Navigatsiyani"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Muhim bloklarni"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Kelishuv: koʻk — navigatsiya, sariq — holatlar."
-   },
-   "others": {
-    "uz": "A — holatlar sariq rangda. B va D — mikro IAʼda bunday rang kelishuvi yoʻq."
-   }
-  },
-  {
-   "id": 13,
-   "type": "theory",
-   "q": {
-    "uz": "Navigatsiya qoidasiga koʻra sayt xaritasidagi boʻlimlar nimaga aylanadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Kontekstual havolalarga"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Sahifa ichidagi bloklarga"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Holat xabarlariga"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Global menyuga"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Qoida: sayt xaritasidagi boʻlimlar → global menyu, mikro IA bloklari → ichki va kontekstual havolalar."
-   },
-   "others": {
-    "uz": "A va B — ular mikro IAʼdan chiqadi. C — holatlar navigatsiya emas."
-   }
-  },
-  {
-   "id": 14,
-   "type": "theory",
-   "q": {
-    "uz": "«Matn yoki karta ichida, aynan kerak boʻlgan joyda chiqadigan havola» — navigatsiyaning qaysi turi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Global"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Contextual"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Utility"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Footer"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Contextual — kontent ichidagi havola va CTA."
-   },
-   "others": {
-    "uz": "A — har sahifada bir xil joyda turadigan asosiy menyu. C — hisob, kirish, sozlama. D — sahifa oxiridagi kam ishlatiladigan havolalar."
-   }
-  },
-  {
-   "id": 15,
-   "type": "theory",
-   "q": {
-    "uz": "«Asosiy maqsad emas, lekin doim kerak: hisob, kirish, sozlama» — navigatsiyaning qaysi turi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Utility"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Local"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Stepper"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Breadcrumb"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Utility — xizmat havolalari."
-   },
-   "others": {
-    "uz": "B — bitta boʻlim ichidagi menyu. C — koʻp qadamli ishda nechanchi qadamda ekanini koʻrsatadi. D — qayerdan kelganini koʻrsatib, qaytaradi."
-   }
-  },
-  {
-   "id": 16,
-   "type": "practice",
-   "q": {
-    "uz": "One step sayt xaritasida kirgandan keyin qaysi toʻrt boʻlim ochiladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Bosh sahifa, Reja tanlash, Kirish, Chiqish"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Sozlamalar, Til, Parol, Yordam"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Bugun, Ertaga, Hafta, Oy"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Bugun, Rejam, Progress, Profil"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Tepada Bosh sahifa, undan Reja tanlash, kirgandan keyin toʻrt boʻlim: Bugun, Rejam, Progress, Profil."
-   },
-   "others": {
-    "uz": "A — bular kirishdan oldingi sahifalar. B — bular sozlamalar, boʻlim emas. C — xaritada bunday boʻlimlar yoʻq."
-   }
-  },
-  {
-   "id": 17,
-   "type": "practice",
-   "q": {
-    "uz": "One stepʼdagi boʻlim uchun qaysi nom IA qoidasiga mos?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "«Rejam»"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "«Shaxsiy reja boshqaruvi»"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "«Boʻlim 2»"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "«Reja moduli»"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "IAʼning 3-savoli — «qanday nomlangan?». Nom foydalanuvchi tilida, qisqa va tushunarli boʻlishi kerak."
-   },
-   "others": {
-    "uz": "B va D — jamoa atamasi, foydalanuvchi bunday demaydi. C — hech narsani anglatmaydi."
-   }
-  },
-  {
-   "id": 18,
-   "type": "practice",
-   "q": {
-    "uz": "Card sortingʼda «Reyting» kartasi qaysi toʻpga tushdi va nega?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "«Kirmaydi»ga: dalilga zid, raqobat kerak emas"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "«Progress»ga: reyting natijani koʻrsatadi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "«Bugun»ga: reyting har kuni koʻriladi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "«Profil»ga: reyting shaxsiy maʼlumot"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Tadqiqotda foydalanuvchilar yolgʻiz rivojlanishini, raqobat kerak emasligini aytgan. «Kirmaydi» toʻpi xaritaga tushmaydi."
-   },
-   "others": {
-    "uz": "B, C va D — kartani dalilga zid boʻlsa ham ilovaga qoʻshadi."
-   }
-  },
-  {
-   "id": 19,
-   "type": "practice",
-   "q": {
-    "uz": "One stepʼdagi AI formada «1/4 → 4/4», «← Orqaga» va «Davom etish» bor. Bu navigatsiyaning qaysi turi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Breadcrumb"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Global"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Stepper"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Footer"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Stepper — koʻp qadamli ishda nechanchi qadamda ekanini koʻrsatadi."
-   },
-   "others": {
-    "uz": "A — qayerdan kelganini koʻrsatadi, masalan «← Tayyor rejalar». B — asosiy menyu. D — sahifa oxiridagi havolalar."
-   }
-  },
-  {
-   "id": 20,
-   "type": "practice",
-   "q": {
-    "uz": "Sinovda foydalanuvchi «Progress»ni topish uchun uchta boʻlimni ochib chiqdi. Bu qanday muammo va nima qilinadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "UI muammosi: menyu tugmalarini yorqinroq rangga boʻyash"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "SEO muammosi: XML sayt xaritasini qaytadan yozish"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Prototip muammosi: ekranlarni boshqacha ulab chiqish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "IA muammosi: guruhlash va nomlarni card sorting bilan tekshirish"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Kerakli narsani topolmaslik — yomon IA belgisi: «sutni 10 daqiqa qidirasiz»."
-   },
-   "others": {
-    "uz": "A — rang topishni osonlashtirmaydi. B — XML xarita foydalanuvchi uchun emas. C — muammo ulanishda emas, tuzilmada."
-   }
-  }
- ]
+  ]
 }

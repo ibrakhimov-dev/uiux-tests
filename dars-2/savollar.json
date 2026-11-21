@@ -1,812 +1,1232 @@
 {
- "lesson": 2,
- "title": {
-  "uz": "Foydalanuvchiga qaratilgan dizayn (UCD)",
-  "ru": "Дизайн, ориентированный на пользователя (UCD)",
-  "en": "User-centered design (UCD)",
-  "ja": "ユーザー中心設計（UCD）"
- },
- "minutes": 27,
- "questions": [
-  {
-   "id": 1,
-   "type": "theory",
-   "q": {
-    "uz": "Foydalanuvchiga qaratilgan dizayn (UCD) nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dizaynerning oʻz didi va tajribasiga tayanib qilinadigan dizayn"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Buyurtmachi aytgan talablar asosida tez qilinadigan dizayn"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Har qadamda foydalanuvchidan soʻrab, unga koʻrsatib tekshiriladigan dizayn"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Mashhur ilovalardagi yechimlarni olib qilinadigan dizayn"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "UCDʼda har bir qaror taxmindan emas, foydalanuvchini kuzatish va undan soʻrashdan chiqadi."
-   },
-   "others": {
-    "uz": "A — bu «menga qulay, demak hammaga qulay» yondashuvi. B — buyurtmachi foydalanuvchi oʻrnini bosmaydi. D — boshqa ilova boshqa odamlar uchun qilingan."
-   }
+  "lesson": 2,
+  "title": {
+    "uz": "Foydalanuvchiga qaratilgan dizayn (UCD)",
+    "ru": "Дизайн, ориентированный на пользователя (UCD)",
+    "en": "User-centered design (UCD)",
+    "ja": "ユーザー中心設計（UCD）"
   },
-  {
-   "id": 2,
-   "type": "theory",
-   "q": {
-    "uz": "Dizayner ilovani «menga qulay, demak hammaga qulay» deb chizsa, natija qanday boʻladi?"
-   },
-   "options": [
+  "minutes": 27,
+  "questions": [
     {
-     "key": "A",
-     "text": {
-      "uz": "Chiroyli, lekin hech kimga toʻgʻri kelmaydigan mahsulot"
-     }
+      "id": 1,
+      "type": "theory",
+      "q": {
+        "uz": "Foydalanuvchiga qaratilgan dizayn (UCD) nima?",
+        "ru": "Что такое дизайн, ориентированный на пользователя (UCD)?",
+        "en": "What is User-Centered Design (UCD)?",
+        "ja": "ユーザー中心設計（UCD）とは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizaynerning oʻz didi va tajribasiga tayanib qilinadigan dizayn",
+            "ru": "Дизайн, основанный на вкусе и опыте самого дизайнера",
+            "en": "Design based on the designer's own taste and experience",
+            "ja": "デザイナー自身の好みと経験に頼って行うデザイン"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Buyurtmachi aytgan talablar asosida tez qilinadigan dizayn",
+            "ru": "Дизайн, быстро сделанный по требованиям заказчика",
+            "en": "Design done quickly based on the client's requirements",
+            "ja": "依頼主の要望に沿って素早く行うデザイン"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Har qadamda foydalanuvchidan soʻrab, unga koʻrsatib tekshiriladigan dizayn",
+            "ru": "Дизайн, который на каждом шаге проверяют, спрашивая и показывая пользователю",
+            "en": "Design checked at every step by asking and showing it to the user",
+            "ja": "各段階でユーザーに聞き、見せて確かめながら進めるデザイン"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Mashhur ilovalardagi yechimlarni olib qilinadigan dizayn",
+            "ru": "Дизайн, собранный из решений популярных приложений",
+            "en": "Design built by copying solutions from popular apps",
+            "ja": "人気アプリの解決策を取り入れて作るデザイン"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "UCDʼda har bir qaror taxmindan emas, foydalanuvchini kuzatish va undan soʻrashdan chiqadi.",
+        "ru": "В UCD каждое решение рождается не из догадки, а из наблюдения за пользователем и вопросов к нему.",
+        "en": "In UCD, every decision comes not from guessing but from observing and asking the user.",
+        "ja": "UCDでは、すべての判断が推測ではなく、ユーザーの観察とヒアリングから生まれます。"
+      },
+      "others": {
+        "uz": "A — bu «menga qulay, demak hammaga qulay» yondashuvi. B — buyurtmachi foydalanuvchi oʻrnini bosmaydi. D — boshqa ilova boshqa odamlar uchun qilingan.",
+        "ru": "A — подход «удобно мне, значит, удобно всем». B — заказчик не заменяет пользователя. D — другое приложение сделано для других людей.",
+        "en": "A is the \"it's easy for me, so it's easy for everyone\" approach. B: the client doesn't replace the user. D: another app was made for other people.",
+        "ja": "Aは「自分に使いやすければ、みんなに使いやすい」という考え方です。B：依頼主はユーザーの代わりになりません。D：他のアプリは別の人々のために作られています。"
+      }
     },
     {
-     "key": "B",
-     "text": {
-      "uz": "Oddiy, lekin hammaga birdek qulay mahsulot"
-     }
+      "id": 2,
+      "type": "theory",
+      "q": {
+        "uz": "Dizayner ilovani «menga qulay, demak hammaga qulay» deb chizsa, natija qanday boʻladi?",
+        "ru": "Если дизайнер рисует приложение по принципу «удобно мне, значит, удобно всем», каков результат?",
+        "en": "If a designer draws an app thinking \"it's easy for me, so it's easy for everyone\", what is the result?",
+        "ja": "デザイナーが「自分に使いやすければ、みんなに使いやすい」と考えてアプリを作ると、どうなりますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Chiroyli, lekin hech kimga toʻgʻri kelmaydigan mahsulot",
+            "ru": "Красивый продукт, который никому не подходит",
+            "en": "A beautiful product that doesn't suit anyone",
+            "ja": "きれいだが、誰にも合わない製品"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Oddiy, lekin hammaga birdek qulay mahsulot",
+            "ru": "Простой продукт, одинаково удобный для всех",
+            "en": "A simple product that is equally easy for everyone",
+            "ja": "シンプルで、誰にとっても使いやすい製品"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Murakkab, lekin mutaxassislar uchun qulay mahsulot",
+            "ru": "Сложный продукт, удобный для специалистов",
+            "en": "A complex product that is easy for experts",
+            "ja": "複雑だが、専門家には使いやすい製品"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Sodda, lekin juda tez yasaladigan mahsulot",
+            "ru": "Простой продукт, который очень быстро делается",
+            "en": "A plain product that is very quick to build",
+            "ja": "素朴だが、とても早く作れる製品"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Oʻziga qarab chizilgan ilova chiroyli boʻlsa ham, foydalanuvchiga toʻgʻri kelmaydi.",
+        "ru": "Приложение, нарисованное под себя, может быть красивым, но не подходит пользователю.",
+        "en": "An app drawn for oneself may be beautiful, but it doesn't suit the user.",
+        "ja": "自分を基準に作ったアプリは、きれいでもユーザーには合いません。"
+      },
+      "others": {
+        "uz": "B — bitta odamning didi hammaga toʻgʻri kelmaydi. C va D — darsda bunday natija aytilmagan.",
+        "ru": "B — вкус одного человека не подходит всем. C и D — такого результата на уроке не называли.",
+        "en": "B: one person's taste doesn't suit everyone. C and D: the lesson mentions no such result.",
+        "ja": "B：一人の好みは全員には合いません。CとD：レッスンでそのような結果は述べられていません。"
+      }
     },
     {
-     "key": "C",
-     "text": {
-      "uz": "Murakkab, lekin mutaxassislar uchun qulay mahsulot"
-     }
+      "id": 3,
+      "type": "theory",
+      "q": {
+        "uz": "UCDʼning 4 bosqichi qaysi tartibda boradi?",
+        "ru": "В каком порядке идут 4 этапа UCD?",
+        "en": "In what order do the 4 stages of UCD go?",
+        "ja": "UCDの4つの段階はどの順番で進みますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Specify requirements → Understand context → Design solutions → Evaluate",
+            "ru": "Specify requirements → Understand context → Design solutions → Evaluate",
+            "en": "Specify requirements → Understand context → Design solutions → Evaluate",
+            "ja": "Specify requirements → Understand context → Design solutions → Evaluate"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Understand context → Design solutions → Specify requirements → Evaluate",
+            "ru": "Understand context → Design solutions → Specify requirements → Evaluate",
+            "en": "Understand context → Design solutions → Specify requirements → Evaluate",
+            "ja": "Understand context → Design solutions → Specify requirements → Evaluate"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Design solutions → Understand context → Specify requirements → Evaluate",
+            "ru": "Design solutions → Understand context → Specify requirements → Evaluate",
+            "en": "Design solutions → Understand context → Specify requirements → Evaluate",
+            "ja": "Design solutions → Understand context → Specify requirements → Evaluate"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Understand context → Specify requirements → Design solutions → Evaluate",
+            "ru": "Understand context → Specify requirements → Design solutions → Evaluate",
+            "en": "Understand context → Specify requirements → Design solutions → Evaluate",
+            "ja": "Understand context → Specify requirements → Design solutions → Evaluate"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Kontekstni tushunish → talablarni aniqlash → yechim yaratish → baholash.",
+        "ru": "Понять контекст → определить требования → создать решение → оценить.",
+        "en": "Understand the context → specify requirements → design solutions → evaluate.",
+        "ja": "状況を理解する → 要件を定める → 解決策を作る → 評価する。"
+      },
+      "others": {
+        "uz": "A — talablar kontekstni tushunmasdan yozilmaydi. B — yechim talablardan keyin yaratiladi. C — jarayon foydalanuvchini tushunishdan boshlanadi.",
+        "ru": "A — требования не написать, не поняв контекст. B — решение создают после требований. C — процесс начинается с понимания пользователя.",
+        "en": "A: requirements can't be written without understanding the context. B: solutions are designed after requirements. C: the process starts with understanding the user.",
+        "ja": "A：状況を理解せずに要件は書けません。B：解決策は要件の後に作ります。C：プロセスはユーザーの理解から始まります。"
+      }
     },
     {
-     "key": "D",
-     "text": {
-      "uz": "Sodda, lekin juda tez yasaladigan mahsulot"
-     }
+      "id": 4,
+      "type": "theory",
+      "q": {
+        "uz": "UCDʼda iteratsiya nima?",
+        "ru": "Что такое итерация в UCD?",
+        "en": "What is iteration in UCD?",
+        "ja": "UCDにおけるイテレーションとは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizaynni bir marta chizib, keyin oʻzgartirmaslik",
+            "ru": "Нарисовать дизайн один раз и больше не менять",
+            "en": "Drawing the design once and never changing it",
+            "ja": "デザインを一度描いたら、その後は変えないこと"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Baholashda notoʻgʻri chiqqan joylarning yangi tadqiqot savoliga aylanishi",
+            "ru": "Неудачное при оценке становится новым вопросом исследования",
+            "en": "Parts that failed in evaluation become new research questions",
+            "ja": "評価でうまくいかなかった点が、新しい調査の問いになること"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Har bir bosqichni boshqa dizaynerga topshirib borish",
+            "ru": "Передавать каждый этап другому дизайнеру",
+            "en": "Handing each stage over to a different designer",
+            "ja": "各段階を別のデザイナーに引き継いでいくこと"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Bitta ekranning bir nechta rangli variantini chizish",
+            "ru": "Нарисовать несколько цветовых вариантов одного экрана",
+            "en": "Drawing several color variants of one screen",
+            "ja": "一つの画面の色違いを何パターンも描くこと"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Xato qaror — ishning oxiri emas, keyingi aylanishning boshi.",
+        "ru": "Ошибочное решение — не конец работы, а начало следующего круга.",
+        "en": "A wrong decision isn't the end of the work but the start of the next cycle.",
+        "ja": "誤った判断は仕事の終わりではなく、次のサイクルの始まりです。"
+      },
+      "others": {
+        "uz": "A — bu iteratsiyaning teskarisi. C — gap ishni boʻlish haqida emas. D — variant chizish doirani aylanish emas.",
+        "ru": "A — противоположность итерации. C — речь не о разделении работы. D — рисовать варианты не значит проходить круг.",
+        "en": "A is the opposite of iteration. C: it's not about dividing work. D: drawing variants isn't going around the cycle.",
+        "ja": "Aはイテレーションの反対です。C：作業の分担の話ではありません。D：バリエーションを描くことはサイクルを回すことではありません。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "theory",
+      "q": {
+        "uz": "Tikuvchi «soʻraydi, oʻlcham oladi, tikadi, kiydirib koʻradi va tuzatadi». «Kiydirib koʻrish va tuzatish» UCDʼning qaysi bosqichi?",
+        "ru": "Портной «спрашивает, снимает мерки, шьёт, даёт примерить и подгоняет». Какой этап UCD — «примерить и подогнать»?",
+        "en": "A tailor \"asks, measures, sews, has you try it on and fixes it\". Which UCD stage is \"try it on and fix it\"?",
+        "ja": "仕立て屋は「聞いて、採寸して、縫って、試着してもらい、直す」。「試着して直す」はUCDのどの段階ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Evaluate (baholash)",
+            "ru": "Evaluate (оценка)",
+            "en": "Evaluate",
+            "ja": "Evaluate（評価）"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Understand context (kontekstni tushunish)",
+            "ru": "Understand context (понимание контекста)",
+            "en": "Understand context",
+            "ja": "Understand context（状況の理解）"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Specify requirements (talablarni aniqlash)",
+            "ru": "Specify requirements (определение требований)",
+            "en": "Specify requirements",
+            "ja": "Specify requirements（要件の定義）"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Design solutions (yechim yaratish)",
+            "ru": "Design solutions (создание решения)",
+            "en": "Design solutions",
+            "ja": "Design solutions（解決策の作成）"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Tayyor narsani foydalanuvchida sinab, kamchilikni topish — baholash.",
+        "ru": "Проверить готовую вещь на пользователе и найти недостатки — это оценка.",
+        "en": "Testing the finished thing on the user and finding its flaws is evaluation.",
+        "ja": "完成したものをユーザーで試し、欠点を見つけることが評価です。"
+      },
+      "others": {
+        "uz": "B — bu soʻrash bosqichi. C — bu oʻlcham olish bosqichi. D — bu tikish bosqichi.",
+        "ru": "B — этап вопросов. C — этап снятия мерок. D — этап шитья.",
+        "en": "B is the asking stage. C is the measuring stage. D is the sewing stage.",
+        "ja": "Bは聞く段階です。Cは採寸の段階です。Dは縫う段階です。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "theory",
+      "q": {
+        "uz": "Loyiha doskasining «Bildik» ustuniga nima yoziladi?",
+        "ru": "Что пишут в колонку «Узнали» на доске проекта?",
+        "en": "What goes in the \"We learned\" column of the project board?",
+        "ja": "プロジェクトボードの「わかったこと」の列には何を書きますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Hali javobi topilmagan tadqiqot savollari",
+            "ru": "Исследовательские вопросы, на которые ещё нет ответа",
+            "en": "Research questions that are still unanswered",
+            "ja": "まだ答えが見つかっていない調査の問い"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Dalildan chiqqan aniq dizayn qarorlari",
+            "ru": "Конкретные дизайн-решения, вытекающие из фактов",
+            "en": "Specific design decisions drawn from evidence",
+            "ja": "根拠から導いた具体的なデザインの判断"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Koʻrgan yoki eshitgan narsamiz, yaʼni dalil",
+            "ru": "То, что мы увидели или услышали, то есть факт",
+            "en": "What we saw or heard, i.e. evidence",
+            "ja": "見たこと・聞いたこと、つまり根拠"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Jamoa aʼzolarining shaxsiy fikrlari",
+            "ru": "Личные мнения участников команды",
+            "en": "Personal opinions of team members",
+            "ja": "チームメンバー個人の意見"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Doska: 1) Bilishimiz kerak — savollar, 2) Bildik — dalil, 3) Dizayn qarori — dalildan chiqqan qaror.",
+        "ru": "Доска: 1) Нужно узнать — вопросы, 2) Узнали — факты, 3) Дизайн-решение — решение, вытекающее из факта.",
+        "en": "The board: 1) We need to know — questions, 2) We learned — evidence, 3) Design decision — a decision drawn from evidence.",
+        "ja": "ボード：1）知る必要があること＝問い、2）わかったこと＝根拠、3）デザインの判断＝根拠から導いた判断。"
+      },
+      "others": {
+        "uz": "A — «Bilishimiz kerak» ustuni. B — «Dizayn qarori» ustuni. D — shaxsiy fikr dalil emas.",
+        "ru": "A — колонка «Нужно узнать». B — колонка «Дизайн-решение». D — личное мнение не является фактом.",
+        "en": "A is the \"We need to know\" column. B is the \"Design decision\" column. D: a personal opinion is not evidence.",
+        "ja": "Aは「知る必要があること」の列です。Bは「デザインの判断」の列です。D：個人の意見は根拠ではありません。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "theory",
+      "q": {
+        "uz": "Odam aytgani bilan qilgani farq qilsa, dizayn qarori uchun qaysi biri ishonchliroq?",
+        "ru": "Если слова человека расходятся с его действиями, что надёжнее для дизайн-решения?",
+        "en": "If what a person says differs from what they do, which is more reliable for a design decision?",
+        "ja": "人の言うこととやることが違うとき、デザインの判断にはどちらが信頼できますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Odam aytgani — munosabat",
+            "ru": "Что человек говорит — отношение",
+            "en": "What the person says — attitude",
+            "ja": "人が言うこと（態度）"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Ikkalasining oʻrtachasi",
+            "ru": "Среднее между этими двумя",
+            "en": "The average of the two",
+            "ja": "両方の平均"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Dizaynerning oʻz fikri",
+            "ru": "Собственное мнение дизайнера",
+            "en": "The designer's own opinion",
+            "ja": "デザイナー自身の意見"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Odam qilgani — xulq-atvor",
+            "ru": "Что человек делает — поведение",
+            "en": "What the person does — behavior",
+            "ja": "人がやること（行動）"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Aytilgan gap — munosabat, qilingan ish — xulq-atvor. Ikkinchisi ishonchliroq.",
+        "ru": "Сказанное — это отношение, сделанное — поведение. Второе надёжнее.",
+        "en": "What is said is attitude, what is done is behavior. The second is more reliable.",
+        "ja": "言ったことは態度、やったことは行動です。後者のほうが信頼できます。"
+      },
+      "others": {
+        "uz": "A — odamlar koʻpincha qilmaydigan narsani aytadi. B — notoʻgʻri maʼlumot bilan oʻrtacha ham notoʻgʻri. C — bu taxmin.",
+        "ru": "A — люди часто говорят то, чего не делают. B — среднее с неверными данными тоже неверно. C — это догадка.",
+        "en": "A: people often say things they don't do. B: an average with wrong data is also wrong. C: that is a guess.",
+        "ja": "A：人はやらないことをよく口にします。B：誤ったデータとの平均も誤りです。C：それは推測です。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "theory",
+      "q": {
+        "uz": "Kuzatuvda foydalanuvchi bir narsani eslay olmay, qayta qidirdi. Bu qaysi jihat?",
+        "ru": "Во время наблюдения пользователь не смог что-то вспомнить и стал искать снова. Какой это аспект?",
+        "en": "During observation, a user couldn't remember something and searched again. Which aspect is this?",
+        "ja": "観察中、ユーザーが何かを思い出せず、もう一度探しました。これはどの側面ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Idrok",
+            "ru": "Восприятие",
+            "en": "Perception",
+            "ja": "知覚"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Tafakkur",
+            "ru": "Мышление",
+            "en": "Cognition",
+            "ja": "思考"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Hissiyot",
+            "ru": "Эмоции",
+            "en": "Emotion",
+            "ja": "感情"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Munosabat",
+            "ru": "Отношение",
+            "en": "Attitude",
+            "ja": "態度"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Darsdagi misol: nimani eslay olmay qayta qidirdim — tafakkur.",
+        "ru": "Пример с урока: что я не смог вспомнить и искал заново — мышление.",
+        "en": "The lesson's example: what I couldn't remember and searched for again — cognition.",
+        "ja": "レッスンの例：何を思い出せずに探し直したか――思考です。"
+      },
+      "others": {
+        "uz": "A — idrok: nimaning yonidan koʻrmay oʻtdim. C — hissiyot: qayerda asabiylashdim. D — munosabat: odam nima deyishi.",
+        "ru": "A — восприятие: мимо чего я прошёл, не заметив. C — эмоции: где я разнервничался. D — отношение: что человек говорит.",
+        "en": "A: perception — what I walked past without seeing. C: emotion — where I got annoyed. D: attitude — what the person says.",
+        "ja": "A：知覚＝何に気づかず通り過ぎたか。C：感情＝どこでイライラしたか。D：態度＝その人が何を言うか。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "theory",
+      "q": {
+        "uz": "Qaysi intervyu savoli qoidalarga mos?",
+        "ru": "Какой вопрос интервью соответствует правилам?",
+        "en": "Which interview question follows the rules?",
+        "ja": "ルールに合ったインタビューの質問はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Oxirgi marta boshlab, tashlab qoʻygan ishingiz nima edi?»",
+            "ru": "«Какое дело вы в последний раз начали и бросили?»",
+            "en": "\"What's the last thing you started and then abandoned?\"",
+            "ja": "「最後に始めて、途中でやめたことは何でしたか？」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Kelajakda bunday ilovadan foydalanarmidingiz?»",
+            "ru": "«Стали бы вы в будущем пользоваться таким приложением?»",
+            "en": "\"Would you use an app like this in the future?\"",
+            "ja": "「将来、このようなアプリを使うと思いますか？」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Ilovamiz juda qulay, shunday emasmi?»",
+            "ru": "«Наше приложение очень удобное, правда?»",
+            "en": "\"Our app is really convenient, isn't it?\"",
+            "ja": "「私たちのアプリはとても便利ですよね？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Sizningcha, odamlar nega dangasa boʻladi?»",
+            "ru": "«Как вы думаете, почему люди ленятся?»",
+            "en": "\"Why do you think people are lazy?\"",
+            "ja": "「人はなぜ怠けると思いますか？」"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Qoida: kelajak haqida emas, oʻtgan aniq voqea haqida soʻrang.",
+        "ru": "Правило: спрашивайте не о будущем, а о конкретном прошлом событии.",
+        "en": "The rule: ask not about the future but about a specific past event.",
+        "ja": "ルール：未来ではなく、過去の具体的な出来事について聞きます。"
+      },
+      "others": {
+        "uz": "B — kelajak haqida taxminiy savol. C — javob savolning ichiga solingan. D — aniq voqea emas, umumiy fikr soʻralmoqda.",
+        "ru": "B — гипотетический вопрос о будущем. C — ответ заложен в вопрос. D — спрашивают общее мнение, а не конкретное событие.",
+        "en": "B is a hypothetical question about the future. C puts the answer inside the question. D asks for a general opinion, not a specific event.",
+        "ja": "Bは未来についての仮定の質問です。Cは答えが質問に含まれています。Dは具体的な出来事ではなく一般的な意見を聞いています。"
+      }
+    },
+    {
+      "id": 10,
+      "type": "theory",
+      "q": {
+        "uz": "Persona va ssenariy qaysi savollarga javob beradi?",
+        "ru": "На какие вопросы отвечают персона и сценарий?",
+        "en": "Which questions do a persona and a scenario answer?",
+        "ja": "ペルソナとシナリオはどの問いに答えますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Persona — «nima qiladi?», ssenariy — «kim?»",
+            "ru": "Персона — «что делает?», сценарий — «кто?»",
+            "en": "Persona — \"what do they do?\", scenario — \"who?\"",
+            "ja": "ペルソナ＝「何をする？」、シナリオ＝「誰？」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Persona — «qachon?», ssenariy — «qayerda?»",
+            "ru": "Персона — «когда?», сценарий — «где?»",
+            "en": "Persona — \"when?\", scenario — \"where?\"",
+            "ja": "ペルソナ＝「いつ？」、シナリオ＝「どこで？」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Persona — «nega?», ssenariy — «qancha?»",
+            "ru": "Персона — «почему?», сценарий — «сколько?»",
+            "en": "Persona — \"why?\", scenario — \"how much?\"",
+            "ja": "ペルソナ＝「なぜ？」、シナリオ＝「いくら？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Persona — «kim?», ssenariy — «nima qiladi?»",
+            "ru": "Персона — «кто?», сценарий — «что делает?»",
+            "en": "Persona — \"who?\", scenario — \"what do they do?\"",
+            "ja": "ペルソナ＝「誰？」、シナリオ＝「何をする？」"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Persona — foydalanuvchining qisqa portreti, ssenariy — persona qahramon boʻlgan 4–5 gapli hikoya.",
+        "ru": "Персона — краткий портрет пользователя, сценарий — история из 4–5 предложений, где персона главный герой.",
+        "en": "A persona is a short portrait of the user; a scenario is a 4–5 sentence story starring the persona.",
+        "ja": "ペルソナはユーザーの短い人物像、シナリオはペルソナを主人公にした4〜5文の物語です。"
+      },
+      "others": {
+        "uz": "A — teskari aytilgan. B va C — darsda bunday boʻlinish yoʻq.",
+        "ru": "A — сказано наоборот. B и C — такого деления на уроке нет.",
+        "en": "A is stated backwards. B and C: the lesson has no such split.",
+        "ja": "Aは逆に述べています。BとC：レッスンにそのような区分はありません。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "theory",
+      "q": {
+        "uz": "Qaysi tadqiqot usuli «Aslida nima qiladi?» degan savolga javob beradi?",
+        "ru": "Какой метод исследования отвечает на вопрос «Что человек делает на самом деле?»",
+        "en": "Which research method answers the question \"What do they actually do?\"",
+        "ja": "「実際には何をしているか？」という問いに答える調査方法はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Intervyu",
+            "ru": "Интервью",
+            "en": "Interview",
+            "ja": "インタビュー"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Kuzatish",
+            "ru": "Наблюдение",
+            "en": "Observation",
+            "ja": "観察"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Soʻrovnoma",
+            "ru": "Опрос",
+            "en": "Survey",
+            "ja": "アンケート"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Qulaylik testi",
+            "ru": "Юзабилити-тест",
+            "en": "Usability test",
+            "ja": "ユーザビリティテスト"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Kuzatish — odam ishni qanday bajarishini jim kuzatish.",
+        "ru": "Наблюдение — молча смотреть, как человек выполняет задачу.",
+        "en": "Observation means silently watching how a person does the task.",
+        "ja": "観察とは、人が作業をどう進めるかを黙って見ることです。"
+      },
+      "others": {
+        "uz": "A — «Nega?» savoliga javob beradi. C — «Nechta odamda?» savoliga. D — «Ishlata oladimi?» savoliga.",
+        "ru": "A отвечает на «Почему?». C — на «У скольких людей?». D — на «Сможет ли пользоваться?».",
+        "en": "A answers \"Why?\". C answers \"How many people?\". D answers \"Can they use it?\".",
+        "ja": "Aは「なぜ？」に答えます。Cは「何人が？」に、Dは「使いこなせるか？」に答えます。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "theory",
+      "q": {
+        "uz": "Baholovchi (evaluative) tadqiqot qachon va nima uchun oʻtkaziladi?",
+        "ru": "Когда и зачем проводится оценочное (evaluative) исследование?",
+        "en": "When and why is evaluative research done?",
+        "ja": "評価的（evaluative）調査は、いつ、何のために行いますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizayndan keyin: tayyor yechimni tekshirish uchun",
+            "ru": "После дизайна: чтобы проверить готовое решение",
+            "en": "After design: to check a finished solution",
+            "ja": "デザインの後：完成した解決策を確かめるため"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Dizayndan oldin: muammo va gʻoya topish uchun",
+            "ru": "До дизайна: чтобы найти проблему и идеи",
+            "en": "Before design: to find a problem and ideas",
+            "ja": "デザインの前：課題とアイデアを見つけるため"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Dizayn paytida: rang va shrift tanlash uchun",
+            "ru": "Во время дизайна: чтобы выбрать цвет и шрифт",
+            "en": "During design: to choose colors and fonts",
+            "ja": "デザイン中：色とフォントを選ぶため"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Dizayn oʻrniga: dasturchiga topshiriq berish uchun",
+            "ru": "Вместо дизайна: чтобы дать задание программисту",
+            "en": "Instead of design: to give tasks to developers",
+            "ja": "デザインの代わり：エンジニアに指示を出すため"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Baholovchi tadqiqot tayyor yechimni tekshiradi, masalan qulaylik testi.",
+        "ru": "Оценочное исследование проверяет готовое решение, например юзабилити-тестом.",
+        "en": "Evaluative research checks a finished solution, for example with a usability test.",
+        "ja": "評価的調査は、完成した解決策を確かめます。例：ユーザビリティテスト。"
+      },
+      "others": {
+        "uz": "B — bu generativ tadqiqot. C va D — tadqiqot guruhlari bunday maqsadga xizmat qilmaydi.",
+        "ru": "B — это генеративное исследование. C и D — группы исследований таким целям не служат.",
+        "en": "B is generative research. C and D: research groups don't serve such purposes.",
+        "ja": "Bは生成的調査です。CとD：調査のグループはそのような目的には使いません。"
+      }
+    },
+    {
+      "id": 13,
+      "type": "theory",
+      "q": {
+        "uz": "Personaning «Toʻsiq» (pain points) qismiga nima yoziladi?",
+        "ru": "Что пишут в раздел персоны «Препятствия» (pain points)?",
+        "en": "What goes in the \"Pain points\" part of a persona?",
+        "ja": "ペルソナの「障害」（pain points）の欄には何を書きますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Sevimli mashgʻuloti yoki orzusidagi ish",
+            "ru": "Любимое занятие или работа мечты",
+            "en": "Their hobby or dream job",
+            "ja": "好きな趣味や夢の仕事"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Boʻsh vaqti qachon va qancha ekani",
+            "ru": "Когда и сколько у неё свободного времени",
+            "en": "When and how much free time they have",
+            "ja": "空き時間がいつ、どれくらいあるか"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Eslatma, rejim va shrift boʻyicha odatlari",
+            "ru": "Привычки насчёт напоминаний, режима и шрифта",
+            "en": "Their habits with reminders, modes and fonts",
+            "ja": "リマインダー、モード、フォントに関する習慣"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Unga nima xalaqit berayotgani",
+            "ru": "Что ей мешает",
+            "en": "What is getting in their way",
+            "ja": "その人の妨げになっていること"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Toʻsiq — foydalanuvchiga nima xalaqit berishi.",
+        "ru": "Препятствия — то, что мешает пользователю.",
+        "en": "Pain points are what gets in the user's way.",
+        "ja": "障害とは、ユーザーの妨げになっていることです。"
+      },
+      "others": {
+        "uz": "A — bu «Qiziqishi» (goals). B — bu «Boʻsh vaqti» (context). C — bu «Telefon odatlari» (behaviors).",
+        "ru": "A — это «Интересы» (goals). B — «Свободное время» (context). C — «Привычки в телефоне» (behaviors).",
+        "en": "A is \"Goals\". B is \"Free time\" (context). C is \"Phone habits\" (behaviors).",
+        "ja": "Aは「関心」（goals）です。Bは「空き時間」（context）です。Cは「スマホの習慣」（behaviors）です。"
+      }
+    },
+    {
+      "id": 14,
+      "type": "theory",
+      "q": {
+        "uz": "Dizayn qarorini yozish qolipi qaysi?",
+        "ru": "Какой шаблон записи дизайн-решения?",
+        "en": "What is the template for writing a design decision?",
+        "ja": "デザインの判断を書くテンプレートはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizayner [fikr] qilgani uchun, ilova [qaror]",
+            "ru": "Поскольку дизайнер [считает], приложение [решение]",
+            "en": "Because the designer [thinks], the app [decision]",
+            "ja": "デザイナーが［考え］ので、アプリは［判断］"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Foydalanuvchi [dalil] boʻlgani uchun, ilova [qaror]",
+            "ru": "Поскольку пользователь [факт], приложение [решение]",
+            "en": "Because the user [evidence], the app [decision]",
+            "ja": "ユーザーが［根拠］なので、アプリは［判断］"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Buyurtmachi [talab] qilgani uchun, ilova [qaror]",
+            "ru": "Поскольку заказчик [требует], приложение [решение]",
+            "en": "Because the client [demands], the app [decision]",
+            "ja": "依頼主が［要望］ので、アプリは［判断］"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Raqobatchida [funksiya] boʻlgani uchun, ilova [qaror]",
+            "ru": "Поскольку у конкурента есть [функция], приложение [решение]",
+            "en": "Because a competitor has [feature], the app [decision]",
+            "ja": "競合に［機能］があるので、アプリは［判断］"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Har bir qaror koʻrilgan yoki eshitilgan dalilga tayanadi. Dalili yoʻq qaror taxmin hisoblanadi va oʻchiriladi.",
+        "ru": "Каждое решение опирается на увиденный или услышанный факт. Решение без факта — догадка, его удаляют.",
+        "en": "Every decision rests on evidence that was seen or heard. A decision without evidence is a guess and gets deleted.",
+        "ja": "すべての判断は、見たこと・聞いたことという根拠に基づきます。根拠のない判断は推測とみなされ、削除されます。"
+      },
+      "others": {
+        "uz": "A, C va D — qaror foydalanuvchi dalilidan emas, boshqa manbadan chiqyapti.",
+        "ru": "A, C и D — решение исходит не из факта о пользователе, а из другого источника.",
+        "en": "A, C and D: the decision comes not from user evidence but from another source.",
+        "ja": "A、C、D：判断がユーザーの根拠ではなく、別の情報源から来ています。"
+      }
+    },
+    {
+      "id": 15,
+      "type": "theory",
+      "q": {
+        "uz": "Baholashda foydalanuvchi qarorga «Mos emas» dedi. Keyin nima qilinadi?",
+        "ru": "При оценке пользователь сказал о решении «Не подходит». Что делают дальше?",
+        "en": "In evaluation, the user said the decision \"Doesn't fit\". What happens next?",
+        "ja": "評価でユーザーが判断に「合わない」と言いました。次に何をしますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Qaror oʻzgarishsiz qoladi",
+            "ru": "Решение остаётся без изменений",
+            "en": "The decision stays unchanged",
+            "ja": "判断はそのまま残す"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qaror biroz tuzatiladi",
+            "ru": "Решение немного исправляют",
+            "en": "The decision is slightly adjusted",
+            "ja": "判断を少し修正する"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Yangi tadqiqot savoli yoziladi",
+            "ru": "Записывают новый исследовательский вопрос",
+            "en": "A new research question is written",
+            "ja": "新しい調査の問いを書く"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Foydalanuvchi almashtiriladi",
+            "ru": "Меняют пользователя",
+            "en": "The user is replaced",
+            "ja": "ユーザーを入れ替える"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "«Mos emas» — yangi savol «Bilishimiz kerak» ustuniga yoziladi va aylanish qayta boshlanadi.",
+        "ru": "«Не подходит» — новый вопрос записывают в колонку «Нужно узнать», и круг начинается заново.",
+        "en": "\"Doesn't fit\" — a new question goes into the \"We need to know\" column and the cycle starts again.",
+        "ja": "「合わない」＝新しい問いを「知る必要があること」の列に書き、サイクルを再び始めます。"
+      },
+      "others": {
+        "uz": "A — bu «Mos» boʻlganda. B — bu «Yarim mos» boʻlganda. D — natija yoqmagani uchun foydalanuvchini almashtirib boʻlmaydi.",
+        "ru": "A — когда «Подходит». B — когда «Частично подходит». D — нельзя менять пользователя, потому что не понравился результат.",
+        "en": "A is for \"Fits\". B is for \"Partly fits\". D: you can't replace the user because you didn't like the result.",
+        "ja": "Aは「合う」の場合です。Bは「一部合う」の場合です。D：結果が気に入らないからといってユーザーは替えられません。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "practice",
+      "q": {
+        "uz": "One step oddiy to-do ilovasidan nimasi bilan farq qiladi?",
+        "ru": "Чем One step отличается от обычного to-do приложения?",
+        "en": "How is One step different from a simple to-do app?",
+        "ja": "One stepは普通のToDoアプリと何が違いますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Har kuni «non ol» kabi kundalik ishlarni eslatadi",
+            "ru": "Каждый день напоминает о бытовых делах вроде «купить хлеб»",
+            "en": "It reminds you of daily chores like \"buy bread\" every day",
+            "ja": "毎日「パンを買う」のような日常の用事を知らせる"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Har kuni orzuga yaqinlashtiruvchi bitta kichik qadam beradi",
+            "ru": "Каждый день даёт один маленький шаг к мечте",
+            "en": "Every day it gives one small step toward your dream",
+            "ja": "毎日、夢に近づく小さな一歩を一つ示す"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Har kuni doʻstlar bilan raqobatlashish imkonini beradi",
+            "ru": "Каждый день позволяет соревноваться с друзьями",
+            "en": "Every day it lets you compete with friends",
+            "ja": "毎日、友だちと競い合うことができる"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Har kuni yangi ilova va oʻyinlarni tavsiya qiladi",
+            "ru": "Каждый день советует новые приложения и игры",
+            "en": "Every day it recommends new apps and games",
+            "ja": "毎日、新しいアプリやゲームをすすめる"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "One step — «har kuni orzuingizga bir qadam»: sevimli mashgʻulot yoki orzudagi ishga yaqinlashtiradi.",
+        "ru": "One step — «каждый день шаг к мечте»: приближает к любимому занятию или работе мечты.",
+        "en": "One step means \"one step toward your dream every day\": it brings you closer to a hobby or dream job.",
+        "ja": "One stepは「毎日、夢に一歩」：好きな趣味や夢の仕事に近づけてくれます。"
+      },
+      "others": {
+        "uz": "A — bu oddiy to-do ilovalari. C — loyihada raqobat yoʻq. D — bu loyihaning maqsadi emas.",
+        "ru": "A — это обычные to-do приложения. C — соревнований в проекте нет. D — это не цель проекта.",
+        "en": "A describes simple to-do apps. C: the project has no competition. D is not the project's goal.",
+        "ja": "Aは普通のToDoアプリです。C：プロジェクトに競争はありません。Dはプロジェクトの目的ではありません。"
+      }
+    },
+    {
+      "id": 17,
+      "type": "practice",
+      "q": {
+        "uz": "Jamoa aʼzosi: «Menimcha, foydalanuvchilarga qorongʻu rejim yoqadi, shuni qilamiz». Toʻgʻri javob qaysi?",
+        "ru": "Участник команды: «Думаю, пользователям нравится тёмная тема, сделаем её». Какой ответ правильный?",
+        "en": "A team member says: \"I think users like dark mode, let's do it.\" What is the right response?",
+        "ja": "チームメンバー：「ユーザーはダークモードが好きだと思う。それにしよう」。正しい対応はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dalil: jamoa aʼzosi tajribali, unga ishonsa boʻladi",
+            "ru": "Факт: участник опытный, ему можно доверять",
+            "en": "Evidence: the team member is experienced, we can trust them",
+            "ja": "根拠：メンバーは経験豊富なので信頼できる"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qaror: koʻpchilik ovozi bilan darhol qabul qilinadi",
+            "ru": "Решение: принимается сразу большинством голосов",
+            "en": "Decision: accepted right away by majority vote",
+            "ja": "判断：多数決ですぐに採用する"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Taxmin: avval foydalanuvchidan soʻrab, dalil topish kerak",
+            "ru": "Догадка: сначала спросить пользователя и найти факт",
+            "en": "A guess: first ask the user and find evidence",
+            "ja": "推測：まずユーザーに聞いて根拠を見つける"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Taxmin: lekin vaqt kam, shuning uchun qilaveramiz",
+            "ru": "Догадка: но времени мало, поэтому делаем",
+            "en": "A guess: but time is short, so let's just do it",
+            "ja": "推測：でも時間がないので進めてしまう"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Qoida: taxmin qilmaymiz, tekshiramiz. «Buni qayerdan bildingiz: koʻrdingizmi, eshitdingizmi yoki taxmin qildingizmi?»",
+        "ru": "Правило: не гадаем, а проверяем. «Откуда вы это знаете: увидели, услышали или предположили?»",
+        "en": "The rule: we don't guess, we check. \"How do you know: did you see it, hear it, or guess it?\"",
+        "ja": "ルール：推測せず、確かめる。「それをどこで知りましたか：見た、聞いた、それとも推測？」"
+      },
+      "others": {
+        "uz": "A — tajriba dalil oʻrnini bosmaydi. B — jamoa ovozi foydalanuvchi ovozi emas. D — dalili yoʻq qaror oʻchiriladi.",
+        "ru": "A — опыт не заменяет факт. B — голос команды не голос пользователя. D — решение без факта удаляется.",
+        "en": "A: experience doesn't replace evidence. B: the team's vote isn't the user's voice. D: a decision without evidence gets deleted.",
+        "ja": "A：経験は根拠の代わりになりません。B：チームの声はユーザーの声ではありません。D：根拠のない判断は削除されます。"
+      }
+    },
+    {
+      "id": 18,
+      "type": "practice",
+      "q": {
+        "uz": "One step uchun intervyuda qaysi savol qoidani buzadi?",
+        "ru": "Какой вопрос в интервью для One step нарушает правило?",
+        "en": "In a One step interview, which question breaks the rules?",
+        "ja": "One stepのインタビューで、ルールに反する質問はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Eslatmalar foydali-ku, siz ham yoqtirasiz-a?»",
+            "ru": "«Напоминания ведь полезны, вам тоже нравятся, да?»",
+            "en": "\"Reminders are useful, you like them too, right?\"",
+            "ja": "「リマインダーは便利ですよね、あなたも好きでしょう？」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Oxirgi marta eslatmani nega oʻchirib qoʻygansiz?»",
+            "ru": "«Почему вы в прошлый раз отключили напоминание?»",
+            "en": "\"Why did you turn off reminders last time?\"",
+            "ja": "「前回、なぜリマインダーをオフにしたのですか？」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Kuningizning qaysi vaqtida boʻsh boʻlasiz?»",
+            "ru": "«В какое время дня вы бываете свободны?»",
+            "en": "\"At what time of day are you free?\"",
+            "ja": "「一日のうち、いつ時間が空いていますか？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Shunga oʻxshash ilovani nega tashlab qoʻygansiz?»",
+            "ru": "«Почему вы бросили похожее приложение?»",
+            "en": "\"Why did you abandon a similar app?\"",
+            "ja": "「似たアプリをなぜやめてしまったのですか？」"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Javob savolning ichiga solingan: odam «ha» deyishga majburdek boʻladi.",
+        "ru": "Ответ заложен в вопрос: человек словно вынужден сказать «да».",
+        "en": "The answer is put inside the question: the person feels pushed to say \"yes\".",
+        "ja": "答えが質問に含まれていて、相手は「はい」と言わざるを得ない気持ちになります。"
+      },
+      "others": {
+        "uz": "B va D — oʻtgan voqea va «nega?» haqida, qoidaga mos. C — darsdagi tadqiqot savollaridan biri.",
+        "ru": "B и D — о прошлом событии и «почему?», соответствуют правилу. C — один из исследовательских вопросов урока.",
+        "en": "B and D ask about a past event and \"why?\", so they follow the rule. C is one of the research questions from the lesson.",
+        "ja": "BとDは過去の出来事と「なぜ？」についてで、ルールに合っています。Cはレッスンの調査の問いの一つです。"
+      }
+    },
+    {
+      "id": 19,
+      "type": "practice",
+      "q": {
+        "uz": "Dalil: foydalanuvchining boʻsh vaqti kuniga 10 daqiqa. Qolipga koʻra One step uchun qaysi qaror toʻgʻri?",
+        "ru": "Факт: у пользователя 10 минут свободного времени в день. Какое решение для One step верно по шаблону?",
+        "en": "Evidence: the user has 10 minutes of free time a day. Following the template, which decision is right for One step?",
+        "ja": "根拠：ユーザーの空き時間は1日10分。テンプレートに従うと、One stepの正しい判断はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Har bir qadam kamida 1 soat davom etadi",
+            "ru": "Каждый шаг длится не меньше 1 часа",
+            "en": "Each step lasts at least 1 hour",
+            "ja": "各ステップは最低1時間続く"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Eslatma har 10 daqiqada qayta keladi",
+            "ru": "Напоминание приходит каждые 10 минут",
+            "en": "The reminder comes again every 10 minutes",
+            "ja": "リマインダーが10分ごとに届く"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ilova faqat dam olish kunlari ishlaydi",
+            "ru": "Приложение работает только по выходным",
+            "en": "The app works only on weekends",
+            "ja": "アプリは週末だけ使える"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Har bir qadam 10 daqiqadan oshmaydi",
+            "ru": "Каждый шаг занимает не больше 10 минут",
+            "en": "Each step takes no more than 10 minutes",
+            "ja": "各ステップは10分以内に収まる"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Foydalanuvchining boʻsh vaqti 10 daqiqa boʻlgani uchun, ilova qadamni 10 daqiqadan oshirmaydi.",
+        "ru": "Поскольку у пользователя 10 минут свободного времени, приложение не делает шаг длиннее 10 минут.",
+        "en": "Because the user has 10 minutes of free time, the app keeps each step within 10 minutes.",
+        "ja": "ユーザーの空き時間が10分なので、アプリは1ステップを10分以内にします。"
+      },
+      "others": {
+        "uz": "A — dalilga zid. B — dalil eslatma soni haqida emas. C — dalilda dam olish kunlari haqida gap yoʻq.",
+        "ru": "A — противоречит факту. B — факт не о количестве напоминаний. C — в факте ничего нет о выходных.",
+        "en": "A contradicts the evidence. B: the evidence isn't about the number of reminders. C: the evidence says nothing about weekends.",
+        "ja": "Aは根拠に反します。B：根拠はリマインダーの回数についてではありません。C：根拠に週末の話はありません。"
+      }
+    },
+    {
+      "id": 20,
+      "type": "practice",
+      "q": {
+        "uz": "Ustoz (foydalanuvchi) One step qarorini «Mos» deb baholadi. Jamoa: «Demak, hammaga mos». Darsdagi qoidaga koʻra nima toʻgʻri?",
+        "ru": "Учитель (пользователь) оценил решение One step как «Подходит». Команда: «Значит, подходит всем». Что верно по правилу урока?",
+        "en": "The teacher (the user) rated a One step decision as \"Fits\". The team says: \"So it fits everyone.\" According to the lesson's rule, what is right?",
+        "ja": "先生（ユーザー）がOne stepの判断を「合う」と評価しました。チーム：「つまり全員に合う」。レッスンのルールでは何が正しいですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Toʻgʻri: bitta baho yetarli, qaror tasdiqlandi",
+            "ru": "Верно: одной оценки достаточно, решение подтверждено",
+            "en": "Right: one rating is enough, the decision is confirmed",
+            "ja": "正しい：一つの評価で十分、判断は承認された"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Notoʻgʻri: bitta foydalanuvchi hamma degani emas",
+            "ru": "Неверно: один пользователь — это не все",
+            "en": "Wrong: one user doesn't mean everyone",
+            "ja": "誤り：一人のユーザーは全員ではない"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Toʻgʻri: ustoz tajribali, uning bahosi hammaga teng",
+            "ru": "Верно: учитель опытный, его оценка равна оценке всех",
+            "en": "Right: the teacher is experienced, their rating counts for all",
+            "ja": "正しい：先生は経験豊富で、その評価は全員分に等しい"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Notoʻgʻri: baholashni umuman oʻtkazmaslik kerak edi",
+            "ru": "Неверно: оценку вообще не нужно было проводить",
+            "en": "Wrong: the evaluation shouldn't have been done at all",
+            "ja": "誤り：そもそも評価を行うべきではなかった"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Boshqa odamda javoblar boshqacha chiqadi. Shuning uchun uyga vazifa — ikkinchi foydalanuvchini oʻrganish.",
+        "ru": "У другого человека ответы будут другими. Поэтому домашнее задание — изучить второго пользователя.",
+        "en": "Another person would give different answers. That's why the homework is to study a second user.",
+        "ja": "別の人なら答えは違ってきます。だから宿題は2人目のユーザーを調べることです。"
+      },
+      "others": {
+        "uz": "A va C — bitta odamning bahosi hamma uchun dalil boʻlmaydi. D — baholash UCDʼning 4-bosqichi.",
+        "ru": "A и C — оценка одного человека не факт для всех. D — оценка — 4-й этап UCD.",
+        "en": "A and C: one person's rating isn't evidence for everyone. D: evaluation is stage 4 of UCD.",
+        "ja": "AとC：一人の評価は全員にとっての根拠になりません。D：評価はUCDの第4段階です。"
+      }
     }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Oʻziga qarab chizilgan ilova chiroyli boʻlsa ham, foydalanuvchiga toʻgʻri kelmaydi."
-   },
-   "others": {
-    "uz": "B — bitta odamning didi hammaga toʻgʻri kelmaydi. C va D — darsda bunday natija aytilmagan."
-   }
-  },
-  {
-   "id": 3,
-   "type": "theory",
-   "q": {
-    "uz": "UCDʼning 4 bosqichi qaysi tartibda boradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Specify requirements → Understand context → Design solutions → Evaluate"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Understand context → Design solutions → Specify requirements → Evaluate"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Design solutions → Understand context → Specify requirements → Evaluate"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Understand context → Specify requirements → Design solutions → Evaluate"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Kontekstni tushunish → talablarni aniqlash → yechim yaratish → baholash."
-   },
-   "others": {
-    "uz": "A — talablar kontekstni tushunmasdan yozilmaydi. B — yechim talablardan keyin yaratiladi. C — jarayon foydalanuvchini tushunishdan boshlanadi."
-   }
-  },
-  {
-   "id": 4,
-   "type": "theory",
-   "q": {
-    "uz": "UCDʼda iteratsiya nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dizaynni bir marta chizib, keyin oʻzgartirmaslik"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Baholashda notoʻgʻri chiqqan joylarning yangi tadqiqot savoliga aylanishi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Har bir bosqichni boshqa dizaynerga topshirib borish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Bitta ekranning bir nechta rangli variantini chizish"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Xato qaror — ishning oxiri emas, keyingi aylanishning boshi."
-   },
-   "others": {
-    "uz": "A — bu iteratsiyaning teskarisi. C — gap ishni boʻlish haqida emas. D — variant chizish doirani aylanish emas."
-   }
-  },
-  {
-   "id": 5,
-   "type": "theory",
-   "q": {
-    "uz": "Tikuvchi «soʻraydi, oʻlcham oladi, tikadi, kiydirib koʻradi va tuzatadi». «Kiydirib koʻrish va tuzatish» UCDʼning qaysi bosqichi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Evaluate (baholash)"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Understand context (kontekstni tushunish)"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Specify requirements (talablarni aniqlash)"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Design solutions (yechim yaratish)"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Tayyor narsani foydalanuvchida sinab, kamchilikni topish — baholash."
-   },
-   "others": {
-    "uz": "B — bu soʻrash bosqichi. C — bu oʻlcham olish bosqichi. D — bu tikish bosqichi."
-   }
-  },
-  {
-   "id": 6,
-   "type": "theory",
-   "q": {
-    "uz": "Loyiha doskasining «Bildik» ustuniga nima yoziladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Hali javobi topilmagan tadqiqot savollari"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Dalildan chiqqan aniq dizayn qarorlari"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Koʻrgan yoki eshitgan narsamiz, yaʼni dalil"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Jamoa aʼzolarining shaxsiy fikrlari"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Doska: 1) Bilishimiz kerak — savollar, 2) Bildik — dalil, 3) Dizayn qarori — dalildan chiqqan qaror."
-   },
-   "others": {
-    "uz": "A — «Bilishimiz kerak» ustuni. B — «Dizayn qarori» ustuni. D — shaxsiy fikr dalil emas."
-   }
-  },
-  {
-   "id": 7,
-   "type": "theory",
-   "q": {
-    "uz": "Odam aytgani bilan qilgani farq qilsa, dizayn qarori uchun qaysi biri ishonchliroq?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Odam aytgani — munosabat"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Ikkalasining oʻrtachasi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Dizaynerning oʻz fikri"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Odam qilgani — xulq-atvor"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Aytilgan gap — munosabat, qilingan ish — xulq-atvor. Ikkinchisi ishonchliroq."
-   },
-   "others": {
-    "uz": "A — odamlar koʻpincha qilmaydigan narsani aytadi. B — notoʻgʻri maʼlumot bilan oʻrtacha ham notoʻgʻri. C — bu taxmin."
-   }
-  },
-  {
-   "id": 8,
-   "type": "theory",
-   "q": {
-    "uz": "Kuzatuvda foydalanuvchi bir narsani eslay olmay, qayta qidirdi. Bu qaysi jihat?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Idrok"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Tafakkur"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Hissiyot"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Munosabat"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Darsdagi misol: nimani eslay olmay qayta qidirdim — tafakkur."
-   },
-   "others": {
-    "uz": "A — idrok: nimaning yonidan koʻrmay oʻtdim. C — hissiyot: qayerda asabiylashdim. D — munosabat: odam nima deyishi."
-   }
-  },
-  {
-   "id": 9,
-   "type": "theory",
-   "q": {
-    "uz": "Qaysi intervyu savoli qoidalarga mos?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "«Oxirgi marta boshlab, tashlab qoʻygan ishingiz nima edi?»"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "«Kelajakda bunday ilovadan foydalanarmidingiz?»"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "«Ilovamiz juda qulay, shunday emasmi?»"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "«Sizningcha, odamlar nega dangasa boʻladi?»"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Qoida: kelajak haqida emas, oʻtgan aniq voqea haqida soʻrang."
-   },
-   "others": {
-    "uz": "B — kelajak haqida taxminiy savol. C — javob savolning ichiga solingan. D — aniq voqea emas, umumiy fikr soʻralmoqda."
-   }
-  },
-  {
-   "id": 10,
-   "type": "theory",
-   "q": {
-    "uz": "Persona va ssenariy qaysi savollarga javob beradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Persona — «nima qiladi?», ssenariy — «kim?»"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Persona — «qachon?», ssenariy — «qayerda?»"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Persona — «nega?», ssenariy — «qancha?»"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Persona — «kim?», ssenariy — «nima qiladi?»"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Persona — foydalanuvchining qisqa portreti, ssenariy — persona qahramon boʻlgan 4–5 gapli hikoya."
-   },
-   "others": {
-    "uz": "A — teskari aytilgan. B va C — darsda bunday boʻlinish yoʻq."
-   }
-  },
-  {
-   "id": 11,
-   "type": "theory",
-   "q": {
-    "uz": "Qaysi tadqiqot usuli «Aslida nima qiladi?» degan savolga javob beradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Intervyu"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Kuzatish"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Soʻrovnoma"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Qulaylik testi"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Kuzatish — odam ishni qanday bajarishini jim kuzatish."
-   },
-   "others": {
-    "uz": "A — «Nega?» savoliga javob beradi. C — «Nechta odamda?» savoliga. D — «Ishlata oladimi?» savoliga."
-   }
-  },
-  {
-   "id": 12,
-   "type": "theory",
-   "q": {
-    "uz": "Baholovchi (evaluative) tadqiqot qachon va nima uchun oʻtkaziladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dizayndan keyin: tayyor yechimni tekshirish uchun"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Dizayndan oldin: muammo va gʻoya topish uchun"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Dizayn paytida: rang va shrift tanlash uchun"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Dizayn oʻrniga: dasturchiga topshiriq berish uchun"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Baholovchi tadqiqot tayyor yechimni tekshiradi, masalan qulaylik testi."
-   },
-   "others": {
-    "uz": "B — bu generativ tadqiqot. C va D — tadqiqot guruhlari bunday maqsadga xizmat qilmaydi."
-   }
-  },
-  {
-   "id": 13,
-   "type": "theory",
-   "q": {
-    "uz": "Personaning «Toʻsiq» (pain points) qismiga nima yoziladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Sevimli mashgʻuloti yoki orzusidagi ish"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Boʻsh vaqti qachon va qancha ekani"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Eslatma, rejim va shrift boʻyicha odatlari"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Unga nima xalaqit berayotgani"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Toʻsiq — foydalanuvchiga nima xalaqit berishi."
-   },
-   "others": {
-    "uz": "A — bu «Qiziqishi» (goals). B — bu «Boʻsh vaqti» (context). C — bu «Telefon odatlari» (behaviors)."
-   }
-  },
-  {
-   "id": 14,
-   "type": "theory",
-   "q": {
-    "uz": "Dizayn qarorini yozish qolipi qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dizayner \\[fikr\\] qilgani uchun, ilova \\[qaror\\]"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Foydalanuvchi \\[dalil\\] boʻlgani uchun, ilova \\[qaror\\]"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Buyurtmachi \\[talab\\] qilgani uchun, ilova \\[qaror\\]"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Raqobatchida \\[funksiya\\] boʻlgani uchun, ilova \\[qaror\\]"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Har bir qaror koʻrilgan yoki eshitilgan dalilga tayanadi. Dalili yoʻq qaror taxmin hisoblanadi va oʻchiriladi."
-   },
-   "others": {
-    "uz": "A, C va D — qaror foydalanuvchi dalilidan emas, boshqa manbadan chiqyapti."
-   }
-  },
-  {
-   "id": 15,
-   "type": "theory",
-   "q": {
-    "uz": "Baholashda foydalanuvchi qarorga «Mos emas» dedi. Keyin nima qilinadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Qaror oʻzgarishsiz qoladi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qaror biroz tuzatiladi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Yangi tadqiqot savoli yoziladi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Foydalanuvchi almashtiriladi"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "«Mos emas» — yangi savol «Bilishimiz kerak» ustuniga yoziladi va aylanish qayta boshlanadi."
-   },
-   "others": {
-    "uz": "A — bu «Mos» boʻlganda. B — bu «Yarim mos» boʻlganda. D — natija yoqmagani uchun foydalanuvchini almashtirib boʻlmaydi."
-   }
-  },
-  {
-   "id": 16,
-   "type": "practice",
-   "q": {
-    "uz": "One step oddiy to-do ilovasidan nimasi bilan farq qiladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Har kuni «non ol» kabi kundalik ishlarni eslatadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Har kuni orzuga yaqinlashtiruvchi bitta kichik qadam beradi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Har kuni doʻstlar bilan raqobatlashish imkonini beradi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Har kuni yangi ilova va oʻyinlarni tavsiya qiladi"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "One step — «har kuni orzuingizga bir qadam»: sevimli mashgʻulot yoki orzudagi ishga yaqinlashtiradi."
-   },
-   "others": {
-    "uz": "A — bu oddiy to-do ilovalari. C — loyihada raqobat yoʻq. D — bu loyihaning maqsadi emas."
-   }
-  },
-  {
-   "id": 17,
-   "type": "practice",
-   "q": {
-    "uz": "Jamoa aʼzosi: «Menimcha, foydalanuvchilarga qorongʻu rejim yoqadi, shuni qilamiz». Toʻgʻri javob qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Dalil: jamoa aʼzosi tajribali, unga ishonsa boʻladi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qaror: koʻpchilik ovozi bilan darhol qabul qilinadi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Taxmin: avval foydalanuvchidan soʻrab, dalil topish kerak"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Taxmin: lekin vaqt kam, shuning uchun qilaveramiz"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Qoida: taxmin qilmaymiz, tekshiramiz. «Buni qayerdan bildingiz: koʻrdingizmi, eshitdingizmi yoki taxmin qildingizmi?»"
-   },
-   "others": {
-    "uz": "A — tajriba dalil oʻrnini bosmaydi. B — jamoa ovozi foydalanuvchi ovozi emas. D — dalili yoʻq qaror oʻchiriladi."
-   }
-  },
-  {
-   "id": 18,
-   "type": "practice",
-   "q": {
-    "uz": "One step uchun intervyuda qaysi savol qoidani buzadi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "«Eslatmalar foydali-ku, siz ham yoqtirasiz-a?»"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "«Oxirgi marta eslatmani nega oʻchirib qoʻygansiz?»"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "«Kuningizning qaysi vaqtida boʻsh boʻlasiz?»"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "«Shunga oʻxshash ilovani nega tashlab qoʻygansiz?»"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Javob savolning ichiga solingan: odam «ha» deyishga majburdek boʻladi."
-   },
-   "others": {
-    "uz": "B va D — oʻtgan voqea va «nega?» haqida, qoidaga mos. C — darsdagi tadqiqot savollaridan biri."
-   }
-  },
-  {
-   "id": 19,
-   "type": "practice",
-   "q": {
-    "uz": "Dalil: foydalanuvchining boʻsh vaqti kuniga 10 daqiqa. Qolipga koʻra One step uchun qaysi qaror toʻgʻri?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Har bir qadam kamida 1 soat davom etadi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Eslatma har 10 daqiqada qayta keladi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ilova faqat dam olish kunlari ishlaydi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Har bir qadam 10 daqiqadan oshmaydi"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Foydalanuvchining boʻsh vaqti 10 daqiqa boʻlgani uchun, ilova qadamni 10 daqiqadan oshirmaydi."
-   },
-   "others": {
-    "uz": "A — dalilga zid. B — dalil eslatma soni haqida emas. C — dalilda dam olish kunlari haqida gap yoʻq."
-   }
-  },
-  {
-   "id": 20,
-   "type": "practice",
-   "q": {
-    "uz": "Ustoz (foydalanuvchi) One step qarorini «Mos» deb baholadi. Jamoa: «Demak, hammaga mos». Darsdagi qoidaga koʻra nima toʻgʻri?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Toʻgʻri: bitta baho yetarli, qaror tasdiqlandi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Notoʻgʻri: bitta foydalanuvchi hamma degani emas"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Toʻgʻri: ustoz tajribali, uning bahosi hammaga teng"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Notoʻgʻri: baholashni umuman oʻtkazmaslik kerak edi"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Boshqa odamda javoblar boshqacha chiqadi. Shuning uchun uyga vazifa — ikkinchi foydalanuvchini oʻrganish."
-   },
-   "others": {
-    "uz": "A va C — bitta odamning bahosi hamma uchun dalil boʻlmaydi. D — baholash UCDʼning 4-bosqichi."
-   }
-  }
- ]
+  ]
 }

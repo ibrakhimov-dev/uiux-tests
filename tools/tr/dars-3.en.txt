@@ -1,0 +1,160 @@
+@1
+Q: What is information architecture (IA)?
+A: Decorating pages by choosing colors, fonts and images
+B: Grouping, placing and naming content and functions
+C: Linking screens together and making them clickable
+D: Coding the site and putting it online
+W: IA isn't visible on the screen, but every screen relies on it.
+O: A is visual design. C is a prototype. D is the developer's job.
+@2
+Q: In the iceberg example, what is the part above water that the user sees?
+A: Navigation: menus, buttons, links
+B: IA: what there is and how it's grouped
+C: Sitemap: a chart of all pages
+D: Card sorting: cards and piles
+W: The user only sees the navigation; IA is the big part under the water.
+O: B: IA is the invisible part. C and D are the design team's working tools; the user doesn't see them.
+@3
+Q: Which three questions does IA answer?
+A: What's there? In what order? Where does it lead?
+B: Where am I? What's here? Where next?
+C: What's there? How is it grouped? How is it named?
+D: Which color? Which font? How much spacing?
+W: IA is content, structure and labels.
+O: A are micro IA questions. B are navigation questions. D are visual design questions.
+@4
+Q: In the supermarket example, what does "one shelf: which product is at eye level and which is lower" match?
+A: Information architecture
+B: Sitemap
+C: Navigation
+D: Micro IA
+W: In a store, IA is the decision, the sitemap is the store plan, micro IA is one shelf, navigation is the signs.
+O: A: which product sits in which section. B: where the sections are located. C: the signs hanging overhead.
+@5
+Q: What is a sitemap?
+A: The order of blocks and buttons inside one page
+B: A collection of finished, colored page designs
+C: A chart showing all pages and how they connect
+D: A list of evidence from user interviews
+W: A sitemap looks like a tree: the home page on top, sections below it, pages inside them.
+O: A is micro IA. B is a finished design. D is the project board.
+@6
+Q: Who is a technical (XML) sitemap for, and who writes it?
+A: For the design team; the designer draws it
+B: For search engines; the developer writes it
+C: For users; the manager writes it
+D: For the client; the designer draws it
+W: An XML sitemap is a list of pages for search engines like Google; it's needed for SEO.
+O: A is the visual (UX) sitemap. C and D: an XML sitemap is for search engines, not people.
+@7
+Q: How are card sorting and the sitemap connected?
+A: Sorting finds "what goes where", the sitemap draws it
+B: The sitemap finds "what goes where", sorting draws it
+C: They're two names for the same thing, no difference
+D: Sorting chooses colors, the sitemap chooses fonts
+W: Sorting answers the question; the sitemap is a drawing of that answer.
+O: B is stated backwards. C: one is a method, the other a result. D: neither works with colors or fonts.
+@8
+Q: According to the card sorting rules, what do the cards inside a pile become?
+A: A label in the menu
+B: Separate pages
+C: The order of pages
+D: Blocks on the page
+W: Rules: one pile = one page or section, pile name = menu label, cards in a pile = blocks on the page, user path = order of pages.
+O: A is the pile's name. B is the pile itself. C is the user path.
+@9
+Q: Which three questions does micro IA answer?
+A: Which color? Which font? How much spacing?
+B: For whom? When? How long?
+C: What's there? In what order? Where does it lead?
+D: What's there? How is it grouped? How is it named?
+W: Micro IA is the inner structure of one page: the blocks, their order, and where each button leads.
+O: A are visual design questions. B are research questions. D are the questions of the whole product's IA.
+@10
+Q: In what order are blocks placed in micro IA?
+A: The prettiest on top, the plainer ones below
+B: The most important on top, the rarely used below
+C: The newest on top, the older ones below
+D: The biggest on top, the smaller ones below
+W: Like on a shelf: the most frequently taken product is at eye level.
+O: A, C and D: the order is set by importance, not by looks, date or size.
+@11
+Q: Which statement about micro IA is true?
+A: It's a simple gray sketch: only structure and paths
+B: It's a colored design: fonts, images and nice buttons
+C: It's a prototype: you can click the buttons
+D: It's a sitemap: the links between all pages
+W: Micro IA is a lo-fi gray sketch.
+O: B: micro IA isn't a design. C: you can't click it. D: links between pages are macro IA.
+@12
+Q: In a micro IA sketch in draw.io, what does blue mean?
+A: States
+B: Errors
+C: Navigation
+D: Important blocks
+W: The convention: blue for navigation, yellow for states.
+O: A: states are yellow. B and D: micro IA has no such color convention.
+@13
+Q: According to the navigation rule, what do the sitemap's sections become?
+A: Contextual links
+B: Blocks inside a page
+C: Status messages
+D: The global menu
+W: The rule: sitemap sections → global menu, micro IA blocks → local and contextual links.
+O: A and B come from micro IA. C: states aren't navigation.
+@14
+Q: "A link inside text or a card, appearing exactly where it's needed" — which type of navigation is this?
+A: Global
+B: Contextual
+C: Utility
+D: Footer
+W: Contextual means links and CTAs inside the content.
+O: A is the main menu that sits in the same place on every page. C: account, login, settings. D: rarely used links at the bottom of the page.
+@15
+Q: "Not the main goal, but always needed: account, login, settings" — which type of navigation is this?
+A: Utility
+B: Local
+C: Stepper
+D: Breadcrumb
+W: Utility means service links.
+O: B is a menu inside one section. C shows which step you're on in a multi-step task. D shows where you came from and takes you back.
+@16
+Q: In the One step sitemap, which four sections open after logging in?
+A: Home, Choose a plan, Log in, Log out
+B: Settings, Language, Password, Help
+C: Today, Tomorrow, Week, Month
+D: Today, My plan, Progress, Profile
+W: Home on top, then Choose a plan, and after logging in four sections: Today, My plan, Progress, Profile.
+O: A are the pages before logging in. B are settings, not sections. C: the sitemap has no such sections.
+@17
+Q: Which name for a One step section follows the IA rule?
+A: "My plan"
+B: "Personal plan management"
+C: "Section 2"
+D: "Plan module"
+W: IA's 3rd question is "how is it named?". The name should be in the user's language, short and clear.
+O: B and D are team jargon; users don't talk like that. C means nothing.
+@18
+Q: In card sorting, which pile did the "Leaderboard" card fall into, and why?
+A: "Doesn't fit": contradicts evidence, no competition needed
+B: "Progress": a leaderboard shows the user's results
+C: "Today": a leaderboard is checked every day
+D: "Profile": a leaderboard is personal user data
+W: In research, users said they grow on their own and don't need competition. The "Doesn't fit" pile doesn't go on the sitemap.
+O: B, C and D add the card to the app even though it contradicts the evidence.
+@19
+Q: The AI form in One step has "1/4 → 4/4", "← Back" and "Continue". Which type of navigation is this?
+A: Breadcrumb
+B: Global
+C: Stepper
+D: Footer
+W: A stepper shows which step you're on in a multi-step task.
+O: A shows where you came from, e.g. "← Ready plans". B is the main menu. D are the links at the bottom of the page.
+@20
+Q: In testing, a user opened three sections to find "Progress". What kind of problem is this, and what should be done?
+A: A UI problem: paint the menu buttons a brighter color
+B: An SEO problem: rewrite the XML sitemap
+C: A prototype problem: link the screens differently
+D: An IA problem: check grouping and names with card sorting
+W: Not finding what you need is a sign of poor IA: "you search for milk for 10 minutes".
+O: A: color doesn't make finding easier. B: the XML sitemap isn't for users. C: the problem is the structure, not the links.

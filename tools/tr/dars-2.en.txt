@@ -1,0 +1,160 @@
+@1
+Q: What is User-Centered Design (UCD)?
+A: Design based on the designer's own taste and experience
+B: Design done quickly based on the client's requirements
+C: Design checked at every step by asking and showing it to the user
+D: Design built by copying solutions from popular apps
+W: In UCD, every decision comes not from guessing but from observing and asking the user.
+O: A is the "it's easy for me, so it's easy for everyone" approach. B: the client doesn't replace the user. D: another app was made for other people.
+@2
+Q: If a designer draws an app thinking "it's easy for me, so it's easy for everyone", what is the result?
+A: A beautiful product that doesn't suit anyone
+B: A simple product that is equally easy for everyone
+C: A complex product that is easy for experts
+D: A plain product that is very quick to build
+W: An app drawn for oneself may be beautiful, but it doesn't suit the user.
+O: B: one person's taste doesn't suit everyone. C and D: the lesson mentions no such result.
+@3
+Q: In what order do the 4 stages of UCD go?
+A: Specify requirements → Understand context → Design solutions → Evaluate
+B: Understand context → Design solutions → Specify requirements → Evaluate
+C: Design solutions → Understand context → Specify requirements → Evaluate
+D: Understand context → Specify requirements → Design solutions → Evaluate
+W: Understand the context → specify requirements → design solutions → evaluate.
+O: A: requirements can't be written without understanding the context. B: solutions are designed after requirements. C: the process starts with understanding the user.
+@4
+Q: What is iteration in UCD?
+A: Drawing the design once and never changing it
+B: Parts that failed in evaluation become new research questions
+C: Handing each stage over to a different designer
+D: Drawing several color variants of one screen
+W: A wrong decision isn't the end of the work but the start of the next cycle.
+O: A is the opposite of iteration. C: it's not about dividing work. D: drawing variants isn't going around the cycle.
+@5
+Q: A tailor "asks, measures, sews, has you try it on and fixes it". Which UCD stage is "try it on and fix it"?
+A: Evaluate
+B: Understand context
+C: Specify requirements
+D: Design solutions
+W: Testing the finished thing on the user and finding its flaws is evaluation.
+O: B is the asking stage. C is the measuring stage. D is the sewing stage.
+@6
+Q: What goes in the "We learned" column of the project board?
+A: Research questions that are still unanswered
+B: Specific design decisions drawn from evidence
+C: What we saw or heard, i.e. evidence
+D: Personal opinions of team members
+W: The board: 1) We need to know — questions, 2) We learned — evidence, 3) Design decision — a decision drawn from evidence.
+O: A is the "We need to know" column. B is the "Design decision" column. D: a personal opinion is not evidence.
+@7
+Q: If what a person says differs from what they do, which is more reliable for a design decision?
+A: What the person says — attitude
+B: The average of the two
+C: The designer's own opinion
+D: What the person does — behavior
+W: What is said is attitude, what is done is behavior. The second is more reliable.
+O: A: people often say things they don't do. B: an average with wrong data is also wrong. C: that is a guess.
+@8
+Q: During observation, a user couldn't remember something and searched again. Which aspect is this?
+A: Perception
+B: Cognition
+C: Emotion
+D: Attitude
+W: The lesson's example: what I couldn't remember and searched for again — cognition.
+O: A: perception — what I walked past without seeing. C: emotion — where I got annoyed. D: attitude — what the person says.
+@9
+Q: Which interview question follows the rules?
+A: "What's the last thing you started and then abandoned?"
+B: "Would you use an app like this in the future?"
+C: "Our app is really convenient, isn't it?"
+D: "Why do you think people are lazy?"
+W: The rule: ask not about the future but about a specific past event.
+O: B is a hypothetical question about the future. C puts the answer inside the question. D asks for a general opinion, not a specific event.
+@10
+Q: Which questions do a persona and a scenario answer?
+A: Persona — "what do they do?", scenario — "who?"
+B: Persona — "when?", scenario — "where?"
+C: Persona — "why?", scenario — "how much?"
+D: Persona — "who?", scenario — "what do they do?"
+W: A persona is a short portrait of the user; a scenario is a 4–5 sentence story starring the persona.
+O: A is stated backwards. B and C: the lesson has no such split.
+@11
+Q: Which research method answers the question "What do they actually do?"
+A: Interview
+B: Observation
+C: Survey
+D: Usability test
+W: Observation means silently watching how a person does the task.
+O: A answers "Why?". C answers "How many people?". D answers "Can they use it?".
+@12
+Q: When and why is evaluative research done?
+A: After design: to check a finished solution
+B: Before design: to find a problem and ideas
+C: During design: to choose colors and fonts
+D: Instead of design: to give tasks to developers
+W: Evaluative research checks a finished solution, for example with a usability test.
+O: B is generative research. C and D: research groups don't serve such purposes.
+@13
+Q: What goes in the "Pain points" part of a persona?
+A: Their hobby or dream job
+B: When and how much free time they have
+C: Their habits with reminders, modes and fonts
+D: What is getting in their way
+W: Pain points are what gets in the user's way.
+O: A is "Goals". B is "Free time" (context). C is "Phone habits" (behaviors).
+@14
+Q: What is the template for writing a design decision?
+A: Because the designer [thinks], the app [decision]
+B: Because the user [evidence], the app [decision]
+C: Because the client [demands], the app [decision]
+D: Because a competitor has [feature], the app [decision]
+W: Every decision rests on evidence that was seen or heard. A decision without evidence is a guess and gets deleted.
+O: A, C and D: the decision comes not from user evidence but from another source.
+@15
+Q: In evaluation, the user said the decision "Doesn't fit". What happens next?
+A: The decision stays unchanged
+B: The decision is slightly adjusted
+C: A new research question is written
+D: The user is replaced
+W: "Doesn't fit" — a new question goes into the "We need to know" column and the cycle starts again.
+O: A is for "Fits". B is for "Partly fits". D: you can't replace the user because you didn't like the result.
+@16
+Q: How is One step different from a simple to-do app?
+A: It reminds you of daily chores like "buy bread" every day
+B: Every day it gives one small step toward your dream
+C: Every day it lets you compete with friends
+D: Every day it recommends new apps and games
+W: One step means "one step toward your dream every day": it brings you closer to a hobby or dream job.
+O: A describes simple to-do apps. C: the project has no competition. D is not the project's goal.
+@17
+Q: A team member says: "I think users like dark mode, let's do it." What is the right response?
+A: Evidence: the team member is experienced, we can trust them
+B: Decision: accepted right away by majority vote
+C: A guess: first ask the user and find evidence
+D: A guess: but time is short, so let's just do it
+W: The rule: we don't guess, we check. "How do you know: did you see it, hear it, or guess it?"
+O: A: experience doesn't replace evidence. B: the team's vote isn't the user's voice. D: a decision without evidence gets deleted.
+@18
+Q: In a One step interview, which question breaks the rules?
+A: "Reminders are useful, you like them too, right?"
+B: "Why did you turn off reminders last time?"
+C: "At what time of day are you free?"
+D: "Why did you abandon a similar app?"
+W: The answer is put inside the question: the person feels pushed to say "yes".
+O: B and D ask about a past event and "why?", so they follow the rule. C is one of the research questions from the lesson.
+@19
+Q: Evidence: the user has 10 minutes of free time a day. Following the template, which decision is right for One step?
+A: Each step lasts at least 1 hour
+B: The reminder comes again every 10 minutes
+C: The app works only on weekends
+D: Each step takes no more than 10 minutes
+W: Because the user has 10 minutes of free time, the app keeps each step within 10 minutes.
+O: A contradicts the evidence. B: the evidence isn't about the number of reminders. C: the evidence says nothing about weekends.
+@20
+Q: The teacher (the user) rated a One step decision as "Fits". The team says: "So it fits everyone." According to the lesson's rule, what is right?
+A: Right: one rating is enough, the decision is confirmed
+B: Wrong: one user doesn't mean everyone
+C: Right: the teacher is experienced, their rating counts for all
+D: Wrong: the evaluation shouldn't have been done at all
+W: Another person would give different answers. That's why the homework is to study a second user.
+O: A and C: one person's rating isn't evidence for everyone. D: evaluation is stage 4 of UCD.

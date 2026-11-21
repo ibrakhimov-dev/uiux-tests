@@ -1,812 +1,1232 @@
 {
- "lesson": 7,
- "title": {
-  "uz": "Oʻzaro taʼsir dizayni (IxD)",
-  "ru": "Дизайн взаимодействия (IxD)",
-  "en": "Interaction design (IxD)",
-  "ja": "インタラクションデザイン（IxD）"
- },
- "minutes": 27,
- "questions": [
-  {
-   "id": 1,
-   "type": "theory",
-   "q": {
-    "uz": "Darsdagi taʼrifga koʻra oʻzaro taʼsir nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Bir tomonning ikkinchisiga buyruq berib turishi"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Ikki tomonning bir-biriga harakat qilib, javob olishi"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Ekrandagi elementlarning chiroyli harakatlanishi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Foydalanuvchining ilovani bir marta ochib koʻrishi"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Bu suhbatga oʻxshaydi: savol, javob, keyingi savol."
-   },
-   "others": {
-    "uz": "A — javob yoʻq, suhbat emas. C — bu faqat animatsiya. D — bitta harakat suhbat emas."
-   }
+  "lesson": 7,
+  "title": {
+    "uz": "Oʻzaro taʼsir dizayni (IxD)",
+    "ru": "Дизайн взаимодействия (IxD)",
+    "en": "Interaction design (IxD)",
+    "ja": "インタラクションデザイン（IxD）"
   },
-  {
-   "id": 2,
-   "type": "theory",
-   "q": {
-    "uz": "«Bir marta koʻrgan narsa eslab qolinadi va hamma joyda bir xil» — IxDʼning qaysi tamoyili?"
-   },
-   "options": [
+  "minutes": 27,
+  "questions": [
     {
-     "key": "A",
-     "text": {
-      "uz": "Feedback"
-     }
+      "id": 1,
+      "type": "theory",
+      "q": {
+        "uz": "Darsdagi taʼrifga koʻra oʻzaro taʼsir nima?",
+        "ru": "Что такое взаимодействие по определению урока?",
+        "en": "According to the lesson's definition, what is interaction?",
+        "ja": "レッスンの定義によると、インタラクションとは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Bir tomonning ikkinchisiga buyruq berib turishi",
+            "ru": "Одна сторона постоянно отдаёт команды другой",
+            "en": "One side constantly giving commands to the other",
+            "ja": "一方がもう一方に命令を出し続けること"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Ikki tomonning bir-biriga harakat qilib, javob olishi",
+            "ru": "Две стороны действуют друг на друга и получают ответ",
+            "en": "Two sides acting on each other and getting responses",
+            "ja": "二者が互いに働きかけ、応答を得ること"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Ekrandagi elementlarning chiroyli harakatlanishi",
+            "ru": "Красивое движение элементов на экране",
+            "en": "Elements on the screen moving beautifully",
+            "ja": "画面上の要素がきれいに動くこと"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Foydalanuvchining ilovani bir marta ochib koʻrishi",
+            "ru": "Пользователь один раз открывает приложение и смотрит",
+            "en": "The user opening the app and looking once",
+            "ja": "ユーザーがアプリを一度開いて見ること"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Bu suhbatga oʻxshaydi: savol, javob, keyingi savol.",
+        "ru": "Это похоже на разговор: вопрос, ответ, следующий вопрос.",
+        "en": "It's like a conversation: a question, an answer, the next question.",
+        "ja": "会話に似ています：質問、答え、次の質問。"
+      },
+      "others": {
+        "uz": "A — javob yoʻq, suhbat emas. C — bu faqat animatsiya. D — bitta harakat suhbat emas.",
+        "ru": "A — ответа нет, это не разговор. C — это только анимация. D — одно действие не разговор.",
+        "en": "A: there's no response, so it isn't a conversation. C is only animation. D: a single action isn't a conversation.",
+        "ja": "A：応答がないので会話ではありません。Cはアニメーションだけです。D：一回の動作は会話ではありません。"
+      }
     },
     {
-     "key": "B",
-     "text": {
-      "uz": "Signifier"
-     }
+      "id": 2,
+      "type": "theory",
+      "q": {
+        "uz": "«Bir marta koʻrgan narsa eslab qolinadi va hamma joyda bir xil» — IxDʼning qaysi tamoyili?",
+        "ru": "«Увиденное один раз запоминается и везде одинаково» — какой это принцип IxD?",
+        "en": "\"Something you've seen once is remembered and works the same everywhere\" — which IxD principle is this?",
+        "ja": "「一度見たものは覚えられ、どこでも同じ」――IxDのどの原則ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Feedback",
+            "ru": "Feedback",
+            "en": "Feedback",
+            "ja": "Feedback"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Signifier",
+            "ru": "Signifier",
+            "en": "Signifier",
+            "ja": "Signifier"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Oʻrganish osonligi",
+            "ru": "Лёгкость освоения",
+            "en": "Learnability",
+            "ja": "学びやすさ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Nazorat va Undo",
+            "ru": "Контроль и Undo",
+            "en": "Control and Undo",
+            "ja": "コントロールとUndo"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Oʻrganish osonligi (learnability). One step: qadam turlari M, OD, Y, ₪ hamma sahifada bir xil.",
+        "ru": "Лёгкость освоения (learnability). One step: типы шагов M, OD, Y, ₪ одинаковы на всех страницах.",
+        "en": "Learnability. One step: the step types M, OD, Y, ₪ are the same on every page.",
+        "ja": "学びやすさ（learnability）。One step：ステップの種類M、OD、Y、₪はどのページでも同じです。"
+      },
+      "others": {
+        "uz": "A — harakatga darhol javob. B — «bosish mumkin» belgisi. D — ortga qaytarish imkoni.",
+        "ru": "A — мгновенный ответ на действие. B — знак «можно нажать». D — возможность отменить.",
+        "en": "A is an immediate response to an action. B is a \"you can tap this\" sign. D is the ability to go back.",
+        "ja": "Aは操作へのすぐの応答です。Bは「押せる」というサインです。Dは元に戻せることです。"
+      }
     },
     {
-     "key": "C",
-     "text": {
-      "uz": "Oʻrganish osonligi"
-     }
+      "id": 3,
+      "type": "theory",
+      "q": {
+        "uz": "Interaktiv dizayn (IxD) nima?",
+        "ru": "Что такое дизайн взаимодействия (IxD)?",
+        "en": "What is interaction design (IxD)?",
+        "ja": "インタラクションデザイン（IxD）とは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Mahsulotning rang va shriftlarini tanlash",
+            "ru": "Выбор цветов и шрифтов продукта",
+            "en": "Choosing the product's colors and fonts",
+            "ja": "製品の色とフォントを選ぶこと"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Mahsulot sahifalarini guruhlash va nomlash",
+            "ru": "Группировка страниц продукта и их названия",
+            "en": "Grouping and naming the product's pages",
+            "ja": "製品のページをグループ化し、名前をつけること"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Foydalanuvchi va mahsulot oʻrtasidagi suhbatni loyihalash",
+            "ru": "Проектирование разговора между пользователем и продуктом",
+            "en": "Designing the conversation between user and product",
+            "ja": "ユーザーと製品の間の会話を設計すること"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Mahsulotning kodini yozish va uni sinash",
+            "ru": "Написание кода продукта и его тестирование",
+            "en": "Writing and testing the product's code",
+            "ja": "製品のコードを書いてテストすること"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Foydalanuvchi nima qiladi, mahsulot qanday javob beradi va foydalanuvchi bu javobdan nimani tushunadi.",
+        "ru": "Что делает пользователь, как отвечает продукт и что пользователь понимает из этого ответа.",
+        "en": "What the user does, how the product responds, and what the user understands from that response.",
+        "ja": "ユーザーが何をし、製品がどう応え、ユーザーがその応答から何を理解するか。"
+      },
+      "others": {
+        "uz": "A — bu vizual dizayn. B — bu axborot arxitekturasi. D — bu dasturchining ishi.",
+        "ru": "A — это визуальный дизайн. B — информационная архитектура. D — работа программиста.",
+        "en": "A is visual design. B is information architecture. D is the developer's job.",
+        "ja": "Aはビジュアルデザインです。Bは情報アーキテクチャです。Dはエンジニアの仕事です。"
+      }
     },
     {
-     "key": "D",
-     "text": {
-      "uz": "Nazorat va Undo"
-     }
+      "id": 4,
+      "type": "theory",
+      "q": {
+        "uz": "Vizual dizayn va interaktiv dizayn qaysi savolga javob beradi?",
+        "ru": "На какой вопрос отвечают визуальный дизайн и дизайн взаимодействия?",
+        "en": "Which question do visual design and interaction design answer?",
+        "ja": "ビジュアルデザインとインタラクションデザインは、どの問いに答えますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Vizual: «tugma qanday koʻrinadi?»; IxD: «bossam nima boʻladi?»",
+            "ru": "Визуальный: «как выглядит кнопка?»; IxD: «что будет, если нажать?»",
+            "en": "Visual: \"how does the button look?\"; IxD: \"what happens if I tap?\"",
+            "ja": "ビジュアル：「ボタンはどう見える？」、IxD：「押すと何が起きる？」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Vizual: «bossam nima boʻladi?»; IxD: «tugma qanday koʻrinadi?»",
+            "ru": "Визуальный: «что будет, если нажать?»; IxD: «как выглядит кнопка?»",
+            "en": "Visual: \"what happens if I tap?\"; IxD: \"how does the button look?\"",
+            "ja": "ビジュアル：「押すと何が起きる？」、IxD：「ボタンはどう見える？」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Vizual: «tugma qayerda turadi?»; IxD: «tugma qancha katta?»",
+            "ru": "Визуальный: «где стоит кнопка?»; IxD: «какого размера кнопка?»",
+            "en": "Visual: \"where is the button?\"; IxD: \"how big is the button?\"",
+            "ja": "ビジュアル：「ボタンはどこにある？」、IxD：「ボタンの大きさは？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Vizual: «foydalanuvchi kim?»; IxD: «u nima qiladi?»",
+            "ru": "Визуальный: «кто пользователь?»; IxD: «что он делает?»",
+            "en": "Visual: \"who is the user?\"; IxD: \"what do they do?\"",
+            "ja": "ビジュアル：「ユーザーは誰？」、IxD：「その人は何をする？」"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "IxD: tugmani bossam nima boʻladi, buni qanday bilaman, xato qilsam nima boʻladi.",
+        "ru": "IxD: что будет, если нажать кнопку, как я об этом узнаю, что будет, если я ошибусь.",
+        "en": "IxD: what happens if I tap the button, how do I know it, what happens if I make a mistake.",
+        "ja": "IxD：ボタンを押すと何が起きるか、それをどう知るか、間違えたらどうなるか。"
+      },
+      "others": {
+        "uz": "B — teskari aytilgan. C — wireframe savollari. D — persona va ssenariy savollari.",
+        "ru": "B — сказано наоборот. C — вопросы wireframe. D — вопросы персоны и сценария.",
+        "en": "B is stated backwards. C are wireframe questions. D are persona and scenario questions.",
+        "ja": "Bは逆に述べています。Cはワイヤーフレームの問いです。Dはペルソナとシナリオの問いです。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "theory",
+      "q": {
+        "uz": "Lift tugmasi bosilganda «5» raqami yonadi. Bu oʻzaro taʼsirning qaysi turi?",
+        "ru": "При нажатии кнопки в лифте загорается цифра «5». Какой это тип взаимодействия?",
+        "en": "When an elevator button is pressed, the number \"5\" lights up. Which type of interaction is this?",
+        "ja": "エレベーターのボタンを押すと「5」の数字が光ります。これはどの種類のインタラクションですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Bilvosita",
+            "ru": "Косвенное",
+            "en": "Indirect",
+            "ja": "間接的"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Bevosita",
+            "ru": "Прямое",
+            "en": "Direct",
+            "ja": "直接的"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Tegmasdan",
+            "ru": "Бесконтактное",
+            "en": "Touchless",
+            "ja": "非接触"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Aldab boshqarish",
+            "ru": "Обманное управление",
+            "en": "Deceptive control",
+            "ja": "だます操作"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Bilvosita — vositachi orqali: harakat bir joyda, natija boshqa joyda.",
+        "ru": "Косвенное — через посредника: действие в одном месте, результат в другом.",
+        "en": "Indirect means through an intermediary: the action happens in one place, the result in another.",
+        "ja": "間接的とは、仲介を通すことです。操作はある場所で、結果は別の場所で起きます。"
+      },
+      "others": {
+        "uz": "B — tegib, ushlab, natija aynan tekkan joyda. C — tizim oʻzi sezadi yoki gapiradi. D — bu oʻzaro taʼsir turi emas, xato amaliyot.",
+        "ru": "B — касаешься, держишь, результат именно там, где коснулся. C — система сама распознаёт или говорит. D — это не тип взаимодействия, а плохая практика.",
+        "en": "B: you touch and hold, and the result is exactly where you touched. C: the system senses or speaks by itself. D isn't a type of interaction but a bad practice.",
+        "ja": "B：触れて持ち、結果は触れたその場所に出ます。C：システムが自ら感知したり話したりします。Dはインタラクションの種類ではなく、悪い手法です。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "theory",
+      "q": {
+        "uz": "Obunani bekor qilish tugmasini topib boʻlmaydigan joyga yashirish — bu nima?",
+        "ru": "Спрятать кнопку отмены подписки так, чтобы её нельзя было найти, — что это?",
+        "en": "Hiding the cancel-subscription button where it can't be found — what is this?",
+        "ja": "サブスクリプションの解約ボタンを見つけられない場所に隠すこと――これは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Xatoning oldini olish",
+            "ru": "Предотвращение ошибок",
+            "en": "Error prevention",
+            "ja": "エラーの防止"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Izchillik",
+            "ru": "Единообразие",
+            "en": "Consistency",
+            "ja": "一貫性"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Aldab boshqarish (dark pattern)",
+            "ru": "Обманное управление (dark pattern)",
+            "en": "Deceptive control (dark pattern)",
+            "ja": "だます操作（ダークパターン）"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Signifier",
+            "ru": "Signifier",
+            "en": "Signifier",
+            "ja": "Signifier"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "One step qoidasi: qoʻrqitmaymiz, aldamaymiz, urishmaymiz — faqat yordam beramiz.",
+        "ru": "Правило One step: не пугаем, не обманываем, не ругаем — только помогаем.",
+        "en": "The One step rule: we don't scare, deceive or scold — we only help.",
+        "ja": "One stepのルール：怖がらせない、だまさない、叱らない――助けるだけ。"
+      },
+      "others": {
+        "uz": "A — foydalanuvchini xatodan himoya qiladi, aldamaydi. B — bir xillik haqida. D — aksincha, tugma koʻrinishini taʼminlaydi.",
+        "ru": "A — защищает пользователя от ошибки, не обманывает. B — про одинаковость. D — наоборот, делает кнопку заметной.",
+        "en": "A protects the user from mistakes and doesn't deceive. B is about sameness. D does the opposite — it makes the button visible.",
+        "ja": "Aはユーザーをミスから守るもので、だましません。Bは同じであることの話です。Dは逆に、ボタンを見えるようにします。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "theory",
+      "q": {
+        "uz": "«Bajarilgan lahzadagi kichik bayram odamni ertaga qaytaradi». Interaktiv dizayn qaysi sababga koʻra kerak?",
+        "ru": "«Маленький праздник в момент выполнения возвращает человека завтра». По какой причине нужен дизайн взаимодействия?",
+        "en": "\"A small celebration at the moment of completion brings people back tomorrow.\" For which reason is interaction design needed?",
+        "ja": "「完了した瞬間の小さなお祝いが、人を明日また戻らせる」。インタラクションデザインはどの理由で必要ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Ishonch",
+            "ru": "Доверие",
+            "en": "Trust",
+            "ja": "信頼"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Xatodan himoya",
+            "ru": "Защита от ошибок",
+            "en": "Protection from mistakes",
+            "ja": "ミスからの保護"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Professional koʻrinish",
+            "ru": "Профессиональный вид",
+            "en": "Professional look",
+            "ja": "プロらしい見た目"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Motivatsiya",
+            "ru": "Мотивация",
+            "en": "Motivation",
+            "ja": "モチベーション"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "«5 kun ketma-ket!» kabi kichik bayram — One stepʼning butun gʻoyasi.",
+        "ru": "Маленький праздник вроде «5 дней подряд!» — вся идея One step.",
+        "en": "A small celebration like \"5 days in a row!\" is the whole idea of One step.",
+        "ja": "「5日連続！」のような小さなお祝いこそ、One stepの考え方そのものです。"
+      },
+      "others": {
+        "uz": "A — javob bor-yoʻqligi haqida. B — Undo haqida. C — tirik yoki qotgan koʻrinish haqida.",
+        "ru": "A — о том, есть ли ответ. B — об Undo. C — о том, выглядит ли интерфейс живым или застывшим.",
+        "en": "A is about whether there's a response. B is about Undo. C is about looking alive or frozen.",
+        "ja": "Aは応答があるかどうかの話です。BはUndoの話です。Cは生きて見えるか、固まって見えるかの話です。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "theory",
+      "q": {
+        "uz": "Interaktiv dizaynning 5-oʻlchovi (Kevin Silver qoʻshgan) qaysi?",
+        "ru": "Какое 5-е измерение дизайна взаимодействия (добавил Кевин Сильвер)?",
+        "en": "Which is the 5th dimension of interaction design (added by Kevin Silver)?",
+        "ja": "インタラクションデザインの5つ目の次元（ケビン・シルバーが追加）はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "1D — Soʻzlar (Words)",
+            "ru": "1D — Слова (Words)",
+            "en": "1D — Words",
+            "ja": "1D：言葉（Words）"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "2D — Vizual koʻrinish (Visual)",
+            "ru": "2D — Визуальное представление (Visual)",
+            "en": "2D — Visual representations",
+            "ja": "2D：視覚表現（Visual）"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "4D — Vaqt (Time)",
+            "ru": "4D — Время (Time)",
+            "en": "4D — Time",
+            "ja": "4D：時間（Time）"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "5D — Xulq-atvor (Behavior)",
+            "ru": "5D — Поведение (Behavior)",
+            "en": "5D — Behavior",
+            "ja": "5D：振る舞い（Behavior）"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "1–4-oʻlchovlar — Gillian Crampton Smith, 5-oʻlchov — Kevin Silver.",
+        "ru": "Измерения 1–4 — Джиллиан Крэмптон Смит, 5-е — Кевин Сильвер.",
+        "en": "Dimensions 1–4 are Gillian Crampton Smith's; the 5th is Kevin Silver's.",
+        "ja": "1〜4の次元はジリアン・クランプトン・スミス、5つ目はケビン・シルバーです。"
+      },
+      "others": {
+        "uz": "A, B va C — Crampton Smithʼning dastlabki toʻrt oʻlchoviga kiradi.",
+        "ru": "A, B и C входят в первые четыре измерения Крэмптон Смит.",
+        "en": "A, B and C are among Crampton Smith's original four dimensions.",
+        "ja": "A、B、Cはクランプトン・スミスの最初の4つの次元に含まれます。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "theory",
+      "q": {
+        "uz": "Animatsiya, kutish va taymer qaysi oʻlchovga kiradi?",
+        "ru": "К какому измерению относятся анимация, ожидание и таймер?",
+        "en": "Which dimension do animation, waiting and timers belong to?",
+        "ja": "アニメーション、待ち時間、タイマーはどの次元に含まれますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "1D — Soʻzlar",
+            "ru": "1D — Слова",
+            "en": "1D — Words",
+            "ja": "1D：言葉"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "4D — Vaqt",
+            "ru": "4D — Время",
+            "en": "4D — Time",
+            "ja": "4D：時間"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "3D — Obyekt va makon",
+            "ru": "3D — Объект и пространство",
+            "en": "3D — Physical objects and space",
+            "ja": "3D：物体と空間"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "2D — Vizual koʻrinish",
+            "ru": "2D — Визуальное представление",
+            "en": "2D — Visual representations",
+            "ja": "2D：視覚表現"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Vaqt oʻlchovi nima boʻlayotganini koʻrsatadi.",
+        "ru": "Измерение времени показывает, что происходит.",
+        "en": "The time dimension shows what is happening.",
+        "ja": "時間の次元は、何が起きているかを示します。"
+      },
+      "others": {
+        "uz": "A — tugma va xabarlardagi matn. C — qurilma, qoʻl va makon. D — rang, ikonka, tipografiya.",
+        "ru": "A — текст на кнопках и в сообщениях. C — устройство, рука и пространство. D — цвет, иконки, типографика.",
+        "en": "A is the text on buttons and messages. C is the device, the hand and the space. D is color, icons, typography.",
+        "ja": "Aはボタンやメッセージの文言です。Cはデバイス、手、空間です。Dは色、アイコン、タイポグラフィです。"
+      }
+    },
+    {
+      "id": 10,
+      "type": "theory",
+      "q": {
+        "uz": "Har qanday interfeys javob beradigan 4 savol qaysi?",
+        "ru": "На какие 4 вопроса отвечает любой интерфейс?",
+        "en": "What are the 4 questions every interface answers?",
+        "ja": "どのインターフェースも答えるべき4つの問いはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Kimman? Nima kerak? Qancha turadi? Kim yasagan?",
+            "ru": "Кто я? Что нужно? Сколько стоит? Кто сделал?",
+            "en": "Who am I? What's needed? How much? Who made it?",
+            "ja": "私は誰？何が必要？いくら？誰が作った？"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qaysi rang? Qaysi shrift? Qancha joy? Qaysi ikonka?",
+            "ru": "Какой цвет? Какой шрифт? Сколько места? Какая иконка?",
+            "en": "Which color? Which font? How much space? Which icon?",
+            "ja": "どの色？どのフォント？どれくらいの広さ？どのアイコン？"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Qayerdaman? Nima boʻldi? Nima boʻlyapti? Keyin nima?",
+            "ru": "Где я? Что произошло? Что происходит? Что дальше?",
+            "en": "Where am I? What happened? What's happening? What's next?",
+            "ja": "今どこ？何が起きた？何が起きている？次は何？"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Nima bor? Qaysi tartib? Qayerga olib boradi? Kim uchun?",
+            "ru": "Что есть? Какой порядок? Куда ведёт? Для кого?",
+            "en": "What's there? What order? Where does it lead? For whom?",
+            "ja": "何がある？どの順番？どこへつながる？誰のため？"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Foydalanuvchi har lahzada bu toʻrt savolga javobni ekrandan topishi kerak.",
+        "ru": "Пользователь в любой момент должен находить на экране ответы на эти четыре вопроса.",
+        "en": "At every moment, the user should find the answers to these four questions on the screen.",
+        "ja": "ユーザーはどの瞬間でも、この4つの問いの答えを画面から見つけられるべきです。"
+      },
+      "others": {
+        "uz": "A — bu interfeys savollari emas. B — vizual dizayn qarorlari. D — mikro IA savollariga oʻxshaydi.",
+        "ru": "A — это не вопросы интерфейса. B — решения визуального дизайна. D — похожи на вопросы микро-IA.",
+        "en": "A aren't interface questions. B are visual design decisions. D are similar to micro IA questions.",
+        "ja": "Aはインターフェースの問いではありません。Bはビジュアルデザインの判断です。DはマイクロIAの問いに似ています。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "theory",
+      "q": {
+        "uz": "«Koʻrinishi nima qilishini aytadi: tugma tugmaga, havola havolaga oʻxshaydi» — qaysi tamoyil?",
+        "ru": "«Вид говорит, что элемент делает: кнопка похожа на кнопку, ссылка — на ссылку» — какой это принцип?",
+        "en": "\"Its look tells you what it does: a button looks like a button, a link like a link\" — which principle is this?",
+        "ja": "「見た目が何をするかを伝える：ボタンはボタンらしく、リンクはリンクらしく」――どの原則ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Signifier",
+            "ru": "Signifier",
+            "en": "Signifier",
+            "ja": "Signifier"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Feedback",
+            "ru": "Feedback",
+            "en": "Feedback",
+            "ja": "Feedback"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Izchillik",
+            "ru": "Единообразие",
+            "en": "Consistency",
+            "ja": "一貫性"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Nazorat va Undo",
+            "ru": "Контроль и Undo",
+            "en": "Control and Undo",
+            "ja": "コントロールとUndo"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Signifier — «bosish mumkin» belgisi. One step: «Boshlash» — katta sariq tugma, «Boshqa qadam» — havola.",
+        "ru": "Signifier — знак «можно нажать». One step: «Начать» — большая жёлтая кнопка, «Другой шаг» — ссылка.",
+        "en": "A signifier is a \"you can tap this\" sign. One step: \"Start\" is a big yellow button, \"Another step\" is a link.",
+        "ja": "Signifierは「押せる」というサインです。One step：「始める」は大きな黄色のボタン、「別のステップ」はリンクです。"
+      },
+      "others": {
+        "uz": "B — harakatga darhol javob. C — bir xil harakat hamma joyda bir xil natija beradi. D — ortga qaytarish imkoni.",
+        "ru": "B — мгновенный ответ на действие. C — одинаковое действие везде даёт одинаковый результат. D — возможность отменить.",
+        "en": "B is an immediate response to an action. C: the same action gives the same result everywhere. D is the ability to go back.",
+        "ja": "Bは操作へのすぐの応答です。C：同じ操作はどこでも同じ結果になります。Dは元に戻せることです。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "theory",
+      "q": {
+        "uz": "«Xatoning oldini olish» tamoyili nimani talab qiladi?",
+        "ru": "Чего требует принцип «Предотвращение ошибок»?",
+        "en": "What does the \"error prevention\" principle require?",
+        "ja": "「エラーの防止」の原則は何を求めていますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Xato boʻlgandan keyin foydalanuvchi ogohlantirilsin",
+            "ru": "Предупреждать пользователя после того, как ошибка произошла",
+            "en": "Warn the user after the mistake happens",
+            "ja": "ミスが起きた後にユーザーに警告する"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Xato qilishning iloji boʻlmasin yoki tasdiq soʻralsin",
+            "ru": "Сделать ошибку невозможной или запросить подтверждение",
+            "en": "Make the mistake impossible or ask for confirmation",
+            "ja": "ミスできないようにするか、確認を求める"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Xato boʻlsa, ilova darhol yopilib qolsin",
+            "ru": "Если ошибка, сразу закрывать приложение",
+            "en": "Close the app immediately if there's an error",
+            "ja": "エラーがあればすぐにアプリを閉じる"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Xato haqidagi xabar umuman koʻrsatilmasin",
+            "ru": "Вообще не показывать сообщения об ошибке",
+            "en": "Never show any error messages at all",
+            "ja": "エラーメッセージを一切表示しない"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "One step: email toʻgʻri boʻlmaguncha tugma faol emas; «Boshqa rejaga oʻtish» tasdiq soʻraydi.",
+        "ru": "One step: пока email неверный, кнопка неактивна; «Перейти на другой план» просит подтверждения.",
+        "en": "One step: the button stays inactive until the email is valid; \"Switch to another plan\" asks for confirmation.",
+        "ja": "One step：メールアドレスが正しくなるまでボタンは押せません。「別のプランに切り替える」は確認を求めます。"
+      },
+      "others": {
+        "uz": "A — bu xatodan keyin, oldini olish emas. C va D — foydalanuvchini yoʻlsiz qoldiradi.",
+        "ru": "A — это после ошибки, а не предотвращение. C и D — оставляют пользователя без выхода.",
+        "en": "A comes after the mistake, so it isn't prevention. C and D leave the user without a way forward.",
+        "ja": "Aはミスの後なので、防止ではありません。CとD：ユーザーが先に進めなくなります。"
+      }
+    },
+    {
+      "id": 13,
+      "type": "theory",
+      "q": {
+        "uz": "Mikro-interaksiya (Dan Saffer) qismlari qaysi tartibda?",
+        "ru": "В каком порядке идут части микро-взаимодействия (Дэн Саффер)?",
+        "en": "In what order do the parts of a micro-interaction (Dan Saffer) go?",
+        "ja": "マイクロインタラクション（ダン・サファー）の部分はどの順番ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Feedback → Trigger → Qoida → Takror va rejim",
+            "ru": "Feedback → Trigger → Правило → Повтор и режим",
+            "en": "Feedback → Trigger → Rules → Loops and modes",
+            "ja": "Feedback → Trigger → ルール → ループとモード"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qoida → Feedback → Trigger → Takror va rejim",
+            "ru": "Правило → Feedback → Trigger → Повтор и режим",
+            "en": "Rules → Feedback → Trigger → Loops and modes",
+            "ja": "ルール → Feedback → Trigger → ループとモード"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Trigger → Feedback → Takror va rejim → Qoida",
+            "ru": "Trigger → Feedback → Повтор и режим → Правило",
+            "en": "Trigger → Feedback → Loops and modes → Rules",
+            "ja": "Trigger → Feedback → ループとモード → ルール"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Trigger → Qoida → Feedback → Takror va rejim",
+            "ru": "Trigger → Правило → Feedback → Повтор и режим",
+            "en": "Trigger → Rules → Feedback → Loops and modes",
+            "ja": "Trigger → ルール → Feedback → ループとモード"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Nima boshlaydi → nima boʻladi → foydalanuvchi qanday koʻradi → keyingi safar nima oʻzgaradi. Feedback boʻlmasa, qolgan uchtasi koʻrinmaydi.",
+        "ru": "Что запускает → что происходит → как это видит пользователь → что меняется в следующий раз. Без feedback остальные три не видны.",
+        "en": "What starts it → what happens → how the user sees it → what changes next time. Without feedback, the other three stay invisible.",
+        "ja": "何が始めるか → 何が起きるか → ユーザーにどう見えるか → 次回は何が変わるか。Feedbackがなければ、他の3つは見えません。"
+      },
+      "others": {
+        "uz": "A, B va C — boshlovchisiz yoki qoidasiz javob boʻlmaydi.",
+        "ru": "A, B и C — без запуска или правила ответа не будет.",
+        "en": "A, B and C: without a starter or rules, there can be no response.",
+        "ja": "A、B、C：始めるものやルールがなければ、応答は生まれません。"
+      }
+    },
+    {
+      "id": 14,
+      "type": "theory",
+      "q": {
+        "uz": "Element klaviaturada Tab bilan tanlanganda qaysi holatda boʻladi?",
+        "ru": "В каком состоянии элемент, когда его выбрали клавишей Tab?",
+        "en": "Which state is an element in when it's selected with Tab on the keyboard?",
+        "ja": "キーボードのTabで選ばれたとき、要素はどの状態ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Focus",
+            "ru": "Focus",
+            "en": "Focus",
+            "ja": "Focus"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Hover",
+            "ru": "Hover",
+            "en": "Hover",
+            "ja": "Hover"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Pressed",
+            "ru": "Pressed",
+            "en": "Pressed",
+            "ja": "Pressed"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Disabled",
+            "ru": "Disabled",
+            "en": "Disabled",
+            "ja": "Disabled"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Focus — Tab bilan tanlangan holat, u majburiy.",
+        "ru": "Focus — состояние при выборе через Tab, оно обязательно.",
+        "en": "Focus is the state when selected with Tab, and it's mandatory.",
+        "ja": "FocusはTabで選ばれた状態で、必須です。"
+      },
+      "others": {
+        "uz": "B — sichqoncha ustida. C — bosilgan lahza. D — hozir ishlamaydi.",
+        "ru": "B — мышь над элементом. C — момент нажатия. D — сейчас не работает.",
+        "en": "B: the mouse is over it. C: the moment it's pressed. D: it doesn't work right now.",
+        "ja": "B：マウスが上にある状態。C：押された瞬間。D：今は使えない状態。"
+      }
+    },
+    {
+      "id": 15,
+      "type": "theory",
+      "q": {
+        "uz": "Ekran almashishi yoki tasdiq xabari chiqishi uchun qancha vaqt mos?",
+        "ru": "Сколько времени подходит для смены экрана или появления сообщения о подтверждении?",
+        "en": "How long is right for a screen transition or a confirmation message to appear?",
+        "ja": "画面の切り替えや確認メッセージの表示に適した時間はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "100–200 ms",
+            "ru": "100–200 ms",
+            "en": "100–200 ms",
+            "ja": "100〜200 ms"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "200–400 ms",
+            "ru": "200–400 ms",
+            "en": "200–400 ms",
+            "ja": "200〜400 ms"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "500–1000 ms",
+            "ru": "500–1000 ms",
+            "en": "500–1000 ms",
+            "ja": "500〜1000 ms"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "1500–2000 ms",
+            "ru": "1500–2000 ms",
+            "en": "1500–2000 ms",
+            "ja": "1500〜2000 ms"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "100–200 ms — kichik oʻzgarish (hover, ✓), 200–400 ms — ekran almashishi va xabar, 500 ms dan uzoq — foydalanuvchi kutib qoladi.",
+        "ru": "100–200 ms — небольшое изменение (hover, ✓), 200–400 ms — смена экрана и сообщение, дольше 500 ms — пользователь начинает ждать.",
+        "en": "100–200 ms for small changes (hover, ✓), 200–400 ms for screen transitions and messages; over 500 ms, the user is left waiting.",
+        "ja": "100〜200 msは小さな変化（hover、✓）、200〜400 msは画面の切り替えとメッセージ、500 msを超えるとユーザーは待たされます。"
+      },
+      "others": {
+        "uz": "A — kichik oʻzgarishlar uchun. C va D — foydalanuvchi kutib qoladi.",
+        "ru": "A — для небольших изменений. C и D — пользователь начинает ждать.",
+        "en": "A is for small changes. C and D leave the user waiting.",
+        "ja": "Aは小さな変化向けです。CとD：ユーザーが待たされます。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "practice",
+      "q": {
+        "uz": "«Bugun» sahifasida «Bajarildi» bosildi, lekin ekranda hech narsa oʻzgarmadi va foydalanuvchi yana bosdi. Qaysi tamoyil buzilgan?",
+        "ru": "На странице «Сегодня» нажали «Выполнено», но на экране ничего не изменилось, и пользователь нажал ещё раз. Какой принцип нарушен?",
+        "en": "On the \"Today\" page, \"Done\" was tapped, but nothing changed on screen and the user tapped again. Which principle is broken?",
+        "ja": "「今日」ページで「完了」を押しましたが、画面が何も変わらず、ユーザーはもう一度押しました。どの原則が破られていますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Signifier",
+            "ru": "Signifier",
+            "en": "Signifier",
+            "ja": "Signifier"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Izchillik",
+            "ru": "Единообразие",
+            "en": "Consistency",
+            "ja": "一貫性"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Oʻrganish osonligi",
+            "ru": "Лёгкость освоения",
+            "en": "Learnability",
+            "ja": "学びやすさ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Feedback",
+            "ru": "Feedback",
+            "en": "Feedback",
+            "ja": "Feedback"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Har bir harakatga darhol javob kerak: ✓ chiqadi va hisoblagich «4 → 5 kun» boʻladi.",
+        "ru": "На каждое действие нужен мгновенный ответ: появляется ✓, а счётчик становится «4 → 5 дней».",
+        "en": "Every action needs an immediate response: a ✓ appears and the counter becomes \"4 → 5 days\".",
+        "ja": "すべての操作にすぐの応答が必要です：✓が表示され、カウンターが「4 → 5日」になります。"
+      },
+      "others": {
+        "uz": "A — foydalanuvchi tugmani topdi va bosdi. B — gap bir xillik haqida emas. C — gap eslab qolish haqida emas.",
+        "ru": "A — пользователь нашёл кнопку и нажал. B — речь не об одинаковости. C — речь не о запоминании.",
+        "en": "A: the user found the button and tapped it. B isn't about sameness. C isn't about remembering.",
+        "ja": "A：ユーザーはボタンを見つけて押しました。B：同じであることの話ではありません。C：覚えることの話ではありません。"
+      }
+    },
+    {
+      "id": 17,
+      "type": "practice",
+      "q": {
+        "uz": "Foydalanuvchi adashib «Bajarildi»ni bosib yubordi. One stepʼda qaysi yechim toʻgʻri?",
+        "ru": "Пользователь по ошибке нажал «Выполнено». Какое решение в One step верно?",
+        "en": "The user tapped \"Done\" by mistake. Which solution is right in One step?",
+        "ja": "ユーザーが間違えて「完了」を押してしまいました。One stepで正しい解決策はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Xabarda «Bekor qilish» havolasini berish",
+            "ru": "Дать в сообщении ссылку «Отменить»",
+            "en": "Give an \"Undo\" link in the message",
+            "ja": "メッセージに「元に戻す」リンクを出す"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Tugmani kichikroq va xiraroq qilish",
+            "ru": "Сделать кнопку меньше и бледнее",
+            "en": "Make the button smaller and paler",
+            "ja": "ボタンを小さく、薄くする"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Har bosishdan oldin parol soʻrash",
+            "ru": "Запрашивать пароль перед каждым нажатием",
+            "en": "Ask for a password before every tap",
+            "ja": "押すたびにパスワードを求める"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Bosilgan qadamni oʻzgartirib boʻlmas qilish",
+            "ru": "Сделать отмеченный шаг неизменяемым",
+            "en": "Make a completed step impossible to change",
+            "ja": "完了したステップを変更できないようにする"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Nazorat va Undo: foydalanuvchi har doim ortga qaytara oladi. Undo — erkinlik.",
+        "ru": "Контроль и Undo: пользователь всегда может отменить. Undo — это свобода.",
+        "en": "Control and Undo: the user can always go back. Undo means freedom.",
+        "ja": "コントロールとUndo：ユーザーはいつでも元に戻せます。Undoは自由です。"
+      },
+      "others": {
+        "uz": "B — bosish qiyinlashadi. C — oddiy harakat uchun ortiqcha toʻsiq. D — foydalanuvchi qoʻrqib ishlatadi.",
+        "ru": "B — нажимать становится труднее. C — лишнее препятствие для простого действия. D — пользователь будет пользоваться со страхом.",
+        "en": "B makes tapping harder. C is an unnecessary barrier for a simple action. D makes the user afraid to use it.",
+        "ja": "B：押しにくくなります。C：簡単な操作には余計な壁です。D：ユーザーは怖がりながら使うことになります。"
+      }
+    },
+    {
+      "id": 18,
+      "type": "practice",
+      "q": {
+        "uz": "«AI tuzmoqda… 10–20 soniya» yozuvi foydalanuvchining qaysi savoliga javob beradi?",
+        "ru": "На какой вопрос пользователя отвечает надпись «AI составляет… 10–20 секунд»?",
+        "en": "Which of the user's questions does the text \"AI is building… 10–20 seconds\" answer?",
+        "ja": "「AIが作成中… 10〜20秒」という表示は、ユーザーのどの問いに答えていますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Qayerdaman?",
+            "ru": "Где я?",
+            "en": "Where am I?",
+            "ja": "今どこ？"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Hozirgina nima boʻldi?",
+            "ru": "Что сейчас произошло?",
+            "en": "What just happened?",
+            "ja": "たった今、何が起きた？"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Nima boʻlyapti?",
+            "ru": "Что происходит?",
+            "en": "What's happening?",
+            "ja": "何が起きている？"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Keyin nima boʻladi?",
+            "ru": "Что будет дальше?",
+            "en": "What's next?",
+            "ja": "次は何が起きる？"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Yuklanish va progress — tizim hozir ishlayotganini koʻrsatadi.",
+        "ru": "Загрузка и прогресс показывают, что система сейчас работает.",
+        "en": "Loading and progress show that the system is working right now.",
+        "ja": "読み込みと進捗は、システムが今動いていることを示します。"
+      },
+      "others": {
+        "uz": "A — menyuda faol boʻlim. B — «✓ Bugungi qadam bajarildi». D — «Ertaga 10:00 da eslatamiz».",
+        "ru": "A — активный раздел в меню. B — «✓ Сегодняшний шаг выполнен». D — «Напомним завтра в 10:00».",
+        "en": "A is the active section in the menu. B is \"✓ Today's step is done\". D is \"We'll remind you tomorrow at 10:00\".",
+        "ja": "Aはメニューのアクティブなセクションです。Bは「✓ 今日のステップ完了」です。Dは「明日10:00にお知らせします」です。"
+      }
+    },
+    {
+      "id": 19,
+      "type": "practice",
+      "q": {
+        "uz": "«Bajarildi» ikki marta bosilsa ham ketma-ket kunlar ikki marta qoʻshilmaydi. Bu mikro-interaksiyaning qaysi qismi?",
+        "ru": "Даже если нажать «Выполнено» дважды, дни подряд не добавятся дважды. Какая это часть микро-взаимодействия?",
+        "en": "Even if \"Done\" is tapped twice, the streak isn't added twice. Which part of the micro-interaction is this?",
+        "ja": "「完了」を2回押しても、連続日数は2回加算されません。これはマイクロインタラクションのどの部分ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Trigger",
+            "ru": "Trigger",
+            "en": "Trigger",
+            "ja": "Trigger"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Qoida",
+            "ru": "Правило",
+            "en": "Rules",
+            "ja": "ルール"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Feedback",
+            "ru": "Feedback",
+            "en": "Feedback",
+            "ja": "Feedback"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Takror va rejim",
+            "ru": "Повтор и режим",
+            "en": "Loops and modes",
+            "ja": "ループとモード"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Qoida — foydalanuvchi koʻrmaydigan «miya»: nima boʻlishini belgilaydi.",
+        "ru": "Правило — «мозг», которого пользователь не видит: определяет, что произойдёт.",
+        "en": "Rules are the \"brain\" the user doesn't see: they decide what happens.",
+        "ja": "ルールは、ユーザーには見えない「頭脳」で、何が起きるかを決めます。"
+      },
+      "others": {
+        "uz": "A — bosishning oʻzi. C — foydalanuvchi koʻradigan javob. D — 7-kundagi «Bir hafta! 🎉» kabi oʻzgarish.",
+        "ru": "A — само нажатие. C — ответ, который видит пользователь. D — изменение вроде «Неделя! 🎉» на 7-й день.",
+        "en": "A is the tap itself. C is the response the user sees. D is a change like \"One week! 🎉\" on day 7.",
+        "ja": "Aは押す動作そのものです。Cはユーザーに見える応答です。Dは7日目の「1週間！🎉」のような変化です。"
+      }
+    },
+    {
+      "id": 20,
+      "type": "practice",
+      "q": {
+        "uz": "Bir sahifada tasdiq xabari tepada chiqyapti, boshqasida pastda va boshqa rangda. Qaysi tamoyil buzilgan?",
+        "ru": "На одной странице сообщение о подтверждении появляется сверху, на другой — снизу и другого цвета. Какой принцип нарушен?",
+        "en": "On one page the confirmation message appears at the top, on another at the bottom and in a different color. Which principle is broken?",
+        "ja": "あるページでは確認メッセージが上に出て、別のページでは下に、しかも別の色で出ます。どの原則が破られていますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Feedback",
+            "ru": "Feedback",
+            "en": "Feedback",
+            "ja": "Feedback"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Signifier",
+            "ru": "Signifier",
+            "en": "Signifier",
+            "ja": "Signifier"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Xatoning oldini olish",
+            "ru": "Предотвращение ошибок",
+            "en": "Error prevention",
+            "ja": "エラーの防止"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Izchillik",
+            "ru": "Единообразие",
+            "en": "Consistency",
+            "ja": "一貫性"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Bir xil harakat hamma joyda bir xil natija berishi kerak: One stepʼda tasdiq xabarlari doim pastdan chiqadi va 4 soniyada yoʻqoladi.",
+        "ru": "Одинаковое действие везде должно давать одинаковый результат: в One step сообщения о подтверждении всегда появляются снизу и исчезают через 4 секунды.",
+        "en": "The same action should give the same result everywhere: in One step, confirmation messages always appear from the bottom and disappear after 4 seconds.",
+        "ja": "同じ操作はどこでも同じ結果になるべきです：One stepでは、確認メッセージはいつも下から出て、4秒で消えます。"
+      },
+      "others": {
+        "uz": "A — javob bor, faqat har xil. B — gap bosish belgisida emas. C — xato yoʻq.",
+        "ru": "A — ответ есть, просто разный. B — речь не о знаке нажатия. C — ошибки нет.",
+        "en": "A: there is a response, it's just different. B isn't about the tap sign. C: there's no error.",
+        "ja": "A：応答はありますが、ばらばらです。B：押せるサインの話ではありません。C：エラーはありません。"
+      }
     }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Oʻrganish osonligi (learnability). One step: qadam turlari M, OD, Y, ₪ hamma sahifada bir xil."
-   },
-   "others": {
-    "uz": "A — harakatga darhol javob. B — «bosish mumkin» belgisi. D — ortga qaytarish imkoni."
-   }
-  },
-  {
-   "id": 3,
-   "type": "theory",
-   "q": {
-    "uz": "Interaktiv dizayn (IxD) nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Mahsulotning rang va shriftlarini tanlash"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Mahsulot sahifalarini guruhlash va nomlash"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Foydalanuvchi va mahsulot oʻrtasidagi suhbatni loyihalash"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Mahsulotning kodini yozish va uni sinash"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Foydalanuvchi nima qiladi, mahsulot qanday javob beradi va foydalanuvchi bu javobdan nimani tushunadi."
-   },
-   "others": {
-    "uz": "A — bu vizual dizayn. B — bu axborot arxitekturasi. D — bu dasturchining ishi."
-   }
-  },
-  {
-   "id": 4,
-   "type": "theory",
-   "q": {
-    "uz": "Vizual dizayn va interaktiv dizayn qaysi savolga javob beradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Vizual: «tugma qanday koʻrinadi?»; IxD: «bossam nima boʻladi?»"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Vizual: «bossam nima boʻladi?»; IxD: «tugma qanday koʻrinadi?»"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Vizual: «tugma qayerda turadi?»; IxD: «tugma qancha katta?»"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Vizual: «foydalanuvchi kim?»; IxD: «u nima qiladi?»"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "IxD: tugmani bossam nima boʻladi, buni qanday bilaman, xato qilsam nima boʻladi."
-   },
-   "others": {
-    "uz": "B — teskari aytilgan. C — wireframe savollari. D — persona va ssenariy savollari."
-   }
-  },
-  {
-   "id": 5,
-   "type": "theory",
-   "q": {
-    "uz": "Lift tugmasi bosilganda «5» raqami yonadi. Bu oʻzaro taʼsirning qaysi turi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Bilvosita"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Bevosita"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Tegmasdan"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Aldab boshqarish"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Bilvosita — vositachi orqali: harakat bir joyda, natija boshqa joyda."
-   },
-   "others": {
-    "uz": "B — tegib, ushlab, natija aynan tekkan joyda. C — tizim oʻzi sezadi yoki gapiradi. D — bu oʻzaro taʼsir turi emas, xato amaliyot."
-   }
-  },
-  {
-   "id": 6,
-   "type": "theory",
-   "q": {
-    "uz": "Obunani bekor qilish tugmasini topib boʻlmaydigan joyga yashirish — bu nima?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Xatoning oldini olish"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Izchillik"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Aldab boshqarish (dark pattern)"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Signifier"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "One step qoidasi: qoʻrqitmaymiz, aldamaymiz, urishmaymiz — faqat yordam beramiz."
-   },
-   "others": {
-    "uz": "A — foydalanuvchini xatodan himoya qiladi, aldamaydi. B — bir xillik haqida. D — aksincha, tugma koʻrinishini taʼminlaydi."
-   }
-  },
-  {
-   "id": 7,
-   "type": "theory",
-   "q": {
-    "uz": "«Bajarilgan lahzadagi kichik bayram odamni ertaga qaytaradi». Interaktiv dizayn qaysi sababga koʻra kerak?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Ishonch"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Xatodan himoya"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Professional koʻrinish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Motivatsiya"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "«5 kun ketma-ket!» kabi kichik bayram — One stepʼning butun gʻoyasi."
-   },
-   "others": {
-    "uz": "A — javob bor-yoʻqligi haqida. B — Undo haqida. C — tirik yoki qotgan koʻrinish haqida."
-   }
-  },
-  {
-   "id": 8,
-   "type": "theory",
-   "q": {
-    "uz": "Interaktiv dizaynning 5-oʻlchovi (Kevin Silver qoʻshgan) qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "1D — Soʻzlar (Words)"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "2D — Vizual koʻrinish (Visual)"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "4D — Vaqt (Time)"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "5D — Xulq-atvor (Behavior)"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "1–4-oʻlchovlar — Gillian Crampton Smith, 5-oʻlchov — Kevin Silver."
-   },
-   "others": {
-    "uz": "A, B va C — Crampton Smithʼning dastlabki toʻrt oʻlchoviga kiradi."
-   }
-  },
-  {
-   "id": 9,
-   "type": "theory",
-   "q": {
-    "uz": "Animatsiya, kutish va taymer qaysi oʻlchovga kiradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "1D — Soʻzlar"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "4D — Vaqt"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "3D — Obyekt va makon"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "2D — Vizual koʻrinish"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Vaqt oʻlchovi nima boʻlayotganini koʻrsatadi."
-   },
-   "others": {
-    "uz": "A — tugma va xabarlardagi matn. C — qurilma, qoʻl va makon. D — rang, ikonka, tipografiya."
-   }
-  },
-  {
-   "id": 10,
-   "type": "theory",
-   "q": {
-    "uz": "Har qanday interfeys javob beradigan 4 savol qaysi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Kimman? Nima kerak? Qancha turadi? Kim yasagan?"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qaysi rang? Qaysi shrift? Qancha joy? Qaysi ikonka?"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Qayerdaman? Nima boʻldi? Nima boʻlyapti? Keyin nima?"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Nima bor? Qaysi tartib? Qayerga olib boradi? Kim uchun?"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Foydalanuvchi har lahzada bu toʻrt savolga javobni ekrandan topishi kerak."
-   },
-   "others": {
-    "uz": "A — bu interfeys savollari emas. B — vizual dizayn qarorlari. D — mikro IA savollariga oʻxshaydi."
-   }
-  },
-  {
-   "id": 11,
-   "type": "theory",
-   "q": {
-    "uz": "«Koʻrinishi nima qilishini aytadi: tugma tugmaga, havola havolaga oʻxshaydi» — qaysi tamoyil?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Signifier"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Feedback"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Izchillik"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Nazorat va Undo"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Signifier — «bosish mumkin» belgisi. One step: «Boshlash» — katta sariq tugma, «Boshqa qadam» — havola."
-   },
-   "others": {
-    "uz": "B — harakatga darhol javob. C — bir xil harakat hamma joyda bir xil natija beradi. D — ortga qaytarish imkoni."
-   }
-  },
-  {
-   "id": 12,
-   "type": "theory",
-   "q": {
-    "uz": "«Xatoning oldini olish» tamoyili nimani talab qiladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Xato boʻlgandan keyin foydalanuvchi ogohlantirilsin"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Xato qilishning iloji boʻlmasin yoki tasdiq soʻralsin"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Xato boʻlsa, ilova darhol yopilib qolsin"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Xato haqidagi xabar umuman koʻrsatilmasin"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "One step: email toʻgʻri boʻlmaguncha tugma faol emas; «Boshqa rejaga oʻtish» tasdiq soʻraydi."
-   },
-   "others": {
-    "uz": "A — bu xatodan keyin, oldini olish emas. C va D — foydalanuvchini yoʻlsiz qoldiradi."
-   }
-  },
-  {
-   "id": 13,
-   "type": "theory",
-   "q": {
-    "uz": "Mikro-interaksiya (Dan Saffer) qismlari qaysi tartibda?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Feedback → Trigger → Qoida → Takror va rejim"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qoida → Feedback → Trigger → Takror va rejim"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Trigger → Feedback → Takror va rejim → Qoida"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Trigger → Qoida → Feedback → Takror va rejim"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Nima boshlaydi → nima boʻladi → foydalanuvchi qanday koʻradi → keyingi safar nima oʻzgaradi. Feedback boʻlmasa, qolgan uchtasi koʻrinmaydi."
-   },
-   "others": {
-    "uz": "A, B va C — boshlovchisiz yoki qoidasiz javob boʻlmaydi."
-   }
-  },
-  {
-   "id": 14,
-   "type": "theory",
-   "q": {
-    "uz": "Element klaviaturada Tab bilan tanlanganda qaysi holatda boʻladi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Focus"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Hover"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Pressed"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Disabled"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Focus — Tab bilan tanlangan holat, u majburiy."
-   },
-   "others": {
-    "uz": "B — sichqoncha ustida. C — bosilgan lahza. D — hozir ishlamaydi."
-   }
-  },
-  {
-   "id": 15,
-   "type": "theory",
-   "q": {
-    "uz": "Ekran almashishi yoki tasdiq xabari chiqishi uchun qancha vaqt mos?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "100–200 ms"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "200–400 ms"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "500–1000 ms"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "1500–2000 ms"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "100–200 ms — kichik oʻzgarish (hover, ✓), 200–400 ms — ekran almashishi va xabar, 500 ms dan uzoq — foydalanuvchi kutib qoladi."
-   },
-   "others": {
-    "uz": "A — kichik oʻzgarishlar uchun. C va D — foydalanuvchi kutib qoladi."
-   }
-  },
-  {
-   "id": 16,
-   "type": "practice",
-   "q": {
-    "uz": "«Bugun» sahifasida «Bajarildi» bosildi, lekin ekranda hech narsa oʻzgarmadi va foydalanuvchi yana bosdi. Qaysi tamoyil buzilgan?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Signifier"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Izchillik"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Oʻrganish osonligi"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Feedback"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Har bir harakatga darhol javob kerak: ✓ chiqadi va hisoblagich «4 → 5 kun» boʻladi."
-   },
-   "others": {
-    "uz": "A — foydalanuvchi tugmani topdi va bosdi. B — gap bir xillik haqida emas. C — gap eslab qolish haqida emas."
-   }
-  },
-  {
-   "id": 17,
-   "type": "practice",
-   "q": {
-    "uz": "Foydalanuvchi adashib «Bajarildi»ni bosib yubordi. One stepʼda qaysi yechim toʻgʻri?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Xabarda «Bekor qilish» havolasini berish"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Tugmani kichikroq va xiraroq qilish"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Har bosishdan oldin parol soʻrash"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Bosilgan qadamni oʻzgartirib boʻlmas qilish"
-     }
-    }
-   ],
-   "answer": "A",
-   "why": {
-    "uz": "Nazorat va Undo: foydalanuvchi har doim ortga qaytara oladi. Undo — erkinlik."
-   },
-   "others": {
-    "uz": "B — bosish qiyinlashadi. C — oddiy harakat uchun ortiqcha toʻsiq. D — foydalanuvchi qoʻrqib ishlatadi."
-   }
-  },
-  {
-   "id": 18,
-   "type": "practice",
-   "q": {
-    "uz": "«AI tuzmoqda… 10–20 soniya» yozuvi foydalanuvchining qaysi savoliga javob beradi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Qayerdaman?"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Hozirgina nima boʻldi?"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Nima boʻlyapti?"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Keyin nima boʻladi?"
-     }
-    }
-   ],
-   "answer": "C",
-   "why": {
-    "uz": "Yuklanish va progress — tizim hozir ishlayotganini koʻrsatadi."
-   },
-   "others": {
-    "uz": "A — menyuda faol boʻlim. B — «✓ Bugungi qadam bajarildi». D — «Ertaga 10:00 da eslatamiz»."
-   }
-  },
-  {
-   "id": 19,
-   "type": "practice",
-   "q": {
-    "uz": "«Bajarildi» ikki marta bosilsa ham ketma-ket kunlar ikki marta qoʻshilmaydi. Bu mikro-interaksiyaning qaysi qismi?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Trigger"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Qoida"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Feedback"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Takror va rejim"
-     }
-    }
-   ],
-   "answer": "B",
-   "why": {
-    "uz": "Qoida — foydalanuvchi koʻrmaydigan «miya»: nima boʻlishini belgilaydi."
-   },
-   "others": {
-    "uz": "A — bosishning oʻzi. C — foydalanuvchi koʻradigan javob. D — 7-kundagi «Bir hafta! 🎉» kabi oʻzgarish."
-   }
-  },
-  {
-   "id": 20,
-   "type": "practice",
-   "q": {
-    "uz": "Bir sahifada tasdiq xabari tepada chiqyapti, boshqasida pastda va boshqa rangda. Qaysi tamoyil buzilgan?"
-   },
-   "options": [
-    {
-     "key": "A",
-     "text": {
-      "uz": "Feedback"
-     }
-    },
-    {
-     "key": "B",
-     "text": {
-      "uz": "Signifier"
-     }
-    },
-    {
-     "key": "C",
-     "text": {
-      "uz": "Xatoning oldini olish"
-     }
-    },
-    {
-     "key": "D",
-     "text": {
-      "uz": "Izchillik"
-     }
-    }
-   ],
-   "answer": "D",
-   "why": {
-    "uz": "Bir xil harakat hamma joyda bir xil natija berishi kerak: One stepʼda tasdiq xabarlari doim pastdan chiqadi va 4 soniyada yoʻqoladi."
-   },
-   "others": {
-    "uz": "A — javob bor, faqat har xil. B — gap bosish belgisida emas. C — xato yoʻq."
-   }
-  }
- ]
+  ]
 }

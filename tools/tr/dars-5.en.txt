@@ -1,0 +1,160 @@
+@1
+Q: What is a prototype?
+A: A clickable sample that isn't coded yet
+B: A finished site that is coded and online
+C: A colored, finished screen image you can't click
+D: A chart of links between pages and sections
+W: There's no code behind it — only connections between screens.
+O: B is a finished product. C is a mockup; you can't click it. D is a sitemap.
+@2
+Q: Which question does a prototype answer?
+A: "Where, and how big?"
+B: "How does it work?"
+C: "How does it look?"
+D: "What's there?"
+W: The user uses it like a real site: taps → the screen changes → goes back.
+O: A is a wireframe question. C is a mockup question. D is a micro IA question.
+@3
+Q: What does "for cheap mistakes" mean?
+A: Moving an arrow takes hours in a prototype, 10 seconds in code
+B: Moving an arrow takes the same time in both
+C: You can't move an arrow in a prototype at all
+D: Moving an arrow takes 10 seconds in a prototype, hours in code
+W: Fixing a mistake in a prototype is fast and cheap; in code it's slow and expensive.
+O: A is stated backwards. B: the difference is huge. C: changes are easiest in a prototype.
+@4
+Q: "For explaining" — what is sent to the team and the client?
+A: Ten separate screen images
+B: A long written explanation letter
+C: One link to a working prototype
+D: The source code of the finished site
+W: Not 10 images, but one working link.
+O: A: images don't show how it works. B: text doesn't replace clicking through. D: there's no code yet.
+@5
+Q: What is the benefit of a prototype "for testing"?
+A: Learning whether users get lost before code is written
+B: Helping the developer finish the code faster
+C: Showing the screens more beautifully
+D: Checking the site's speed on the server
+W: You find out whether the user gets lost before the developer writes code.
+O: B: a prototype doesn't write code. C: beauty is the job of visual design. D: a prototype has no server.
+@6
+Q: Which 3 parts does every connection in Figma consist of?
+A: Page, Frame, Layer
+B: Trigger, Action, Animation
+C: Color, Font, Spacing
+D: Header, Content, Footer
+W: Every connection is one sentence: when the user taps (trigger) → the next screen opens (action) → it dissolves (animation).
+O: A is Figma's file structure. C are visual design elements. D are parts of a page.
+@7
+Q: Which trigger is needed so a "Saved" message disappears on its own after 3 seconds?
+A: On click
+B: While hovering
+C: After delay
+D: Navigate to
+W: After delay runs on its own once time passes.
+O: A fires on a tap. B fires when the mouse is over it. D is not a trigger but an action.
+@8
+Q: Which action opens "a small window on top of the screen: confirmation, menu"?
+A: Open overlay
+B: Navigate to
+C: Scroll to
+D: Open link
+W: Open overlay doesn't close the current screen; it opens a window on top.
+O: B goes to another screen. C jumps to a block on the same page. D opens an external site.
+@9
+Q: What does the "Back" action do?
+A: Returns to the home page
+B: Opens a window on top of the screen
+C: Opens an external site
+D: Returns to the previous screen
+W: Back returns to whichever screen the user came from.
+O: A: not the home page, but the previous screen. B is Open overlay. C is Open link.
+@10
+Q: In which animation do layers with the same name on two screens move smoothly?
+A: Dissolve
+B: Smart animate
+C: Instant
+D: Slide in
+W: Smart animate — for example, the "2/4 → 3/4" bar fills smoothly.
+O: A: the screen dissolves. C: it switches instantly. D: it slides in from the side.
+@11
+Q: Which statement about a flow is true?
+A: One file can have several flows
+B: One file can have only one flow
+C: A flow only sets the animation type
+D: A flow only works in phone prototypes
+W: For example, "New user" and "Daily step". Present ▶ starts from the flow's starting point.
+O: B: there can be several flows. C: animation is a separate concept. D: any prototype has flows.
+@12
+Q: According to the prototyping principles, what does a prototype start with?
+A: Connecting all the buttons at once
+B: Painting the screens in color
+C: A question: "What do we want to learn with this prototype?"
+D: Choosing the animation type
+W: "Start with the goal": first the question, then the connections. A prototype without a question is just pretty clicking.
+O: A contradicts the "one scenario — one flow" principle. B and D are not goals.
+@13
+Q: What does the "real text and states" principle require?
+A: Only the main screens; states come later in code
+B: Lorem ipsum instead of text; states aren't needed
+C: Only an error state screen; the rest aren't needed
+D: Empty, error and success states as separate screens too
+W: No lorem ipsum; the empty state, the error state and "Done" are separate screens too.
+O: A, B and C: if states aren't tested, the user first sees them in the finished app.
+@14
+Q: Which tool is for complex interactions with sensors, voice and camera?
+A: Figma Make
+B: ProtoPie
+C: Framer
+D: Excalidraw
+W: ProtoPie is for complex interactions and can be tested on a real phone.
+O: A builds a prototype from text. C turns a prototype into a site. D is a lo-fi drawing tool.
+@15
+Q: What did the lesson say about Figma Make (AI)?
+A: It builds prototypes from text; designers aren't needed anymore
+B: It only draws images and can't build prototypes
+C: It builds prototypes from text; the designer checks the structure
+D: It only writes code and doesn't work with design
+W: Figma Make is for testing an idea quickly, but the designer still checks the structure.
+O: A: the lesson said the opposite. B and D: it builds prototypes and code from text.
+@16
+Q: All 11 One step pages are drawn, but tapping "Start" does nothing. Why?
+A: They're gray: color must be added first
+B: They're still pictures: the screens aren't connected
+C: They're small: they must be enlarged first
+D: They're outdated: they must be redrawn
+W: A wireframe is a picture. When the screens are connected, it becomes a prototype.
+O: A: color doesn't affect clicking. C and D: size and freshness aren't the problem.
+@17
+Q: "Start" button → On click → Navigate to: Sign up → Dissolve, 300 ms. Which part of this connection is "Dissolve, 300 ms"?
+A: Trigger
+B: Action
+C: Connection
+D: Animation
+W: Animation is how the screen changes.
+O: A is On click. B is Navigate to. C is the blue arrow itself, dragged from the button to the screen.
+@18
+Q: In the One step prototype, there's no way out of the "Plan details" page: no "Back", no menu. Which principle is broken?
+A: Keep the path open
+B: Start with the goal
+C: Iterate
+D: One scenario — one flow
+W: Every screen has an exit: "Back" or the menu. The user shouldn't get "trapped".
+O: B isn't about the question. C isn't about retesting. D isn't about the number of connections.
+@19
+Q: During testing, the prototype's owner told the user: "Tap the button on the right!" Which principle was broken?
+A: Keep the path open
+B: Real text and states
+C: Test with a real person
+D: Start with the goal
+W: Give one task and don't help: write down where they stopped and what they tapped.
+O: A, B and D are principles about the prototype itself, not about running the test.
+@20
+Q: The team started connecting every button on all 11 pages, and after 2 hours the main path still doesn't work end to end. Which principle is broken?
+A: Iterate
+B: One scenario — one flow
+C: Real text and states
+D: Keep the path open
+W: You don't need to connect every button. Only the path being tested is connected: Home → Sign up → Ready plans → Today.
+O: A: iterating comes after testing. C and D: the problem is the order of connections.
