@@ -1,0 +1,180 @@
+@1
+Q: Usability testing nima?
+A: Dizayner ilovani oʻzi bosib chiqib, xatolarni qidirishi
+B: Foydalanuvchidan soʻrovnoma orqali fikrini soʻrash
+C: Boshlovchi vazifa beradi, qatnashchi bajaradi, u kuzatadi
+D: AIʼdan ilova qanchalik qulay ekanini soʻrab bilish
+K: C
+W: Boshlovchi qatnashchiga mahsulotda vazifalarni bajarishni soʻraydi, oʻzi esa nima qilayotganini kuzatib, aytganlarini tinglaydi.
+O: A — dizayner oʻz ilovasida adashmaydi. B — soʻrovnoma fikrni soʻraydi, harakatni koʻrmaydi. D — AI ilovani haqiqatan ishlata olmaydi.
+@2
+Q: Telefon egasi grafik kalitni 5 soniyada chizadi, koʻngilli talaba esa qiynaldi. Darsdagi xulosa qaysi?
+A: Egasi naqshni biladi, shuning uchun oʻz telefonini sinay olmaydi
+B: Koʻngilli talaba telefondan foydalanishni hali yaxshi bilmaydi
+C: Grafik kalit eskirgan, uni telefondan butunlay olib tashlash kerak
+D: Murakkab naqsh har doim oddiy naqshdan xavfsizroq boʻladi
+K: A
+W: Dizayner ham shunday: oʻz ilovasida hech qachon adashmaydi. Shuning uchun dizaynni uni bilmagan odam sinaydi.
+O: B — testda odam emas, dizayn (telefon) imtihon topshiradi. C va D — darsda bunday xulosa yoʻq.
+@3
+Q: Usability test qaysi savolga javob beradi?
+A: «Nega?»
+B: «Aslida nima qiladi?»
+C: «Nechta odamda?»
+D: «Foydalana oladimi?»
+K: D
+W: Usability test odam mahsulotdan haqiqatan foydalana olishini tekshiradi.
+O: A — intervyu savoli. B — kuzatish savoli. C — soʻrovnoma savoli.
+@4
+Q: Usability test qachon oʻtkaziladi?
+A: Dizayndan oldin: muammo va gʻoyalarni topish uchun
+B: Dizayndan keyin: prototip tayyor boʻlganda
+C: Faqat ilova kodlanib, chiqarilgandan keyin
+D: Loyihaning eng boshida, intervyu oʻtkazish oʻrniga
+K: B
+W: Intervyu, kuzatish va soʻrovnoma — dizayndan oldin, usability test — dizayndan keyin. Bu UCDʼning 4-bosqichi — Evaluate.
+O: A — bu intervyu, kuzatish va soʻrovnoma vaqti. C — xatoni kodda tuzatish qimmat. D — testga sinaladigan dizayn kerak.
+@5
+Q: Mehmon rejani tanlashdan oldin «Bu qancha vaqt oladi?» deb soʻradi. Bu usability testning qaysi maqsadiga misol?
+A: Muammo topish
+B: Yaxshilash imkoniyatini ochish
+C: Foydalanuvchini oʻrganish
+D: Raqobatchini oʻrganish
+K: C
+W: Savoldan bilamiz: vaqt u uchun muhim. Bu foydalanuvchining xulqi va ehtiyojini oʻrganish.
+O: A — misol: odam «Bekor qilish»ni topa olmadi. B — misol: kunlar soni «Bugun» sahifasiga chiqariladi. D — 3 ta maqsad orasida yoʻq.
+@6
+Q: Usability testning 3 ta asosiy elementi qaysi?
+A: Boshlovchi, vazifa, qatnashchi
+B: Dizayner, dasturchi, mijoz
+C: Intervyu, kuzatish, soʻrovnoma
+D: Moodboard, wireframe, prototip
+K: A
+W: Boshlovchi vazifani beradi → qatnashchi bajaradi → boshlovchi kuzatadi, tinglaydi, savol beradi.
+O: B — jamoa rollari. C — tadqiqot usullari. D — dizayn bosqichlari.
+@7
+Q: Test paytida qatnashchi jim qolib, toʻxtab qoldi. Boshlovchi nima deydi?
+A: «Oʻngdagi tugmani bosib koʻring»
+B: «Bu juda oson-ku, yana bir qarang»
+C: «Keling, men koʻrsatib qoʻyaman»
+D: «Hozir nimani oʻylayapsiz?»
+K: D
+W: Boshlovchi taʼsir qilmasdan kuzatadi: odam jim qolsa, faqat shu savolni beradi.
+O: A va C — koʻrsatish va maslahat berish mumkin emas. B — odamga bosim oʻtkazadi va natijani buzadi.
+@8
+Q: «“Progress” boʻlimini oching» vazifasida qanday xato bor?
+A: Vazifa juda uzun va tushunarsiz yozilgan
+B: Priming: boʻlim nomi aytilib, yoʻl koʻrsatildi
+C: Vazifa hayotda uchramaydigan ishni soʻraydi
+D: Vazifada kerakli maʼlumot yetishmaydi
+K: B
+W: Nom aytilsa, odam yoʻlni emas, soʻzni qidiradi. Toʻgʻrisi: «Shu hafta necha kun qadam qilganingizni toping».
+O: A va D — vazifa qisqa va aniq. C — kunlar sonini bilish haqiqiy ish.
+@9
+Q: Usability test uchun qatnashchi qanday tanlanadi?
+A: Eng yaqin doʻst boʻlgani uchun, chunki tez topiladi
+B: Ilovani eng yaxshi biladigan jamoa aʼzosi tanlanadi
+C: Personaʼga mos boʻlgani uchun, saralash savollari bilan
+D: Kim birinchi boʻlib rozi boʻlsa, oʻsha qatnashadi
+K: C
+W: One step uchun: hobbisi yoki orzusi bor, boʻsh vaqti kam, One stepʼni koʻrmagan.
+O: A va D — personaʼga mosligi tekshirilmaydi. B — ilovani biladigan odam adashmaydi.
+@10
+Q: Think-aloud (ovoz chiqarib oʻylash) nima uchun kerak?
+A: Testni imkon qadar tezroq tugatib olish uchun
+B: Nega aynan shu joyni bosganini bilish uchun
+C: Qatnashchi boshlovchidan yordam soʻrashi uchun
+D: Kuzatuvchilar jim turib yozib olishi uchun
+K: B
+W: Qatnashchi oʻylaganini aytib boradi: «Hozir rejamni qidiryapman… bu belgi nima ekan?» Shunda nima bosganini emas, nega bosganini ham bilamiz.
+O: A — maqsad tezlik emas. C — boshlovchi yordam bermaydi. D — kuzatuvchilar baribir jim yozadi, bu think-aloudga bogʻliq emas.
+@11
+Q: «Nega?»ni bilish kerak boʻlsa, qaysi test turi tanlanadi?
+A: Unmoderated — boshlovchisiz
+B: Quantitative — miqdor
+C: Remote — masofaviy
+D: Moderated — boshlovchi bilan
+K: D
+W: Boshlovchi kuzatadi va savol beradi, shuning uchun sabablarni bila oladi.
+O: A — dastur vazifa beradi, savol bera olmaydi. B — raqam beradi, sababni emas. C — test qayerda boʻlishi haqida, «Nega?» haqida emas.
+@12
+Q: Nielsen hisobi boʻyicha 5 kishi bilan sifat testi muammolarning taxminan qanchasini topadi?
+A: ≈ 31%
+B: ≈ 50%
+C: ≈ 85%
+D: 100%
+K: C
+W: 1 kishi ≈ 31%, 5 kishi ≈ 85%. Undan keyin asosan eski muammolar takrorlanadi.
+O: A — bitta odam bilan natija. B — grafikda bunday nuqta belgilanmagan. D — grafik 100% ga faqat ancha koʻp odam bilan yaqinlashadi.
+@13
+Q: Nielsen shkalasida 4-daraja nimani bildiradi?
+A: Halokat: vazifani bajara olmaydi
+B: Katta muammo: juda qiynaladi
+C: Kichik muammo: sekinlashtiradi
+D: Faqat koʻrinish (kosmetik)
+K: A
+W: 4-daraja — halokat. 3 va 4-darajali muammolar darhol tuzatiladi.
+O: B — 3-daraja. C — 2-daraja. D — 1-daraja.
+@14
+Q: SUS haqida qaysi gap toʻgʻri?
+A: U muammo qayerda ekanini aniq koʻrsatib beradi
+B: U kuzatuv varagʻini toʻliq almashtiradi
+C: U faqat umumiy baho beradi, oʻrtachasi 68
+D: U testdan oldin qatnashchini tanlash uchun
+K: C
+W: SUS — test oxiridagi 10 gaplik soʻrovnoma: 68 — oʻrtacha, 80 — juda yaxshi. Muammo qayerdaligini kuzatuv koʻrsatadi.
+O: A va B — SUS buni qila olmaydi. D — bu saralash savollari (screener) vazifasi.
+@15
+Q: NN/g boʻyicha AI (sunʼiy foydalanuvchi) nega haqiqiy odamni almashtira olmaydi?
+A: AI javob berishga juda koʻp vaqt sarflaydi
+B: AI yoqishga harakat qiladi, ilovani ishlata olmaydi
+C: AI faqat ingliz tilidagi savollarni tushunadi
+D: AI bilan test qilish juda qimmatga tushadi
+K: B
+W: AI deyarli har gʻoyani maʼqullaydi va mahsulotdan haqiqatan foydalanmaydi. Qaror haqiqiy odamning harakatiga asoslanadi.
+O: A, C va D — darsda bunday sabablar aytilmagan.
+@16
+Q: One step testi uchun qaysi vazifa qoidalarga mos?
+A: «Shu hafta necha kun qadam qilganingizni toping»
+B: «“Progress” boʻlimini ochib, kunlarni koʻring»
+C: «Rejani qayerdan tanlagan boʻlardingiz?»
+D: «Ilovada oʻzingiz uchun bitta reja tuzib koʻring»
+K: A
+W: Vazifa haqiqiy, bajariladigan, ishorasiz va aniq.
+O: B — priming: boʻlim nomi aytildi. C — bajarilmaydi, faqat aytiladi. D — noaniq: qanday reja?
+@17
+Q: Qatnashchi bitta vazifada 2 daqiqadan koʻp qotib qoldi. Boshlovchi nima qiladi?
+A: Toʻgʻri tugmani koʻrsatib, vazifani davom ettiradi
+B: Testni toʻxtatib, qatnashchini boshqasiga almashtiradi
+C: Vazifani qayta oʻqib, boʻlim nomini aytib beradi
+D: Vazifani toʻxtatib, keyingisiga oʻtadi — bu ham natija
+K: D
+W: Boshlovchi yordam bermaydi. Qotib qolish ham dalil: kuzatuv varagʻiga «✗ bajara olmadi» deb yoziladi.
+O: A — yordam berish natijani buzadi. B — muammo odamda emas, dizaynda. C — bu priming.
+@18
+Q: «Kuzatuv» varagʻiga qaysi yozuv toʻgʻri yozilgan?
+A: «Menimcha, ilova unga umuman yoqmadi shekilli»
+B: «95 s; avval “Profil”ni ochdi; “Kunlar soni qayerda?” dedi»
+C: «Qatnashchi biroz eʼtiborsiz va shoshqaloq edi»
+D: «Hammasi tushunarli boʻldi, hech qanday muammo yoʻq»
+K: B
+W: Faqat koʻrgan va eshitgani yoziladi: vaqt, yoʻl va aynan aytgan soʻzlari.
+O: A va D — taxmin, dalil emas. C — odamga baho, dizaynga emas.
+@19
+Q: Dalil: «Foydalanuvchi kunlar sonini 95 soniyada topdi va avval “Profil”ni ochdi». Shablon boʻyicha qaysi qaror toʻgʻri yozilgan?
+A: Shu dalil boʻlgani uchun, ilova kunlarni «Bugun» tepasida koʻrsatadi
+B: Dizaynerga yoqqani uchun, ilova menyuni yashil rangga boʻyaydi
+C: Raqobatchida bor boʻlgani uchun, ilova reyting boʻlimini qoʻshadi
+D: AI maslahat bergani uchun, ilova barcha tugmalarni kattalashtiradi
+K: A
+W: Shablon: «Foydalanuvchi [dalil] boʻlgani uchun, ilova [qaror]». Qaror kuzatuvdagi dalildan chiqadi.
+O: B, C va D — qaror foydalanuvchi dalilidan emas, boshqa manbadan chiqqan.
+@20
+Q: Sinf bitta muammoga oʻrtacha 2 (kichik muammo) jiddiylik berdi. Shablon boʻyicha u bilan nima qilinadi?
+A: Chiqarishdan oldin albatta, darhol tuzatiladi
+B: Muammo emas deb hisoblanib, roʻyxatdan oʻchiriladi
+C: Shu zahoti test boshqa odam bilan qaytariladi
+D: «Bilishimiz kerak»ga keyingi aylanma uchun yoziladi
+K: D
+W: Faqat 3–4 darajali muammolarga darhol qaror yoziladi. 1–2 darajalilar keyingi aylanma uchun «Bilishimiz kerak» qismiga yoziladi.
+O: A — bu 3 va 4-darajalar uchun. B — muammo emas — bu 0-daraja. C — shablonda bunday qadam yoʻq.

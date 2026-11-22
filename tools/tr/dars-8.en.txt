@@ -1,0 +1,160 @@
+@1
+Q: What is usability testing?
+A: The designer clicks through the app alone, looking for errors
+B: Asking users for their opinion through a survey
+C: A facilitator gives tasks and watches the participant do them
+D: Asking an AI how convenient the app is
+W: The facilitator asks the participant to do tasks in the product, watches what they do and listens to what they say.
+O: A — designers don't get lost in their own app. B — a survey asks for opinions and doesn't see actions. D — an AI can't actually use the app.
+@2
+Q: The phone owner draws the pattern lock in 5 seconds, but the volunteer student struggles. What was the lesson's conclusion?
+A: The owner knows the pattern, so they can't test their own phone
+B: The volunteer student isn't good at using phones yet
+C: Pattern locks are outdated and should be removed from phones
+D: A complex pattern is always safer than a simple one
+W: Designers are the same: they never get lost in their own app. That's why the design is tested by someone who doesn't know it.
+O: B — in a test it's the design (the phone), not the person, that takes the exam. C and D — the lesson drew no such conclusion.
+@3
+Q: Which question does a usability test answer?
+A: "Why?"
+B: "What do they actually do?"
+C: "How many people?"
+D: "Can they use it?"
+W: A usability test checks whether a person can actually use the product.
+O: A — an interview question. B — an observation question. C — a survey question.
+@4
+Q: When is a usability test done?
+A: Before design: to find problems and ideas
+B: After design: when the prototype is ready
+C: Only after the app is coded and released
+D: At the very start of the project, instead of interviews
+W: Interviews, observation and surveys come before design; a usability test comes after design. This is stage 4 of UCD — Evaluate.
+O: A — that's the time for interviews, observation and surveys. C — fixing a mistake in code is expensive. D — the test needs a design to test.
+@5
+Q: Before choosing a plan, the guest asked "How long will this take?" Which goal of usability testing is this an example of?
+A: Uncovering problems
+B: Discovering opportunities
+C: Learning about users
+D: Learning about competitors
+W: From the question we learn that time matters to them. This is learning about the user's behavior and needs.
+O: A — example: the person couldn't find "Undo". B — example: the day count is moved to the "Today" page. D — not one of the 3 goals.
+@6
+Q: What are the 3 core elements of usability testing?
+A: Facilitator, tasks, participant
+B: Designer, developer, client
+C: Interview, observation, survey
+D: Moodboard, wireframe, prototype
+W: The facilitator gives tasks → the participant does them → the facilitator watches, listens and asks questions.
+O: B — team roles. C — research methods. D — design stages.
+@7
+Q: During the test, the participant went silent and stopped. What does the facilitator say?
+A: "Try tapping the button on the right"
+B: "It's really easy, take another look"
+C: "Come on, let me show you"
+D: "What are you thinking right now?"
+W: The facilitator observes without influencing: if the person goes silent, this is the only question asked.
+O: A and C — showing and giving hints is not allowed. B — it puts pressure on the person and spoils the result.
+@8
+Q: What is wrong with the task "Open the 'Progress' section"?
+A: The task is too long and unclear
+B: Priming: the section name was given, showing the way
+C: The task asks for something people never do
+D: The task lacks the information needed
+W: If the name is given, the person searches for the word, not the path. Better: "Find how many days you took a step this week."
+O: A and D — the task is short and clear. C — knowing your day count is a real task.
+@9
+Q: How is a participant chosen for a usability test?
+A: Because they're a close friend and easy to find
+B: The team member who knows the app best is chosen
+C: Because they fit the persona, using screener questions
+D: Whoever agrees first takes part
+W: For One step: has a hobby or dream, little free time, and has never seen One step.
+O: A and D — fit with the persona isn't checked. B — someone who knows the app won't get lost.
+@10
+Q: Why is think-aloud needed?
+A: To finish the test as quickly as possible
+B: To learn why exactly they tapped that spot
+C: So the participant can ask the facilitator for help
+D: So the observers can take notes in silence
+W: The participant says what they're thinking: "I'm looking for my plan… what does this icon mean?" Then we know not only what they tapped, but why.
+O: A — the goal isn't speed. C — the facilitator doesn't help. D — observers write silently anyway; it isn't related to think-aloud.
+@11
+Q: If you need to know "Why?", which type of test do you choose?
+A: Unmoderated — without a facilitator
+B: Quantitative — numbers
+C: Remote — at a distance
+D: Moderated — with a facilitator
+W: The facilitator watches and asks questions, so they can learn the reasons.
+O: A — software gives the tasks and can't ask questions. B — gives numbers, not reasons. C — it's about where the test happens, not about "Why?".
+@12
+Q: According to Nielsen, roughly what share of problems does a qualitative test with 5 people find?
+A: ≈ 31%
+B: ≈ 50%
+C: ≈ 85%
+D: 100%
+W: 1 person ≈ 31%, 5 people ≈ 85%. After that, mostly the same problems repeat.
+O: A — the result with one person. B — no such point is marked on the chart. D — the curve approaches 100% only with many more people.
+@13
+Q: What does level 4 mean on Nielsen's scale?
+A: Catastrophe: can't complete the task
+B: Major problem: struggles a lot
+C: Minor problem: slows them down
+D: Cosmetic only
+W: Level 4 is a catastrophe. Level 3 and 4 problems are fixed right away.
+O: B — level 3. C — level 2. D — level 1.
+@14
+Q: Which statement about SUS is true?
+A: It shows exactly where the problem is
+B: It fully replaces the observation sheet
+C: It gives only an overall score; the average is 68
+D: It is used to choose the participant before the test
+W: SUS is a 10-statement questionnaire at the end of the test: 68 is average, 80 is very good. Observation shows where the problem is.
+O: A and B — SUS can't do this. D — that's the job of screener questions.
+@15
+Q: According to NN/g, why can't an AI (synthetic user) replace a real person?
+A: The AI takes far too long to answer
+B: The AI tries to please and can't use the app
+C: The AI only understands questions in English
+D: Testing with AI is far too expensive
+W: The AI approves almost every idea and doesn't actually use the product. Decisions are based on what a real person does.
+O: A, C and D — the lesson gave no such reasons.
+@16
+Q: Which task for the One step test follows the rules?
+A: "Find how many days you took a step this week"
+B: "Open the 'Progress' section and look at the days"
+C: "Where would you choose a plan from?"
+D: "Try making yourself a plan in the app"
+W: The task is realistic, actionable, gives no clues and is clear.
+O: B — priming: the section name was given. C — not actionable, only described. D — vague: what kind of plan?
+@17
+Q: A participant has been stuck on one task for more than 2 minutes. What does the facilitator do?
+A: Shows the right button and continues the task
+B: Stops the test and replaces the participant
+C: Rereads the task and names the section
+D: Stops the task and moves on — that is a result too
+W: The facilitator doesn't help. Getting stuck is evidence too: "✗ couldn't do it" is written in the observation sheet.
+O: A — helping spoils the result. B — the problem is in the design, not the person. C — that's priming.
+@18
+Q: Which entry in the observation sheet is written correctly?
+A: "I think they didn't really like the app at all"
+B: "95 s; opened 'Profile' first; 'Where's the day count?'"
+C: "The participant was a bit careless and hasty"
+D: "Everything was clear, there were no problems at all"
+W: Only what was seen and heard is written: time, path and their exact words.
+O: A and D — guesses, not evidence. C — judges the person, not the design.
+@19
+Q: Evidence: "The user found the day count in 95 seconds and opened 'Profile' first." Which decision follows the template?
+A: Because of this evidence, the app shows the days at the top of "Today"
+B: Because the designer likes it, the app paints the menu green
+C: Because a competitor has it, the app adds a leaderboard section
+D: Because the AI suggested it, the app makes all buttons bigger
+W: The template: "Because the user [evidence], the app [decision]." The decision comes from the observed evidence.
+O: B, C and D — the decision comes not from user evidence but from another source.
+@20
+Q: The class gave a problem an average severity of 2 (minor problem). According to the template, what happens to it?
+A: It's fixed right away, before release
+B: It's treated as no problem and removed from the list
+C: The test is immediately repeated with another person
+D: It's written under "We need to know" for the next round
+W: Decisions are written right away only for level 3–4 problems. Level 1–2 problems go under "We need to know" for the next round.
+O: A — that's for levels 3 and 4. B — "not a problem" is level 0. C — the template has no such step.

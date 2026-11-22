@@ -1,0 +1,1232 @@
+{
+  "lesson": 8,
+  "title": {
+    "uz": "Foydalanish qulayligini sinash (Usability testing)",
+    "ru": "Юзабилити-тестирование",
+    "en": "Usability testing",
+    "ja": "ユーザビリティテスト"
+  },
+  "minutes": 27,
+  "questions": [
+    {
+      "id": 1,
+      "type": "theory",
+      "q": {
+        "uz": "Usability testing nima?",
+        "ru": "Что такое юзабилити-тестирование?",
+        "en": "What is usability testing?",
+        "ja": "ユーザビリティテストとは何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizayner ilovani oʻzi bosib chiqib, xatolarni qidirishi",
+            "ru": "Дизайнер сам прокликивает приложение и ищет ошибки",
+            "en": "The designer clicks through the app alone, looking for errors",
+            "ja": "デザイナーが自分でアプリを操作し、ミスを探すこと"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Foydalanuvchidan soʻrovnoma orqali fikrini soʻrash",
+            "ru": "Спросить мнение пользователей через опрос",
+            "en": "Asking users for their opinion through a survey",
+            "ja": "アンケートでユーザーの意見を聞くこと"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Boshlovchi vazifa beradi, qatnashchi bajaradi, u kuzatadi",
+            "ru": "Ведущий даёт задания, участник выполняет, ведущий наблюдает",
+            "en": "A facilitator gives tasks and watches the participant do them",
+            "ja": "進行役がタスクを出し、参加者が行い、進行役が観察すること"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "AIʼdan ilova qanchalik qulay ekanini soʻrab bilish",
+            "ru": "Спросить у AI, насколько удобно приложение",
+            "en": "Asking an AI how convenient the app is",
+            "ja": "AIにアプリの使いやすさを聞くこと"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Boshlovchi qatnashchiga mahsulotda vazifalarni bajarishni soʻraydi, oʻzi esa nima qilayotganini kuzatib, aytganlarini tinglaydi.",
+        "ru": "Ведущий просит участника выполнить задания в продукте, наблюдает за его действиями и слушает, что он говорит.",
+        "en": "The facilitator asks the participant to do tasks in the product, watches what they do and listens to what they say.",
+        "ja": "進行役は参加者に製品でタスクを行ってもらい、その行動を観察し、発言を聞きます。"
+      },
+      "others": {
+        "uz": "A — dizayner oʻz ilovasida adashmaydi. B — soʻrovnoma fikrni soʻraydi, harakatni koʻrmaydi. D — AI ilovani haqiqatan ishlata olmaydi.",
+        "ru": "A — дизайнер не путается в своём приложении. B — опрос спрашивает мнение и не видит действий. D — AI не может по-настоящему пользоваться приложением.",
+        "en": "A — designers don't get lost in their own app. B — a survey asks for opinions and doesn't see actions. D — an AI can't actually use the app.",
+        "ja": "A：デザイナーは自分のアプリでは迷いません。B：アンケートは意見を聞くもので、行動は見えません。D：AIは実際にアプリを使えません。"
+      }
+    },
+    {
+      "id": 2,
+      "type": "theory",
+      "q": {
+        "uz": "Telefon egasi grafik kalitni 5 soniyada chizadi, koʻngilli talaba esa qiynaldi. Darsdagi xulosa qaysi?",
+        "ru": "Владелец телефона рисует графический ключ за 5 секунд, а студент-доброволец затрудняется. Какой вывод сделали на уроке?",
+        "en": "The phone owner draws the pattern lock in 5 seconds, but the volunteer student struggles. What was the lesson's conclusion?",
+        "ja": "スマホの持ち主はパターンロックを5秒で描けますが、ボランティアの学生は苦労しました。レッスンの結論はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Egasi naqshni biladi, shuning uchun oʻz telefonini sinay olmaydi",
+            "ru": "Владелец знает узор, поэтому не может протестировать свой телефон",
+            "en": "The owner knows the pattern, so they can't test their own phone",
+            "ja": "持ち主はパターンを知っているので、自分のスマホをテストできない"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Koʻngilli talaba telefondan foydalanishni hali yaxshi bilmaydi",
+            "ru": "Студент-доброволец пока плохо умеет пользоваться телефоном",
+            "en": "The volunteer student isn't good at using phones yet",
+            "ja": "ボランティアの学生はまだスマホの使い方に慣れていない"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Grafik kalit eskirgan, uni telefondan butunlay olib tashlash kerak",
+            "ru": "Графический ключ устарел, его нужно убрать из телефонов",
+            "en": "Pattern locks are outdated and should be removed from phones",
+            "ja": "パターンロックは古いので、スマホから完全に削除すべき"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Murakkab naqsh har doim oddiy naqshdan xavfsizroq boʻladi",
+            "ru": "Сложный узор всегда безопаснее простого",
+            "en": "A complex pattern is always safer than a simple one",
+            "ja": "複雑なパターンは常にシンプルなものより安全だ"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Dizayner ham shunday: oʻz ilovasida hech qachon adashmaydi. Shuning uchun dizaynni uni bilmagan odam sinaydi.",
+        "ru": "С дизайнером так же: в своём приложении он никогда не путается. Поэтому дизайн проверяет тот, кто его не знает.",
+        "en": "Designers are the same: they never get lost in their own app. That's why the design is tested by someone who doesn't know it.",
+        "ja": "デザイナーも同じで、自分のアプリでは決して迷いません。だからデザインは、それを知らない人がテストします。"
+      },
+      "others": {
+        "uz": "B — testda odam emas, dizayn (telefon) imtihon topshiradi. C va D — darsda bunday xulosa yoʻq.",
+        "ru": "B — на тесте экзамен сдаёт не человек, а дизайн (телефон). C и D — такого вывода на уроке не было.",
+        "en": "B — in a test it's the design (the phone), not the person, that takes the exam. C and D — the lesson drew no such conclusion.",
+        "ja": "B：テストで試されるのは人ではなくデザイン（スマホ）です。C、D：レッスンにそのような結論はありません。"
+      }
+    },
+    {
+      "id": 3,
+      "type": "theory",
+      "q": {
+        "uz": "Usability test qaysi savolga javob beradi?",
+        "ru": "На какой вопрос отвечает юзабилити-тест?",
+        "en": "Which question does a usability test answer?",
+        "ja": "ユーザビリティテストはどの問いに答えますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Nega?»",
+            "ru": "«Почему?»",
+            "en": "\"Why?\"",
+            "ja": "「なぜ？」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Aslida nima qiladi?»",
+            "ru": "«Что человек делает на самом деле?»",
+            "en": "\"What do they actually do?\"",
+            "ja": "「実際には何をしている？」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Nechta odamda?»",
+            "ru": "«У скольких людей?»",
+            "en": "\"How many people?\"",
+            "ja": "「何人が？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Foydalana oladimi?»",
+            "ru": "«Сможет ли пользоваться?»",
+            "en": "\"Can they use it?\"",
+            "ja": "「使いこなせるか？」"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Usability test odam mahsulotdan haqiqatan foydalana olishini tekshiradi.",
+        "ru": "Юзабилити-тест проверяет, может ли человек на самом деле пользоваться продуктом.",
+        "en": "A usability test checks whether a person can actually use the product.",
+        "ja": "ユーザビリティテストは、人が実際に製品を使えるかどうかを確かめます。"
+      },
+      "others": {
+        "uz": "A — intervyu savoli. B — kuzatish savoli. C — soʻrovnoma savoli.",
+        "ru": "A — вопрос интервью. B — вопрос наблюдения. C — вопрос опроса.",
+        "en": "A — an interview question. B — an observation question. C — a survey question.",
+        "ja": "Aはインタビューの問いです。Bは観察の問いです。Cはアンケートの問いです。"
+      }
+    },
+    {
+      "id": 4,
+      "type": "theory",
+      "q": {
+        "uz": "Usability test qachon oʻtkaziladi?",
+        "ru": "Когда проводится юзабилити-тест?",
+        "en": "When is a usability test done?",
+        "ja": "ユーザビリティテストはいつ行いますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Dizayndan oldin: muammo va gʻoyalarni topish uchun",
+            "ru": "До дизайна: чтобы найти проблемы и идеи",
+            "en": "Before design: to find problems and ideas",
+            "ja": "デザインの前：課題とアイデアを見つけるため"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Dizayndan keyin: prototip tayyor boʻlganda",
+            "ru": "После дизайна: когда прототип готов",
+            "en": "After design: when the prototype is ready",
+            "ja": "デザインの後：プロトタイプができたとき"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Faqat ilova kodlanib, chiqarilgandan keyin",
+            "ru": "Только после выпуска готового приложения",
+            "en": "Only after the app is coded and released",
+            "ja": "アプリがコード化され、リリースされた後だけ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Loyihaning eng boshida, intervyu oʻtkazish oʻrniga",
+            "ru": "В самом начале проекта, вместо интервью",
+            "en": "At the very start of the project, instead of interviews",
+            "ja": "プロジェクトの最初に、インタビューの代わりに"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Intervyu, kuzatish va soʻrovnoma — dizayndan oldin, usability test — dizayndan keyin. Bu UCDʼning 4-bosqichi — Evaluate.",
+        "ru": "Интервью, наблюдение и опрос — до дизайна, юзабилити-тест — после дизайна. Это 4-й этап UCD — Evaluate.",
+        "en": "Interviews, observation and surveys come before design; a usability test comes after design. This is stage 4 of UCD — Evaluate.",
+        "ja": "インタビュー、観察、アンケートはデザインの前、ユーザビリティテストはデザインの後です。これはUCDの第4段階、Evaluateです。"
+      },
+      "others": {
+        "uz": "A — bu intervyu, kuzatish va soʻrovnoma vaqti. C — xatoni kodda tuzatish qimmat. D — testga sinaladigan dizayn kerak.",
+        "ru": "A — это время интервью, наблюдения и опроса. C — исправлять ошибку в коде дорого. D — для теста нужен дизайн, который проверяют.",
+        "en": "A — that's the time for interviews, observation and surveys. C — fixing a mistake in code is expensive. D — the test needs a design to test.",
+        "ja": "A：それはインタビュー、観察、アンケートの時期です。C：コードでミスを直すのは高くつきます。D：テストには、試すデザインが必要です。"
+      }
+    },
+    {
+      "id": 5,
+      "type": "theory",
+      "q": {
+        "uz": "Mehmon rejani tanlashdan oldin «Bu qancha vaqt oladi?» deb soʻradi. Bu usability testning qaysi maqsadiga misol?",
+        "ru": "Перед выбором плана гость спросил: «Сколько времени это займёт?» Примером какой цели юзабилити-теста это является?",
+        "en": "Before choosing a plan, the guest asked \"How long will this take?\" Which goal of usability testing is this an example of?",
+        "ja": "ゲストはプランを選ぶ前に「これはどれくらい時間がかかりますか？」と聞きました。これはユーザビリティテストのどの目的の例ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Muammo topish",
+            "ru": "Найти проблемы",
+            "en": "Uncovering problems",
+            "ja": "問題を見つける"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Yaxshilash imkoniyatini ochish",
+            "ru": "Найти возможности для улучшения",
+            "en": "Discovering opportunities",
+            "ja": "改善の機会を見つける"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Foydalanuvchini oʻrganish",
+            "ru": "Изучить пользователя",
+            "en": "Learning about users",
+            "ja": "ユーザーを知る"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Raqobatchini oʻrganish",
+            "ru": "Изучить конкурентов",
+            "en": "Learning about competitors",
+            "ja": "競合を知る"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "Savoldan bilamiz: vaqt u uchun muhim. Bu foydalanuvchining xulqi va ehtiyojini oʻrganish.",
+        "ru": "Из вопроса мы узнаём: время для него важно. Это изучение поведения и потребностей пользователя.",
+        "en": "From the question we learn that time matters to them. This is learning about the user's behavior and needs.",
+        "ja": "この質問から、その人にとって時間が大切だと分かります。これはユーザーの行動とニーズを知ることです。"
+      },
+      "others": {
+        "uz": "A — misol: odam «Bekor qilish»ni topa olmadi. B — misol: kunlar soni «Bugun» sahifasiga chiqariladi. D — 3 ta maqsad orasida yoʻq.",
+        "ru": "A — пример: человек не нашёл «Отменить». B — пример: число дней выносится на страницу «Сегодня». D — не входит в 3 цели.",
+        "en": "A — example: the person couldn't find \"Undo\". B — example: the day count is moved to the \"Today\" page. D — not one of the 3 goals.",
+        "ja": "A：例：その人は「元に戻す」を見つけられなかった。B：例：日数を「今日」ページに出す。D：3つの目的には含まれません。"
+      }
+    },
+    {
+      "id": 6,
+      "type": "theory",
+      "q": {
+        "uz": "Usability testning 3 ta asosiy elementi qaysi?",
+        "ru": "Какие 3 основных элемента юзабилити-теста?",
+        "en": "What are the 3 core elements of usability testing?",
+        "ja": "ユーザビリティテストの3つの基本要素はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Boshlovchi, vazifa, qatnashchi",
+            "ru": "Ведущий, задание, участник",
+            "en": "Facilitator, tasks, participant",
+            "ja": "進行役、タスク、参加者"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Dizayner, dasturchi, mijoz",
+            "ru": "Дизайнер, программист, заказчик",
+            "en": "Designer, developer, client",
+            "ja": "デザイナー、エンジニア、依頼主"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Intervyu, kuzatish, soʻrovnoma",
+            "ru": "Интервью, наблюдение, опрос",
+            "en": "Interview, observation, survey",
+            "ja": "インタビュー、観察、アンケート"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Moodboard, wireframe, prototip",
+            "ru": "Мудборд, вайрфрейм, прототип",
+            "en": "Moodboard, wireframe, prototype",
+            "ja": "ムードボード、ワイヤーフレーム、プロトタイプ"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Boshlovchi vazifani beradi → qatnashchi bajaradi → boshlovchi kuzatadi, tinglaydi, savol beradi.",
+        "ru": "Ведущий даёт задание → участник выполняет → ведущий наблюдает, слушает, задаёт вопросы.",
+        "en": "The facilitator gives tasks → the participant does them → the facilitator watches, listens and asks questions.",
+        "ja": "進行役がタスクを出す → 参加者が行う → 進行役が観察し、聞き、質問します。"
+      },
+      "others": {
+        "uz": "B — jamoa rollari. C — tadqiqot usullari. D — dizayn bosqichlari.",
+        "ru": "B — роли в команде. C — методы исследования. D — этапы дизайна.",
+        "en": "B — team roles. C — research methods. D — design stages.",
+        "ja": "Bはチームの役割です。Cは調査方法です。Dはデザインの段階です。"
+      }
+    },
+    {
+      "id": 7,
+      "type": "theory",
+      "q": {
+        "uz": "Test paytida qatnashchi jim qolib, toʻxtab qoldi. Boshlovchi nima deydi?",
+        "ru": "Во время теста участник замолчал и остановился. Что говорит ведущий?",
+        "en": "During the test, the participant went silent and stopped. What does the facilitator say?",
+        "ja": "テスト中、参加者が黙って手を止めてしまいました。進行役は何と言いますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Oʻngdagi tugmani bosib koʻring»",
+            "ru": "«Попробуйте нажать кнопку справа»",
+            "en": "\"Try tapping the button on the right\"",
+            "ja": "「右のボタンを押してみてください」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«Bu juda oson-ku, yana bir qarang»",
+            "ru": "«Это же очень просто, посмотрите ещё раз»",
+            "en": "\"It's really easy, take another look\"",
+            "ja": "「とても簡単ですよ、もう一度見てください」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Keling, men koʻrsatib qoʻyaman»",
+            "ru": "«Давайте я вам покажу»",
+            "en": "\"Come on, let me show you\"",
+            "ja": "「では、私がやって見せますね」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Hozir nimani oʻylayapsiz?»",
+            "ru": "«О чём вы сейчас думаете?»",
+            "en": "\"What are you thinking right now?\"",
+            "ja": "「今、何を考えていますか？」"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Boshlovchi taʼsir qilmasdan kuzatadi: odam jim qolsa, faqat shu savolni beradi.",
+        "ru": "Ведущий наблюдает, не влияя: если человек молчит, задаётся только этот вопрос.",
+        "en": "The facilitator observes without influencing: if the person goes silent, this is the only question asked.",
+        "ja": "進行役は影響を与えずに観察します。相手が黙ったら、この質問だけをします。"
+      },
+      "others": {
+        "uz": "A va C — koʻrsatish va maslahat berish mumkin emas. B — odamga bosim oʻtkazadi va natijani buzadi.",
+        "ru": "A и C — показывать и подсказывать нельзя. B — давит на человека и портит результат.",
+        "en": "A and C — showing and giving hints is not allowed. B — it puts pressure on the person and spoils the result.",
+        "ja": "A、C：見せたりヒントを出したりしてはいけません。B：相手にプレッシャーを与え、結果をゆがめます。"
+      }
+    },
+    {
+      "id": 8,
+      "type": "theory",
+      "q": {
+        "uz": "«“Progress” boʻlimini oching» vazifasida qanday xato bor?",
+        "ru": "Какая ошибка в задании «Откройте раздел “Progress”»?",
+        "en": "What is wrong with the task \"Open the 'Progress' section\"?",
+        "ja": "「『Progress』セクションを開いてください」というタスクの問題は何ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Vazifa juda uzun va tushunarsiz yozilgan",
+            "ru": "Задание слишком длинное и непонятное",
+            "en": "The task is too long and unclear",
+            "ja": "タスクが長すぎて、内容も分かりにくい"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Priming: boʻlim nomi aytilib, yoʻl koʻrsatildi",
+            "ru": "Прайминг: назван раздел, путь подсказан",
+            "en": "Priming: the section name was given, showing the way",
+            "ja": "プライミング：セクション名で道を示した"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Vazifa hayotda uchramaydigan ishni soʻraydi",
+            "ru": "Задание просит то, чего в жизни не бывает",
+            "en": "The task asks for something people never do",
+            "ja": "実生活ではありえないことを求めている"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Vazifada kerakli maʼlumot yetishmaydi",
+            "ru": "В задании не хватает нужной информации",
+            "en": "The task lacks the information needed",
+            "ja": "タスクに必要な情報が足りていない"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Nom aytilsa, odam yoʻlni emas, soʻzni qidiradi. Toʻgʻrisi: «Shu hafta necha kun qadam qilganingizni toping».",
+        "ru": "Если назвать раздел, человек ищет слово, а не путь. Правильно: «Найдите, сколько дней на этой неделе вы делали шаг».",
+        "en": "If the name is given, the person searches for the word, not the path. Better: \"Find how many days you took a step this week.\"",
+        "ja": "名前を言うと、人は道筋ではなく言葉を探します。正しくは：「今週、何日ステップを行ったかを見つけてください」。"
+      },
+      "others": {
+        "uz": "A va D — vazifa qisqa va aniq. C — kunlar sonini bilish haqiqiy ish.",
+        "ru": "A и D — задание короткое и понятное. C — узнать число дней — реальная задача.",
+        "en": "A and D — the task is short and clear. C — knowing your day count is a real task.",
+        "ja": "A、D：タスクは短く明確です。C：日数を知るのは実際の作業です。"
+      }
+    },
+    {
+      "id": 9,
+      "type": "theory",
+      "q": {
+        "uz": "Usability test uchun qatnashchi qanday tanlanadi?",
+        "ru": "Как выбирают участника юзабилити-теста?",
+        "en": "How is a participant chosen for a usability test?",
+        "ja": "ユーザビリティテストの参加者はどのように選びますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Eng yaqin doʻst boʻlgani uchun, chunki tez topiladi",
+            "ru": "Потому что это близкий друг, его легко найти",
+            "en": "Because they're a close friend and easy to find",
+            "ja": "親しい友だちだから、すぐに見つかるので"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Ilovani eng yaxshi biladigan jamoa aʼzosi tanlanadi",
+            "ru": "Выбирают члена команды, который лучше всех знает приложение",
+            "en": "The team member who knows the app best is chosen",
+            "ja": "アプリを一番よく知っているチームメンバーを選ぶ"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Personaʼga mos boʻlgani uchun, saralash savollari bilan",
+            "ru": "Потому что подходит под персону, с помощью отборочных вопросов",
+            "en": "Because they fit the persona, using screener questions",
+            "ja": "ペルソナに合うから、スクリーナー質問で選ぶ"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Kim birinchi boʻlib rozi boʻlsa, oʻsha qatnashadi",
+            "ru": "Участвует тот, кто первым согласится",
+            "en": "Whoever agrees first takes part",
+            "ja": "最初に同意した人が参加する"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "One step uchun: hobbisi yoki orzusi bor, boʻsh vaqti kam, One stepʼni koʻrmagan.",
+        "ru": "Для One step: есть хобби или мечта, мало свободного времени, One step не видел.",
+        "en": "For One step: has a hobby or dream, little free time, and has never seen One step.",
+        "ja": "One stepの場合：趣味や夢がある、空き時間が少ない、One stepを見たことがない。"
+      },
+      "others": {
+        "uz": "A va D — personaʼga mosligi tekshirilmaydi. B — ilovani biladigan odam adashmaydi.",
+        "ru": "A и D — соответствие персоне не проверяется. B — тот, кто знает приложение, не запутается.",
+        "en": "A and D — fit with the persona isn't checked. B — someone who knows the app won't get lost.",
+        "ja": "A、D：ペルソナに合うかどうかを確かめていません。B：アプリを知っている人は迷いません。"
+      }
+    },
+    {
+      "id": 10,
+      "type": "theory",
+      "q": {
+        "uz": "Think-aloud (ovoz chiqarib oʻylash) nima uchun kerak?",
+        "ru": "Зачем нужен think-aloud (размышления вслух)?",
+        "en": "Why is think-aloud needed?",
+        "ja": "シンクアラウド（考えを声に出す）はなぜ必要ですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Testni imkon qadar tezroq tugatib olish uchun",
+            "ru": "Чтобы закончить тест как можно быстрее",
+            "en": "To finish the test as quickly as possible",
+            "ja": "テストをできるだけ早く終わらせるため"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Nega aynan shu joyni bosganini bilish uchun",
+            "ru": "Чтобы узнать, почему нажали именно сюда",
+            "en": "To learn why exactly they tapped that spot",
+            "ja": "なぜそこを押したのかを知るため"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Qatnashchi boshlovchidan yordam soʻrashi uchun",
+            "ru": "Чтобы участник мог попросить ведущего о помощи",
+            "en": "So the participant can ask the facilitator for help",
+            "ja": "参加者が進行役に助けを求められるようにするため"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Kuzatuvchilar jim turib yozib olishi uchun",
+            "ru": "Чтобы наблюдатели молча записывали",
+            "en": "So the observers can take notes in silence",
+            "ja": "観察者が黙って記録できるようにするため"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Qatnashchi oʻylaganini aytib boradi: «Hozir rejamni qidiryapman… bu belgi nima ekan?» Shunda nima bosganini emas, nega bosganini ham bilamiz.",
+        "ru": "Участник проговаривает мысли: «Сейчас ищу свой план… что значит этот значок?» Так мы знаем не только что он нажал, но и почему.",
+        "en": "The participant says what they're thinking: \"I'm looking for my plan… what does this icon mean?\" Then we know not only what they tapped, but why.",
+        "ja": "参加者は考えを口に出します：「今、自分のプランを探しています…このアイコンは何だろう？」こうすると、何を押したかだけでなく、なぜ押したかも分かります。"
+      },
+      "others": {
+        "uz": "A — maqsad tezlik emas. C — boshlovchi yordam bermaydi. D — kuzatuvchilar baribir jim yozadi, bu think-aloudga bogʻliq emas.",
+        "ru": "A — цель не скорость. C — ведущий не помогает. D — наблюдатели и так пишут молча, к think-aloud это не относится.",
+        "en": "A — the goal isn't speed. C — the facilitator doesn't help. D — observers write silently anyway; it isn't related to think-aloud.",
+        "ja": "A：目的は速さではありません。C：進行役は手助けしません。D：観察者はもともと黙って記録します。シンクアラウドとは関係ありません。"
+      }
+    },
+    {
+      "id": 11,
+      "type": "theory",
+      "q": {
+        "uz": "«Nega?»ni bilish kerak boʻlsa, qaysi test turi tanlanadi?",
+        "ru": "Если нужно узнать «Почему?», какой тип теста выбирают?",
+        "en": "If you need to know \"Why?\", which type of test do you choose?",
+        "ja": "「なぜ？」を知る必要があるとき、どの種類のテストを選びますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Unmoderated — boshlovchisiz",
+            "ru": "Unmoderated — без ведущего",
+            "en": "Unmoderated — without a facilitator",
+            "ja": "Unmoderated：進行役なし"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Quantitative — miqdor",
+            "ru": "Quantitative — количественный",
+            "en": "Quantitative — numbers",
+            "ja": "Quantitative：定量"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Remote — masofaviy",
+            "ru": "Remote — удалённый",
+            "en": "Remote — at a distance",
+            "ja": "Remote：リモート"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Moderated — boshlovchi bilan",
+            "ru": "Moderated — с ведущим",
+            "en": "Moderated — with a facilitator",
+            "ja": "Moderated：進行役あり"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Boshlovchi kuzatadi va savol beradi, shuning uchun sabablarni bila oladi.",
+        "ru": "Ведущий наблюдает и задаёт вопросы, поэтому может узнать причины.",
+        "en": "The facilitator watches and asks questions, so they can learn the reasons.",
+        "ja": "進行役が観察して質問するので、理由を知ることができます。"
+      },
+      "others": {
+        "uz": "A — dastur vazifa beradi, savol bera olmaydi. B — raqam beradi, sababni emas. C — test qayerda boʻlishi haqida, «Nega?» haqida emas.",
+        "ru": "A — задания даёт программа, она не может задать вопрос. B — даёт цифры, а не причины. C — это о том, где проходит тест, а не о «Почему?».",
+        "en": "A — software gives the tasks and can't ask questions. B — gives numbers, not reasons. C — it's about where the test happens, not about \"Why?\".",
+        "ja": "A：タスクを出すのはソフトで、質問はできません。B：数値は出ますが、理由は分かりません。C：テストの場所の話で、「なぜ？」の話ではありません。"
+      }
+    },
+    {
+      "id": 12,
+      "type": "theory",
+      "q": {
+        "uz": "Nielsen hisobi boʻyicha 5 kishi bilan sifat testi muammolarning taxminan qanchasini topadi?",
+        "ru": "По расчёту Нильсена, какую примерно часть проблем находит качественный тест с 5 людьми?",
+        "en": "According to Nielsen, roughly what share of problems does a qualitative test with 5 people find?",
+        "ja": "ニールセンの計算では、5人での定性テストは問題のおよそどれくらいを見つけますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "≈ 31%",
+            "ru": "≈ 31%",
+            "en": "≈ 31%",
+            "ja": "≈ 31%"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "≈ 50%",
+            "ru": "≈ 50%",
+            "en": "≈ 50%",
+            "ja": "≈ 50%"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "≈ 85%",
+            "ru": "≈ 85%",
+            "en": "≈ 85%",
+            "ja": "≈ 85%"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "100%",
+            "ru": "100%",
+            "en": "100%",
+            "ja": "100%"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "1 kishi ≈ 31%, 5 kishi ≈ 85%. Undan keyin asosan eski muammolar takrorlanadi.",
+        "ru": "1 человек ≈ 31%, 5 человек ≈ 85%. Дальше в основном повторяются уже найденные проблемы.",
+        "en": "1 person ≈ 31%, 5 people ≈ 85%. After that, mostly the same problems repeat.",
+        "ja": "1人 ≈ 31%、5人 ≈ 85%。それ以降は、主に同じ問題がくり返されます。"
+      },
+      "others": {
+        "uz": "A — bitta odam bilan natija. B — grafikda bunday nuqta belgilanmagan. D — grafik 100% ga faqat ancha koʻp odam bilan yaqinlashadi.",
+        "ru": "A — результат с одним человеком. B — такой точки на графике нет. D — к 100% график приближается только при гораздо большем числе людей.",
+        "en": "A — the result with one person. B — no such point is marked on the chart. D — the curve approaches 100% only with many more people.",
+        "ja": "A：1人での結果です。B：グラフにそのような点は示されていません。D：グラフが100%に近づくのは、ずっと多くの人数のときだけです。"
+      }
+    },
+    {
+      "id": 13,
+      "type": "theory",
+      "q": {
+        "uz": "Nielsen shkalasida 4-daraja nimani bildiradi?",
+        "ru": "Что означает уровень 4 по шкале Нильсена?",
+        "en": "What does level 4 mean on Nielsen's scale?",
+        "ja": "ニールセンの尺度で、レベル4は何を意味しますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Halokat: vazifani bajara olmaydi",
+            "ru": "Катастрофа: не может выполнить задание",
+            "en": "Catastrophe: can't complete the task",
+            "ja": "致命的：タスクを完了できない"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Katta muammo: juda qiynaladi",
+            "ru": "Серьёзная проблема: сильно затрудняется",
+            "en": "Major problem: struggles a lot",
+            "ja": "大きな問題：とても苦労する"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Kichik muammo: sekinlashtiradi",
+            "ru": "Мелкая проблема: замедляет",
+            "en": "Minor problem: slows them down",
+            "ja": "小さな問題：作業が遅くなる"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Faqat koʻrinish (kosmetik)",
+            "ru": "Только внешний вид (косметика)",
+            "en": "Cosmetic only",
+            "ja": "見た目だけ（表面的）"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "4-daraja — halokat. 3 va 4-darajali muammolar darhol tuzatiladi.",
+        "ru": "Уровень 4 — катастрофа. Проблемы 3-го и 4-го уровня исправляют сразу.",
+        "en": "Level 4 is a catastrophe. Level 3 and 4 problems are fixed right away.",
+        "ja": "レベル4は致命的です。レベル3と4の問題はすぐに直します。"
+      },
+      "others": {
+        "uz": "B — 3-daraja. C — 2-daraja. D — 1-daraja.",
+        "ru": "B — уровень 3. C — уровень 2. D — уровень 1.",
+        "en": "B — level 3. C — level 2. D — level 1.",
+        "ja": "Bはレベル3です。Cはレベル2です。Dはレベル1です。"
+      }
+    },
+    {
+      "id": 14,
+      "type": "theory",
+      "q": {
+        "uz": "SUS haqida qaysi gap toʻgʻri?",
+        "ru": "Какое утверждение о SUS верно?",
+        "en": "Which statement about SUS is true?",
+        "ja": "SUSについて正しいのはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "U muammo qayerda ekanini aniq koʻrsatib beradi",
+            "ru": "Он точно показывает, где находится проблема",
+            "en": "It shows exactly where the problem is",
+            "ja": "問題がどこにあるかを正確に示す"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "U kuzatuv varagʻini toʻliq almashtiradi",
+            "ru": "Он полностью заменяет лист наблюдения",
+            "en": "It fully replaces the observation sheet",
+            "ja": "観察シートを完全に置き換える"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "U faqat umumiy baho beradi, oʻrtachasi 68",
+            "ru": "Он даёт только общую оценку, среднее — 68",
+            "en": "It gives only an overall score; the average is 68",
+            "ja": "全体の評価だけを出し、平均は68"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "U testdan oldin qatnashchini tanlash uchun",
+            "ru": "Он нужен, чтобы выбрать участника до теста",
+            "en": "It is used to choose the participant before the test",
+            "ja": "テスト前に参加者を選ぶために使う"
+          }
+        }
+      ],
+      "answer": "C",
+      "why": {
+        "uz": "SUS — test oxiridagi 10 gaplik soʻrovnoma: 68 — oʻrtacha, 80 — juda yaxshi. Muammo qayerdaligini kuzatuv koʻrsatadi.",
+        "ru": "SUS — опрос из 10 утверждений в конце теста: 68 — среднее, 80 — очень хорошо. Где проблема, показывает наблюдение.",
+        "en": "SUS is a 10-statement questionnaire at the end of the test: 68 is average, 80 is very good. Observation shows where the problem is.",
+        "ja": "SUSはテストの最後に行う10問のアンケートです：68が平均、80がとても良い。問題がどこにあるかは観察で分かります。"
+      },
+      "others": {
+        "uz": "A va B — SUS buni qila olmaydi. D — bu saralash savollari (screener) vazifasi.",
+        "ru": "A и B — SUS этого не умеет. D — это задача отборочных вопросов (screener).",
+        "en": "A and B — SUS can't do this. D — that's the job of screener questions.",
+        "ja": "A、B：SUSにはそれはできません。D：それはスクリーナー質問の役割です。"
+      }
+    },
+    {
+      "id": 15,
+      "type": "theory",
+      "q": {
+        "uz": "NN/g boʻyicha AI (sunʼiy foydalanuvchi) nega haqiqiy odamni almashtira olmaydi?",
+        "ru": "Почему, по NN/g, AI (синтетический пользователь) не может заменить реального человека?",
+        "en": "According to NN/g, why can't an AI (synthetic user) replace a real person?",
+        "ja": "NN/gによると、AI（合成ユーザー）が本物の人の代わりにならないのはなぜですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "AI javob berishga juda koʻp vaqt sarflaydi",
+            "ru": "AI тратит слишком много времени на ответ",
+            "en": "The AI takes far too long to answer",
+            "ja": "AIは答えるのに時間がかかりすぎる"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "AI yoqishga harakat qiladi, ilovani ishlata olmaydi",
+            "ru": "AI хочет понравиться и не пользуется приложением",
+            "en": "The AI tries to please and can't use the app",
+            "ja": "AIは気に入られようとし、アプリを使えない"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "AI faqat ingliz tilidagi savollarni tushunadi",
+            "ru": "AI понимает вопросы только на английском",
+            "en": "The AI only understands questions in English",
+            "ja": "AIは英語の質問しか理解できない"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "AI bilan test qilish juda qimmatga tushadi",
+            "ru": "Тестировать с AI слишком дорого",
+            "en": "Testing with AI is far too expensive",
+            "ja": "AIでのテストは費用が高すぎる"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "AI deyarli har gʻoyani maʼqullaydi va mahsulotdan haqiqatan foydalanmaydi. Qaror haqiqiy odamning harakatiga asoslanadi.",
+        "ru": "AI одобряет почти любую идею и не пользуется продуктом по-настоящему. Решения основаны на действиях реального человека.",
+        "en": "The AI approves almost every idea and doesn't actually use the product. Decisions are based on what a real person does.",
+        "ja": "AIはほとんどどんなアイデアにも賛成し、製品を実際には使いません。判断は本物の人の行動に基づきます。"
+      },
+      "others": {
+        "uz": "A, C va D — darsda bunday sabablar aytilmagan.",
+        "ru": "A, C и D — таких причин на уроке не называли.",
+        "en": "A, C and D — the lesson gave no such reasons.",
+        "ja": "A、C、D：レッスンではそのような理由は述べられていません。"
+      }
+    },
+    {
+      "id": 16,
+      "type": "practice",
+      "q": {
+        "uz": "One step testi uchun qaysi vazifa qoidalarga mos?",
+        "ru": "Какое задание для теста One step соответствует правилам?",
+        "en": "Which task for the One step test follows the rules?",
+        "ja": "One stepのテストで、ルールに合ったタスクはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Shu hafta necha kun qadam qilganingizni toping»",
+            "ru": "«Найдите, сколько дней на этой неделе вы делали шаг»",
+            "en": "\"Find how many days you took a step this week\"",
+            "ja": "「今週、何日ステップを行ったかを見つけてください」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«“Progress” boʻlimini ochib, kunlarni koʻring»",
+            "ru": "«Откройте раздел “Progress” и посмотрите дни»",
+            "en": "\"Open the 'Progress' section and look at the days\"",
+            "ja": "「『Progress』セクションを開いて日数を見てください」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Rejani qayerdan tanlagan boʻlardingiz?»",
+            "ru": "«Откуда бы вы выбрали план?»",
+            "en": "\"Where would you choose a plan from?\"",
+            "ja": "「プランはどこから選ぶと思いますか？」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Ilovada oʻzingiz uchun bitta reja tuzib koʻring»",
+            "ru": "«Попробуйте составить себе план в приложении»",
+            "en": "\"Try making yourself a plan in the app\"",
+            "ja": "「アプリで自分用のプランを作ってみてください」"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Vazifa haqiqiy, bajariladigan, ishorasiz va aniq.",
+        "ru": "Задание реальное, выполнимое, без подсказок и понятное.",
+        "en": "The task is realistic, actionable, gives no clues and is clear.",
+        "ja": "タスクは現実的で、実行でき、ヒントがなく、明確です。"
+      },
+      "others": {
+        "uz": "B — priming: boʻlim nomi aytildi. C — bajarilmaydi, faqat aytiladi. D — noaniq: qanday reja?",
+        "ru": "B — прайминг: назван раздел. C — не выполняется, только описывается. D — неясно: какой план?",
+        "en": "B — priming: the section name was given. C — not actionable, only described. D — vague: what kind of plan?",
+        "ja": "B：プライミング：セクション名を言っています。C：実行できず、言葉で答えるだけです。D：あいまい：どんなプラン？"
+      }
+    },
+    {
+      "id": 17,
+      "type": "practice",
+      "q": {
+        "uz": "Qatnashchi bitta vazifada 2 daqiqadan koʻp qotib qoldi. Boshlovchi nima qiladi?",
+        "ru": "Участник застрял на одном задании больше 2 минут. Что делает ведущий?",
+        "en": "A participant has been stuck on one task for more than 2 minutes. What does the facilitator do?",
+        "ja": "参加者が一つのタスクで2分以上止まってしまいました。進行役はどうしますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Toʻgʻri tugmani koʻrsatib, vazifani davom ettiradi",
+            "ru": "Показывает нужную кнопку и продолжает задание",
+            "en": "Shows the right button and continues the task",
+            "ja": "正しいボタンを教えて、タスクを続けさせる"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Testni toʻxtatib, qatnashchini boshqasiga almashtiradi",
+            "ru": "Останавливает тест и заменяет участника другим",
+            "en": "Stops the test and replaces the participant",
+            "ja": "テストを中止し、参加者を別の人に替える"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Vazifani qayta oʻqib, boʻlim nomini aytib beradi",
+            "ru": "Перечитывает задание и называет раздел",
+            "en": "Rereads the task and names the section",
+            "ja": "タスクを読み直し、セクション名を伝える"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "Vazifani toʻxtatib, keyingisiga oʻtadi — bu ham natija",
+            "ru": "Прекращает задание и идёт дальше — это тоже результат",
+            "en": "Stops the task and moves on — that is a result too",
+            "ja": "タスクを止めて次へ進む。これも結果になる"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Boshlovchi yordam bermaydi. Qotib qolish ham dalil: kuzatuv varagʻiga «✗ bajara olmadi» deb yoziladi.",
+        "ru": "Ведущий не помогает. Застревание — тоже факт: в лист наблюдения пишут «✗ не выполнил».",
+        "en": "The facilitator doesn't help. Getting stuck is evidence too: \"✗ couldn't do it\" is written in the observation sheet.",
+        "ja": "進行役は手助けしません。止まってしまったことも根拠です。観察シートに「✗ できなかった」と書きます。"
+      },
+      "others": {
+        "uz": "A — yordam berish natijani buzadi. B — muammo odamda emas, dizaynda. C — bu priming.",
+        "ru": "A — помощь портит результат. B — проблема не в человеке, а в дизайне. C — это прайминг.",
+        "en": "A — helping spoils the result. B — the problem is in the design, not the person. C — that's priming.",
+        "ja": "A：手助けは結果をゆがめます。B：問題は人ではなくデザインにあります。C：それはプライミングです。"
+      }
+    },
+    {
+      "id": 18,
+      "type": "practice",
+      "q": {
+        "uz": "«Kuzatuv» varagʻiga qaysi yozuv toʻgʻri yozilgan?",
+        "ru": "Какая запись в листе наблюдения сделана правильно?",
+        "en": "Which entry in the observation sheet is written correctly?",
+        "ja": "観察シートの記録として正しいのはどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "«Menimcha, ilova unga umuman yoqmadi shekilli»",
+            "ru": "«Мне кажется, приложение ему совсем не понравилось»",
+            "en": "\"I think they didn't really like the app at all\"",
+            "ja": "「どうやらアプリがまったく気に入らなかったようだ」"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "«95 s; avval “Profil”ni ochdi; “Kunlar soni qayerda?” dedi»",
+            "ru": "«95 с; сначала открыл “Профиль”; сказал “Где число дней?”»",
+            "en": "\"95 s; opened 'Profile' first; 'Where's the day count?'\"",
+            "ja": "「95秒、先に『プロフィール』、『日数はどこ？』」"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "«Qatnashchi biroz eʼtiborsiz va shoshqaloq edi»",
+            "ru": "«Участник был немного невнимательным и торопливым»",
+            "en": "\"The participant was a bit careless and hasty\"",
+            "ja": "「参加者は少し不注意で、せっかちだった」"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Hammasi tushunarli boʻldi, hech qanday muammo yoʻq»",
+            "ru": "«Всё было понятно, никаких проблем»",
+            "en": "\"Everything was clear, there were no problems at all\"",
+            "ja": "「すべて分かりやすく、問題はまったくなかった」"
+          }
+        }
+      ],
+      "answer": "B",
+      "why": {
+        "uz": "Faqat koʻrgan va eshitgani yoziladi: vaqt, yoʻl va aynan aytgan soʻzlari.",
+        "ru": "Записывают только увиденное и услышанное: время, путь и точные слова.",
+        "en": "Only what was seen and heard is written: time, path and their exact words.",
+        "ja": "見たことと聞いたことだけを書きます：時間、道筋、そして本人の言葉そのまま。"
+      },
+      "others": {
+        "uz": "A va D — taxmin, dalil emas. C — odamga baho, dizaynga emas.",
+        "ru": "A и D — догадки, а не факты. C — оценка человека, а не дизайна.",
+        "en": "A and D — guesses, not evidence. C — judges the person, not the design.",
+        "ja": "A、D：推測で、根拠ではありません。C：デザインではなく人を評価しています。"
+      }
+    },
+    {
+      "id": 19,
+      "type": "practice",
+      "q": {
+        "uz": "Dalil: «Foydalanuvchi kunlar sonini 95 soniyada topdi va avval “Profil”ni ochdi». Shablon boʻyicha qaysi qaror toʻgʻri yozilgan?",
+        "ru": "Факт: «Пользователь нашёл число дней за 95 секунд и сначала открыл “Профиль”». Какое решение записано по шаблону?",
+        "en": "Evidence: \"The user found the day count in 95 seconds and opened 'Profile' first.\" Which decision follows the template?",
+        "ja": "根拠：「ユーザーは日数を95秒で見つけ、最初に『プロフィール』を開いた」。テンプレートに沿った判断はどれですか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Shu dalil boʻlgani uchun, ilova kunlarni «Bugun» tepasida koʻrsatadi",
+            "ru": "Поскольку есть этот факт, приложение показывает дни вверху «Сегодня»",
+            "en": "Because of this evidence, the app shows the days at the top of \"Today\"",
+            "ja": "この根拠があるので、アプリは日数を「今日」の上部に表示する"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Dizaynerga yoqqani uchun, ilova menyuni yashil rangga boʻyaydi",
+            "ru": "Поскольку дизайнеру нравится, приложение красит меню в зелёный",
+            "en": "Because the designer likes it, the app paints the menu green",
+            "ja": "デザイナーが好きなので、アプリはメニューを緑に塗る"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Raqobatchida bor boʻlgani uchun, ilova reyting boʻlimini qoʻshadi",
+            "ru": "Поскольку у конкурента есть, приложение добавляет раздел рейтинга",
+            "en": "Because a competitor has it, the app adds a leaderboard section",
+            "ja": "競合にあるので、アプリはランキングのセクションを追加する"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "AI maslahat bergani uchun, ilova barcha tugmalarni kattalashtiradi",
+            "ru": "Поскольку AI посоветовал, приложение увеличивает все кнопки",
+            "en": "Because the AI suggested it, the app makes all buttons bigger",
+            "ja": "AIがすすめたので、アプリはすべてのボタンを大きくする"
+          }
+        }
+      ],
+      "answer": "A",
+      "why": {
+        "uz": "Shablon: «Foydalanuvchi [dalil] boʻlgani uchun, ilova [qaror]». Qaror kuzatuvdagi dalildan chiqadi.",
+        "ru": "Шаблон: «Поскольку пользователь [факт], приложение [решение]». Решение вытекает из факта наблюдения.",
+        "en": "The template: \"Because the user [evidence], the app [decision].\" The decision comes from the observed evidence.",
+        "ja": "テンプレート：「ユーザーが［根拠］なので、アプリは［判断］」。判断は観察した根拠から導きます。"
+      },
+      "others": {
+        "uz": "B, C va D — qaror foydalanuvchi dalilidan emas, boshqa manbadan chiqqan.",
+        "ru": "B, C и D — решение исходит не из факта о пользователе, а из другого источника.",
+        "en": "B, C and D — the decision comes not from user evidence but from another source.",
+        "ja": "B、C、D：判断がユーザーの根拠ではなく、別の情報源から来ています。"
+      }
+    },
+    {
+      "id": 20,
+      "type": "practice",
+      "q": {
+        "uz": "Sinf bitta muammoga oʻrtacha 2 (kichik muammo) jiddiylik berdi. Shablon boʻyicha u bilan nima qilinadi?",
+        "ru": "Класс в среднем оценил проблему на 2 (мелкая проблема). Что с ней делают по шаблону?",
+        "en": "The class gave a problem an average severity of 2 (minor problem). According to the template, what happens to it?",
+        "ja": "クラスは、ある問題の深刻度を平均2（小さな問題）と評価しました。テンプレートでは、その問題をどうしますか？"
+      },
+      "options": [
+        {
+          "key": "A",
+          "text": {
+            "uz": "Chiqarishdan oldin albatta, darhol tuzatiladi",
+            "ru": "Обязательно исправляют сразу, до выпуска",
+            "en": "It's fixed right away, before release",
+            "ja": "リリース前に、必ずすぐに修正する"
+          }
+        },
+        {
+          "key": "B",
+          "text": {
+            "uz": "Muammo emas deb hisoblanib, roʻyxatdan oʻchiriladi",
+            "ru": "Считают, что проблемы нет, и удаляют из списка",
+            "en": "It's treated as no problem and removed from the list",
+            "ja": "問題ではないとみなし、一覧から消す"
+          }
+        },
+        {
+          "key": "C",
+          "text": {
+            "uz": "Shu zahoti test boshqa odam bilan qaytariladi",
+            "ru": "Сразу повторяют тест с другим человеком",
+            "en": "The test is immediately repeated with another person",
+            "ja": "すぐに別の人でテストを最初からやり直す"
+          }
+        },
+        {
+          "key": "D",
+          "text": {
+            "uz": "«Bilishimiz kerak»ga keyingi aylanma uchun yoziladi",
+            "ru": "Записывают в «Нужно узнать» на следующий круг",
+            "en": "It's written under \"We need to know\" for the next round",
+            "ja": "次のサイクル用に「知る必要があること」へ"
+          }
+        }
+      ],
+      "answer": "D",
+      "why": {
+        "uz": "Faqat 3–4 darajali muammolarga darhol qaror yoziladi. 1–2 darajalilar keyingi aylanma uchun «Bilishimiz kerak» qismiga yoziladi.",
+        "ru": "Сразу решение пишут только для проблем 3–4 уровня. Проблемы 1–2 уровня записывают в «Нужно узнать» на следующий круг.",
+        "en": "Decisions are written right away only for level 3–4 problems. Level 1–2 problems go under \"We need to know\" for the next round.",
+        "ja": "すぐに判断を書くのはレベル3〜4の問題だけです。レベル1〜2の問題は、次のサイクルのため「知る必要があること」に書きます。"
+      },
+      "others": {
+        "uz": "A — bu 3 va 4-darajalar uchun. B — muammo emas — bu 0-daraja. C — shablonda bunday qadam yoʻq.",
+        "ru": "A — это для уровней 3 и 4. B — «не проблема» — это уровень 0. C — такого шага в шаблоне нет.",
+        "en": "A — that's for levels 3 and 4. B — \"not a problem\" is level 0. C — the template has no such step.",
+        "ja": "A：それはレベル3と4の場合です。B：「問題ではない」はレベル0です。C：テンプレートにそのような手順はありません。"
+      }
+    }
+  ]
+}

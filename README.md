@@ -20,6 +20,8 @@ apps-script/Code.gs   Google Sheets qabul qiluvchi skript
 tools/bank2json.py    savollar banki (markdown) -> dars-N/savollar.json (oxirida tarjimalarni ham qo'shadi)
 tools/tr/             savollarning ru/en/ja tarjimalari: dars-N.<til>.txt
 tools/merge_tr.py     tools/tr tarjimalarini dars-N/savollar.json ga qo'shadi
+tools/src/             yangi darslarning o'zbekcha manbasi: dars-N.uz.txt (K: to'g'ri javob)
+tools/src2json.py     tools/src/dars-N.uz.txt -> dars-N/savollar.json + tarjimalar (python3 tools/src2json.py N)
 tools/build.py        lessons.json -> dars-N/index.html
 ```
 

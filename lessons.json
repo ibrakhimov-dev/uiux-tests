@@ -6,6 +6,7 @@
   {"n": 4, "title": {"uz": "Wireframing asoslari", "ru": "Основы вайрфрейминга", "en": "Wireframing basics", "ja": "ワイヤーフレームの基本"}},
   {"n": 5, "title": {"uz": "Prototiplash", "ru": "Прототипирование", "en": "Prototyping", "ja": "プロトタイピング"}},
   {"n": 6, "title": {"uz": "Vizual dizayn", "ru": "Визуальный дизайн", "en": "Visual design", "ja": "ビジュアルデザイン"}},
-  {"n": 7, "title": {"uz": "Oʻzaro taʼsir dizayni (IxD)", "ru": "Дизайн взаимодействия (IxD)", "en": "Interaction design (IxD)", "ja": "インタラクションデザイン（IxD）"}, "new": true}
+  {"n": 7, "title": {"uz": "Oʻzaro taʼsir dizayni (IxD)", "ru": "Дизайн взаимодействия (IxD)", "en": "Interaction design (IxD)", "ja": "インタラクションデザイン（IxD）"}},
+  {"n": 8, "title": {"uz": "Foydalanish qulayligini sinash (Usability testing)", "ru": "Юзабилити-тестирование", "en": "Usability testing", "ja": "ユーザビリティテスト"}, "new": true}
  ]
 }
